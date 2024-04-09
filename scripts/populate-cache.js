@@ -4918,7 +4918,7 @@ var require_lib4 = __commonJS({
     exports2.deepCopy = deepCopy;
     var Description = (
       /** @class */
-      function() {
+      /* @__PURE__ */ function() {
         function Description2(info) {
           for (var key in info) {
             this[key] = deepCopy(info[key]);
@@ -4945,7 +4945,7 @@ var require_version5 = __commonJS({
 var require_fragments = __commonJS({
   "node_modules/@ethersproject/abi/lib/fragments.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -6984,7 +6984,7 @@ var require_lib7 = __commonJS({
 var require_address = __commonJS({
   "node_modules/@ethersproject/abi/lib/coders/address.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -7042,7 +7042,7 @@ var require_address = __commonJS({
 var require_anonymous = __commonJS({
   "node_modules/@ethersproject/abi/lib/coders/anonymous.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -7095,7 +7095,7 @@ var require_anonymous = __commonJS({
 var require_array = __commonJS({
   "node_modules/@ethersproject/abi/lib/coders/array.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -7329,7 +7329,7 @@ var require_array = __commonJS({
 var require_boolean = __commonJS({
   "node_modules/@ethersproject/abi/lib/coders/boolean.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -7380,7 +7380,7 @@ var require_boolean = __commonJS({
 var require_bytes = __commonJS({
   "node_modules/@ethersproject/abi/lib/coders/bytes.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -7449,7 +7449,7 @@ var require_bytes = __commonJS({
 var require_fixed_bytes = __commonJS({
   "node_modules/@ethersproject/abi/lib/coders/fixed-bytes.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -7509,7 +7509,7 @@ var require_fixed_bytes = __commonJS({
 var require_null = __commonJS({
   "node_modules/@ethersproject/abi/lib/coders/null.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -7666,7 +7666,7 @@ var require_lib8 = __commonJS({
 var require_number = __commonJS({
   "node_modules/@ethersproject/abi/lib/coders/number.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -8239,7 +8239,7 @@ var require_lib9 = __commonJS({
 var require_string = __commonJS({
   "node_modules/@ethersproject/abi/lib/coders/string.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -8291,7 +8291,7 @@ var require_string = __commonJS({
 var require_tuple = __commonJS({
   "node_modules/@ethersproject/abi/lib/coders/tuple.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -9191,7 +9191,7 @@ var require_lib10 = __commonJS({
 var require_interface = __commonJS({
   "node_modules/@ethersproject/abi/lib/interface.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -15842,7 +15842,7 @@ var require_wordlist = __commonJS({
 var require_lang_cz = __commonJS({
   "node_modules/@ethersproject/wordlists/lib/lang-cz.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -15906,7 +15906,7 @@ var require_lang_cz = __commonJS({
 var require_lang_en = __commonJS({
   "node_modules/@ethersproject/wordlists/lib/lang-en.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -15970,7 +15970,7 @@ var require_lang_en = __commonJS({
 var require_lang_es = __commonJS({
   "node_modules/@ethersproject/wordlists/lib/lang-es.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -16063,7 +16063,7 @@ var require_lang_es = __commonJS({
 var require_lang_fr = __commonJS({
   "node_modules/@ethersproject/wordlists/lib/lang-fr.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -16155,7 +16155,7 @@ var require_lang_fr = __commonJS({
 var require_lang_ja = __commonJS({
   "node_modules/@ethersproject/wordlists/lib/lang-ja.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -16301,7 +16301,7 @@ var require_lang_ja = __commonJS({
 var require_lang_ko = __commonJS({
   "node_modules/@ethersproject/wordlists/lib/lang-ko.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -16395,7 +16395,7 @@ var require_lang_ko = __commonJS({
 var require_lang_it = __commonJS({
   "node_modules/@ethersproject/wordlists/lib/lang-it.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -16459,7 +16459,7 @@ var require_lang_it = __commonJS({
 var require_lang_zh = __commonJS({
   "node_modules/@ethersproject/wordlists/lib/lang-zh.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -16978,7 +16978,7 @@ var require_aes_js = __commonJS({
         }
         targetArray.set(sourceArray, targetStart);
       }
-      var convertUtf8 = function() {
+      var convertUtf8 = /* @__PURE__ */ function() {
         function toBytes(text) {
           var result = [], i = 0;
           text = encodeURI(text);
@@ -17015,7 +17015,7 @@ var require_aes_js = __commonJS({
           fromBytes
         };
       }();
-      var convertHex = function() {
+      var convertHex = /* @__PURE__ */ function() {
         function toBytes(text) {
           var result = [];
           for (var i = 0; i < text.length; i += 2) {
@@ -17556,7 +17556,7 @@ var require_utils4 = __commonJS({
 var require_crowdsale = __commonJS({
   "node_modules/@ethersproject/json-wallets/lib/crowdsale.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -18214,7 +18214,7 @@ var require_lib20 = __commonJS({
 var require_keystore = __commonJS({
   "node_modules/@ethersproject/json-wallets/lib/keystore.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -18919,7 +18919,7 @@ var require_version18 = __commonJS({
 var require_lib24 = __commonJS({
   "node_modules/@ethersproject/abstract-provider/lib/index.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -19194,7 +19194,7 @@ var require_version19 = __commonJS({
 var require_lib25 = __commonJS({
   "node_modules/@ethersproject/abstract-signer/lib/index.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -19706,7 +19706,7 @@ var require_version20 = __commonJS({
 var require_lib26 = __commonJS({
   "node_modules/@ethersproject/wallet/lib/index.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -21142,7 +21142,7 @@ var require_version22 = __commonJS({
 var require_lib28 = __commonJS({
   "node_modules/@ethersproject/contracts/lib/index.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -23564,7 +23564,7 @@ var require_formatter = __commonJS({
 var require_base_provider = __commonJS({
   "node_modules/@ethersproject/providers/lib/base-provider.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -25993,7 +25993,7 @@ var require_base_provider = __commonJS({
 var require_json_rpc_provider = __commonJS({
   "node_modules/@ethersproject/providers/lib/json-rpc-provider.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -30028,7 +30028,7 @@ var require_ws2 = __commonJS({
 var require_websocket_provider = __commonJS({
   "node_modules/@ethersproject/providers/lib/websocket-provider.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -30449,7 +30449,7 @@ var require_websocket_provider = __commonJS({
 var require_url_json_rpc_provider = __commonJS({
   "node_modules/@ethersproject/providers/lib/url-json-rpc-provider.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -30669,7 +30669,7 @@ var require_url_json_rpc_provider = __commonJS({
 var require_alchemy_provider = __commonJS({
   "node_modules/@ethersproject/providers/lib/alchemy-provider.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -30802,7 +30802,7 @@ var require_alchemy_provider = __commonJS({
 var require_cloudflare_provider = __commonJS({
   "node_modules/@ethersproject/providers/lib/cloudflare-provider.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -30985,7 +30985,7 @@ var require_cloudflare_provider = __commonJS({
 var require_etherscan_provider = __commonJS({
   "node_modules/@ethersproject/providers/lib/etherscan-provider.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -31591,7 +31591,7 @@ var require_etherscan_provider = __commonJS({
 var require_fallback_provider = __commonJS({
   "node_modules/@ethersproject/providers/lib/fallback-provider.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -32382,7 +32382,7 @@ var require_fallback_provider = __commonJS({
 var require_ipc_provider = __commonJS({
   "node_modules/@ethersproject/providers/lib/ipc-provider.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -32468,7 +32468,7 @@ var require_ipc_provider = __commonJS({
 var require_infura_provider = __commonJS({
   "node_modules/@ethersproject/providers/lib/infura-provider.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -32630,7 +32630,7 @@ var require_infura_provider = __commonJS({
 var require_json_rpc_batch_provider = __commonJS({
   "node_modules/@ethersproject/providers/lib/json-rpc-batch-provider.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -32737,7 +32737,7 @@ var require_json_rpc_batch_provider = __commonJS({
 var require_nodesmith_provider = __commonJS({
   "node_modules/@ethersproject/providers/lib/nodesmith-provider.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -32813,7 +32813,7 @@ var require_nodesmith_provider = __commonJS({
 var require_pocket_provider = __commonJS({
   "node_modules/@ethersproject/providers/lib/pocket-provider.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -32950,7 +32950,7 @@ var require_pocket_provider = __commonJS({
 var require_web3_provider = __commonJS({
   "node_modules/@ethersproject/providers/lib/web3-provider.js"(exports2) {
     "use strict";
-    var __extends2 = exports2 && exports2.__extends || function() {
+    var __extends2 = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics2 = function(d, b) {
         extendStatics2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
           d2.__proto__ = b2;
@@ -33669,36 +33669,36 @@ var require_types2 = __commonJS({
       1088: "metis_andromeda",
       8453: "base"
     };
-    var ChainId6;
-    (function(ChainId7) {
-      ChainId7[ChainId7["mainnet"] = 1] = "mainnet";
-      ChainId7[ChainId7["ropsten"] = 3] = "ropsten";
-      ChainId7[ChainId7["rinkeby"] = 4] = "rinkeby";
-      ChainId7[ChainId7["goerli"] = 5] = "goerli";
-      ChainId7[ChainId7["kovan"] = 42] = "kovan";
-      ChainId7[ChainId7["xdai"] = 100] = "xdai";
-      ChainId7[ChainId7["polygon"] = 137] = "polygon";
-      ChainId7[ChainId7["mumbai"] = 80001] = "mumbai";
-      ChainId7[ChainId7["avalanche"] = 43114] = "avalanche";
-      ChainId7[ChainId7["fuji"] = 43113] = "fuji";
-      ChainId7[ChainId7["arbitrum_one"] = 42161] = "arbitrum_one";
-      ChainId7[ChainId7["arbitrum_rinkeby"] = 421611] = "arbitrum_rinkeby";
-      ChainId7[ChainId7["arbitrum_goerli"] = 421613] = "arbitrum_goerli";
-      ChainId7[ChainId7["fantom"] = 250] = "fantom";
-      ChainId7[ChainId7["fantom_testnet"] = 4002] = "fantom_testnet";
-      ChainId7[ChainId7["optimism"] = 10] = "optimism";
-      ChainId7[ChainId7["optimism_kovan"] = 69] = "optimism_kovan";
-      ChainId7[ChainId7["optimism_goerli"] = 420] = "optimism_goerli";
-      ChainId7[ChainId7["harmony"] = 16666e5] = "harmony";
-      ChainId7[ChainId7["harmony_testnet"] = 16667e5] = "harmony_testnet";
-      ChainId7[ChainId7["zkevm_testnet"] = 1402] = "zkevm_testnet";
-      ChainId7[ChainId7["sepolia"] = 11155111] = "sepolia";
-      ChainId7[ChainId7["scroll_alpha"] = 534353] = "scroll_alpha";
-      ChainId7[ChainId7["scroll_sepolia"] = 534351] = "scroll_sepolia";
-      ChainId7[ChainId7["scroll"] = 534352] = "scroll";
-      ChainId7[ChainId7["metis_andromeda"] = 1088] = "metis_andromeda";
-      ChainId7[ChainId7["base"] = 8453] = "base";
-    })(ChainId6 = exports2.ChainId || (exports2.ChainId = {}));
+    var ChainId3;
+    (function(ChainId4) {
+      ChainId4[ChainId4["mainnet"] = 1] = "mainnet";
+      ChainId4[ChainId4["ropsten"] = 3] = "ropsten";
+      ChainId4[ChainId4["rinkeby"] = 4] = "rinkeby";
+      ChainId4[ChainId4["goerli"] = 5] = "goerli";
+      ChainId4[ChainId4["kovan"] = 42] = "kovan";
+      ChainId4[ChainId4["xdai"] = 100] = "xdai";
+      ChainId4[ChainId4["polygon"] = 137] = "polygon";
+      ChainId4[ChainId4["mumbai"] = 80001] = "mumbai";
+      ChainId4[ChainId4["avalanche"] = 43114] = "avalanche";
+      ChainId4[ChainId4["fuji"] = 43113] = "fuji";
+      ChainId4[ChainId4["arbitrum_one"] = 42161] = "arbitrum_one";
+      ChainId4[ChainId4["arbitrum_rinkeby"] = 421611] = "arbitrum_rinkeby";
+      ChainId4[ChainId4["arbitrum_goerli"] = 421613] = "arbitrum_goerli";
+      ChainId4[ChainId4["fantom"] = 250] = "fantom";
+      ChainId4[ChainId4["fantom_testnet"] = 4002] = "fantom_testnet";
+      ChainId4[ChainId4["optimism"] = 10] = "optimism";
+      ChainId4[ChainId4["optimism_kovan"] = 69] = "optimism_kovan";
+      ChainId4[ChainId4["optimism_goerli"] = 420] = "optimism_goerli";
+      ChainId4[ChainId4["harmony"] = 16666e5] = "harmony";
+      ChainId4[ChainId4["harmony_testnet"] = 16667e5] = "harmony_testnet";
+      ChainId4[ChainId4["zkevm_testnet"] = 1402] = "zkevm_testnet";
+      ChainId4[ChainId4["sepolia"] = 11155111] = "sepolia";
+      ChainId4[ChainId4["scroll_alpha"] = 534353] = "scroll_alpha";
+      ChainId4[ChainId4["scroll_sepolia"] = 534351] = "scroll_sepolia";
+      ChainId4[ChainId4["scroll"] = 534352] = "scroll";
+      ChainId4[ChainId4["metis_andromeda"] = 1088] = "metis_andromeda";
+      ChainId4[ChainId4["base"] = 8453] = "base";
+    })(ChainId3 = exports2.ChainId || (exports2.ChainId = {}));
     var eEthereumTxType;
     (function(eEthereumTxType2) {
       eEthereumTxType2["ERC20_APPROVAL"] = "ERC20_APPROVAL";
@@ -34163,7 +34163,7 @@ var require_bignumber2 = __commonJS({
             sum = sum.plus(args[i++]);
           return sum;
         };
-        convertBase = function() {
+        convertBase = /* @__PURE__ */ function() {
           var decimal = "0123456789";
           function toBaseOut(str2, baseIn, baseOut, alphabet) {
             var j, arr = [0], arrL, i = 0, len = str2.length;
@@ -34243,7 +34243,7 @@ var require_bignumber2 = __commonJS({
             return str2;
           };
         }();
-        div = function() {
+        div = /* @__PURE__ */ function() {
           function multiply(x, k, base) {
             var m, temp, xlo, xhi, carry = 0, i = x.length, klo = k % SQRT_BASE2, khi = k / SQRT_BASE2 | 0;
             for (x = x.slice(); i--; ) {
@@ -34467,7 +34467,7 @@ var require_bignumber2 = __commonJS({
           }
           return n;
         }
-        parseNumeric = function() {
+        parseNumeric = /* @__PURE__ */ function() {
           var basePrefix = /^(-?)0([xbo])(?=\w[\w.]*$)/i, dotAfter = /^([^.]+)\.$/, dotBefore = /^\.([^.]+)$/, isInfinityOrNaN = /^-?(Infinity|NaN)$/, whitespaceOrPlus = /^\s*\+(?=[\w.])|^\s+|\s+$/g;
           return function(x, str2, isNum, b) {
             var base, s = isNum ? str2 : str2.replace(whitespaceOrPlus, "");
@@ -42880,17 +42880,17 @@ var require_lendingPool_contract = __commonJS({
     var LendingPool = class extends BaseService_1.default {
       constructor(provider, lendingPoolConfig) {
         super(provider, ILendingPool__factory_1.ILendingPool__factory);
-        const { LENDING_POOL, FLASH_LIQUIDATION_ADAPTER, REPAY_WITH_COLLATERAL_ADAPTER: REPAY_WITH_COLLATERAL_ADAPTER11, SWAP_COLLATERAL_ADAPTER: SWAP_COLLATERAL_ADAPTER11, WETH_GATEWAY: WETH_GATEWAY24 } = lendingPoolConfig !== null && lendingPoolConfig !== void 0 ? lendingPoolConfig : {};
+        const { LENDING_POOL, FLASH_LIQUIDATION_ADAPTER, REPAY_WITH_COLLATERAL_ADAPTER, SWAP_COLLATERAL_ADAPTER, WETH_GATEWAY } = lendingPoolConfig !== null && lendingPoolConfig !== void 0 ? lendingPoolConfig : {};
         this.lendingPoolAddress = LENDING_POOL !== null && LENDING_POOL !== void 0 ? LENDING_POOL : "";
         this.flashLiquidationAddress = FLASH_LIQUIDATION_ADAPTER !== null && FLASH_LIQUIDATION_ADAPTER !== void 0 ? FLASH_LIQUIDATION_ADAPTER : "";
-        this.swapCollateralAddress = SWAP_COLLATERAL_ADAPTER11 !== null && SWAP_COLLATERAL_ADAPTER11 !== void 0 ? SWAP_COLLATERAL_ADAPTER11 : "";
-        this.repayWithCollateralAddress = REPAY_WITH_COLLATERAL_ADAPTER11 !== null && REPAY_WITH_COLLATERAL_ADAPTER11 !== void 0 ? REPAY_WITH_COLLATERAL_ADAPTER11 : "";
+        this.swapCollateralAddress = SWAP_COLLATERAL_ADAPTER !== null && SWAP_COLLATERAL_ADAPTER !== void 0 ? SWAP_COLLATERAL_ADAPTER : "";
+        this.repayWithCollateralAddress = REPAY_WITH_COLLATERAL_ADAPTER !== null && REPAY_WITH_COLLATERAL_ADAPTER !== void 0 ? REPAY_WITH_COLLATERAL_ADAPTER : "";
         this.erc20Service = new erc20_contract_1.ERC20Service(provider);
         this.synthetixService = new synthetix_contract_1.SynthetixService(provider);
-        this.wethGatewayService = new wethgateway_contract_1.WETHGatewayService(provider, this.erc20Service, WETH_GATEWAY24);
-        this.liquiditySwapAdapterService = new paraswap_liquiditySwapAdapter_contract_1.LiquiditySwapAdapterService(provider, SWAP_COLLATERAL_ADAPTER11);
-        this.repayWithCollateralAdapterService = new repayWithCollateralAdapter_contract_1.RepayWithCollateralAdapterService(provider, REPAY_WITH_COLLATERAL_ADAPTER11);
-        this.paraswapRepayWithCollateralAdapterService = new paraswap_repayWithCollateralAdapter_contract_1.ParaswapRepayWithCollateral(provider, REPAY_WITH_COLLATERAL_ADAPTER11);
+        this.wethGatewayService = new wethgateway_contract_1.WETHGatewayService(provider, this.erc20Service, WETH_GATEWAY);
+        this.liquiditySwapAdapterService = new paraswap_liquiditySwapAdapter_contract_1.LiquiditySwapAdapterService(provider, SWAP_COLLATERAL_ADAPTER);
+        this.repayWithCollateralAdapterService = new repayWithCollateralAdapter_contract_1.RepayWithCollateralAdapterService(provider, REPAY_WITH_COLLATERAL_ADAPTER);
+        this.paraswapRepayWithCollateralAdapterService = new paraswap_repayWithCollateralAdapter_contract_1.ParaswapRepayWithCollateral(provider, REPAY_WITH_COLLATERAL_ADAPTER);
       }
       deposit(_0) {
         return __async(this, arguments, function* ({ user, reserve, amount, onBehalfOf, referralCode }) {
@@ -43586,12 +43586,12 @@ var require_lendingPool_contract_bundle = __commonJS({
     var LendingPoolBundle = class extends BaseService_1.default {
       constructor(provider, lendingPoolConfig) {
         super(provider, ILendingPool__factory_1.ILendingPool__factory);
-        const { LENDING_POOL, WETH_GATEWAY: WETH_GATEWAY24 } = lendingPoolConfig !== null && lendingPoolConfig !== void 0 ? lendingPoolConfig : {};
+        const { LENDING_POOL, WETH_GATEWAY } = lendingPoolConfig !== null && lendingPoolConfig !== void 0 ? lendingPoolConfig : {};
         this.lendingPoolAddress = LENDING_POOL !== null && LENDING_POOL !== void 0 ? LENDING_POOL : "";
-        this.wethGatewayAddress = WETH_GATEWAY24 !== null && WETH_GATEWAY24 !== void 0 ? WETH_GATEWAY24 : "";
+        this.wethGatewayAddress = WETH_GATEWAY !== null && WETH_GATEWAY !== void 0 ? WETH_GATEWAY : "";
         this.erc20Service = new erc20_contract_1.ERC20Service(provider);
         this.synthetixService = new synthetix_contract_1.SynthetixService(provider);
-        this.wethGatewayService = new wethgateway_contract_1.WETHGatewayService(provider, this.erc20Service, WETH_GATEWAY24);
+        this.wethGatewayService = new wethgateway_contract_1.WETHGatewayService(provider, this.erc20Service, WETH_GATEWAY);
         this.contractInterface = ILendingPool__factory_1.ILendingPool__factory.createInterface();
         this.depositTxBuilder = {
           getApprovedAmount: (props) => __async(this, null, function* () {
@@ -49951,18 +49951,18 @@ var require_v3_pool_contract = __commonJS({
     var Pool = class extends BaseService_1.default {
       constructor(provider, lendingPoolConfig) {
         super(provider, IPool__factory_1.IPool__factory);
-        const { POOL: POOL25, FLASH_LIQUIDATION_ADAPTER, REPAY_WITH_COLLATERAL_ADAPTER: REPAY_WITH_COLLATERAL_ADAPTER11, SWAP_COLLATERAL_ADAPTER: SWAP_COLLATERAL_ADAPTER11, WETH_GATEWAY: WETH_GATEWAY24, L2_ENCODER: L2_ENCODER9 } = lendingPoolConfig !== null && lendingPoolConfig !== void 0 ? lendingPoolConfig : {};
-        this.poolAddress = POOL25 !== null && POOL25 !== void 0 ? POOL25 : "";
+        const { POOL, FLASH_LIQUIDATION_ADAPTER, REPAY_WITH_COLLATERAL_ADAPTER, SWAP_COLLATERAL_ADAPTER, WETH_GATEWAY, L2_ENCODER } = lendingPoolConfig !== null && lendingPoolConfig !== void 0 ? lendingPoolConfig : {};
+        this.poolAddress = POOL !== null && POOL !== void 0 ? POOL : "";
         this.flashLiquidationAddress = FLASH_LIQUIDATION_ADAPTER !== null && FLASH_LIQUIDATION_ADAPTER !== void 0 ? FLASH_LIQUIDATION_ADAPTER : "";
-        this.swapCollateralAddress = SWAP_COLLATERAL_ADAPTER11 !== null && SWAP_COLLATERAL_ADAPTER11 !== void 0 ? SWAP_COLLATERAL_ADAPTER11 : "";
-        this.repayWithCollateralAddress = REPAY_WITH_COLLATERAL_ADAPTER11 !== null && REPAY_WITH_COLLATERAL_ADAPTER11 !== void 0 ? REPAY_WITH_COLLATERAL_ADAPTER11 : "";
-        this.l2EncoderAddress = L2_ENCODER9 !== null && L2_ENCODER9 !== void 0 ? L2_ENCODER9 : "";
+        this.swapCollateralAddress = SWAP_COLLATERAL_ADAPTER !== null && SWAP_COLLATERAL_ADAPTER !== void 0 ? SWAP_COLLATERAL_ADAPTER : "";
+        this.repayWithCollateralAddress = REPAY_WITH_COLLATERAL_ADAPTER !== null && REPAY_WITH_COLLATERAL_ADAPTER !== void 0 ? REPAY_WITH_COLLATERAL_ADAPTER : "";
+        this.l2EncoderAddress = L2_ENCODER !== null && L2_ENCODER !== void 0 ? L2_ENCODER : "";
         this.erc20_2612Service = new erc20_2612_1.ERC20_2612Service(provider);
         this.erc20Service = new erc20_contract_1.ERC20Service(provider);
         this.synthetixService = new synthetix_contract_1.SynthetixService(provider);
-        this.wethGatewayService = new wethgateway_contract_1.WETHGatewayService(provider, this.erc20Service, WETH_GATEWAY24);
-        this.liquiditySwapAdapterService = new paraswap_liquiditySwapAdapter_contract_1.LiquiditySwapAdapterService(provider, SWAP_COLLATERAL_ADAPTER11);
-        this.paraswapRepayWithCollateralAdapterService = new paraswap_repayWithCollateralAdapter_contract_1.ParaswapRepayWithCollateral(provider, REPAY_WITH_COLLATERAL_ADAPTER11);
+        this.wethGatewayService = new wethgateway_contract_1.WETHGatewayService(provider, this.erc20Service, WETH_GATEWAY);
+        this.liquiditySwapAdapterService = new paraswap_liquiditySwapAdapter_contract_1.LiquiditySwapAdapterService(provider, SWAP_COLLATERAL_ADAPTER);
+        this.paraswapRepayWithCollateralAdapterService = new paraswap_repayWithCollateralAdapter_contract_1.ParaswapRepayWithCollateral(provider, REPAY_WITH_COLLATERAL_ADAPTER);
         this.l2PoolService = new v3_pool_rollups_1.L2Pool(provider, {
           l2PoolAddress: this.poolAddress,
           encoderAddress: this.l2EncoderAddress
@@ -50953,15 +50953,15 @@ var require_v3_pool_contract_bundle = __commonJS({
     var PoolBundle = class extends BaseService_1.default {
       constructor(provider, lendingPoolConfig) {
         super(provider, IPool__factory_1.IPool__factory);
-        const { POOL: POOL25, WETH_GATEWAY: WETH_GATEWAY24, L2_ENCODER: L2_ENCODER9 } = lendingPoolConfig !== null && lendingPoolConfig !== void 0 ? lendingPoolConfig : {};
-        this.poolAddress = POOL25 !== null && POOL25 !== void 0 ? POOL25 : "";
-        this.l2EncoderAddress = L2_ENCODER9 !== null && L2_ENCODER9 !== void 0 ? L2_ENCODER9 : "";
-        this.wethGatewayAddress = WETH_GATEWAY24 !== null && WETH_GATEWAY24 !== void 0 ? WETH_GATEWAY24 : "";
+        const { POOL, WETH_GATEWAY, L2_ENCODER } = lendingPoolConfig !== null && lendingPoolConfig !== void 0 ? lendingPoolConfig : {};
+        this.poolAddress = POOL !== null && POOL !== void 0 ? POOL : "";
+        this.l2EncoderAddress = L2_ENCODER !== null && L2_ENCODER !== void 0 ? L2_ENCODER : "";
+        this.wethGatewayAddress = WETH_GATEWAY !== null && WETH_GATEWAY !== void 0 ? WETH_GATEWAY : "";
         this.v3PoolService = new v3_pool_contract_1.Pool(provider, lendingPoolConfig);
         this.erc20_2612Service = new erc20_2612_1.ERC20_2612Service(provider);
         this.erc20Service = new erc20_contract_1.ERC20Service(provider);
         this.synthetixService = new synthetix_contract_1.SynthetixService(provider);
-        this.wethGatewayService = new wethgateway_contract_1.WETHGatewayService(provider, this.erc20Service, WETH_GATEWAY24);
+        this.wethGatewayService = new wethgateway_contract_1.WETHGatewayService(provider, this.erc20Service, WETH_GATEWAY);
         this.l2PoolService = new v3_pool_rollups_1.L2Pool(provider, {
           l2PoolAddress: this.poolAddress,
           encoderAddress: this.l2EncoderAddress
@@ -56529,7 +56529,7 @@ var require_lodash = __commonJS({
           }
           return new LodashWrapper(value);
         }
-        var baseCreate = function() {
+        var baseCreate = /* @__PURE__ */ function() {
           function object() {
           }
           return function(proto) {
@@ -59836,7 +59836,7 @@ var require_lodash = __commonJS({
         var gte = createRelationalOperation(function(value, other) {
           return value >= other;
         });
-        var isArguments = baseIsArguments(function() {
+        var isArguments = baseIsArguments(/* @__PURE__ */ function() {
           return arguments;
         }()) ? baseIsArguments : function(value) {
           return isObjectLike(value) && hasOwnProperty.call(value, "callee") && !propertyIsEnumerable.call(value, "callee");
@@ -64842,12 +64842,11 @@ __export(populateCache_exports, {
 module.exports = __toCommonJS(populateCache_exports);
 
 // src/modules/governance/utils/governanceProvider.tsx
-var import_contract_helpers5 = __toESM(require_cjs());
+var import_contract_helpers2 = __toESM(require_cjs());
 
 // src/ui-config/governanceConfig.ts
-var import_contract_helpers = __toESM(require_cjs());
 var governanceConfig = {
-  chainId: import_contract_helpers.ChainId.mainnet,
+  chainId: 570,
   votingAssetName: "AAVE + stkAAVE",
   averageNetworkBlockTime: 13.5,
   queryGovernanceDataUrl: "https://api.thegraph.com/subgraphs/name/aave/governance-v2",
@@ -64870,4163 +64869,112 @@ var governanceConfig = {
 };
 
 // src/utils/marketsAndNetworksConfig.ts
-var import_contract_helpers4 = __toESM(require_cjs());
+var import_contract_helpers = __toESM(require_cjs());
 var import_providers2 = __toESM(require_lib30());
 
 // src/ui-config/marketsConfig.tsx
-var import_contract_helpers2 = __toESM(require_cjs());
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV2EthereumAMM.mjs
-var AaveV2EthereumAMM_exports = {};
-__export(AaveV2EthereumAMM_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER,
-  ASSETS: () => ASSETS,
-  CHAIN_ID: () => CHAIN_ID,
-  COLLECTOR: () => COLLECTOR,
-  CONFIG_ENGINE: () => CONFIG_ENGINE,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER,
-  EMERGENCY_ADMIN: () => EMERGENCY_ADMIN,
-  EMISSION_MANAGER: () => EMISSION_MANAGER,
-  LENDING_RATE_ORACLE: () => LENDING_RATE_ORACLE,
-  MIGRATION_HELPER: () => MIGRATION_HELPER,
-  ORACLE: () => ORACLE,
-  POOL: () => POOL,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY,
-  POOL_ADMIN: () => POOL_ADMIN,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR,
-  RATES_FACTORY: () => RATES_FACTORY,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER,
-  WETH_GATEWAY: () => WETH_GATEWAY
-});
-var POOL_ADDRESSES_PROVIDER = "0xAcc030EF66f9dFEAE9CbB0cd1B25654b82cFA8d5";
-var POOL = "0x7937D4799803FbBe595ed57278Bc4cA21f3bFfCB";
-var POOL_CONFIGURATOR = "0x23A875eDe3F1030138701683e42E9b16A7F87768";
-var ORACLE = "0xA50ba011c48153De246E5192C8f9258A2ba79Ca9";
-var LENDING_RATE_ORACLE = "0x8A32f49FFbA88aba6EFF96F45D8BD1D4b3f35c7D";
-var AAVE_PROTOCOL_DATA_PROVIDER = "0x0000000000000000000000000000000000000000";
-var POOL_ADMIN = "0x5300A1a15135EA4dc7aD5a167152C01EFc9b192A";
-var EMERGENCY_ADMIN = "0xB9062896ec3A615a4e4444DF183F0531a77218AE";
-var COLLECTOR = "0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c";
-var DEFAULT_INCENTIVES_CONTROLLER = "0x0000000000000000000000000000000000000000";
-var EMISSION_MANAGER = "0x0000000000000000000000000000000000000000";
-var CONFIG_ENGINE = "0xcfC26009618ec2Ca8787180116a37Caa354a465C";
-var MIGRATION_HELPER = "0x3cd1dFB81C50A5300C60a181ED145a7286d81e0a";
-var POOL_ADDRESSES_PROVIDER_REGISTRY = "0x52D306e36E3B6B02c153d0266ff0f85d18BCD413";
-var RATES_FACTORY = "0x6e4D068105052C3877116DCF86f5FF36B7eCa2B8";
-var UI_INCENTIVE_DATA_PROVIDER = "0xD01ab9a6577E1D84F142e44D49380e23A340387d";
-var UI_POOL_DATA_PROVIDER = "0x00e50FAB64eBB37b87df06Aa46b8B35d5f1A4e1A";
-var WALLET_BALANCE_PROVIDER = "0x8E8dAd5409E0263a51C0aB5055dA66Be28cFF922";
-var WETH_GATEWAY = "0x1C4a4e31231F71Fc34867D034a9E68f6fC798249";
-var CHAIN_ID = 1;
-var ASSETS = {
-  WETH: {
-    UNDERLYING: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    decimals: 18,
-    A_TOKEN: "0xf9Fb4AD91812b704Ba883B11d2B576E890a6730A",
-    S_TOKEN: "0x118Ee405c6be8f9BA7cC7a98064EB5DA462235CF",
-    V_TOKEN: "0xA4C273d9A0C1fe2674F0E845160d6232768a3064",
-    INTEREST_RATE_STRATEGY: "0x8d02bac65cd84343eF8239d277794bad455cE889",
-    ORACLE: "0x0000000000000000000000000000000000000000"
-  },
-  DAI: {
-    UNDERLYING: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-    decimals: 18,
-    A_TOKEN: "0x79bE75FFC64DD58e66787E4Eae470c8a1FD08ba4",
-    S_TOKEN: "0x8da51a5a3129343468a63A96ccae1ff1352a3dfE",
-    V_TOKEN: "0x3F4fA4937E72991367DC32687BC3278f095E7EAa",
-    INTEREST_RATE_STRATEGY: "0x79F40CDF9f491f148E522D7845c3fBF61E56c33F",
-    ORACLE: "0x773616E4d11A78F511299002da57A0a94577F1f4"
-  },
-  USDC: {
-    UNDERLYING: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    decimals: 6,
-    A_TOKEN: "0xd24946147829DEaA935bE2aD85A3291dbf109c80",
-    S_TOKEN: "0xE5971a8a741892F3b3ac3E9c94d02588190cE220",
-    V_TOKEN: "0xCFDC74b97b69319683fec2A4Ef95c4Ab739F1B12",
-    INTEREST_RATE_STRATEGY: "0x79F40CDF9f491f148E522D7845c3fBF61E56c33F",
-    ORACLE: "0x986b5E1e1755e3C2440e960477f25201B0a8bbD4"
-  },
-  USDT: {
-    UNDERLYING: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-    decimals: 6,
-    A_TOKEN: "0x17a79792Fe6fE5C95dFE95Fe3fCEE3CAf4fE4Cb7",
-    S_TOKEN: "0x04A0577a89E1b9E8f6c87ee26cCe6a168fFfC5b5",
-    V_TOKEN: "0xDcFE9BfC246b02Da384de757464a35eFCa402797",
-    INTEREST_RATE_STRATEGY: "0x79F40CDF9f491f148E522D7845c3fBF61E56c33F",
-    ORACLE: "0xEe9F2375b4bdF6387aa8265dD4FB8F16512A1d46"
-  },
-  WBTC: {
-    UNDERLYING: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-    decimals: 8,
-    A_TOKEN: "0x13B2f6928D7204328b0E8E4BCd0379aA06EA21FA",
-    S_TOKEN: "0x55E575d092c934503D7635A837584E2900e01d2b",
-    V_TOKEN: "0x3b99fdaFdfE70d65101a4ba8cDC35dAFbD26375f",
-    INTEREST_RATE_STRATEGY: "0x8d02bac65cd84343eF8239d277794bad455cE889",
-    ORACLE: "0xFD858c8bC5ac5e10f01018bC78471bb0DC392247"
-  },
-  UNI_DAI_WETH: {
-    UNDERLYING: "0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11",
-    decimals: 18,
-    A_TOKEN: "0x9303EabC860a743aABcc3A1629014CaBcc3F8D36",
-    S_TOKEN: "0xE9562bf0A11315A1e39f9182F446eA58002f010E",
-    V_TOKEN: "0x23bcc861b989762275165d08B127911F09c71628",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0x66A6b87A18DB78086acda75b7720DC47CdABcC05"
-  },
-  UNI_WBTC_WETH: {
-    UNDERLYING: "0xBb2b8038a1640196FbE3e38816F3e67Cba72D940",
-    decimals: 18,
-    A_TOKEN: "0xc58F53A8adff2fB4eb16ED56635772075E2EE123",
-    S_TOKEN: "0xeef7d082D9bE2F5eC73C072228706286dea1f492",
-    V_TOKEN: "0x02aAeB4C7736177242Ee0f71f6f6A0F057Aba87d",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0x7004BB6F2013F13C54899309cCa029B49707E547"
-  },
-  UNI_AAVE_WETH: {
-    UNDERLYING: "0xDFC14d2Af169B0D36C4EFF567Ada9b2E0CAE044f",
-    decimals: 18,
-    A_TOKEN: "0xe59d2FF6995a926A574390824a657eEd36801E55",
-    S_TOKEN: "0x997b26eFf106f138e71160022CaAb0AFC5814643",
-    V_TOKEN: "0x859ED7D9E92d1fe42fF95C3BC3a62F7cB59C373E",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0xB525547968610395B60085bDc8033FFeaEaa5F64"
-  },
-  UNI_BAT_WETH: {
-    UNDERLYING: "0xB6909B960DbbE7392D405429eB2b3649752b4838",
-    decimals: 18,
-    A_TOKEN: "0xA1B0edF4460CC4d8bFAA18Ed871bFF15E5b57Eb4",
-    S_TOKEN: "0x27c67541a4ea26a436e311b2E6fFeC82083a6983",
-    V_TOKEN: "0x3Fbef89A21Dc836275bC912849627b33c61b09b4",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0xB394D8a1CE721630Cbea8Ec110DCEf0D283EDE3a"
-  },
-  UNI_DAI_USDC: {
-    UNDERLYING: "0xAE461cA67B15dc8dc81CE7615e0320dA1A9aB8D5",
-    decimals: 18,
-    A_TOKEN: "0xE340B25fE32B1011616bb8EC495A4d503e322177",
-    S_TOKEN: "0x6Bb2BdD21920FcB2Ad855AB5d523222F31709d1f",
-    V_TOKEN: "0x925E3FDd927E20e33C3177C4ff6fb72aD1133C87",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0x3B148Fa5E8297DB64262442052b227328730EA81"
-  },
-  UNI_CRV_WETH: {
-    UNDERLYING: "0x3dA1313aE46132A397D90d95B1424A9A7e3e0fCE",
-    decimals: 18,
-    A_TOKEN: "0x0ea20e7fFB006d4Cfe84df2F72d8c7bD89247DB0",
-    S_TOKEN: "0xd6035f8803eE9f173b1D3EBc3BDE0Ea6B5165636",
-    V_TOKEN: "0xF3f1a76cA6356a908CdCdE6b2AC2eaace3739Cd0",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0x10F7078e2f29802D2AC78045F61A69aE0883535A"
-  },
-  UNI_LINK_WETH: {
-    UNDERLYING: "0xa2107FA5B38d9bbd2C461D6EDf11B11A50F6b974",
-    decimals: 18,
-    A_TOKEN: "0xb8db81B84d30E2387de0FF330420A4AAA6688134",
-    S_TOKEN: "0xeb32b3A1De9a1915D2b452B673C53883b9Fa6a97",
-    V_TOKEN: "0xeDe4052ed8e1F422F4E5062c679f6B18693fEcdc",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0x30adCEfA5d483284FD79E1eFd54ED3e0A8eaA632"
-  },
-  UNI_MKR_WETH: {
-    UNDERLYING: "0xC2aDdA861F89bBB333c90c492cB837741916A225",
-    decimals: 18,
-    A_TOKEN: "0x370adc71f67f581158Dc56f539dF5F399128Ddf9",
-    S_TOKEN: "0x6E7E38bB73E19b62AB5567940Caaa514e9d85982",
-    V_TOKEN: "0xf36C394775285F89bBBDF09533421E3e81e8447c",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0xEBF4A448ff3D835F8FA883941a3E9D5E74B40B5E"
-  },
-  UNI_REN_WETH: {
-    UNDERLYING: "0x8Bd1661Da98EBDd3BD080F0bE4e6d9bE8cE9858c",
-    decimals: 18,
-    A_TOKEN: "0xA9e201A4e269d6cd5E9F0FcbcB78520cf815878B",
-    S_TOKEN: "0x312edeADf68E69A0f53518bF27EAcD1AbcC2897e",
-    V_TOKEN: "0x2A8d5B1c1de15bfcd5EC41368C0295c60D8Da83c",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0xe2f7C06906A9dB063C28EB5c71B6Ab454e5222dD"
-  },
-  UNI_SNX_WETH: {
-    UNDERLYING: "0x43AE24960e5534731Fc831386c07755A2dc33D47",
-    decimals: 18,
-    A_TOKEN: "0x38E491A71291CD43E8DE63b7253E482622184894",
-    S_TOKEN: "0xef62A0C391D89381ddf8A8C90Ba772081107D287",
-    V_TOKEN: "0xfd15008efA339A2390B48d2E0Ca8Abd523b406d3",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0x29bfee7E90572Abf1088a58a145a10D051b78E46"
-  },
-  UNI_UNI_WETH: {
-    UNDERLYING: "0xd3d2E2692501A5c9Ca623199D38826e513033a17",
-    decimals: 18,
-    A_TOKEN: "0x3D26dcd840fCC8e4B2193AcE8A092e4a65832F9f",
-    S_TOKEN: "0x6febCE732191Dc915D6fB7Dc5FE3AEFDDb85Bd1B",
-    V_TOKEN: "0x0D878FbB01fbEEa7ddEFb896d56f1D3167af919F",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0xC2E93e8121237A885A00627975eB06C7BF9808d6"
-  },
-  UNI_USDC_WETH: {
-    UNDERLYING: "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc",
-    decimals: 18,
-    A_TOKEN: "0x391E86e2C002C70dEe155eAceB88F7A3c38f5976",
-    S_TOKEN: "0xfAB4C9775A4316Ec67a8223ecD0F70F87fF532Fc",
-    V_TOKEN: "0x26625d1dDf520fC8D975cc68eC6E0391D9d3Df61",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0x71c4a2173CE3620982DC8A7D870297533360Da4E"
-  },
-  UNI_WBTC_USDC: {
-    UNDERLYING: "0x004375Dff511095CC5A197A54140a24eFEF3A416",
-    decimals: 18,
-    A_TOKEN: "0x2365a4890eD8965E564B7E2D27C38Ba67Fec4C6F",
-    S_TOKEN: "0xc66bfA05cCe646f05F71DeE333e3229cE24Bbb7e",
-    V_TOKEN: "0x36dA0C5dC23397CBf9D13BbD74E93C04f99633Af",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0x11f4ba2227F21Dc2A9F0b0e6Ea740369d580a212"
-  },
-  UNI_YFI_WETH: {
-    UNDERLYING: "0x2fDbAdf3C4D5A8666Bc06645B8358ab803996E28",
-    decimals: 18,
-    A_TOKEN: "0x5394794Be8b6eD5572FCd6b27103F46b5F390E8f",
-    S_TOKEN: "0x9B054B76d6DE1c4892ba025456A9c4F9be5B1766",
-    V_TOKEN: "0xDf70Bdf01a3eBcd0D918FF97390852A914a92Df7",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0x664223b8Bb0934aE0970e601F452f75AaCe9Aa2A"
-  },
-  BPT_WBTC_WETH: {
-    UNDERLYING: "0x1efF8aF5D577060BA4ac8A29A13525bb0Ee2A3D5",
-    decimals: 18,
-    A_TOKEN: "0x358bD0d980E031E23ebA9AA793926857703783BD",
-    S_TOKEN: "0x46406eCd20FDE1DF4d80F15F07c434fa95CB6b33",
-    V_TOKEN: "0xF655DF3832859cfB0AcfD88eDff3452b9Aa6Db24",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0x4CA8D8fC2b4fCe8A2dcB71Da884bba042d48E067"
-  },
-  BPT_BAL_WETH: {
-    UNDERLYING: "0x59A19D8c652FA0284f44113D0ff9aBa70bd46fB4",
-    decimals: 18,
-    A_TOKEN: "0xd109b2A304587569c84308c55465cd9fF0317bFB",
-    S_TOKEN: "0x6474d116476b8eDa1B21472a599Ff76A829AbCbb",
-    V_TOKEN: "0xF41A5Cc7a61519B08056176d7B4b87AB34dF55AD",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0x2e4e78936b100be6Ef85BCEf7FB25bC770B02B85"
-  },
-  GUNI_DAI_USDC: {
-    UNDERLYING: "0x50379f632ca68D36E50cfBC8F78fe16bd1499d1e",
-    decimals: 18,
-    A_TOKEN: "0xd145c6ae8931ed5Bca9b5f5B7dA5991F5aB63B5c",
-    S_TOKEN: "0x460Fd61bBDe7235C3F345901ad677854c9330c86",
-    V_TOKEN: "0x40533CC601Ec5b79B00D76348ADc0c81d93d926D",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0x7843eA2E3e60b24cc12B56C5627Adc7F9f0749D6"
-  },
-  GUNI_USDC_USDT: {
-    UNDERLYING: "0xD2eeC91055F07fE24C9cCB25828ecfEFd4be0c41",
-    decimals: 18,
-    A_TOKEN: "0xCa5DFDABBfFD58cfD49A9f78Ca52eC8e0591a3C5",
-    S_TOKEN: "0xFEaeCde9Eb0cd43FDE13427C6C7ef406780a8136",
-    V_TOKEN: "0x0B7c7d9c5548A23D0455d1edeC541cc2AD955a9d",
-    INTEREST_RATE_STRATEGY: "0x52E39422cd86a12a13773D86af5FdBF5665989aD",
-    ORACLE: "0x399e3bb2BBd49c570aa6edc6ac390E0D0aCbbD5e"
-  }
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV2Ethereum.mjs
-var AaveV2Ethereum_exports = {};
-__export(AaveV2Ethereum_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER2,
-  ASSETS: () => ASSETS2,
-  CHAIN_ID: () => CHAIN_ID2,
-  COLLECTOR: () => COLLECTOR2,
-  CONFIG_ENGINE: () => CONFIG_ENGINE2,
-  DEBT_SWAP_ADAPTER: () => DEBT_SWAP_ADAPTER,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER2,
-  EMERGENCY_ADMIN: () => EMERGENCY_ADMIN2,
-  EMISSION_MANAGER: () => EMISSION_MANAGER2,
-  LENDING_RATE_ORACLE: () => LENDING_RATE_ORACLE2,
-  MIGRATION_HELPER: () => MIGRATION_HELPER2,
-  ORACLE: () => ORACLE2,
-  POOL: () => POOL2,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER2,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY2,
-  POOL_ADMIN: () => POOL_ADMIN2,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR2,
-  RATES_FACTORY: () => RATES_FACTORY2,
-  REPAY_WITH_COLLATERAL_ADAPTER: () => REPAY_WITH_COLLATERAL_ADAPTER,
-  SWAP_COLLATERAL_ADAPTER: () => SWAP_COLLATERAL_ADAPTER,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER2,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER2,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER2,
-  WETH_GATEWAY: () => WETH_GATEWAY2
-});
-var POOL_ADDRESSES_PROVIDER2 = "0xB53C1a33016B2DC2fF3653530bfF1848a515c8c5";
-var POOL2 = "0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9";
-var POOL_CONFIGURATOR2 = "0x311Bb771e4F8952E6Da169b425E7e92d6Ac45756";
-var ORACLE2 = "0xA50ba011c48153De246E5192C8f9258A2ba79Ca9";
-var LENDING_RATE_ORACLE2 = "0x8A32f49FFbA88aba6EFF96F45D8BD1D4b3f35c7D";
-var AAVE_PROTOCOL_DATA_PROVIDER2 = "0x057835Ad21a177dbdd3090bB1CAE03EaCF78Fc6d";
-var POOL_ADMIN2 = "0x5300A1a15135EA4dc7aD5a167152C01EFc9b192A";
-var EMERGENCY_ADMIN2 = "0xCA76Ebd8617a03126B6FB84F9b1c1A0fB71C2633";
-var COLLECTOR2 = "0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c";
-var DEFAULT_INCENTIVES_CONTROLLER2 = "0xd784927Ff2f95ba542BfC824c8a8a98F3495f6b5";
-var EMISSION_MANAGER2 = "0xEE56e2B3D491590B5b31738cC34d5232F378a8D5";
-var DEBT_SWAP_ADAPTER = "0x6A6FA664D4Fa49a6a780a1D6143f079f8dd7C33d";
-var CONFIG_ENGINE2 = "0x9eCed0293e7B73CFf4a2b4F9C82aAc8346158bd9";
-var MIGRATION_HELPER2 = "0xB748952c7BC638F31775245964707Bcc5DDFabFC";
-var POOL_ADDRESSES_PROVIDER_REGISTRY2 = "0x52D306e36E3B6B02c153d0266ff0f85d18BCD413";
-var RATES_FACTORY2 = "0xbD37610BBB1ddc2a22797F7e3f531B59902b7bA7";
-var REPAY_WITH_COLLATERAL_ADAPTER = "0x80Aca0C645fEdABaa20fd2Bf0Daf57885A309FE6";
-var SWAP_COLLATERAL_ADAPTER = "0x135896DE8421be2ec868E0b811006171D9df802A";
-var UI_INCENTIVE_DATA_PROVIDER2 = "0xD01ab9a6577E1D84F142e44D49380e23A340387d";
-var UI_POOL_DATA_PROVIDER2 = "0x00e50FAB64eBB37b87df06Aa46b8B35d5f1A4e1A";
-var WALLET_BALANCE_PROVIDER2 = "0x8E8dAd5409E0263a51C0aB5055dA66Be28cFF922";
-var WETH_GATEWAY2 = "0xEFFC18fC3b7eb8E676dac549E0c693ad50D1Ce31";
-var CHAIN_ID2 = 1;
-var ASSETS2 = {
-  USDT: {
-    UNDERLYING: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-    decimals: 6,
-    A_TOKEN: "0x3Ed3B47Dd13EC9a98b44e6204A523E766B225811",
-    S_TOKEN: "0xe91D55AB2240594855aBd11b3faAE801Fd4c4687",
-    V_TOKEN: "0x531842cEbbdD378f8ee36D171d6cC9C4fcf475Ec",
-    INTEREST_RATE_STRATEGY: "0xF22c8255eA615b3Da6CA5CF5aeCc8956bfF07Aa8",
-    ORACLE: "0xEe9F2375b4bdF6387aa8265dD4FB8F16512A1d46"
-  },
-  WBTC: {
-    UNDERLYING: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-    decimals: 8,
-    A_TOKEN: "0x9ff58f4fFB29fA2266Ab25e75e2A8b3503311656",
-    S_TOKEN: "0x51B039b9AFE64B78758f8Ef091211b5387eA717c",
-    V_TOKEN: "0x9c39809Dec7F95F5e0713634a4D0701329B3b4d2",
-    INTEREST_RATE_STRATEGY: "0x32f3A6134590fc2d9440663d35a2F0a6265F04c4",
-    ORACLE: "0xFD858c8bC5ac5e10f01018bC78471bb0DC392247"
-  },
-  WETH: {
-    UNDERLYING: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    decimals: 18,
-    A_TOKEN: "0x030bA81f1c18d280636F32af80b9AAd02Cf0854e",
-    S_TOKEN: "0x4e977830ba4bd783C0BB7F15d3e243f73FF57121",
-    V_TOKEN: "0xF63B34710400CAd3e044cFfDcAb00a0f32E33eCf",
-    INTEREST_RATE_STRATEGY: "0xb8975328Aa52c00B9Ec1e11e518C4900f2e6C62a",
-    ORACLE: "0x0000000000000000000000000000000000000000"
-  },
-  YFI: {
-    UNDERLYING: "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
-    decimals: 18,
-    A_TOKEN: "0x5165d24277cD063F5ac44Efd447B27025e888f37",
-    S_TOKEN: "0xca823F78C2Dd38993284bb42Ba9b14152082F7BD",
-    V_TOKEN: "0x7EbD09022Be45AD993BAA1CEc61166Fcc8644d97",
-    INTEREST_RATE_STRATEGY: "0xfd71623D7F41360aefE200de4f17E20A29e1d58C",
-    ORACLE: "0x7c5d4F8345e66f68099581Db340cd65B078C41f4"
-  },
-  ZRX: {
-    UNDERLYING: "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
-    decimals: 18,
-    A_TOKEN: "0xDf7FF54aAcAcbFf42dfe29DD6144A69b629f8C9e",
-    S_TOKEN: "0x071B4323a24E73A5afeEbe34118Cd21B8FAAF7C3",
-    V_TOKEN: "0x85791D117A392097590bDeD3bD5abB8d5A20491A",
-    INTEREST_RATE_STRATEGY: "0x1a4babC0e20d892167792AC79618273711afD3e7",
-    ORACLE: "0x2Da4983a622a8498bb1a21FaE9D8F6C664939962"
-  },
-  UNI: {
-    UNDERLYING: "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
-    decimals: 18,
-    A_TOKEN: "0xB9D7CB55f463405CDfBe4E90a6D2Df01C2B92BF1",
-    S_TOKEN: "0xD939F7430dC8D5a427f156dE1012A56C18AcB6Aa",
-    V_TOKEN: "0x5BdB050A92CADcCfCDcCCBFC17204a1C9cC0Ab73",
-    INTEREST_RATE_STRATEGY: "0x24ABFac8dd8f270D752837fDFe3B3C735361f4eE",
-    ORACLE: "0xD6aA3D25116d8dA79Ea0246c4826EB951872e02e"
-  },
-  AAVE: {
-    UNDERLYING: "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
-    decimals: 18,
-    A_TOKEN: "0xFFC97d72E13E01096502Cb8Eb52dEe56f74DAD7B",
-    S_TOKEN: "0x079D6a3E844BcECf5720478A718Edb6575362C5f",
-    V_TOKEN: "0xF7DBA49d571745D9d7fcb56225B05BEA803EBf3C",
-    INTEREST_RATE_STRATEGY: "0xd4cA26F2496195C4F886D464D8578368236bB747",
-    ORACLE: "0x6Df09E975c830ECae5bd4eD9d90f3A95a4f88012"
-  },
-  BAT: {
-    UNDERLYING: "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
-    decimals: 18,
-    A_TOKEN: "0x05Ec93c0365baAeAbF7AefFb0972ea7ECdD39CF1",
-    S_TOKEN: "0x277f8676FAcf4dAA5a6EA38ba511B7F65AA02f9F",
-    V_TOKEN: "0xfc218A6Dfe6901CB34B1a5281FC6f1b8e7E56877",
-    INTEREST_RATE_STRATEGY: "0xBdfC85b140edF1FeaFd6eD664027AA4C23b4A29F",
-    ORACLE: "0x0d16d4528239e9ee52fa531af613AcdB23D88c94"
-  },
-  BUSD: {
-    UNDERLYING: "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
-    decimals: 18,
-    A_TOKEN: "0xA361718326c15715591c299427c62086F69923D9",
-    S_TOKEN: "0x4A7A63909A72D268b1D8a93a9395d098688e0e5C",
-    V_TOKEN: "0xbA429f7011c9fa04cDd46a2Da24dc0FF0aC6099c",
-    INTEREST_RATE_STRATEGY: "0xF1AafF9a4Da6Bf4Fb8fc18d39C8ffdafbAACce69",
-    ORACLE: "0x614715d2Af89E6EC99A233818275142cE88d1Cfd"
-  },
-  DAI: {
-    UNDERLYING: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-    decimals: 18,
-    A_TOKEN: "0x028171bCA77440897B824Ca71D1c56caC55b68A3",
-    S_TOKEN: "0x778A13D3eeb110A4f7bb6529F99c000119a08E92",
-    V_TOKEN: "0x6C3c78838c761c6Ac7bE9F59fe808ea2A6E4379d",
-    INTEREST_RATE_STRATEGY: "0xc6A068E321C83FEacc25C80118E2B1208c54B6ce",
-    ORACLE: "0x773616E4d11A78F511299002da57A0a94577F1f4"
-  },
-  ENJ: {
-    UNDERLYING: "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
-    decimals: 18,
-    A_TOKEN: "0xaC6Df26a590F08dcC95D5a4705ae8abbc88509Ef",
-    S_TOKEN: "0x943DcCA156b5312Aa24c1a08769D67FEce4ac14C",
-    V_TOKEN: "0x38995F292a6E31b78203254fE1cdd5Ca1010A446",
-    INTEREST_RATE_STRATEGY: "0x4a4fb6B26e7F516594b7242240039EA8FAAc897a",
-    ORACLE: "0x24D9aB51950F3d62E9144fdC2f3135DAA6Ce8D1B"
-  },
-  KNC: {
-    UNDERLYING: "0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
-    decimals: 18,
-    A_TOKEN: "0x39C6b3e42d6A679d7D776778Fe880BC9487C2EDA",
-    S_TOKEN: "0x9915dfb872778B2890a117DA1F35F335eb06B54f",
-    V_TOKEN: "0x6B05D1c608015Ccb8e205A690cB86773A96F39f1",
-    INTEREST_RATE_STRATEGY: "0xFDBDa42D2aC1bfbbc10555eb255De8387b8977C4",
-    ORACLE: "0x656c0544eF4C98A6a98491833A89204Abb045d6b"
-  },
-  LINK: {
-    UNDERLYING: "0x514910771AF9Ca656af840dff83E8264EcF986CA",
-    decimals: 18,
-    A_TOKEN: "0xa06bC25B5805d5F8d82847D191Cb4Af5A3e873E0",
-    S_TOKEN: "0xFB4AEc4Cc858F2539EBd3D37f2a43eAe5b15b98a",
-    V_TOKEN: "0x0b8f12b1788BFdE65Aa1ca52E3e9F3Ba401be16D",
-    INTEREST_RATE_STRATEGY: "0xED6547b83276B076B771B88FcCbD68BDeDb3927f",
-    ORACLE: "0xDC530D9457755926550b59e8ECcdaE7624181557"
-  },
-  MANA: {
-    UNDERLYING: "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
-    decimals: 18,
-    A_TOKEN: "0xa685a61171bb30d4072B338c80Cb7b2c865c873E",
-    S_TOKEN: "0xD86C74eA2224f4B8591560652b50035E4e5c0a3b",
-    V_TOKEN: "0x0A68976301e46Ca6Ce7410DB28883E309EA0D352",
-    INTEREST_RATE_STRATEGY: "0x004fC239848D8A8d3304729b78ba81d73d83C99F",
-    ORACLE: "0x82A44D92D6c329826dc557c5E1Be6ebeC5D5FeB9"
-  },
-  MKR: {
-    UNDERLYING: "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
-    decimals: 18,
-    A_TOKEN: "0xc713e5E149D5D0715DcD1c156a020976e7E56B88",
-    S_TOKEN: "0xC01C8E4b12a89456a9fD4e4e75B72546Bf53f0B5",
-    V_TOKEN: "0xba728eAd5e496BE00DCF66F650b6d7758eCB50f8",
-    INTEREST_RATE_STRATEGY: "0xE3a3DE71B827cB73663A24cDB6243bA7F986cC3b",
-    ORACLE: "0x24551a8Fb2A7211A25a17B1481f043A8a8adC7f2"
-  },
-  REN: {
-    UNDERLYING: "0x408e41876cCCDC0F92210600ef50372656052a38",
-    decimals: 18,
-    A_TOKEN: "0xCC12AbE4ff81c9378D670De1b57F8e0Dd228D77a",
-    S_TOKEN: "0x3356Ec1eFA75d9D150Da1EC7d944D9EDf73703B7",
-    V_TOKEN: "0xcd9D82d33bd737De215cDac57FE2F7f04DF77FE0",
-    INTEREST_RATE_STRATEGY: "0x9B1e3C7483F0f21abFEaE3AeBC9b47b5f23f5bB0",
-    ORACLE: "0x3147D7203354Dc06D9fd350c7a2437bcA92387a4"
-  },
-  SNX: {
-    UNDERLYING: "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
-    decimals: 18,
-    A_TOKEN: "0x35f6B052C598d933D69A4EEC4D04c73A191fE6c2",
-    S_TOKEN: "0x8575c8ae70bDB71606A53AeA1c6789cB0fBF3166",
-    V_TOKEN: "0x267EB8Cf715455517F9BD5834AeAE3CeA1EBdbD8",
-    INTEREST_RATE_STRATEGY: "0xCc92073dDe8aE03bAA1812AC5cF22e69b5E76914",
-    ORACLE: "0x79291A9d692Df95334B1a0B3B4AE6bC606782f8c"
-  },
-  sUSD: {
-    UNDERLYING: "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
-    decimals: 18,
-    A_TOKEN: "0x6C5024Cd4F8A59110119C56f8933403A539555EB",
-    S_TOKEN: "0x30B0f7324feDF89d8eff397275F8983397eFe4af",
-    V_TOKEN: "0xdC6a3Ab17299D9C2A412B0e0a4C1f55446AE0817",
-    INTEREST_RATE_STRATEGY: "0x3082D0a473385Ed2cbd1f16087ab8b7BF79f0355",
-    ORACLE: "0x8e0b7e6062272B5eF4524250bFFF8e5Bd3497757"
-  },
-  TUSD: {
-    UNDERLYING: "0x0000000000085d4780B73119b644AE5ecd22b376",
-    decimals: 18,
-    A_TOKEN: "0x101cc05f4A51C0319f570d5E146a8C625198e636",
-    S_TOKEN: "0x7f38d60D94652072b2C44a18c0e14A481EC3C0dd",
-    V_TOKEN: "0x01C0eb1f8c6F1C1bF74ae028697ce7AA2a8b0E92",
-    INTEREST_RATE_STRATEGY: "0xb70e28437Aec70a8cfE5240F54c463cF849bE17C",
-    ORACLE: "0x3886BA987236181D98F2401c507Fb8BeA7871dF2"
-  },
-  USDC: {
-    UNDERLYING: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    decimals: 6,
-    A_TOKEN: "0xBcca60bB61934080951369a648Fb03DF4F96263C",
-    S_TOKEN: "0xE4922afAB0BbaDd8ab2a88E0C79d884Ad337fcA6",
-    V_TOKEN: "0x619beb58998eD2278e08620f97007e1116D5D25b",
-    INTEREST_RATE_STRATEGY: "0x8Cae0596bC1eD42dc3F04c4506cfe442b3E74e27",
-    ORACLE: "0x986b5E1e1755e3C2440e960477f25201B0a8bbD4"
-  },
-  CRV: {
-    UNDERLYING: "0xD533a949740bb3306d119CC777fa900bA034cd52",
-    decimals: 18,
-    A_TOKEN: "0x8dAE6Cb04688C62d939ed9B68d32Bc62e49970b1",
-    S_TOKEN: "0x9288059a74f589C919c7Cf1Db433251CdFEB874B",
-    V_TOKEN: "0x00ad8eBF64F141f1C81e9f8f792d3d1631c6c684",
-    INTEREST_RATE_STRATEGY: "0xA4C2C730A4c01c64d54ce0165c27120989A3C743",
-    ORACLE: "0x8a12Be339B0cD1829b91Adc01977caa5E9ac121e"
-  },
-  GUSD: {
-    UNDERLYING: "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd",
-    decimals: 2,
-    A_TOKEN: "0xD37EE7e4f452C6638c96536e68090De8cBcdb583",
-    S_TOKEN: "0xf8aC64ec6Ff8E0028b37EB89772d21865321bCe0",
-    V_TOKEN: "0x279AF5b99540c1A3A7E3CDd326e19659401eF99e",
-    INTEREST_RATE_STRATEGY: "0x78Fe5d0427E669ba9F964C3495fF381a805a0487",
-    ORACLE: "0xEc6f4Cd64d28Ef32507e2dc399948aAe9Bbedd7e"
-  },
-  BAL: {
-    UNDERLYING: "0xba100000625a3754423978a60c9317c58a424e3D",
-    decimals: 18,
-    A_TOKEN: "0x272F97b7a56a387aE942350bBC7Df5700f8a4576",
-    S_TOKEN: "0xe569d31590307d05DA3812964F1eDd551D665a0b",
-    V_TOKEN: "0x13210D4Fe0d5402bd7Ecbc4B5bC5cFcA3b71adB0",
-    INTEREST_RATE_STRATEGY: "0x46158614537A48D51a30073A86b4B73B16D33b53",
-    ORACLE: "0xC1438AA3823A6Ba0C159CfA8D98dF5A994bA120b"
-  },
-  xSUSHI: {
-    UNDERLYING: "0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272",
-    decimals: 18,
-    A_TOKEN: "0xF256CC7847E919FAc9B808cC216cAc87CCF2f47a",
-    S_TOKEN: "0x73Bfb81D7dbA75C904f430eA8BAe82DB0D41187B",
-    V_TOKEN: "0xfAFEDF95E21184E3d880bd56D4806c4b8d31c69A",
-    INTEREST_RATE_STRATEGY: "0xb49034Ada4BE5c6Bb3823A623C6250267110b06b",
-    ORACLE: "0xF05D9B6C08757EAcb1fbec18e36A1B7566a13DEB"
-  },
-  renFIL: {
-    UNDERLYING: "0xD5147bc8e386d91Cc5DBE72099DAC6C9b99276F5",
-    decimals: 18,
-    A_TOKEN: "0x514cd6756CCBe28772d4Cb81bC3156BA9d1744aa",
-    S_TOKEN: "0xcAad05C49E14075077915cB5C820EB3245aFb950",
-    V_TOKEN: "0x348e2eBD5E962854871874E444F4122399c02755",
-    INTEREST_RATE_STRATEGY: "0x311C866D55456e465e314A3E9830276B438A73f0",
-    ORACLE: "0x0606Be69451B1C9861Ac6b3626b99093b713E801"
-  },
-  RAI: {
-    UNDERLYING: "0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919",
-    decimals: 18,
-    A_TOKEN: "0xc9BC48c72154ef3e5425641a3c747242112a46AF",
-    S_TOKEN: "0x9C72B8476C33AE214ee3e8C20F0bc28496a62032",
-    V_TOKEN: "0xB5385132EE8321977FfF44b60cDE9fE9AB0B4e6b",
-    INTEREST_RATE_STRATEGY: "0xA7d4df837926cD55036175AfeF38395d56A64c22",
-    ORACLE: "0x4ad7B025127e89263242aB68F0f9c4E5C033B489"
-  },
-  AMPL: {
-    UNDERLYING: "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
-    decimals: 9,
-    A_TOKEN: "0x1E6bb68Acec8fefBD87D192bE09bb274170a0548",
-    S_TOKEN: "0x18152C9f77DAdc737006e9430dB913159645fa87",
-    V_TOKEN: "0xf013D90E4e4E3Baf420dFea60735e75dbd42f1e1",
-    INTEREST_RATE_STRATEGY: "0x84d1FaD9559b8AC1Fda17d073B8542c8Fb6986dd",
-    ORACLE: "0x492575FDD11a0fCf2C6C719867890a7648d526eB"
-  },
-  USDP: {
-    UNDERLYING: "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
-    decimals: 18,
-    A_TOKEN: "0x2e8F4bdbE3d47d7d7DE490437AeA9915D930F1A3",
-    S_TOKEN: "0x2387119bc85A74e0BBcbe190d80676CB16F10D4F",
-    V_TOKEN: "0xFDb93B3b10936cf81FA59A02A7523B6e2149b2B7",
-    INTEREST_RATE_STRATEGY: "0xaC63290BC16fBc33353b14f139cEf1c660ba56F0",
-    ORACLE: "0x3a08ebBaB125224b7b6474384Ee39fBb247D2200"
-  },
-  DPI: {
-    UNDERLYING: "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b",
-    decimals: 18,
-    A_TOKEN: "0x6F634c6135D2EBD550000ac92F494F9CB8183dAe",
-    S_TOKEN: "0xa3953F07f389d719F99FC378ebDb9276177d8A6e",
-    V_TOKEN: "0x4dDff5885a67E4EffeC55875a3977D7E60F82ae0",
-    INTEREST_RATE_STRATEGY: "0x9440aEc0795D7485e58bCF26622c2f4A681A9671",
-    ORACLE: "0x029849bbc0b1d93b85a8b6190e979fd38F5760E2"
-  },
-  FRAX: {
-    UNDERLYING: "0x853d955aCEf822Db058eb8505911ED77F175b99e",
-    decimals: 18,
-    A_TOKEN: "0xd4937682df3C8aEF4FE912A96A74121C0829E664",
-    S_TOKEN: "0x3916e3B6c84b161df1b2733dFfc9569a1dA710c2",
-    V_TOKEN: "0xfE8F19B17fFeF0fDbfe2671F248903055AFAA8Ca",
-    INTEREST_RATE_STRATEGY: "0x492dcEF1fc5253413fC5576B9522840a1A774DCe",
-    ORACLE: "0x14d04Fff8D21bd62987a5cE9ce543d2F1edF5D3E"
-  },
-  FEI: {
-    UNDERLYING: "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
-    decimals: 18,
-    A_TOKEN: "0x683923dB55Fead99A79Fa01A27EeC3cB19679cC3",
-    S_TOKEN: "0xd89cF9E8A858F8B4b31Faf793505e112d6c17449",
-    V_TOKEN: "0xC2e10006AccAb7B45D9184FcF5b7EC7763f5BaAe",
-    INTEREST_RATE_STRATEGY: "0x795dC59EA6472Dfa4298A454C6E8Dcb005643A13",
-    ORACLE: "0xac3AF0f4A52C577Cc2C241dF51a01FDe3D06D93B"
-  },
-  stETH: {
-    UNDERLYING: "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
-    decimals: 18,
-    A_TOKEN: "0x1982b2F5814301d4e9a8b0201555376e62F82428",
-    S_TOKEN: "0x66457616Dd8489dF5D0AFD8678F4A260088aAF55",
-    V_TOKEN: "0xA9DEAc9f00Dc4310c35603FCD9D34d1A750f81Db",
-    INTEREST_RATE_STRATEGY: "0xff04ed5f7a6C3a0F1e5Ea20617F8C6f513D5A77c",
-    ORACLE: "0xADE6CBA6c45aa8E9d0337cAc3D2619eabc39D901"
-  },
-  ENS: {
-    UNDERLYING: "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
-    decimals: 18,
-    A_TOKEN: "0x9a14e23A58edf4EFDcB360f68cd1b95ce2081a2F",
-    S_TOKEN: "0x34441FFD1948E49dC7a607882D0c38Efd0083815",
-    V_TOKEN: "0x176808047cc9b7A2C9AE202c593ED42dDD7C0D13",
-    INTEREST_RATE_STRATEGY: "0xb2eD1eCE1c13455Ce9299d35D3B00358529f3Dc8",
-    ORACLE: "0xd4641b75015E6536E8102D98479568D05D7123Db"
-  },
-  UST: {
-    UNDERLYING: "0xa693B19d2931d498c5B318dF961919BB4aee87a5",
-    decimals: 6,
-    A_TOKEN: "0xc2e2152647F4C26028482Efaf64b2Aa28779EFC4",
-    S_TOKEN: "0x7FDbfB0412700D94403c42cA3CAEeeA183F07B26",
-    V_TOKEN: "0xaf32001cf2E66C4C3af4205F6EA77112AA4160FE",
-    INTEREST_RATE_STRATEGY: "0x0dEDCaE8Eb22A2EFB597aBde1834173C47Cff186",
-    ORACLE: "0xa20623070413d42a5C01Db2c8111640DD7A5A03a"
-  },
-  CVX: {
-    UNDERLYING: "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
-    decimals: 18,
-    A_TOKEN: "0x952749E07d7157bb9644A894dFAF3Bad5eF6D918",
-    S_TOKEN: "0xB01Eb1cE1Da06179136D561766fc2d609C5F55Eb",
-    V_TOKEN: "0x4Ae5E4409C6Dbc84A00f9f89e4ba096603fb7d50",
-    INTEREST_RATE_STRATEGY: "0x1dA981865AE7a0C838eFBF4C7DFecb5c7268E73A",
-    ORACLE: "0xC9CbF687f43176B302F03f5e58470b77D07c61c6"
-  },
-  ONE_INCH: {
-    UNDERLYING: "0x111111111117dC0aa78b770fA6A738034120C302",
-    decimals: 18,
-    A_TOKEN: "0xB29130CBcC3F791f077eAdE0266168E808E5151e",
-    S_TOKEN: "0x1278d6ED804d59d2d18a5Aa5638DfD591A79aF0a",
-    V_TOKEN: "0xD7896C1B9b4455aFf31473908eB15796ad2295DA",
-    INTEREST_RATE_STRATEGY: "0xb2eD1eCE1c13455Ce9299d35D3B00358529f3Dc8",
-    ORACLE: "0x72AFAECF99C9d9C8215fF44C77B94B99C28741e8"
-  },
-  LUSD: {
-    UNDERLYING: "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
-    decimals: 18,
-    A_TOKEN: "0xce1871f791548600cb59efbefFC9c38719142079",
-    S_TOKEN: "0x39f010127274b2dBdB770B45e1de54d974974526",
-    V_TOKEN: "0x411066489AB40442d6Fc215aD7c64224120D33F2",
-    INTEREST_RATE_STRATEGY: "0x545Ae1908B6F12e91E03B1DEC4F2e06D0570fE1b",
-    ORACLE: "0x60c0b047133f696334a2b7f68af0b49d2F3D4F72"
-  }
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV2Polygon.mjs
-var AaveV2Polygon_exports = {};
-__export(AaveV2Polygon_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER3,
-  ASSETS: () => ASSETS3,
-  CHAIN_ID: () => CHAIN_ID3,
-  COLLECTOR: () => COLLECTOR3,
-  CONFIG_ENGINE: () => CONFIG_ENGINE3,
-  DEBT_SWAP_ADAPTER: () => DEBT_SWAP_ADAPTER2,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER3,
-  EMERGENCY_ADMIN: () => EMERGENCY_ADMIN3,
-  EMISSION_MANAGER: () => EMISSION_MANAGER3,
-  LENDING_RATE_ORACLE: () => LENDING_RATE_ORACLE3,
-  MIGRATION_HELPER: () => MIGRATION_HELPER3,
-  ORACLE: () => ORACLE3,
-  POOL: () => POOL3,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER3,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY3,
-  POOL_ADMIN: () => POOL_ADMIN3,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR3,
-  RATES_FACTORY: () => RATES_FACTORY3,
-  REPAY_WITH_COLLATERAL_ADAPTER: () => REPAY_WITH_COLLATERAL_ADAPTER2,
-  SWAP_COLLATERAL_ADAPTER: () => SWAP_COLLATERAL_ADAPTER2,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER3,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER3,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER3,
-  WETH_GATEWAY: () => WETH_GATEWAY3
-});
-var POOL_ADDRESSES_PROVIDER3 = "0xd05e3E715d945B59290df0ae8eF85c1BdB684744";
-var POOL3 = "0x8dFf5E27EA6b7AC08EbFdf9eB090F32ee9a30fcf";
-var POOL_CONFIGURATOR3 = "0x26db2B833021583566323E3b8985999981b9F1F3";
-var ORACLE3 = "0x0229F777B0fAb107F9591a41d5F02E4e98dB6f2d";
-var LENDING_RATE_ORACLE3 = "0x17F73aEaD876CC4059089ff815EDA37052960dFB";
-var AAVE_PROTOCOL_DATA_PROVIDER3 = "0x7551b5D2763519d4e37e8B81929D336De671d46d";
-var POOL_ADMIN3 = "0xDf7d0e6454DB638881302729F5ba99936EaAB233";
-var EMERGENCY_ADMIN3 = "0x1450F2898D6bA2710C98BE9CAF3041330eD5ae58";
-var COLLECTOR3 = "0xe8599F3cc5D38a9aD6F3684cd5CEa72f10Dbc383";
-var DEFAULT_INCENTIVES_CONTROLLER3 = "0x357D51124f59836DeD84c8a1730D72B749d8BC23";
-var EMISSION_MANAGER3 = "0x2bB25175d9B0F8965780209EB558Cc3b56cA6d32";
-var DEBT_SWAP_ADAPTER2 = "0x1E623A311948b531B07B6EA7CC34a9A2bCADADd0";
-var CONFIG_ENGINE3 = "0x9eCed0293e7B73CFf4a2b4F9C82aAc8346158bd9";
-var MIGRATION_HELPER3 = "0x3db487975aB1728DB5787b798866c2021B24ec52";
-var POOL_ADDRESSES_PROVIDER_REGISTRY3 = "0x3ac4e9aa29940770aeC38fe853a4bbabb2dA9C19";
-var RATES_FACTORY3 = "0xD05003a24A17d9117B11eC04cF9743b050779c08";
-var REPAY_WITH_COLLATERAL_ADAPTER2 = "0xE84cF064a0a65290Ae5673b500699f3753063936";
-var SWAP_COLLATERAL_ADAPTER2 = "0x35784a624D4FfBC3594f4d16fA3801FeF063241c";
-var UI_INCENTIVE_DATA_PROVIDER3 = "0x645654D59A5226CBab969b1f5431aA47CBf64ab8";
-var UI_POOL_DATA_PROVIDER3 = "0x204f2Eb81D996729829debC819f7992DCEEfE7b1";
-var WALLET_BALANCE_PROVIDER3 = "0x34aa032bC416Cf2CdC45c0C8f065b1F19463D43e";
-var WETH_GATEWAY3 = "0xAeBF56223F044a73A513FAD7E148A9075227eD9b";
-var CHAIN_ID3 = 137;
-var ASSETS3 = {
-  DAI: {
-    UNDERLYING: "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-    decimals: 18,
-    A_TOKEN: "0x27F8D03b3a2196956ED754baDc28D73be8830A6e",
-    S_TOKEN: "0x2238101B7014C279aaF6b408A284E49cDBd5DB55",
-    V_TOKEN: "0x75c4d1Fb84429023170086f06E682DcbBF537b7d",
-    INTEREST_RATE_STRATEGY: "0x499e74993FFa39dd314782C4262a7443c31f8422",
-    ORACLE: "0xFC539A559e170f848323e19dfD66007520510085"
-  },
-  USDC: {
-    UNDERLYING: "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-    decimals: 6,
-    A_TOKEN: "0x1a13F4Ca1d028320A707D99520AbFefca3998b7F",
-    S_TOKEN: "0xdeb05676dB0DB85cecafE8933c903466Bf20C572",
-    V_TOKEN: "0x248960A9d75EdFa3de94F7193eae3161Eb349a12",
-    INTEREST_RATE_STRATEGY: "0xCE5870016D3cFa4e1c71Fb7c7EE8Cef67712a7a3",
-    ORACLE: "0xefb7e6be8356cCc6827799B6A7348eE674A80EaE"
-  },
-  USDT: {
-    UNDERLYING: "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-    decimals: 6,
-    A_TOKEN: "0x60D55F02A771d515e077c9C2403a1ef324885CeC",
-    S_TOKEN: "0xe590cfca10e81FeD9B0e4496381f02256f5d2f61",
-    V_TOKEN: "0x8038857FD47108A07d1f6Bf652ef1cBeC279A2f3",
-    INTEREST_RATE_STRATEGY: "0xAcBbD7E2e8C14DBdBB974B1Be2FB29f34C1E5048",
-    ORACLE: "0xf9d5AAC6E5572AEFa6bd64108ff86a222F69B64d"
-  },
-  WBTC: {
-    UNDERLYING: "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-    decimals: 8,
-    A_TOKEN: "0x5c2ed810328349100A66B82b78a1791B101C9D61",
-    S_TOKEN: "0x2551B15dB740dB8348bFaDFe06830210eC2c2F13",
-    V_TOKEN: "0xF664F50631A6f0D72ecdaa0e49b0c019Fa72a8dC",
-    INTEREST_RATE_STRATEGY: "0xCc906fC61a896bAD00f3f4EF736B22716CbD8878",
-    ORACLE: "0xA338e0492B2F944E9F8C0653D3AD1484f2657a37"
-  },
-  WETH: {
-    UNDERLYING: "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-    decimals: 18,
-    A_TOKEN: "0x28424507fefb6f7f8E9D3860F56504E4e5f5f390",
-    S_TOKEN: "0xc478cBbeB590C76b01ce658f8C4dda04f30e2C6f",
-    V_TOKEN: "0xeDe17e9d79fc6f9fF9250D9EEfbdB88Cc18038b5",
-    INTEREST_RATE_STRATEGY: "0xEA2e7947658944674893D71cE5DA52d528a43388",
-    ORACLE: "0x0000000000000000000000000000000000000000"
-  },
-  WMATIC: {
-    UNDERLYING: "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-    decimals: 18,
-    A_TOKEN: "0x8dF3aad3a84da6b69A4DA8aeC3eA40d9091B2Ac4",
-    S_TOKEN: "0xb9A6E29fB540C5F1243ef643EB39b0AcbC2e68E3",
-    V_TOKEN: "0x59e8E9100cbfCBCBAdf86b9279fa61526bBB8765",
-    INTEREST_RATE_STRATEGY: "0x8772DFbF52D03F11B43e31cf04bBcc64aE0a8cb9",
-    ORACLE: "0x327e23A4855b6F663a28c5161541d69Af8973302"
-  },
-  AAVE: {
-    UNDERLYING: "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-    decimals: 18,
-    A_TOKEN: "0x1d2a0E5EC8E5bBDCA5CB219e649B565d8e5c3360",
-    S_TOKEN: "0x17912140e780B29Ba01381F088f21E8d75F954F9",
-    V_TOKEN: "0x1c313e9d0d826662F5CE692134D938656F681350",
-    INTEREST_RATE_STRATEGY: "0xae9b3Eb616ed753dcE96C75B6AE30A60Ff9290B4",
-    ORACLE: "0xbE23a3AA13038CfC28aFd0ECe4FdE379fE7fBfc4"
-  },
-  GHST: {
-    UNDERLYING: "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-    decimals: 18,
-    A_TOKEN: "0x080b5BF8f360F624628E0fb961F4e67c9e3c7CF1",
-    S_TOKEN: "0x6A01Db46Ae51B19A6B85be38f1AA102d8735d05b",
-    V_TOKEN: "0x36e988a38542C3482013Bb54ee46aC1fb1efedcd",
-    INTEREST_RATE_STRATEGY: "0xcCDb78f82EF5fECCC6864Aa00F2D7dF3FE00474C",
-    ORACLE: "0xe638249AF9642CdA55A92245525268482eE4C67b"
-  },
-  BAL: {
-    UNDERLYING: "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
-    decimals: 18,
-    A_TOKEN: "0xc4195D4060DaEac44058Ed668AA5EfEc50D77ff6",
-    S_TOKEN: "0xbC30bbe0472E0E86b6f395f9876B950A13B23923",
-    V_TOKEN: "0x773E0e32e7b6a00b7cA9daa85dfba9D61B7f2574",
-    INTEREST_RATE_STRATEGY: "0x8a4aC83162258E04786355163De913AbE3247CdD",
-    ORACLE: "0x03CD157746c61F44597dD54C6f6702105258C722"
-  },
-  DPI: {
-    UNDERLYING: "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
-    decimals: 18,
-    A_TOKEN: "0x81fB82aAcB4aBE262fc57F06fD4c1d2De347D7B1",
-    S_TOKEN: "0xA742710c0244a8Ebcf533368e3f0B956B6E53F7B",
-    V_TOKEN: "0x43150AA0B7e19293D935A412C8607f9172d3d3f3",
-    INTEREST_RATE_STRATEGY: "0x6405F880E431403588e92b241Ca15603047ef8a4",
-    ORACLE: "0xC70aAF9092De3a4E5000956E672cDf5E996B4610"
-  },
-  CRV: {
-    UNDERLYING: "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-    decimals: 18,
-    A_TOKEN: "0x3Df8f92b7E798820ddcCA2EBEA7BAbda2c90c4aD",
-    S_TOKEN: "0x807c97744e6C9452e7C2914d78f49d171a9974a0",
-    V_TOKEN: "0x780BbcBCda2cdb0d2c61fd9BC68c9046B18f3229",
-    INTEREST_RATE_STRATEGY: "0x3a1ea739797FcF684c0934F07A3D84C489e24022",
-    ORACLE: "0x1CF68C76803c9A415bE301f50E82e44c64B7F1D4"
-  },
-  SUSHI: {
-    UNDERLYING: "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
-    decimals: 18,
-    A_TOKEN: "0x21eC9431B5B55c5339Eb1AE7582763087F98FAc2",
-    S_TOKEN: "0x7Ed588DCb30Ea11A54D8a5E9645960262A97cd54",
-    V_TOKEN: "0x9CB9fEaFA73bF392C905eEbf5669ad3d073c3DFC",
-    INTEREST_RATE_STRATEGY: "0x835699Bf98f6a7fDe5713c42c118Fb80fA059737",
-    ORACLE: "0x17414Eb5159A082e8d41D243C1601c2944401431"
-  },
-  LINK: {
-    UNDERLYING: "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-    decimals: 18,
-    A_TOKEN: "0x0Ca2e42e8c21954af73Bc9af1213E4e81D6a669A",
-    S_TOKEN: "0x9fb7F546E60DDFaA242CAeF146FA2f4172088117",
-    V_TOKEN: "0xCC71e4A38c974e19bdBC6C0C19b63b8520b1Bb09",
-    INTEREST_RATE_STRATEGY: "0x124e69DE782F966fbFBb6F09F92DcDd705418cc8",
-    ORACLE: "0xb77fa460604b9C6435A235D057F7D319AC83cb53"
-  }
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV2Mumbai.mjs
-var AaveV2Mumbai_exports = {};
-__export(AaveV2Mumbai_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER4,
-  ASSETS: () => ASSETS4,
-  CHAIN_ID: () => CHAIN_ID4,
-  COLLECTOR: () => COLLECTOR4,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER4,
-  EMERGENCY_ADMIN: () => EMERGENCY_ADMIN4,
-  EMISSION_MANAGER: () => EMISSION_MANAGER4,
-  FAUCET: () => FAUCET,
-  LENDING_RATE_ORACLE: () => LENDING_RATE_ORACLE4,
-  ORACLE: () => ORACLE4,
-  POOL: () => POOL4,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER4,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY4,
-  POOL_ADMIN: () => POOL_ADMIN4,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR4,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER4,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER4,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER4,
-  WETH_GATEWAY: () => WETH_GATEWAY4
-});
-var POOL_ADDRESSES_PROVIDER4 = "0x178113104fEcbcD7fF8669a0150721e231F0FD4B";
-var POOL4 = "0x9198F13B08E299d85E096929fA9781A1E3d5d827";
-var POOL_CONFIGURATOR4 = "0xc3c37E2aA3dc66464fa3C29ce2a6EC85beFC45e1";
-var ORACLE4 = "0xC365C653f7229894F93994CD0b30947Ab69Ff1D5";
-var LENDING_RATE_ORACLE4 = "0xC661e1445F9a8E5FD3C3dbCa0A0A2e8CBc79725D";
-var AAVE_PROTOCOL_DATA_PROVIDER4 = "0xFA3bD19110d986c5e5E9DD5F69362d05035D045B";
-var POOL_ADMIN4 = "0x943E44157dC0302a5CEb172374d1749018a00994";
-var EMERGENCY_ADMIN4 = "0x943E44157dC0302a5CEb172374d1749018a00994";
-var COLLECTOR4 = "0x943E44157dC0302a5CEb172374d1749018a00994";
-var DEFAULT_INCENTIVES_CONTROLLER4 = "0xd41aE58e803Edf4304334acCE4DC4Ec34a63C644";
-var EMISSION_MANAGER4 = "0x943E44157dC0302a5CEb172374d1749018a00994";
-var FAUCET = "0x0b3C23243106A69449e79C14c58BB49E358f9B10";
-var POOL_ADDRESSES_PROVIDER_REGISTRY4 = "0xE6ef11C967898F9525D550014FDEdCFAB63536B5";
-var UI_INCENTIVE_DATA_PROVIDER4 = "0x070a7D8F4d7A7A87452C5BaBaB3158e08411907E";
-var UI_POOL_DATA_PROVIDER4 = "0xb36a91b1deF63B603896290F6a888c774328519A";
-var WALLET_BALANCE_PROVIDER4 = "0xEe7c0172c200e12AFEa3C34837052ec52F3f367A";
-var WETH_GATEWAY4 = "0xee9eE614Ad26963bEc1Bec0D2c92879ae1F209fA";
-var CHAIN_ID4 = 80001;
-var ASSETS4 = {
-  DAI: {
-    UNDERLYING: "0x001B3B4d0F3714Ca98ba10F6042DaEbF0B1B7b6F",
-    decimals: 18,
-    A_TOKEN: "0x639cB7b21ee2161DF9c882483C9D55c90c20Ca3e",
-    S_TOKEN: "0x10dec6dF64d0ebD271c8AdD492Af4F5594358919",
-    V_TOKEN: "0x6D29322ba6549B95e98E9B08033F5ffb857f19c5",
-    INTEREST_RATE_STRATEGY: "0x1f5Ee28A9BD5810BA9Eb877A555a2C15527D3484",
-    ORACLE: "0x0000000000000000000000000000000000000000"
-  },
-  USDC: {
-    UNDERLYING: "0x2058A9D7613eEE744279e3856Ef0eAda5FCbaA7e",
-    decimals: 6,
-    A_TOKEN: "0x2271e3Fef9e15046d09E1d78a8FF038c691E9Cf9",
-    S_TOKEN: "0x83A7bC369cFd55D9F00267318b6D221fb9Fa739F",
-    V_TOKEN: "0x05771A896327ee702F965FB6E4A35A9A57C84a2a",
-    INTEREST_RATE_STRATEGY: "0x63Afbf8a706C23B81ECF892d818170d2A423b01d",
-    ORACLE: "0x0000000000000000000000000000000000000000"
-  },
-  USDT: {
-    UNDERLYING: "0xBD21A10F619BE90d6066c941b04e340841F1F989",
-    decimals: 6,
-    A_TOKEN: "0xF8744C0bD8C7adeA522d6DDE2298b17284A79D1b",
-    S_TOKEN: "0xdD250d4e7ff5f7414F3EBe8fcBbB13583191BDaC",
-    V_TOKEN: "0x6C0a86573a63672D8a66C037036e441A59086d68",
-    INTEREST_RATE_STRATEGY: "0x63Afbf8a706C23B81ECF892d818170d2A423b01d",
-    ORACLE: "0x0000000000000000000000000000000000000000"
-  },
-  WBTC: {
-    UNDERLYING: "0x0d787a4a1548f673ed375445535a6c7A1EE56180",
-    decimals: 8,
-    A_TOKEN: "0xc9276ECa6798A14f64eC33a526b547DAd50bDa2F",
-    S_TOKEN: "0x29A36d45e8d9f446EC9529b28907bc850B398154",
-    V_TOKEN: "0xc156967272b7177DcE40E3b3E7c4269f750F3160",
-    INTEREST_RATE_STRATEGY: "0x88cf62ff6bDd02ca43840645dE26F8CDb6De2941",
-    ORACLE: "0x0000000000000000000000000000000000000000"
-  },
-  WETH: {
-    UNDERLYING: "0x3C68CE8504087f89c640D02d133646d98e64ddd9",
-    decimals: 18,
-    A_TOKEN: "0x7aE20397Ca327721F013BB9e140C707F82871b56",
-    S_TOKEN: "0x35D88812d32b966da90db9F546fbf43553C4F35b",
-    V_TOKEN: "0x0F2656e068b77cdA65213Ef25705B728d5C73340",
-    INTEREST_RATE_STRATEGY: "0x50a2bf8f96826E9Bfe7fbb94fFbA5790d44B92D1",
-    ORACLE: "0x0000000000000000000000000000000000000000"
-  },
-  WMATIC: {
-    UNDERLYING: "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
-    decimals: 18,
-    A_TOKEN: "0xF45444171435d0aCB08a8af493837eF18e86EE27",
-    S_TOKEN: "0xfeedbD76ac61616f270911CCaBb43a36380f40ae",
-    V_TOKEN: "0x11b884339E453E3d66A8E22246782D40E62cB5F2",
-    INTEREST_RATE_STRATEGY: "0x8A3Cc6F77BE0a10b60A34bE2316707555Fd634dF",
-    ORACLE: "0x0000000000000000000000000000000000000000"
-  },
-  AAVE: {
-    UNDERLYING: "0x341d1f30e77D3FBfbD43D17183E2acb9dF25574E",
-    decimals: 18,
-    A_TOKEN: "0x7ec62b6fC19174255335C8f4346E0C2fcf870a6B",
-    S_TOKEN: "0x14bD9790e15294608Df4160dcF45B64adBFdCBaA",
-    V_TOKEN: "0x5A6659794E3Fe10eee90833B36a4819953AaB9A1",
-    INTEREST_RATE_STRATEGY: "0x624dCF5e81a0aA7fE0096447c63113c984DDC0F8",
-    ORACLE: "0x0000000000000000000000000000000000000000"
-  }
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV2Goerli.mjs
-var AaveV2Goerli_exports = {};
-__export(AaveV2Goerli_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER5,
-  ASSETS: () => ASSETS5,
-  CHAIN_ID: () => CHAIN_ID5,
-  COLLECTOR: () => COLLECTOR5,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER5,
-  EMERGENCY_ADMIN: () => EMERGENCY_ADMIN5,
-  EMISSION_MANAGER: () => EMISSION_MANAGER5,
-  FAUCET: () => FAUCET2,
-  LENDING_RATE_ORACLE: () => LENDING_RATE_ORACLE5,
-  ORACLE: () => ORACLE5,
-  POOL: () => POOL5,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER5,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY5,
-  POOL_ADMIN: () => POOL_ADMIN5,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR5,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER5,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER5,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER5,
-  WETH_GATEWAY: () => WETH_GATEWAY5
-});
-var POOL_ADDRESSES_PROVIDER5 = "0x5E52dEc931FFb32f609681B8438A51c675cc232d";
-var POOL5 = "0x4bd5643ac6f66a5237E18bfA7d47cF22f1c9F210";
-var POOL_CONFIGURATOR5 = "0x88B1D3d97656De3Ec44FEDDfa109AF7fb8C2837D";
-var ORACLE5 = "0x2cb0d5755436ED904D7D0fbBACc6176286c55667";
-var LENDING_RATE_ORACLE5 = "0x76aFA2b6C29E1B277A3BB1CD320b2756c1674c91";
-var AAVE_PROTOCOL_DATA_PROVIDER5 = "0x0000000000000000000000000000000000000000";
-var POOL_ADMIN5 = "0x77c45699A715A64A7a7796d5CEe884cf617D5254";
-var EMERGENCY_ADMIN5 = "0x77c45699A715A64A7a7796d5CEe884cf617D5254";
-var COLLECTOR5 = "0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c";
-var DEFAULT_INCENTIVES_CONTROLLER5 = "0x0000000000000000000000000000000000000000";
-var EMISSION_MANAGER5 = "0x0000000000000000000000000000000000000000";
-var FAUCET2 = "0x681860075529352da2C94082Eb66c59dF958e89C";
-var POOL_ADDRESSES_PROVIDER_REGISTRY5 = "0x3465454D658019f8A0eABD3bC61d2d1Dd3a0735F";
-var UI_INCENTIVE_DATA_PROVIDER5 = "0xA2E05bE2090b3658A264bdf1C39387f5Dba367Ec";
-var UI_POOL_DATA_PROVIDER5 = "0xaaa2872d1F7f5ceb630Cb736BcA34Ff1e121992b";
-var WALLET_BALANCE_PROVIDER5 = "0xf1E4A6E7FA07421FD5139Ba0848290A27e22db7f";
-var WETH_GATEWAY5 = "0x3bd3a20Ac9Ff1dda1D99C0dFCE6D65C4960B3627";
-var CHAIN_ID5 = 5;
-var ASSETS5 = {
-  AAVE: {
-    UNDERLYING: "0x0B7a69d978DdA361Db5356D4Bd0206496aFbDD96",
-    decimals: 18,
-    A_TOKEN: "0x5fDF09EE06219f96EffE1b4CC47f44A630C5A358",
-    S_TOKEN: "0x2ab21c55DAC613a3C2E2D40De0e5df270BaFec4C",
-    V_TOKEN: "0x299D037785b53305494A8Ef3e89c47e7E23efe58",
-    INTEREST_RATE_STRATEGY: "0x8A813e6D77C81150C105E7d289Dc5C5a978AEC55",
-    ORACLE: "0xA560B50B8f0E581ea78CE298164847aC9BeA4fb6"
-  },
-  BAT: {
-    UNDERLYING: "0x515614aA3d8f09152b1289848383A260c7D053Ff",
-    decimals: 18,
-    A_TOKEN: "0x41355876CEC93c43cE4e784ce1b5f5e62557D2e2",
-    S_TOKEN: "0x14DA7b36d17812cc5fD8C171D3c573f5E78823e3",
-    V_TOKEN: "0xE34A49958A50346d9616fB5f8C601A67CD07aC84",
-    INTEREST_RATE_STRATEGY: "0x27CB509546d146405bAa546Ad1EFf8Dceb8E6Ab5",
-    ORACLE: "0x7B63e2E48aFE0a31B77a81503955B88DCEeB6b4A"
-  },
-  BUSD: {
-    UNDERLYING: "0xa7c3Bf25FFeA8605B516Cf878B7435fe1768c89b",
-    decimals: 18,
-    A_TOKEN: "0xabd2878A23cba83F1e9790635e09e494b8E21333",
-    S_TOKEN: "0xB14F9C379eBeBE76C8881D7104bcb50d50aFC1c2",
-    V_TOKEN: "0xD078EAEA33DCA2bE04Ef1511F7c73D78F06f9abe",
-    INTEREST_RATE_STRATEGY: "0x91294621A9d131D3224DAE80FAD2b875fd4C72C4",
-    ORACLE: "0xd24472e139C6f603Cc513115e496e133562aCfDe"
-  },
-  DAI: {
-    UNDERLYING: "0x75Ab5AB1Eef154C0352Fc31D2428Cef80C7F8B33",
-    decimals: 18,
-    A_TOKEN: "0x31f30d9A5627eAfeC4433Ae2886Cf6cc3D25E772",
-    S_TOKEN: "0x80bECEc53542B4C85ccf9D51c1cbaB4A5C624637",
-    V_TOKEN: "0x40e63a0143da87aC2cd22EC08CE55535cB53ee80",
-    INTEREST_RATE_STRATEGY: "0xB7c2CE9e6949F64DF5Df67c731cE773C2ACfAA67",
-    ORACLE: "0x02441b619A76fD597bcd3f9cD29DdFdd30F09831"
-  },
-  ENJ: {
-    UNDERLYING: "0x1057DCaa0b66dFBcEc5241fD51F4326C210f201F",
-    decimals: 18,
-    A_TOKEN: "0x3DB016c45090337e989C882F47Cf1Dc51fB6dE1B",
-    S_TOKEN: "0x8733524Ca21c3089e787C7972A4DF0d5f50b315b",
-    V_TOKEN: "0x2861E9f276b82BCbef0e973fF4E17Dd25bCE8346",
-    INTEREST_RATE_STRATEGY: "0x27CB509546d146405bAa546Ad1EFf8Dceb8E6Ab5",
-    ORACLE: "0x521d5E72d0Ccc72AE04dF42804d9A81340f653C3"
-  },
-  KNC: {
-    UNDERLYING: "0x54Bc1D59873A5ABde98cf76B6EcF4075ff65d685",
-    decimals: 18,
-    A_TOKEN: "0x7D5e39D49Ca107b49Fd4c6cF777B04bdA79a675C",
-    S_TOKEN: "0x62d1Fc8a330F4A01De9770B38695F339bB987164",
-    V_TOKEN: "0x4758f759257CC24292d90c2c0A1D27Cd7D4f5B19",
-    INTEREST_RATE_STRATEGY: "0xC2229F23Dccc5472521499F8464e9fe2aa94d600",
-    ORACLE: "0x05375D2446593BEA44FEc4247696610aE58c1172"
-  },
-  LINK: {
-    UNDERLYING: "0x7337e7FF9abc45c0e43f130C136a072F4794d40b",
-    decimals: 18,
-    A_TOKEN: "0x8c8cc9b893b6962409BCEaAFCA95d1044ce809bc",
-    S_TOKEN: "0x8fc66637ab88f13c92F60D6BD509cc151187D93f",
-    V_TOKEN: "0xb0B37762c1d2aa2370D1da9e0276d45240BbD632",
-    INTEREST_RATE_STRATEGY: "0x27CB509546d146405bAa546Ad1EFf8Dceb8E6Ab5",
-    ORACLE: "0xE182379be13347F1Ba703080A1Df536E5e26326E"
-  },
-  MANA: {
-    UNDERLYING: "0x8d9EAc6f25470EFfD68f0AD22993CB2813c0c9B9",
-    decimals: 18,
-    A_TOKEN: "0x71d4C18Ce2bd9889E17099B1552D0b92FAe15731",
-    S_TOKEN: "0x935bb070195A5cFe2E30890f4D672b1e361a20a6",
-    V_TOKEN: "0x6E67bbCE6d126b9B09F974723cC2df83506F2a13",
-    INTEREST_RATE_STRATEGY: "0x27CB509546d146405bAa546Ad1EFf8Dceb8E6Ab5",
-    ORACLE: "0xD280748c384C17A4ef96b6c2d06D410C0355dB24"
-  },
-  MKR: {
-    UNDERLYING: "0x90be02599452FBC1a3D47E9EB62895330cfA05Ed",
-    decimals: 18,
-    A_TOKEN: "0xd77332d9FA5299010b403bB4f768ACb2d2E8A8a6",
-    S_TOKEN: "0x2e5549073cbC537f77393bE12c2e4220bc7146f1",
-    V_TOKEN: "0x80911c6784E6487A2E5670CAeBa6DdE3c80836A7",
-    INTEREST_RATE_STRATEGY: "0x27CB509546d146405bAa546Ad1EFf8Dceb8E6Ab5",
-    ORACLE: "0x209b874eC955659dfD88eB27fBF4B4ECF40C424D"
-  },
-  REN: {
-    UNDERLYING: "0x3160F3f3B55eF85d0D27f04A2d74d426c32de842",
-    decimals: 18,
-    A_TOKEN: "0x2A4B55A3229470BE6Bc78f1b534Cfe8064107407",
-    S_TOKEN: "0xfBf071aDd7414B81E7b6eBF1a4Def16Cc523221f",
-    V_TOKEN: "0x5e8d588EFf65787657Eb48eBD64E739b1C7eF177",
-    INTEREST_RATE_STRATEGY: "0x27CB509546d146405bAa546Ad1EFf8Dceb8E6Ab5",
-    ORACLE: "0x36d01Eb525312B1fac515a5a672E4F90b23Ec0Fe"
-  },
-  SNX: {
-    UNDERLYING: "0xFc1Ab0379db4B6ad8Bf5Bc1382e108a341E2EaBb",
-    decimals: 18,
-    A_TOKEN: "0x1Fad08D99F66fe709f4c4d7D81268d6fd380a20f",
-    S_TOKEN: "0x8E2890B0c234Cea38FDfe7d70E6B496004d81f35",
-    V_TOKEN: "0x50b60ff9591883b14ABCC5395e0218641c8aFFd3",
-    INTEREST_RATE_STRATEGY: "0xF0aE741290d7a7bEC227F60E4A67Fa0030e091b1",
-    ORACLE: "0x9AD6Cf2673954f7c95B7C477760bA36B3208ff60"
-  },
-  SUSD: {
-    UNDERLYING: "0x4e62eB262948671590b8D967BDE048557bdd03eD",
-    decimals: 18,
-    A_TOKEN: "0xb997a147657a9295137e54c6C19ECF9e97Eb4b36",
-    S_TOKEN: "0x07836D13e93342EA05477244c2f38B9C41C99A0D",
-    V_TOKEN: "0xA2b3b3Bc809d45a535da603485D9CFcE7658BEC1",
-    INTEREST_RATE_STRATEGY: "0x91294621A9d131D3224DAE80FAD2b875fd4C72C4",
-    ORACLE: "0xde8fe461AC54e86DE63354Fad75182BB5A8974a3"
-  },
-  TUSD: {
-    UNDERLYING: "0xc048C1b6ac47393F073dA2b3d5D1cc43b94891Fd",
-    decimals: 18,
-    A_TOKEN: "0x37416BA913324Bc0eEB60f27d5897d8A6A75028b",
-    S_TOKEN: "0x5C5B7b4cf294c060204Cf3123502d264C0c88f26",
-    V_TOKEN: "0x485e3336934d45cC41112D04287ED1f3C9c84B3f",
-    INTEREST_RATE_STRATEGY: "0xB7c2CE9e6949F64DF5Df67c731cE773C2ACfAA67",
-    ORACLE: "0x8a3cc8721ef1E190a729487cD86cE13cE4f96b79"
-  },
-  UNI: {
-    UNDERLYING: "0x981D8AcaF6af3a46785e7741d22fBE81B25Ebf1e",
-    decimals: 18,
-    A_TOKEN: "0x6Ea7776f7d217b41Dc44684Da6f9FcD4eb9642C3",
-    S_TOKEN: "0xE36213372341F7422ec42D375EEAd34946420db2",
-    V_TOKEN: "0x111f523Fc4b9451871980324c1A32CA14E90D375",
-    INTEREST_RATE_STRATEGY: "0xF0aE741290d7a7bEC227F60E4A67Fa0030e091b1",
-    ORACLE: "0xb73532a13a2dEB924E341d561E4928A6bba277f8"
-  },
-  USDC: {
-    UNDERLYING: "0x9FD21bE27A2B059a288229361E2fA632D8D2d074",
-    decimals: 6,
-    A_TOKEN: "0x935c0F6019b05C787573B5e6176681282A3f3E05",
-    S_TOKEN: "0x82f69F0aa86BC4A2daD63b2DA13A43548F15dE23",
-    V_TOKEN: "0xcfc2d9b9498cBd6F71E5E46d46082C76C4F6C695",
-    INTEREST_RATE_STRATEGY: "0x1d53029A5778cfAE0DE1F4e633c94f3878A4A35C",
-    ORACLE: "0x765ca9DA8d64BeBed5C00f61327a5ED2716d4f76"
-  },
-  USDT: {
-    UNDERLYING: "0x65E2fe35C30eC218b46266F89847c63c2eDa7Dc7",
-    decimals: 6,
-    A_TOKEN: "0xDCb84F51dd4BeA1ce4b6118F087B260a71BB656c",
-    S_TOKEN: "0xe92E940B939a6108C9C4dE3aF29A55286Cd6cC92",
-    V_TOKEN: "0x5684765693E499E40BB90d36f8BdEf69B755D740",
-    INTEREST_RATE_STRATEGY: "0x1d53029A5778cfAE0DE1F4e633c94f3878A4A35C",
-    ORACLE: "0x94a30399Bf8f00e791A92201D8348330b90b73b7"
-  },
-  WBTC: {
-    UNDERLYING: "0xf4423F4152966eBb106261740da907662A3569C5",
-    decimals: 8,
-    A_TOKEN: "0x2f8274ce7fB939014e657e480e9ed3e1131f242B",
-    S_TOKEN: "0x5744FE36A565637C10911f020779a048fA9ac5d4",
-    V_TOKEN: "0xdb2276bAC9F27A7AF8d608fFE21036303aa3486A",
-    INTEREST_RATE_STRATEGY: "0xC2229F23Dccc5472521499F8464e9fe2aa94d600",
-    ORACLE: "0x6301212A7Bda43a20C1e4C713071612d3f1DC892"
-  },
-  WETH: {
-    UNDERLYING: "0xCCa7d1416518D095E729904aAeA087dBA749A4dC",
-    decimals: 18,
-    A_TOKEN: "0x22404B0e2a7067068AcdaDd8f9D586F834cCe2c5",
-    S_TOKEN: "0x2D9038076C16F152B6Ab5391644DB8e3E88C3723",
-    V_TOKEN: "0xE3F7fEe1F71F1227007575931B62B94076549989",
-    INTEREST_RATE_STRATEGY: "0xA9464a84A26c439bf721BF2f5E1B14d5dE13bE3B",
-    ORACLE: "0x0000000000000000000000000000000000000000"
-  },
-  YFI: {
-    UNDERLYING: "0x6c260F702B6Bb9AC989DA4B0fcbE7fddF8f749c4",
-    decimals: 18,
-    A_TOKEN: "0xAF299560160896eF72219F0e2Ea67d4653cE8251",
-    S_TOKEN: "0x4D6f1069B958ea197A1e38151e15bB33f403f78F",
-    V_TOKEN: "0xcCef241f5aa65f7344928cF460b7c7703fC8873d",
-    INTEREST_RATE_STRATEGY: "0x27CB509546d146405bAa546Ad1EFf8Dceb8E6Ab5",
-    ORACLE: "0x6d6fE84122952bcA8204B357e98DC69fbbC8F6b4"
-  },
-  ZRX: {
-    UNDERLYING: "0xAcFd03DdF9C68015E1943FB02b60c5df56C4CB9e",
-    decimals: 18,
-    A_TOKEN: "0x22af6D8C0cD02a4EbdF6f79B6181DcC565f0b18e",
-    S_TOKEN: "0x1d5094E61854380D458400e1B3f8b323CC87fD6C",
-    V_TOKEN: "0x97431382542b21fe7a2D293737799f5B7afbF0a9",
-    INTEREST_RATE_STRATEGY: "0x27CB509546d146405bAa546Ad1EFf8Dceb8E6Ab5",
-    ORACLE: "0xf64EBacCce1B7191B3d634E26cD1e867BE81F68b"
-  },
-  xSUSHI: {
-    UNDERLYING: "0x45E18E77b15A02a31507e948A546a509A50a2376",
-    decimals: 18,
-    A_TOKEN: "0x8C1d95Ed70e16664b0CFF72c31a536a68474A4eA",
-    S_TOKEN: "0xD97DfD88bA230fE7947683B5b5af280FAF6a2E87",
-    V_TOKEN: "0x710F5Ae6370ebb29c4aF779a5cB22C84C46b682c",
-    INTEREST_RATE_STRATEGY: "0x9EB27783621F175DbDc5825873434d250b81C329",
-    ORACLE: "0x41cbbA87B91Fcd5160a085E9b0d61bA20667D73b"
-  }
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV2Fuji.mjs
-var AaveV2Fuji_exports = {};
-__export(AaveV2Fuji_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER6,
-  ASSETS: () => ASSETS6,
-  CHAIN_ID: () => CHAIN_ID6,
-  COLLECTOR: () => COLLECTOR6,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER6,
-  EMERGENCY_ADMIN: () => EMERGENCY_ADMIN6,
-  EMISSION_MANAGER: () => EMISSION_MANAGER6,
-  FAUCET: () => FAUCET3,
-  LENDING_RATE_ORACLE: () => LENDING_RATE_ORACLE6,
-  ORACLE: () => ORACLE6,
-  POOL: () => POOL6,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER6,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY6,
-  POOL_ADMIN: () => POOL_ADMIN6,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR6,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER6,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER6,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER6,
-  WETH_GATEWAY: () => WETH_GATEWAY6
-});
-var POOL_ADDRESSES_PROVIDER6 = "0x7fdC1FdF79BE3309bf82f4abdAD9f111A6590C0f";
-var POOL6 = "0x76cc67FF2CC77821A70ED14321111Ce381C2594D";
-var POOL_CONFIGURATOR6 = "0x4ceBAFAAcc6Cb26FD90E4cDe138Eb812442bb5f3";
-var ORACLE6 = "0xfa4f5B081632c4709667D467F817C09d9008A46A";
-var LENDING_RATE_ORACLE6 = "0x76Ec7c83aCb6af821E61F1DF1E0aBE684Bc904F8";
-var AAVE_PROTOCOL_DATA_PROVIDER6 = "0x0668EDE013c1c475724523409b8B6bE633469585";
-var POOL_ADMIN6 = "0x1128d177BdaA74Ae68EB06e693f4CbA6BF427a5e";
-var EMERGENCY_ADMIN6 = "0x1128d177BdaA74Ae68EB06e693f4CbA6BF427a5e";
-var COLLECTOR6 = "0xB45F5C501A22288dfdb897e5f73E189597e09288";
-var DEFAULT_INCENTIVES_CONTROLLER6 = "0xa1EF206fb9a8D8186157FC817fCddcC47727ED55";
-var EMISSION_MANAGER6 = "0x3b60cABB2C0e9ADe3e364b1F9752342A5D6079e2";
-var FAUCET3 = "0x90E5BAc5A98fff59617080848959f44eACB4Cd7B";
-var POOL_ADDRESSES_PROVIDER_REGISTRY6 = "0x04A6Fa9999E3C807Ee7b6Ca58eFAb93713d405BF";
-var UI_INCENTIVE_DATA_PROVIDER6 = "0x9842E5B7b7C6cEDfB1952a388e050582Ff95645b";
-var UI_POOL_DATA_PROVIDER6 = "0x88b4013f8C50e61ab027Cc253ab9a50663e2dF45";
-var WALLET_BALANCE_PROVIDER6 = "0x3f5A507B33260a3869878B31FB90F04F451d28e3";
-var WETH_GATEWAY6 = "0x1648C14DbB6ccdd5846969cE23DeEC4C66a03335";
-var CHAIN_ID6 = 43113;
-var ASSETS6 = {
-  WETH: {
-    UNDERLYING: "0x9668f5f55f2712Dd2dfa316256609b516292D554",
-    decimals: 18,
-    A_TOKEN: "0x2B2927e26b433D92fC598EE79Fa351d6591B8F95",
-    S_TOKEN: "0x056AaAc3aAf49d00C4fA10bCf9661D2371427ECB",
-    V_TOKEN: "0xB61CC359E2133b8618cc0319F359F8CA1d3d2b33",
-    INTEREST_RATE_STRATEGY: "0x79bA34079AA04E5d5b25C29df03A3736a8eC7817",
-    ORACLE: "0x86d67c3D38D2bCeE722E601025C25a575021c6EA"
-  },
-  USDT: {
-    UNDERLYING: "0x02823f9B469960Bb3b1de0B3746D4b95B7E35543",
-    decimals: 6,
-    A_TOKEN: "0x5f049c41aF3856cBc171F61FB04D58C1e7445f5F",
-    S_TOKEN: "0x8c5a8eB9dd4e029c1A5B9e740086eB6Cf4Ba7F13",
-    V_TOKEN: "0x6422A7C91A48dD211BF6BdE1Db14d7734f9cbD69",
-    INTEREST_RATE_STRATEGY: "0xC49F727470A367f29Bf4F55B53b4531a26E61E05",
-    ORACLE: "0x7898AcCC83587C3C55116c5230C17a6Cd9C71bad"
-  },
-  WBTC: {
-    UNDERLYING: "0x9C1DCacB57ADa1E9e2D3a8280B7cfC7EB936186F",
-    decimals: 8,
-    A_TOKEN: "0xD5B516FDbfb7264676Fd4901B9dD3F707db68733",
-    S_TOKEN: "0x38A9d8f89Cf87FD4C50dd7B019b9af30c2540512",
-    V_TOKEN: "0xbd0601970fE5b35649Fb92f292cde21f0f52eAE9",
-    INTEREST_RATE_STRATEGY: "0xC58e46e20B11192Ecb90a8735362e3b633960bf5",
-    ORACLE: "0x31CF013A08c6Ac228C94551d535d5BAfE19c602a"
-  },
-  WAVAX: {
-    UNDERLYING: "0xd00ae08403B9bbb9124bB305C09058E32C39A48c",
-    decimals: 18,
-    A_TOKEN: "0xf8C78Ba24DD965487f4472dfb280c46800a0c9B6",
-    S_TOKEN: "0xE1c2E4E85d34CAed5c29447135c3ADfaD30364f1",
-    V_TOKEN: "0x333f38B8E76077539Cde1d50Fb5dE0AC6F7E6837",
-    INTEREST_RATE_STRATEGY: "0xd720420A83FefC64aE9Ff776e5B36621D0989AB7",
-    ORACLE: "0x5498BB86BC934c8D34FDA08E81D444153d0D06aD"
-  }
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV2Avalanche.mjs
-var AaveV2Avalanche_exports = {};
-__export(AaveV2Avalanche_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER7,
-  ASSETS: () => ASSETS7,
-  CHAIN_ID: () => CHAIN_ID7,
-  COLLECTOR: () => COLLECTOR7,
-  CONFIG_ENGINE: () => CONFIG_ENGINE4,
-  DEBT_SWAP_ADAPTER: () => DEBT_SWAP_ADAPTER3,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER7,
-  EMERGENCY_ADMIN: () => EMERGENCY_ADMIN7,
-  EMISSION_MANAGER: () => EMISSION_MANAGER7,
-  LENDING_RATE_ORACLE: () => LENDING_RATE_ORACLE7,
-  MIGRATION_HELPER: () => MIGRATION_HELPER4,
-  ORACLE: () => ORACLE7,
-  POOL: () => POOL7,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER7,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY7,
-  POOL_ADMIN: () => POOL_ADMIN7,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR7,
-  PROOF_OF_RESERVE: () => PROOF_OF_RESERVE,
-  PROOF_OF_RESERVE_AGGREGATOR: () => PROOF_OF_RESERVE_AGGREGATOR,
-  RATES_FACTORY: () => RATES_FACTORY4,
-  REPAY_WITH_COLLATERAL_ADAPTER: () => REPAY_WITH_COLLATERAL_ADAPTER3,
-  SWAP_COLLATERAL_ADAPTER: () => SWAP_COLLATERAL_ADAPTER3,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER7,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER7,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER7,
-  WETH_GATEWAY: () => WETH_GATEWAY7
-});
-var POOL_ADDRESSES_PROVIDER7 = "0xb6A86025F0FE1862B372cb0ca18CE3EDe02A318f";
-var POOL7 = "0x4F01AeD16D97E3aB5ab2B501154DC9bb0F1A5A2C";
-var POOL_CONFIGURATOR7 = "0x230B618aD4C475393A7239aE03630042281BD86e";
-var ORACLE7 = "0xdC336Cd4769f4cC7E9d726DA53e6d3fC710cEB89";
-var LENDING_RATE_ORACLE7 = "0xc34254642B504484465F38Cb1CC396d45a9c7c80";
-var AAVE_PROTOCOL_DATA_PROVIDER7 = "0x65285E9dfab318f57051ab2b139ccCf232945451";
-var POOL_ADMIN7 = "0x3C06dce358add17aAf230f2234bCCC4afd50d090";
-var EMERGENCY_ADMIN7 = "0xa35b76E4935449E33C56aB24b23fcd3246f13470";
-var COLLECTOR7 = "0x5ba7fd868c40c16f7aDfAe6CF87121E13FC2F7a0";
-var DEFAULT_INCENTIVES_CONTROLLER7 = "0x01D83Fe6A10D2f2B7AF17034343746188272cAc9";
-var EMISSION_MANAGER7 = "0x5CfCd7E6D055Ba4f7B998914336254aDE3F69f26";
-var DEBT_SWAP_ADAPTER3 = "0xc1D40f4cF36e4aE4108Ffa08818cD16c2d9aEF73";
-var CONFIG_ENGINE4 = "0x7902F3c60f05b5A6b7e4Ce0Cac11Cb17bC8e607c";
-var MIGRATION_HELPER4 = "0xf50a080aC535e531EC33cC05b227E910De2fb1fA";
-var POOL_ADDRESSES_PROVIDER_REGISTRY7 = "0x4235E22d9C3f28DCDA82b58276cb6370B01265C2";
-var PROOF_OF_RESERVE = "0x7fc3FCb14eF04A48Bb0c12f0c39CD74C249c37d8";
-var PROOF_OF_RESERVE_AGGREGATOR = "0x80f2c02224a2E548FC67c0bF705eBFA825dd5439";
-var RATES_FACTORY4 = "0x6e66E50870A93691C1b953788A3219e01fDdeDD7";
-var REPAY_WITH_COLLATERAL_ADAPTER3 = "0x935b362EE3E1f342cc48118C528AAbee5118F6e6";
-var SWAP_COLLATERAL_ADAPTER3 = "0x2EcF2a2e74B19Aab2a62312167aFF4B78E93B6C5";
-var UI_INCENTIVE_DATA_PROVIDER7 = "0x11979886A6dBAE27D7a72c49fCF3F23240D647bF";
-var UI_POOL_DATA_PROVIDER7 = "0x00e50FAB64eBB37b87df06Aa46b8B35d5f1A4e1A";
-var WALLET_BALANCE_PROVIDER7 = "0x73e4898a1Bfa9f710B6A6AB516403A6299e01fc6";
-var WETH_GATEWAY7 = "0xC27d4dBefc2C0CE57916a699971b58a3BD9C7d5b";
-var CHAIN_ID7 = 43114;
-var ASSETS7 = {
-  WETHe: {
-    UNDERLYING: "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
-    decimals: 18,
-    A_TOKEN: "0x53f7c5869a859F0AeC3D334ee8B4Cf01E3492f21",
-    S_TOKEN: "0x60F6A45006323B97d97cB0a42ac39e2b757ADA63",
-    V_TOKEN: "0x4e575CacB37bc1b5afEc68a0462c4165A5268983",
-    INTEREST_RATE_STRATEGY: "0x6724e923E4bb58fCdF7CEe7A5E7bBb47b99C2647",
-    ORACLE: "0x976B3D034E162d8bD72D6b9C989d545b839003b0"
-  },
-  DAIe: {
-    UNDERLYING: "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
-    decimals: 18,
-    A_TOKEN: "0x47AFa96Cdc9fAb46904A55a6ad4bf6660B53c38a",
-    S_TOKEN: "0x3676E4EE689D527dDb89812B63fAD0B7501772B3",
-    V_TOKEN: "0x1852DC24d1a8956a0B356AA18eDe954c7a0Ca5ae",
-    INTEREST_RATE_STRATEGY: "0xD96B68638bdbb625A49F5BAC0dC3B66764569d30",
-    ORACLE: "0x51D7180edA2260cc4F6e4EebB82FEF5c3c2B8300"
-  },
-  USDTe: {
-    UNDERLYING: "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
-    decimals: 6,
-    A_TOKEN: "0x532E6537FEA298397212F09A61e03311686f548e",
-    S_TOKEN: "0x9c7B81A867499B7387ed05017a13d4172a0c17bF",
-    V_TOKEN: "0xfc1AdA7A288d6fCe0d29CcfAAa57Bc9114bb2DbE",
-    INTEREST_RATE_STRATEGY: "0xD96B68638bdbb625A49F5BAC0dC3B66764569d30",
-    ORACLE: "0xEBE676ee90Fe1112671f19b6B7459bC678B67e8a"
-  },
-  USDCe: {
-    UNDERLYING: "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
-    decimals: 6,
-    A_TOKEN: "0x46A51127C3ce23fb7AB1DE06226147F446e4a857",
-    S_TOKEN: "0x5B14679135dbE8B02015ec3Ca4924a12E4C6C85a",
-    V_TOKEN: "0x848c080d2700CBE1B894a3374AD5E887E5cCb89c",
-    INTEREST_RATE_STRATEGY: "0xD96B68638bdbb625A49F5BAC0dC3B66764569d30",
-    ORACLE: "0xF096872672F44d6EBA71458D74fe67F9a77a23B9"
-  },
-  AAVEe: {
-    UNDERLYING: "0x63a72806098Bd3D9520cC43356dD78afe5D386D9",
-    decimals: 18,
-    A_TOKEN: "0xD45B7c061016102f9FA220502908f2c0f1add1D7",
-    S_TOKEN: "0x66904E4F3f44e3925D22ceca401b6F2DA085c98f",
-    V_TOKEN: "0x8352E3fd18B8d84D3c8a1b538d788899073c7A8E",
-    INTEREST_RATE_STRATEGY: "0x6724e923E4bb58fCdF7CEe7A5E7bBb47b99C2647",
-    ORACLE: "0x3CA13391E9fb38a75330fb28f8cc2eB3D9ceceED"
-  },
-  WBTCe: {
-    UNDERLYING: "0x50b7545627a5162F82A992c33b87aDc75187B218",
-    decimals: 8,
-    A_TOKEN: "0x686bEF2417b6Dc32C50a3cBfbCC3bb60E1e9a15D",
-    S_TOKEN: "0x3484408989985d68C9700dc1CFDFeAe6d2f658CF",
-    V_TOKEN: "0x2dc0E35eC3Ab070B8a175C829e23650Ee604a9eB",
-    INTEREST_RATE_STRATEGY: "0x6724e923E4bb58fCdF7CEe7A5E7bBb47b99C2647",
-    ORACLE: "0x2779D32d5166BAaa2B2b658333bA7e6Ec0C65743"
-  },
-  WAVAX: {
-    UNDERLYING: "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
-    decimals: 18,
-    A_TOKEN: "0xDFE521292EcE2A4f44242efBcD66Bc594CA9714B",
-    S_TOKEN: "0x2920CD5b8A160b2Addb00Ec5d5f4112255d4ae75",
-    V_TOKEN: "0x66A0FE52Fb629a6cB4D10B8580AFDffE888F5Fd4",
-    INTEREST_RATE_STRATEGY: "0x6724e923E4bb58fCdF7CEe7A5E7bBb47b99C2647",
-    ORACLE: "0x0A77230d17318075983913bC2145DB16C7366156"
-  }
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3Ethereum.mjs
-var AaveV3Ethereum_exports = {};
-__export(AaveV3Ethereum_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER8,
-  ACL_ADMIN: () => ACL_ADMIN,
-  ACL_MANAGER: () => ACL_MANAGER,
-  ASSETS: () => ASSETS8,
-  CAPS_PLUS_RISK_STEWARD: () => CAPS_PLUS_RISK_STEWARD,
-  CHAIN_ID: () => CHAIN_ID8,
-  COLLECTOR: () => COLLECTOR8,
-  CONFIG_ENGINE: () => CONFIG_ENGINE5,
-  DEBT_SWAP_ADAPTER: () => DEBT_SWAP_ADAPTER4,
-  DEFAULT_A_TOKEN_IMPL_REV_1: () => DEFAULT_A_TOKEN_IMPL_REV_1,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER8,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1,
-  DELEGATION_AWARE_A_TOKEN_IMPL_REV_1: () => DELEGATION_AWARE_A_TOKEN_IMPL_REV_1,
-  EMISSION_MANAGER: () => EMISSION_MANAGER8,
-  E_MODES: () => E_MODES,
-  FREEZING_STEWARD: () => FREEZING_STEWARD,
-  GHO_TOKEN: () => GHO_TOKEN,
-  ORACLE: () => ORACLE8,
-  POOL: () => POOL8,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER8,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY8,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR8,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL,
-  RATES_FACTORY: () => RATES_FACTORY5,
-  REPAY_WITH_COLLATERAL_ADAPTER: () => REPAY_WITH_COLLATERAL_ADAPTER4,
-  STATIC_A_TOKEN_FACTORY: () => STATIC_A_TOKEN_FACTORY,
-  SWAP_COLLATERAL_ADAPTER: () => SWAP_COLLATERAL_ADAPTER4,
-  UI_GHO_DATA_PROVIDER: () => UI_GHO_DATA_PROVIDER,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER8,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER8,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER8,
-  WETH_GATEWAY: () => WETH_GATEWAY8,
-  WITHDRAW_SWAP_ADAPTER: () => WITHDRAW_SWAP_ADAPTER
-});
-var POOL_ADDRESSES_PROVIDER8 = "0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e";
-var POOL8 = "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2";
-var POOL_CONFIGURATOR8 = "0x64b761D848206f447Fe2dd461b0c635Ec39EbB27";
-var ORACLE8 = "0x54586bE62E3c3580375aE3723C145253060Ca0C2";
-var PRICE_ORACLE_SENTINEL = "0x0000000000000000000000000000000000000000";
-var AAVE_PROTOCOL_DATA_PROVIDER8 = "0x7B4EB56E7CD4b454BA8ff71E4518426369a138a3";
-var ACL_MANAGER = "0xc2aaCf6553D20d1e9d78E365AAba8032af9c85b0";
-var ACL_ADMIN = "0x5300A1a15135EA4dc7aD5a167152C01EFc9b192A";
-var COLLECTOR8 = "0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c";
-var DEFAULT_INCENTIVES_CONTROLLER8 = "0x8164Cc65827dcFe994AB23944CBC90e0aa80bFcb";
-var DEFAULT_A_TOKEN_IMPL_REV_1 = "0x7EfFD7b47Bfd17e52fB7559d3f924201b9DbfF3d";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1 = "0xaC725CB59D16C81061BDeA61041a8A5e73DA9EC6";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1 = "0x15C5620dfFaC7c7366EED66C20Ad222DDbB1eD57";
-var EMISSION_MANAGER8 = "0x223d844fc4B006D67c0cDbd39371A9F73f69d974";
-var CAPS_PLUS_RISK_STEWARD = "0x82dcCF206Ae2Ab46E2099e663F70DeE77caE7778";
-var FREEZING_STEWARD = "0x2eE68ACb6A1319de1b49DC139894644E424fefD6";
-var DEBT_SWAP_ADAPTER4 = "0x8761e0370f94f68Db8EaA731f4fC581f6AD0Bd68";
-var DELEGATION_AWARE_A_TOKEN_IMPL_REV_1 = "0x21714092D90c7265F52fdfDae068EC11a23C6248";
-var GHO_TOKEN = "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f";
-var CONFIG_ENGINE5 = "0xA3e44d830440dF5098520F62Ebec285B1198c51E";
-var POOL_ADDRESSES_PROVIDER_REGISTRY8 = "0xbaA999AC55EAce41CcAE355c77809e68Bb345170";
-var RATES_FACTORY5 = "0xcC47c4Fe1F7f29ff31A8b62197023aC8553C7896";
-var REPAY_WITH_COLLATERAL_ADAPTER4 = "0x02e7B8511831B1b02d9018215a0f8f500Ea5c6B3";
-var STATIC_A_TOKEN_FACTORY = "0x17D0D723a6741C8E154594a8850D29D58Bcc9218";
-var SWAP_COLLATERAL_ADAPTER4 = "0xADC0A53095A0af87F3aa29FE0715B5c28016364e";
-var UI_GHO_DATA_PROVIDER = "0x379c1EDD1A41218bdbFf960a9d5AD2818Bf61aE8";
-var UI_INCENTIVE_DATA_PROVIDER8 = "0x162A7AC02f547ad796CA549f757e2b8d1D9b10a6";
-var UI_POOL_DATA_PROVIDER8 = "0x91c0eA31b49B69Ea18607702c5d9aC360bf3dE7d";
-var WALLET_BALANCE_PROVIDER8 = "0xC7be5307ba715ce89b152f3Df0658295b3dbA8E2";
-var WETH_GATEWAY8 = "0xD322A49006FC828F9B5B37Ab215F99B4E5caB19C";
-var WITHDRAW_SWAP_ADAPTER = "0x78F8Bd884C3D738B74B420540659c82f392820e0";
-var CHAIN_ID8 = 1;
-var ASSETS8 = {
-  WETH: {
-    decimals: 18,
-    UNDERLYING: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    A_TOKEN: "0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8",
-    S_TOKEN: "0x102633152313C81cD80419b6EcF66d14Ad68949A",
-    V_TOKEN: "0xeA51d7853EEFb32b6ee06b1C12E6dcCA88Be0fFE",
-    INTEREST_RATE_STRATEGY: "0xb02381b1d27aA9845e5012083CA288c1818884f0",
-    ORACLE: "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
-    STATA_TOKEN: "0x03928473f25bb2da6Bc880b07eCBaDC636822264"
-  },
-  wstETH: {
-    decimals: 18,
-    UNDERLYING: "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
-    A_TOKEN: "0x0B925eD163218f6662a35e0f0371Ac234f9E9371",
-    S_TOKEN: "0x39739943199c0fBFe9E5f1B5B160cd73a64CB85D",
-    V_TOKEN: "0xC96113eED8cAB59cD8A66813bCB0cEb29F06D2e4",
-    INTEREST_RATE_STRATEGY: "0x7b8Fa4540246554e77FCFf140f9114de00F8bB8D",
-    ORACLE: "0x8B6851156023f4f5A66F68BEA80851c3D905Ac93",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  WBTC: {
-    decimals: 8,
-    UNDERLYING: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-    A_TOKEN: "0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8",
-    S_TOKEN: "0xA1773F1ccF6DB192Ad8FE826D15fe1d328B03284",
-    V_TOKEN: "0x40aAbEf1aa8f0eEc637E0E7d92fbfFB2F26A8b7B",
-    INTEREST_RATE_STRATEGY: "0x07Fa3744FeC271F80c2EA97679823F65c13CCDf4",
-    ORACLE: "0x230E0321Cf38F09e247e50Afc7801EA2351fe56F",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  USDC: {
-    decimals: 6,
-    UNDERLYING: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    A_TOKEN: "0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c",
-    S_TOKEN: "0xB0fe3D292f4bd50De902Ba5bDF120Ad66E9d7a39",
-    V_TOKEN: "0x72E95b8931767C79bA4EeE721354d6E99a61D004",
-    INTEREST_RATE_STRATEGY: "0x8F183Ee74C790CB558232a141099b316D6C8Ba6E",
-    ORACLE: "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
-    STATA_TOKEN: "0x02c2d189b45CE213a40097b62D311cf0dD16eC92"
-  },
-  DAI: {
-    decimals: 18,
-    UNDERLYING: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-    A_TOKEN: "0x018008bfb33d285247A21d44E50697654f754e63",
-    S_TOKEN: "0x413AdaC9E2Ef8683ADf5DDAEce8f19613d60D1bb",
-    V_TOKEN: "0xcF8d0c70c850859266f5C338b38F9D663181C314",
-    INTEREST_RATE_STRATEGY: "0x9a158802cD924747EF336cA3F9DE3bdb60Cf43D3",
-    ORACLE: "0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9",
-    STATA_TOKEN: "0xEb708639E8e518B86a916db3685f90216b1C1c67"
-  },
-  LINK: {
-    decimals: 18,
-    UNDERLYING: "0x514910771AF9Ca656af840dff83E8264EcF986CA",
-    A_TOKEN: "0x5E8C8A7243651DB1384C0dDfDbE39761E8e7E51a",
-    S_TOKEN: "0x63B1129ca97D2b9F97f45670787Ac12a9dF1110a",
-    V_TOKEN: "0x4228F8895C7dDA20227F6a5c6751b8Ebf19a6ba8",
-    INTEREST_RATE_STRATEGY: "0x24701A6368Ff6D2874d6b8cDadd461552B8A5283",
-    ORACLE: "0x2c1d072e956AFFC0D435Cb7AC38EF18d24d9127c",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  AAVE: {
-    decimals: 18,
-    UNDERLYING: "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
-    A_TOKEN: "0xA700b4eB416Be35b2911fd5Dee80678ff64fF6C9",
-    S_TOKEN: "0x268497bF083388B1504270d0E717222d3A87D6F2",
-    V_TOKEN: "0xBae535520Abd9f8C85E58929e0006A2c8B372F74",
-    INTEREST_RATE_STRATEGY: "0x24701A6368Ff6D2874d6b8cDadd461552B8A5283",
-    ORACLE: "0x547a514d5e3769680Ce22B2361c10Ea13619e8a9",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  cbETH: {
-    decimals: 18,
-    UNDERLYING: "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
-    A_TOKEN: "0x977b6fc5dE62598B08C85AC8Cf2b745874E8b78c",
-    S_TOKEN: "0x82bE6012cea6D147B968eBAea5ceEcF6A5b4F493",
-    V_TOKEN: "0x0c91bcA95b5FE69164cE583A2ec9429A569798Ed",
-    INTEREST_RATE_STRATEGY: "0x24701A6368Ff6D2874d6b8cDadd461552B8A5283",
-    ORACLE: "0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  USDT: {
-    decimals: 6,
-    UNDERLYING: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-    A_TOKEN: "0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a",
-    S_TOKEN: "0x822Fa72Df1F229C3900f5AD6C3Fa2C424D691622",
-    V_TOKEN: "0x6df1C1E379bC5a00a7b4C6e67A203333772f45A8",
-    INTEREST_RATE_STRATEGY: "0xC82dF96432346cFb632473eB619Db3B8AC280234",
-    ORACLE: "0x3E7d1eAB13ad0104d2750B8863b489D65364e32D",
-    STATA_TOKEN: "0x65799b9fD4206CdaA4A1DB79254FCbc2Fd2fFEe6"
-  },
-  rETH: {
-    decimals: 18,
-    UNDERLYING: "0xae78736Cd615f374D3085123A210448E74Fc6393",
-    A_TOKEN: "0xCc9EE9483f662091a1de4795249E24aC0aC2630f",
-    S_TOKEN: "0x1d1906f909CAe494c7441604DAfDDDbD0485A925",
-    V_TOKEN: "0xae8593DD575FE29A9745056aA91C4b746eee62C8",
-    INTEREST_RATE_STRATEGY: "0x24701A6368Ff6D2874d6b8cDadd461552B8A5283",
-    ORACLE: "0x05225Cd708bCa9253789C1374e4337a019e99D56",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  LUSD: {
-    decimals: 18,
-    UNDERLYING: "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
-    A_TOKEN: "0x3Fe6a295459FAe07DF8A0ceCC36F37160FE86AA9",
-    S_TOKEN: "0x37A6B708FDB1483C231961b9a7F145261E815fc3",
-    V_TOKEN: "0x33652e48e4B74D18520f11BfE58Edd2ED2cEc5A2",
-    INTEREST_RATE_STRATEGY: "0x349684Da30f8c9Affeaf21AfAB3a1Ad51f5d95A3",
-    ORACLE: "0x3D7aE7E594f2f2091Ad8798313450130d0Aba3a0",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  CRV: {
-    decimals: 18,
-    UNDERLYING: "0xD533a949740bb3306d119CC777fa900bA034cd52",
-    A_TOKEN: "0x7B95Ec873268a6BFC6427e7a28e396Db9D0ebc65",
-    S_TOKEN: "0x90D9CD005E553111EB8C9c31Abe9706a186b6048",
-    V_TOKEN: "0x1b7D3F4b3c032a5AE656e30eeA4e8E1Ba376068F",
-    INTEREST_RATE_STRATEGY: "0x76884cAFeCf1f7d4146DA6C4053B18B76bf6ED14",
-    ORACLE: "0xCd627aA160A6fA45Eb793D19Ef54f5062F20f33f",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  MKR: {
-    decimals: 18,
-    UNDERLYING: "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
-    A_TOKEN: "0x8A458A9dc9048e005d22849F470891b840296619",
-    S_TOKEN: "0x0496372BE7e426D28E89DEBF01f19F014d5938bE",
-    V_TOKEN: "0x6Efc73E54E41b27d2134fF9f98F15550f30DF9B1",
-    INTEREST_RATE_STRATEGY: "0x27eFE5db315b71753b2a38ED3d5dd7E9362ba93F",
-    ORACLE: "0xec1D1B3b0443256cc3860e24a46F108e699484Aa",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  SNX: {
-    decimals: 18,
-    UNDERLYING: "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
-    A_TOKEN: "0xC7B4c17861357B8ABB91F25581E7263E08DCB59c",
-    S_TOKEN: "0x478E1ec1A2BeEd94c1407c951E4B9e22d53b2501",
-    V_TOKEN: "0x8d0de040e8aAd872eC3c33A3776dE9152D3c34ca",
-    INTEREST_RATE_STRATEGY: "0xA6459195d60A797D278f58Ffbd2BA62Fb3F7FA1E",
-    ORACLE: "0xDC3EA94CD0AC27d9A86C180091e7f78C683d3699",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  BAL: {
-    decimals: 18,
-    UNDERLYING: "0xba100000625a3754423978a60c9317c58a424e3D",
-    A_TOKEN: "0x2516E7B3F76294e03C42AA4c5b5b4DCE9C436fB8",
-    S_TOKEN: "0xB368d45aaAa07ee2c6275Cb320D140b22dE43CDD",
-    V_TOKEN: "0x3D3efceb4Ff0966D34d9545D3A2fa2dcdBf451f2",
-    INTEREST_RATE_STRATEGY: "0xd9d85499449f26d2A2c240defd75314f23920089",
-    ORACLE: "0xdF2917806E30300537aEB49A7663062F4d1F2b5F",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  UNI: {
-    decimals: 18,
-    UNDERLYING: "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
-    A_TOKEN: "0xF6D2224916DDFbbab6e6bd0D1B7034f4Ae0CaB18",
-    S_TOKEN: "0x2FEc76324A0463c46f32e74A86D1cf94C02158DC",
-    V_TOKEN: "0xF64178Ebd2E2719F2B1233bCb5Ef6DB4bCc4d09a",
-    INTEREST_RATE_STRATEGY: "0x27eFE5db315b71753b2a38ED3d5dd7E9362ba93F",
-    ORACLE: "0x553303d460EE0afB37EdFf9bE42922D8FF63220e",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  LDO: {
-    decimals: 18,
-    UNDERLYING: "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
-    A_TOKEN: "0x9A44fd41566876A39655f74971a3A6eA0a17a454",
-    S_TOKEN: "0xa0a5bF5781Aeb548db9d4226363B9e89287C5FD2",
-    V_TOKEN: "0xc30808705C01289A3D306ca9CAB081Ba9114eC82",
-    INTEREST_RATE_STRATEGY: "0x27eFE5db315b71753b2a38ED3d5dd7E9362ba93F",
-    ORACLE: "0xb01e6C9af83879B8e06a092f0DD94309c0D497E4",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  ENS: {
-    decimals: 18,
-    UNDERLYING: "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
-    A_TOKEN: "0x545bD6c032eFdde65A377A6719DEF2796C8E0f2e",
-    S_TOKEN: "0x7617d02E311CdE347A0cb45BB7DF2926BBaf5347",
-    V_TOKEN: "0xd180D7fdD4092f07428eFE801E17BC03576b3192",
-    INTEREST_RATE_STRATEGY: "0xf6733B9842883BFE0e0a940eA2F572676af31bde",
-    ORACLE: "0x5C00128d4d1c2F4f652C267d7bcdD7aC99C16E16",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  ONE_INCH: {
-    decimals: 18,
-    UNDERLYING: "0x111111111117dC0aa78b770fA6A738034120C302",
-    A_TOKEN: "0x71Aef7b30728b9BB371578f36c5A1f1502a5723e",
-    S_TOKEN: "0x4b62bFAff61AB3985798e5202D2d167F567D0BCD",
-    V_TOKEN: "0xA38fCa8c6Bf9BdA52E76EB78f08CaA3BE7c5A970",
-    INTEREST_RATE_STRATEGY: "0xf6733B9842883BFE0e0a940eA2F572676af31bde",
-    ORACLE: "0xc929ad75B72593967DE83E7F7Cda0493458261D9",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  FRAX: {
-    decimals: 18,
-    UNDERLYING: "0x853d955aCEf822Db058eb8505911ED77F175b99e",
-    A_TOKEN: "0xd4e245848d6E1220DBE62e155d89fa327E43CB06",
-    S_TOKEN: "0x219640546c0DFDDCb9ab3bcdA89B324e0a376367",
-    V_TOKEN: "0x88B8358F5BC87c2D7E116cCA5b65A9eEb2c5EA3F",
-    INTEREST_RATE_STRATEGY: "0x694d4cFdaeE639239df949b6E24Ff8576A00d1f2",
-    ORACLE: "0xB9E1E3A9feFf48998E45Fa90847ed4D467E8BcfD",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  GHO: {
-    decimals: 18,
-    UNDERLYING: "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
-    A_TOKEN: "0x00907f9921424583e7ffBfEdf84F92B7B2Be4977",
-    S_TOKEN: "0x3f3DF7266dA30102344A813F1a3D07f5F041B5AC",
-    V_TOKEN: "0x786dBff3f1292ae8F92ea68Cf93c30b34B1ed04B",
-    INTEREST_RATE_STRATEGY: "0x1255fC8DC8E76761995aCF544eea54f1B7fB0459",
-    ORACLE: "0xD110cac5d8682A3b045D5524a9903E031d70FCCd",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  RPL: {
-    decimals: 18,
-    UNDERLYING: "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
-    A_TOKEN: "0xB76CF92076adBF1D9C39294FA8e7A67579FDe357",
-    S_TOKEN: "0x41e330fd8F7eA31E2e8F02cC0C9392D1403597B4",
-    V_TOKEN: "0x8988ECA19D502fd8b9CCd03fA3bD20a6f599bc2A",
-    INTEREST_RATE_STRATEGY: "0xD87974E8ED49AB16d5053ba793F4e17078Be0426",
-    ORACLE: "0x4E155eD98aFE9034b7A5962f6C84c86d869daA9d",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  sDAI: {
-    decimals: 18,
-    UNDERLYING: "0x83F20F44975D03b1b09e64809B757c47f942BEeA",
-    A_TOKEN: "0x4C612E3B15b96Ff9A6faED838F8d07d479a8dD4c",
-    S_TOKEN: "0x48Bc45f084988bC01933EA93EeFfEBC0416534f6",
-    V_TOKEN: "0x8Db9D35e117d8b93C6Ca9b644b25BaD5d9908141",
-    INTEREST_RATE_STRATEGY: "0xdef8F50155A6cf21181E29E400E8CffAE2d50968",
-    ORACLE: "0x29081f7aB5a644716EfcDC10D5c926c5fEe9F72B",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  STG: {
-    decimals: 18,
-    UNDERLYING: "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
-    A_TOKEN: "0x1bA9843bD4327c6c77011406dE5fA8749F7E3479",
-    S_TOKEN: "0xc3115D0660b93AeF10F298886ae22E3Dd477E482",
-    V_TOKEN: "0x655568bDd6168325EC7e58Bf39b21A856F906Dc2",
-    INTEREST_RATE_STRATEGY: "0x27eFE5db315b71753b2a38ED3d5dd7E9362ba93F",
-    ORACLE: "0x7A9f34a0Aa917D438e9b6E630067062B7F8f6f3d",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  },
-  KNC: {
-    decimals: 18,
-    UNDERLYING: "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202",
-    A_TOKEN: "0x5b502e3796385E1e9755d7043B9C945C3aCCeC9C",
-    S_TOKEN: "0xdfEE0C9eA1309cB9611F33972E72a72166fcF548",
-    V_TOKEN: "0x253127Ffc04981cEA8932F406710661c2f2c3fD2",
-    INTEREST_RATE_STRATEGY: "0xf6733B9842883BFE0e0a940eA2F572676af31bde",
-    ORACLE: "0xf8fF43E991A81e6eC886a3D281A2C6cC19aE70Fc",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  }
-};
-var E_MODES = {
-  NONE: 0,
-  ETH_CORRELATED: 1
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3Sepolia.mjs
-var AaveV3Sepolia_exports = {};
-__export(AaveV3Sepolia_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER9,
-  ACL_ADMIN: () => ACL_ADMIN2,
-  ACL_MANAGER: () => ACL_MANAGER2,
-  ASSETS: () => ASSETS9,
-  CHAIN_ID: () => CHAIN_ID9,
-  COLLECTOR: () => COLLECTOR9,
-  DEFAULT_A_TOKEN_IMPL_REV_1: () => DEFAULT_A_TOKEN_IMPL_REV_12,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER9,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_12,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_12,
-  EMISSION_MANAGER: () => EMISSION_MANAGER9,
-  E_MODES: () => E_MODES2,
-  FAUCET: () => FAUCET4,
-  ORACLE: () => ORACLE9,
-  POOL: () => POOL9,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER9,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR9,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL2,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER9,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER9,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER9,
-  WETH_GATEWAY: () => WETH_GATEWAY9
-});
-var POOL_ADDRESSES_PROVIDER9 = "0x012bAC54348C0E635dCAc9D5FB99f06F24136C9A";
-var POOL9 = "0x6Ae43d3271ff6888e7Fc43Fd7321a503ff738951";
-var POOL_CONFIGURATOR9 = "0x7Ee60D184C24Ef7AfC1Ec7Be59A0f448A0abd138";
-var ORACLE9 = "0x2da88497588bf89281816106C7259e31AF45a663";
-var PRICE_ORACLE_SENTINEL2 = "0x0000000000000000000000000000000000000000";
-var AAVE_PROTOCOL_DATA_PROVIDER9 = "0x3e9708d80f7B3e43118013075F7e95CE3AB31F31";
-var ACL_MANAGER2 = "0x7F2bE3b178deeFF716CD6Ff03Ef79A1dFf360ddD";
-var ACL_ADMIN2 = "0xfA0e305E0f46AB04f00ae6b5f4560d61a2183E00";
-var COLLECTOR9 = "0x604264f8017fEF3b11B3dD63537CB501560380B5";
-var DEFAULT_INCENTIVES_CONTROLLER9 = "0x4DA5c4da71C5a167171cC839487536d86e083483";
-var DEFAULT_A_TOKEN_IMPL_REV_12 = "0x48424f2779be0f03cDF6F02E17A591A9BF7AF89f";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_12 = "0x54bdE009156053108E73E2401aEA755e38f92098";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_12 = "0xd1CF2FBf4fb82045eE0B116eB107d29246E8DCe9";
-var EMISSION_MANAGER9 = "0x098a890BAfDf6FB4ACD24bF107D20EA15D229C62";
-var FAUCET4 = "0xC959483DBa39aa9E78757139af0e9a2EDEb3f42D";
-var UI_INCENTIVE_DATA_PROVIDER9 = "0xBA25de9a7DC623B30799F33B770d31B44c2C3b77";
-var UI_POOL_DATA_PROVIDER9 = "0x69529987FA4A075D0C00B0128fa848dc9ebbE9CE";
-var WALLET_BALANCE_PROVIDER9 = "0xCD4e0d6D2b1252E2A709B8aE97DBA31164C5a709";
-var WETH_GATEWAY9 = "0x387d311e47e80b498169e6fb51d3193167d89F7D";
-var CHAIN_ID9 = 11155111;
-var ASSETS9 = {
-  DAI: {
-    decimals: 18,
-    UNDERLYING: "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357",
-    A_TOKEN: "0x29598b72eb5CeBd806C5dCD549490FdA35B13cD8",
-    S_TOKEN: "0xbEF786E742edB13361ff2f005b901A82c23AA491",
-    V_TOKEN: "0x22675C506A8FC26447aFFfa33640f6af5d4D4cF0",
-    INTEREST_RATE_STRATEGY: "0xA813CC4d67821fbAcF24659e414A1Cf6c551373c",
-    ORACLE: "0x9aF11c35c5d3Ae182C0050438972aac4376f9516"
-  },
-  LINK: {
-    decimals: 18,
-    UNDERLYING: "0xf8Fb3713D459D7C1018BD0A49D19b4C44290EBE5",
-    A_TOKEN: "0x3FfAf50D4F4E96eB78f2407c090b72e86eCaed24",
-    S_TOKEN: "0x8f7440aa789924626ab9f5687AF305da2ffB996b",
-    V_TOKEN: "0x34a4d932E722b9dFb492B9D8131127690CE2430B",
-    INTEREST_RATE_STRATEGY: "0xCA30c502d52F905FB3D04eE60cA48F5A1A89f8dB",
-    ORACLE: "0x14fC51b7df22b4D393cD45504B9f0A3002A63F3F"
-  },
-  USDC: {
-    decimals: 6,
-    UNDERLYING: "0x94a9D9AC8a22534E3FaCa9F4e7F2E2cf85d5E4C8",
-    A_TOKEN: "0x16dA4541aD1807f4443d92D26044C1147406EB80",
-    S_TOKEN: "0x42A218F7bd03c63c4835496506492A383EfcF726",
-    V_TOKEN: "0x36B5dE936eF1710E1d22EabE5231b28581a92ECc",
-    INTEREST_RATE_STRATEGY: "0x5CB1008969a2d5FAcE8eF32732e6A306d0D0EF2A",
-    ORACLE: "0x98458D6A99489F15e6eB5aFa67ACFAcf6F211051"
-  },
-  WBTC: {
-    decimals: 8,
-    UNDERLYING: "0x29f2D40B0605204364af54EC677bD022dA425d03",
-    A_TOKEN: "0x1804Bf30507dc2EB3bDEbbbdd859991EAeF6EefF",
-    S_TOKEN: "0xc7AEA6Cf353b4FA27aBf1b4A8D536A4e87383EB5",
-    V_TOKEN: "0xEB016dFd303F19fbDdFb6300eB4AeB2DA7Ceac37",
-    INTEREST_RATE_STRATEGY: "0xCA30c502d52F905FB3D04eE60cA48F5A1A89f8dB",
-    ORACLE: "0x784B90bA1E9a8cf3C9939c2e072F058B024C4b8a"
-  },
-  WETH: {
-    decimals: 18,
-    UNDERLYING: "0xC558DBdd856501FCd9aaF1E62eae57A9F0629a3c",
-    A_TOKEN: "0x5b071b590a59395fE4025A0Ccc1FcC931AAc1830",
-    S_TOKEN: "0xEb45D5A0efF06fFb88f6A70811c08375A8de84A3",
-    V_TOKEN: "0x22a35DB253f4F6D0029025D6312A3BdAb20C2c6A",
-    INTEREST_RATE_STRATEGY: "0xCA30c502d52F905FB3D04eE60cA48F5A1A89f8dB",
-    ORACLE: "0xDde0E8E6d3653614878Bf5009EDC317BC129fE2F"
-  },
-  USDT: {
-    decimals: 6,
-    UNDERLYING: "0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0",
-    A_TOKEN: "0xAF0F6e8b0Dc5c913bbF4d14c22B4E78Dd14310B6",
-    S_TOKEN: "0xEAF54fA3b1C7243033C2893c6B807f9cEaBCf0AF",
-    V_TOKEN: "0x9844386d29EEd970B9F6a2B9a676083b0478210e",
-    INTEREST_RATE_STRATEGY: "0x5CB1008969a2d5FAcE8eF32732e6A306d0D0EF2A",
-    ORACLE: "0x4e86D3Aa271Fa418F38D7262fdBa2989C94aa5Ba"
-  },
-  AAVE: {
-    decimals: 18,
-    UNDERLYING: "0x88541670E55cC00bEEFD87eB59EDd1b7C511AC9a",
-    A_TOKEN: "0x6b8558764d3b7572136F17174Cb9aB1DDc7E1259",
-    S_TOKEN: "0x4F15CaD6ebAE920a773bF00C6E941cccCB704915",
-    V_TOKEN: "0xf12fdFc4c631F6D361b48723c2F2800b84B519e6",
-    INTEREST_RATE_STRATEGY: "0xCA30c502d52F905FB3D04eE60cA48F5A1A89f8dB",
-    ORACLE: "0xda678Ef100c13504edDb8a228A1e8e4CB139f189"
-  },
-  EURS: {
-    decimals: 2,
-    UNDERLYING: "0x6d906e526a4e2Ca02097BA9d0caA3c382F52278E",
-    A_TOKEN: "0xB20691021F9AcED8631eDaa3c0Cd2949EB45662D",
-    S_TOKEN: "0x08878209484D8178DD1FFA50AB1689F21aDBB856",
-    V_TOKEN: "0x94482C7A7477196259D8a0f74fB853277Fa5a75b",
-    INTEREST_RATE_STRATEGY: "0x5CB1008969a2d5FAcE8eF32732e6A306d0D0EF2A",
-    ORACLE: "0xCbE15C1f40f1D7eE1De3756D1557d5Fdc2A50bBD"
-  }
-};
-var E_MODES2 = {
-  NONE: 0,
-  STABLECOINS: 1
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3Polygon.mjs
-var AaveV3Polygon_exports = {};
-__export(AaveV3Polygon_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER10,
-  ACL_ADMIN: () => ACL_ADMIN3,
-  ACL_MANAGER: () => ACL_MANAGER3,
-  ASSETS: () => ASSETS10,
-  CAPS_PLUS_RISK_STEWARD: () => CAPS_PLUS_RISK_STEWARD2,
-  CHAIN_ID: () => CHAIN_ID10,
-  COLLECTOR: () => COLLECTOR10,
-  CONFIG_ENGINE: () => CONFIG_ENGINE6,
-  DEBT_SWAP_ADAPTER: () => DEBT_SWAP_ADAPTER5,
-  DEFAULT_A_TOKEN_IMPL_REV_2: () => DEFAULT_A_TOKEN_IMPL_REV_2,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER10,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_2: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_2,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_2: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_2,
-  EMISSION_MANAGER: () => EMISSION_MANAGER10,
-  E_MODES: () => E_MODES3,
-  FREEZING_STEWARD: () => FREEZING_STEWARD2,
-  ORACLE: () => ORACLE10,
-  POOL: () => POOL10,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER10,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY9,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR10,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL3,
-  RATES_FACTORY: () => RATES_FACTORY6,
-  REPAY_WITH_COLLATERAL_ADAPTER: () => REPAY_WITH_COLLATERAL_ADAPTER5,
-  STATIC_A_TOKEN_FACTORY: () => STATIC_A_TOKEN_FACTORY2,
-  SWAP_COLLATERAL_ADAPTER: () => SWAP_COLLATERAL_ADAPTER5,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER10,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER10,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER10,
-  WETH_GATEWAY: () => WETH_GATEWAY10,
-  WITHDRAW_SWAP_ADAPTER: () => WITHDRAW_SWAP_ADAPTER2
-});
-var POOL_ADDRESSES_PROVIDER10 = "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb";
-var POOL10 = "0x794a61358D6845594F94dc1DB02A252b5b4814aD";
-var POOL_CONFIGURATOR10 = "0x8145eddDf43f50276641b55bd3AD95944510021E";
-var ORACLE10 = "0xb023e699F5a33916Ea823A16485e259257cA8Bd1";
-var PRICE_ORACLE_SENTINEL3 = "0x0000000000000000000000000000000000000000";
-var AAVE_PROTOCOL_DATA_PROVIDER10 = "0x9441B65EE553F70df9C77d45d3283B6BC24F222d";
-var ACL_MANAGER3 = "0xa72636CbcAa8F5FF95B2cc47F3CDEe83F3294a0B";
-var ACL_ADMIN3 = "0xDf7d0e6454DB638881302729F5ba99936EaAB233";
-var COLLECTOR10 = "0xe8599F3cc5D38a9aD6F3684cd5CEa72f10Dbc383";
-var DEFAULT_INCENTIVES_CONTROLLER10 = "0x929EC64c34a17401F460460D4B9390518E5B473e";
-var DEFAULT_A_TOKEN_IMPL_REV_2 = "0xCf85FF1c37c594a10195F7A9Ab85CBb0a03f69dE";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_2 = "0x79b5e91037AE441dE0d9e6fd3Fd85b96B83d4E93";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_2 = "0x50ddd0Cd4266299527d25De9CBb55fE0EB8dAc30";
-var EMISSION_MANAGER10 = "0x048f2228D7Bf6776f99aB50cB1b1eaB4D1d4cA73";
-var CAPS_PLUS_RISK_STEWARD2 = "0xc5de989E0D1BF605d19478Fdd32Aa827a10b464f";
-var FREEZING_STEWARD2 = "0xa7b40ed4dfAC9255EA9Dd218A3874f380D9FbBEB";
-var DEBT_SWAP_ADAPTER5 = "0xb58Fd91558fa213D97Ac94C97F831c7289278084";
-var CONFIG_ENGINE6 = "0xfFD6F13c9574bedb3f4E131e9C4320186AF83c1D";
-var POOL_ADDRESSES_PROVIDER_REGISTRY9 = "0x770ef9f4fe897e59daCc474EF11238303F9552b6";
-var RATES_FACTORY6 = "0xcC47c4Fe1F7f29ff31A8b62197023aC8553C7896";
-var REPAY_WITH_COLLATERAL_ADAPTER5 = "0xE3090207A2de94A856EA10a7e1Bd36dD6145712B";
-var STATIC_A_TOKEN_FACTORY2 = "0x2B218C73f63820CE86655d16A79C333E24fEB0BE";
-var SWAP_COLLATERAL_ADAPTER5 = "0xC4aff49fCeD8ac1D818a6DCAB063f9f97E66ec5E";
-var UI_INCENTIVE_DATA_PROVIDER10 = "0x874313A46e4957D29FAAC43BF5Eb2B144894f557";
-var UI_POOL_DATA_PROVIDER10 = "0xC69728f11E9E6127733751c8410432913123acf1";
-var WALLET_BALANCE_PROVIDER10 = "0xBc790382B3686abffE4be14A030A96aC6154023a";
-var WETH_GATEWAY10 = "0x1e4b7A6b903680eab0c5dAbcb8fD429cD2a9598c";
-var WITHDRAW_SWAP_ADAPTER2 = "0x78F8Bd884C3D738B74B420540659c82f392820e0";
-var CHAIN_ID10 = 137;
-var ASSETS10 = {
-  DAI: {
-    decimals: 18,
-    UNDERLYING: "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-    A_TOKEN: "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE",
-    S_TOKEN: "0xd94112B5B62d53C9402e7A60289c6810dEF1dC9B",
-    V_TOKEN: "0x8619d80FB0141ba7F184CbF22fd724116D9f7ffC",
-    INTEREST_RATE_STRATEGY: "0xA9F3C3caE095527061e6d270DBE163693e6fda9D",
-    ORACLE: "0x4746DeC9e833A82EC7C2C1356372CcF2cfcD2F3D",
-    STATA_TOKEN: "0xfCF5d4B313E06Bb3628EB4Fe73320E94039DC4b7"
-  },
-  LINK: {
-    decimals: 18,
-    UNDERLYING: "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
-    A_TOKEN: "0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530",
-    S_TOKEN: "0x89D976629b7055ff1ca02b927BA3e020F22A44e4",
-    V_TOKEN: "0x953A573793604aF8d41F306FEb8274190dB4aE0e",
-    INTEREST_RATE_STRATEGY: "0x03733F4E008d36f2e37F0080fF1c8DF756622E6F",
-    ORACLE: "0xd9FFdb71EbE7496cC440152d43986Aae0AB76665",
-    STATA_TOKEN: "0x42427C988195f46E61d8eb57475Db3c369677A11"
-  },
-  USDC: {
-    decimals: 6,
-    UNDERLYING: "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-    A_TOKEN: "0x625E7708f30cA75bfd92586e17077590C60eb4cD",
-    S_TOKEN: "0x307ffe186F84a3bc2613D1eA417A5737D69A7007",
-    V_TOKEN: "0xFCCf3cAbbe80101232d343252614b6A3eE81C989",
-    INTEREST_RATE_STRATEGY: "0xC82dF96432346cFb632473eB619Db3B8AC280234",
-    ORACLE: "0xfE4A8cc5b5B2366C1B58Bea3858e81843581b2F7",
-    STATA_TOKEN: "0xc04296Aa4534F5A3BaB2d948705bc89317b2f1ed"
-  },
-  WBTC: {
-    decimals: 8,
-    UNDERLYING: "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
-    A_TOKEN: "0x078f358208685046a11C85e8ad32895DED33A249",
-    S_TOKEN: "0x633b207Dd676331c413D4C013a6294B0FE47cD0e",
-    V_TOKEN: "0x92b42c66840C7AD907b4BF74879FF3eF7c529473",
-    INTEREST_RATE_STRATEGY: "0x07Fa3744FeC271F80c2EA97679823F65c13CCDf4",
-    ORACLE: "0xc907E116054Ad103354f2D350FD2514433D57F6f",
-    STATA_TOKEN: "0x377660669108baCe49B5E6D8d3544C7a280c8d17"
-  },
-  WETH: {
-    decimals: 18,
-    UNDERLYING: "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-    A_TOKEN: "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
-    S_TOKEN: "0xD8Ad37849950903571df17049516a5CD4cbE55F6",
-    V_TOKEN: "0x0c84331e39d6658Cd6e6b9ba04736cC4c4734351",
-    INTEREST_RATE_STRATEGY: "0xf6733B9842883BFE0e0a940eA2F572676af31bde",
-    ORACLE: "0xF9680D99D6C9589e2a93a78A04A279e509205945",
-    STATA_TOKEN: "0xd08B78B11Df105D2861568959FCa28e30c91Cf68"
-  },
-  USDT: {
-    decimals: 6,
-    UNDERLYING: "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-    A_TOKEN: "0x6ab707Aca953eDAeFBc4fD23bA73294241490620",
-    S_TOKEN: "0x70eFfc565DB6EEf7B927610155602d31b670e802",
-    V_TOKEN: "0xfb00AC187a8Eb5AFAE4eACE434F493Eb62672df7",
-    INTEREST_RATE_STRATEGY: "0xA9F3C3caE095527061e6d270DBE163693e6fda9D",
-    ORACLE: "0x0A6513e40db6EB1b165753AD52E80663aeA50545",
-    STATA_TOKEN: "0x31F5aC91804A4c0B54C0243789DF5208993235a1"
-  },
-  AAVE: {
-    decimals: 18,
-    UNDERLYING: "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
-    A_TOKEN: "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375",
-    S_TOKEN: "0xfAeF6A702D15428E588d4C0614AEFb4348D83D48",
-    V_TOKEN: "0xE80761Ea617F66F96274eA5e8c37f03960ecC679",
-    INTEREST_RATE_STRATEGY: "0x03733F4E008d36f2e37F0080fF1c8DF756622E6F",
-    ORACLE: "0x72484B12719E23115761D5DA1646945632979bB6",
-    STATA_TOKEN: "0xC83d8847f4A126d18013B5087cAE0b947BAdd17A"
-  },
-  WMATIC: {
-    decimals: 18,
-    UNDERLYING: "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-    A_TOKEN: "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97",
-    S_TOKEN: "0xF15F26710c827DDe8ACBA678682F3Ce24f2Fb56E",
-    V_TOKEN: "0x4a1c3aD6Ed28a636ee1751C69071f6be75DEb8B8",
-    INTEREST_RATE_STRATEGY: "0xFB0898dCFb69DF9E01DBE625A5988D6542e5BdC5",
-    ORACLE: "0xAB594600376Ec9fD91F8e885dADF0CE036862dE0",
-    STATA_TOKEN: "0x6f3913333F2D4b7B01D17BedbCe1E4c758b94465"
-  },
-  CRV: {
-    decimals: 18,
-    UNDERLYING: "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
-    A_TOKEN: "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf",
-    S_TOKEN: "0x08Cb71192985E936C7Cd166A8b268035e400c3c3",
-    V_TOKEN: "0x77CA01483f379E58174739308945f044e1a764dc",
-    INTEREST_RATE_STRATEGY: "0xBefcd01681224555b74eAC87207eaF9Bc3361F59",
-    ORACLE: "0x336584C8E6Dc19637A5b36206B1c79923111b405",
-    STATA_TOKEN: "0x2EcDA7d4aB13e8A2C182D1C8f0a4Cc1C6109f2C9"
-  },
-  SUSHI: {
-    decimals: 18,
-    UNDERLYING: "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
-    A_TOKEN: "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA",
-    S_TOKEN: "0x78246294a4c6fBf614Ed73CcC9F8b875ca8eE841",
-    V_TOKEN: "0x34e2eD44EF7466D5f9E0b782B5c08b57475e7907",
-    INTEREST_RATE_STRATEGY: "0x03733F4E008d36f2e37F0080fF1c8DF756622E6F",
-    ORACLE: "0x49B0c695039243BBfEb8EcD054EB70061fd54aa0",
-    STATA_TOKEN: "0x1988e5660736B0bBF6D4125DE20297768EA40496"
-  },
-  GHST: {
-    decimals: 18,
-    UNDERLYING: "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-    A_TOKEN: "0x8Eb270e296023E9D92081fdF967dDd7878724424",
-    S_TOKEN: "0x3EF10DFf4928279c004308EbADc4Db8B7620d6fc",
-    V_TOKEN: "0xCE186F6Cccb0c955445bb9d10C59caE488Fea559",
-    INTEREST_RATE_STRATEGY: "0x03733F4E008d36f2e37F0080fF1c8DF756622E6F",
-    ORACLE: "0xDD229Ce42f11D8Ee7fFf29bDB71C7b81352e11be",
-    STATA_TOKEN: "0x0593dCFFA078706aaFFEf5aF7B6954A707534Fd7"
-  },
-  BAL: {
-    decimals: 18,
-    UNDERLYING: "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
-    A_TOKEN: "0x8ffDf2DE812095b1D19CB146E4c004587C0A0692",
-    S_TOKEN: "0xa5e408678469d23efDB7694b1B0A85BB0669e8bd",
-    V_TOKEN: "0xA8669021776Bc142DfcA87c21b4A52595bCbB40a",
-    INTEREST_RATE_STRATEGY: "0xCbDC7D7984D7AD59434f0B1999D2006898C40f9A",
-    ORACLE: "0xD106B538F2A868c28Ca1Ec7E298C3325E0251d66",
-    STATA_TOKEN: "0x6208795EEc3749860574743cF76d200F10363bf7"
-  },
-  DPI: {
-    decimals: 18,
-    UNDERLYING: "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
-    A_TOKEN: "0x724dc807b04555b71ed48a6896b6F41593b8C637",
-    S_TOKEN: "0xDC1fad70953Bb3918592b6fCc374fe05F5811B6a",
-    V_TOKEN: "0xf611aEb5013fD2c0511c9CD55c7dc5C1140741A6",
-    INTEREST_RATE_STRATEGY: "0xd9d85499449f26d2A2c240defd75314f23920089",
-    ORACLE: "0x2e48b7924FBe04d575BA229A59b64547d9da16e9",
-    STATA_TOKEN: "0x53E4d0e0923536c3664e7eFaf22d59ed579f7B1e"
-  },
-  EURS: {
-    decimals: 2,
-    UNDERLYING: "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
-    A_TOKEN: "0x38d693cE1dF5AaDF7bC62595A37D667aD57922e5",
-    S_TOKEN: "0x8a9FdE6925a839F6B1932d16B36aC026F8d3FbdB",
-    V_TOKEN: "0x5D557B07776D12967914379C71a1310e917C7555",
-    INTEREST_RATE_STRATEGY: "0x8F183Ee74C790CB558232a141099b316D6C8Ba6E",
-    ORACLE: "0x73366Fe0AA0Ded304479862808e02506FE556a98",
-    STATA_TOKEN: "0x171CAC3d7ffa2ac76901699C5633cc3449aD85a7"
-  },
-  jEUR: {
-    decimals: 18,
-    UNDERLYING: "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
-    A_TOKEN: "0x6533afac2E7BCCB20dca161449A13A32D391fb00",
-    S_TOKEN: "0x6B4b37618D85Db2a7b469983C888040F7F05Ea3D",
-    V_TOKEN: "0x44705f578135cC5d703b4c9c122528C73Eb87145",
-    INTEREST_RATE_STRATEGY: "0x41B66b4b6b4c9dab039d96528D1b88f7BAF8C5A4",
-    ORACLE: "0x73366Fe0AA0Ded304479862808e02506FE556a98",
-    STATA_TOKEN: "0x38274b3FFe236e12C4578d209b8ee52be970dF07"
-  },
-  agEUR: {
-    decimals: 18,
-    UNDERLYING: "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
-    A_TOKEN: "0x8437d7C167dFB82ED4Cb79CD44B7a32A1dd95c77",
-    S_TOKEN: "0x40B4BAEcc69B882e8804f9286b12228C27F8c9BF",
-    V_TOKEN: "0x3ca5FA07689F266e907439aFd1fBB59c44fe12f6",
-    INTEREST_RATE_STRATEGY: "0xA9F3C3caE095527061e6d270DBE163693e6fda9D",
-    ORACLE: "0x73366Fe0AA0Ded304479862808e02506FE556a98",
-    STATA_TOKEN: "0x159474a62Bb53c984c9165a7439da5f28473EbA0"
-  },
-  miMATIC: {
-    decimals: 18,
-    UNDERLYING: "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-    A_TOKEN: "0xeBe517846d0F36eCEd99C735cbF6131e1fEB775D",
-    S_TOKEN: "0x687871030477bf974725232F764aa04318A8b9c8",
-    V_TOKEN: "0x18248226C16BF76c032817854E7C83a2113B4f06",
-    INTEREST_RATE_STRATEGY: "0xA9F3C3caE095527061e6d270DBE163693e6fda9D",
-    ORACLE: "0xd8d483d813547CfB624b8Dc33a00F2fcbCd2D428",
-    STATA_TOKEN: "0x12C4dC692B0f73d96BF3F8961475937b74E681E9"
-  },
-  stMATIC: {
-    decimals: 18,
-    UNDERLYING: "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
-    A_TOKEN: "0xEA1132120ddcDDA2F119e99Fa7A27a0d036F7Ac9",
-    S_TOKEN: "0x1fFD28689DA7d0148ff0fCB669e9f9f0Fc13a219",
-    V_TOKEN: "0x6b030Ff3FB9956B1B69f475B77aE0d3Cf2CC5aFa",
-    INTEREST_RATE_STRATEGY: "0x03733F4E008d36f2e37F0080fF1c8DF756622E6F",
-    ORACLE: "0xEe96b77129cF54581B5a8FECCcC50A6A067034a1",
-    STATA_TOKEN: "0xc5F7D7A92D28aC4a9e6d064fBDCfC295FB90e50A"
-  },
-  MaticX: {
-    decimals: 18,
-    UNDERLYING: "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6",
-    A_TOKEN: "0x80cA0d8C38d2e2BcbaB66aA1648Bd1C7160500FE",
-    S_TOKEN: "0x62fC96b27a510cF4977B59FF952Dc32378Cc221d",
-    V_TOKEN: "0xB5b46F918C2923fC7f26DB76e8a6A6e9C4347Cf9",
-    INTEREST_RATE_STRATEGY: "0x6B434652E4C4e3e972f9F267982F05ae0fcc24b6",
-    ORACLE: "0x0e1120524e14Bd7aD96Ea76A1b1dD699913e2a45",
-    STATA_TOKEN: "0x867AEeA14Dfd6b9F60d348fe3a2B1B1e956a4bf6"
-  },
-  wstETH: {
-    decimals: 18,
-    UNDERLYING: "0x03b54A6e9a984069379fae1a4fC4dBAE93B3bCCD",
-    A_TOKEN: "0xf59036CAEBeA7dC4b86638DFA2E3C97dA9FcCd40",
-    S_TOKEN: "0x173e54325AE58B072985DbF232436961981EA000",
-    V_TOKEN: "0x77fA66882a8854d883101Fb8501BD3CaD347Fc32",
-    INTEREST_RATE_STRATEGY: "0xA6459195d60A797D278f58Ffbd2BA62Fb3F7FA1E",
-    ORACLE: "0xe34949A48cd2E6f5CD41753e449bd2d43993C9AC",
-    STATA_TOKEN: "0x89Bd338fa8886bC16C7bBbBD30220c03dBE358A7"
-  }
-};
-var E_MODES3 = {
-  NONE: 0,
-  STABLECOINS: 1,
-  MATIC_CORRELATED: 2,
-  ETH_CORRELATED: 3
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3Mumbai.mjs
-var AaveV3Mumbai_exports = {};
-__export(AaveV3Mumbai_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER11,
-  ACL_ADMIN: () => ACL_ADMIN4,
-  ACL_MANAGER: () => ACL_MANAGER4,
-  ASSETS: () => ASSETS11,
-  CHAIN_ID: () => CHAIN_ID11,
-  COLLECTOR: () => COLLECTOR11,
-  DEFAULT_A_TOKEN_IMPL_REV_1: () => DEFAULT_A_TOKEN_IMPL_REV_13,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER11,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_13,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_13,
-  EMISSION_MANAGER: () => EMISSION_MANAGER11,
-  E_MODES: () => E_MODES4,
-  FAUCET: () => FAUCET5,
-  ORACLE: () => ORACLE11,
-  POOL: () => POOL11,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER11,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR11,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL4,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER11,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER11,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER11,
-  WETH_GATEWAY: () => WETH_GATEWAY11
-});
-var POOL_ADDRESSES_PROVIDER11 = "0x4CeDCB57Af02293231BAA9D39354D6BFDFD251e0";
-var POOL11 = "0xcC6114B983E4Ed2737E9BD3961c9924e6216c704";
-var POOL_CONFIGURATOR11 = "0x5C12526EaAc2637fEa2322ee4e389698dBFC3845";
-var ORACLE11 = "0x27848354d8c9f71a41c6f6edfC6E3CACf3b848c8";
-var PRICE_ORACLE_SENTINEL4 = "0x0000000000000000000000000000000000000000";
-var AAVE_PROTOCOL_DATA_PROVIDER11 = "0x9e2DDb6aA91399546Bd875E2e63E8d6df276922e";
-var ACL_MANAGER4 = "0x9c2B4870C8ABA221DAe5c82e1a0f72D85e40C165";
-var ACL_ADMIN4 = "0x9973Ce75946D56fA3B0C6aa3647d67D440BDAec8";
-var COLLECTOR11 = "0x742fe7A795439006371705Ceb1c3B075a300ACFc";
-var DEFAULT_INCENTIVES_CONTROLLER11 = "0xBcEF55508Efb890C71c8a6211B3dE02B00430503";
-var DEFAULT_A_TOKEN_IMPL_REV_13 = "0x274032E998ea08EAE819E7985488AD54DC813b69";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_13 = "0xf24dc19cFb9A25bbc4DDcaAdb116DfD17472207B";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_13 = "0xd2B0C9778d088Fc79C28Da719bC02158E64796bD";
-var EMISSION_MANAGER11 = "0x9060C6E714BA5C3A46665599103989778a736D4B";
-var FAUCET5 = "0x2c95d10bA4BBEc79e562e8B3f48687751808C925";
-var UI_INCENTIVE_DATA_PROVIDER11 = "0x322bCff7b69F832B1a1F56E6BC600C9229CFb907";
-var UI_POOL_DATA_PROVIDER11 = "0xD64dDe119f11C88850FD596BE11CE398CC5893e6";
-var WALLET_BALANCE_PROVIDER11 = "0xD8A70FC58BC069CFE6529EBF0c1Db067f2b5347E";
-var WETH_GATEWAY11 = "0x8dA9412AbB78db20d0B496573D9066C474eA21B8";
-var CHAIN_ID11 = 80001;
-var ASSETS11 = {
-  DAI: {
-    decimals: 18,
-    UNDERLYING: "0xc8c0Cf9436F4862a8F60Ce680Ca5a9f0f99b5ded",
-    A_TOKEN: "0x8903bbBD684B7ef734c01BEb00273Ff52703514F",
-    S_TOKEN: "0xB4aa9399c955C53592D9aF0796AB77709fe184C2",
-    V_TOKEN: "0x8584Fa491eAF3B959dE0888b5B5b9EF60660eb02",
-    INTEREST_RATE_STRATEGY: "0xbE46486f69fc2882e5E4769CFBCe704E3EfecD25",
-    ORACLE: "0x685b86a6659a1CbcfE168304386e1b54C543Ce16"
-  },
-  LINK: {
-    decimals: 18,
-    UNDERLYING: "0x9DFf9E93B1e513379cf820504D642c6891d8F7CC",
-    A_TOKEN: "0xaB9F0568d5C6CE1437ba07E6efE529A2A9b82665",
-    S_TOKEN: "0xe32D202832aE19b06D6D85289f88836D21D51279",
-    V_TOKEN: "0xC270C1D7B43eE909e5Cb2B59D25033eE79992581",
-    INTEREST_RATE_STRATEGY: "0x0313912C1C3D946F9253D9b6E9f6aB9137759b4B",
-    ORACLE: "0xbB96Cf09DaAA98f4dad1f63B0aDeF2C8aaD1BC3E"
-  },
-  USDC: {
-    decimals: 6,
-    UNDERLYING: "0x52D800ca262522580CeBAD275395ca6e7598C014",
-    A_TOKEN: "0x4086fabeE92a080002eeBA1220B9025a27a40A49",
-    S_TOKEN: "0x0b03Ad2929926505EDE0958EF6454f291808c4c9",
-    V_TOKEN: "0x90d909005F13D1Dfd2D8Ab62289309C27E1a066d",
-    INTEREST_RATE_STRATEGY: "0x8d284fE251BB7Fe6B529FC2f27BAb415FcF46B25",
-    ORACLE: "0x465C5251Ec08Ba64dCDC05833d81e086322dE11F"
-  },
-  WBTC: {
-    decimals: 8,
-    UNDERLYING: "0x2Fa2e7a6dEB7bb51B625336DBe1dA23511914a8A",
-    A_TOKEN: "0xdA67e6C1171D4f0D522Db7f127B88405eA1535d4",
-    S_TOKEN: "0x56073a5443d271f4A05A7580F23458e0cc292566",
-    V_TOKEN: "0x4ac5719fbd9986b17911815058d3D4f50E6608eA",
-    INTEREST_RATE_STRATEGY: "0x0313912C1C3D946F9253D9b6E9f6aB9137759b4B",
-    ORACLE: "0x3E3D70Dc636E98636c68d51Aa4a91D4D1828D277"
-  },
-  WETH: {
-    decimals: 18,
-    UNDERLYING: "0xc199807AF4fEDB02EE567Ed0FeB814A077de4802",
-    A_TOKEN: "0xAba444af64ad33A6d8575b8A353226997d6A126a",
-    S_TOKEN: "0x7A3e52bd23036004f48D34c946A600688b6861Fe",
-    V_TOKEN: "0x6B9f12aD327e2760816A8a6c7A740AeA901fEB21",
-    INTEREST_RATE_STRATEGY: "0x0313912C1C3D946F9253D9b6E9f6aB9137759b4B",
-    ORACLE: "0xc24df0548a5aa08262bff6c2bb48048348e4E097"
-  },
-  USDT: {
-    decimals: 6,
-    UNDERLYING: "0x1fdE0eCc619726f4cD597887C9F3b4c8740e19e2",
-    A_TOKEN: "0x5F3a71D07E95C1E54B9Cc055D418a219586A3473",
-    S_TOKEN: "0xECe1254ce1cCFc9bA552B827dB0F3c95d72639F1",
-    V_TOKEN: "0x04A2bc818911a729460b3FfB4B9ff841CFEC93a1",
-    INTEREST_RATE_STRATEGY: "0x8d284fE251BB7Fe6B529FC2f27BAb415FcF46B25",
-    ORACLE: "0x17E6574DA37DD6F20d80CBf0d1580a420056413e"
-  },
-  AAVE: {
-    decimals: 18,
-    UNDERLYING: "0x1558c6FadDe1bEaf0f6628BDd1DFf3461185eA24",
-    A_TOKEN: "0xE05705857b3d78aCe3d872b26D9c951B266ECC8d",
-    S_TOKEN: "0x792359Ee24BE0268ffEb3c61425e89550E0872B5",
-    V_TOKEN: "0xe5e880dAd60A9D0f6Cea43a664517F2eb6fe3233",
-    INTEREST_RATE_STRATEGY: "0x0313912C1C3D946F9253D9b6E9f6aB9137759b4B",
-    ORACLE: "0x1034d6131E0E7F2F47bFAd06597ed97b35aA5492"
-  },
-  WMATIC: {
-    decimals: 18,
-    UNDERLYING: "0xaD3C5a67275dE4b5554CdD1d961e957f408eF75a",
-    A_TOKEN: "0xaCA5e6a7117F54B34B476aB95Bf3034c304e7a81",
-    S_TOKEN: "0x0b7F789EDb7B72c98eD7290fB1286239C4965713",
-    V_TOKEN: "0x4d4ADCd160BFA54B7b288537705434c478843b37",
-    INTEREST_RATE_STRATEGY: "0x0313912C1C3D946F9253D9b6E9f6aB9137759b4B",
-    ORACLE: "0x365691299B5DCFFEFF045018C4DD97c17f2DF10E"
-  },
-  CRV: {
-    decimals: 18,
-    UNDERLYING: "0x2bbF1f48a678d2f7c291dc5F8fD04805D34F485f",
-    A_TOKEN: "0xbB814C46ef7BFB51E3b25600675A6A7B03426973",
-    S_TOKEN: "0xA342ffE4BC6a7159021A0099357dB919FC3965d7",
-    V_TOKEN: "0xb9bA8eb73F06cC77Ec761485872005b228873DA6",
-    INTEREST_RATE_STRATEGY: "0x0313912C1C3D946F9253D9b6E9f6aB9137759b4B",
-    ORACLE: "0x44c4c82FEe3d9c5A3A584e87D4c0dAe14c4D880C"
-  },
-  SUSHI: {
-    decimals: 18,
-    UNDERLYING: "0x3c9F4EEa18B02ee331218646Fea59EE3661d2A61",
-    A_TOKEN: "0x474Af312bbfc1d12b6f6e2140D6D50Ed9dA6F839",
-    S_TOKEN: "0x5d7ca2fF15be1C22669d25F0CA42541AF8B7c46D",
-    V_TOKEN: "0x586Ccc2Ca7840E860d741ddfbFf390da0fB42B95",
-    INTEREST_RATE_STRATEGY: "0x0313912C1C3D946F9253D9b6E9f6aB9137759b4B",
-    ORACLE: "0x18a8d31dA46eeb9138a16dfC429E74C04ff523F4"
-  },
-  GHST: {
-    decimals: 18,
-    UNDERLYING: "0x9f86bA35a016acE27BD4C37E42a1940A5b2508EF",
-    A_TOKEN: "0x9B1330b35DD740242c4622b5f203Bc39Ff40D9c9",
-    S_TOKEN: "0x7195f1F8EA840AD7A0dF705a929667bFcCF90814",
-    V_TOKEN: "0xd8Aab78Fe045D67b463f0361578e01c40CbFb4B7",
-    INTEREST_RATE_STRATEGY: "0x0313912C1C3D946F9253D9b6E9f6aB9137759b4B",
-    ORACLE: "0x0EFC6aec29cE36fdEB293491f8F77650Eb1A82F4"
-  },
-  BAL: {
-    decimals: 18,
-    UNDERLYING: "0x00DF377c2C82a65A8bAe2Ff04a9434a721Bc5aEB",
-    A_TOKEN: "0x27EbCb5ba3e4Ab18911dA0bA3350Ec42ceEa4ceE",
-    S_TOKEN: "0xf0D2C1971709aE77207A0b9D924a1374642d8E4c",
-    V_TOKEN: "0x92cCc1f6A3DA79eD405e7b5AFaF3BA54Ba5408F5",
-    INTEREST_RATE_STRATEGY: "0x0313912C1C3D946F9253D9b6E9f6aB9137759b4B",
-    ORACLE: "0xdBfA358282bf03c67B059063fBc71b40ddFeDf1f"
-  },
-  DPI: {
-    decimals: 18,
-    UNDERLYING: "0x55c7852e10fcd07cF63Ad1bb9FC191b6F4d96ebD",
-    A_TOKEN: "0xeBf20b66BB82a157450C3ad4cab738D629a29749",
-    S_TOKEN: "0x710Fe3223CcB7C3987C3fD0c0EFA89201a3C8E22",
-    V_TOKEN: "0xf415b985e0CA9850Ae1C04081DF8DeD8bD5ef8e5",
-    INTEREST_RATE_STRATEGY: "0x0313912C1C3D946F9253D9b6E9f6aB9137759b4B",
-    ORACLE: "0xD5D4f4fe4BfC8e8193f38927EfafDbfbB66dd7e0"
-  },
-  EURS: {
-    decimals: 2,
-    UNDERLYING: "0xB516d30421d2A0524769A243BBE5e193E78ab35c",
-    A_TOKEN: "0x6fD1376295392f1F6F9EcCc89bff0e26dDB2aE74",
-    S_TOKEN: "0x9a8c655A5Bf29C4B2bBcb45e838CC07DceB680E1",
-    V_TOKEN: "0x6e87Cad75af55fc5611D3a90d6789B12A87E72e4",
-    INTEREST_RATE_STRATEGY: "0x8d284fE251BB7Fe6B529FC2f27BAb415FcF46B25",
-    ORACLE: "0x09Bb4317F42FA4eA4d044922f795bf6ccFeAAA4b"
-  },
-  JEUR: {
-    decimals: 18,
-    UNDERLYING: "0xd409F17095a370800A9C352124C6a1e82695203E",
-    A_TOKEN: "0x58B8d2A77D7d5942fA701a1Dd68e7cF8222750f6",
-    S_TOKEN: "0x0736CBe1647b8E223Bb74D8E1FE53D14ADfc763e",
-    V_TOKEN: "0xaCD2c77bd160297C151CC22eB6A3C1c77723f02c",
-    INTEREST_RATE_STRATEGY: "0x8d284fE251BB7Fe6B529FC2f27BAb415FcF46B25",
-    ORACLE: "0x67cEB95eCD290A25D017B0f4D345E5F7Ba893B5F"
-  },
-  AGEUR: {
-    decimals: 18,
-    UNDERLYING: "0xcDA8dE50b65cB2Affc8B89f35C40A97Eed4B270F",
-    A_TOKEN: "0xbD3615332c2a12e2fFc41Fe09C4f05e5493e733F",
-    S_TOKEN: "0xbaF52AEC0fAC8f4bFD8cD05AE1D5729a2b82051b",
-    V_TOKEN: "0x7511Bc35eDfb9513e67a6431826C766c24401AeF",
-    INTEREST_RATE_STRATEGY: "0x8d284fE251BB7Fe6B529FC2f27BAb415FcF46B25",
-    ORACLE: "0xCf9DADD5cFE871f65D7EeFAEbe44481c8597b26e"
-  }
-};
-var E_MODES4 = {
-  NONE: 0,
-  STABLECOINS: 1
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3Avalanche.mjs
-var AaveV3Avalanche_exports = {};
-__export(AaveV3Avalanche_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER12,
-  ACL_ADMIN: () => ACL_ADMIN5,
-  ACL_MANAGER: () => ACL_MANAGER5,
-  ASSETS: () => ASSETS12,
-  CAPS_PLUS_RISK_STEWARD: () => CAPS_PLUS_RISK_STEWARD3,
-  CHAIN_ID: () => CHAIN_ID12,
-  COLLECTOR: () => COLLECTOR12,
-  CONFIG_ENGINE: () => CONFIG_ENGINE7,
-  DEBT_SWAP_ADAPTER: () => DEBT_SWAP_ADAPTER6,
-  DEFAULT_A_TOKEN_IMPL_REV_2: () => DEFAULT_A_TOKEN_IMPL_REV_22,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER12,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_2: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_22,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_2: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_22,
-  EMISSION_MANAGER: () => EMISSION_MANAGER12,
-  E_MODES: () => E_MODES5,
-  FREEZING_STEWARD: () => FREEZING_STEWARD3,
-  ORACLE: () => ORACLE12,
-  POOL: () => POOL12,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER12,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY10,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR12,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL5,
-  PROOF_OF_RESERVE: () => PROOF_OF_RESERVE2,
-  PROOF_OF_RESERVE_AGGREGATOR: () => PROOF_OF_RESERVE_AGGREGATOR2,
-  RATES_FACTORY: () => RATES_FACTORY7,
-  REPAY_WITH_COLLATERAL_ADAPTER: () => REPAY_WITH_COLLATERAL_ADAPTER6,
-  STATIC_A_TOKEN_FACTORY: () => STATIC_A_TOKEN_FACTORY3,
-  SWAP_COLLATERAL_ADAPTER: () => SWAP_COLLATERAL_ADAPTER6,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER12,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER12,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER12,
-  WETH_GATEWAY: () => WETH_GATEWAY12,
-  WITHDRAW_SWAP_ADAPTER: () => WITHDRAW_SWAP_ADAPTER3
-});
-var POOL_ADDRESSES_PROVIDER12 = "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb";
-var POOL12 = "0x794a61358D6845594F94dc1DB02A252b5b4814aD";
-var POOL_CONFIGURATOR12 = "0x8145eddDf43f50276641b55bd3AD95944510021E";
-var ORACLE12 = "0xEBd36016B3eD09D4693Ed4251c67Bd858c3c7C9C";
-var PRICE_ORACLE_SENTINEL5 = "0x0000000000000000000000000000000000000000";
-var AAVE_PROTOCOL_DATA_PROVIDER12 = "0x50ddd0Cd4266299527d25De9CBb55fE0EB8dAc30";
-var ACL_MANAGER5 = "0xa72636CbcAa8F5FF95B2cc47F3CDEe83F3294a0B";
-var ACL_ADMIN5 = "0x3C06dce358add17aAf230f2234bCCC4afd50d090";
-var COLLECTOR12 = "0x5ba7fd868c40c16f7aDfAe6CF87121E13FC2F7a0";
-var DEFAULT_INCENTIVES_CONTROLLER12 = "0x929EC64c34a17401F460460D4B9390518E5B473e";
-var DEFAULT_A_TOKEN_IMPL_REV_22 = "0x1E81af09001aD208BDa68FF022544dB2102A752d";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_22 = "0xa0d9C1E9E48Ca30c8d8C3B5D69FF5dc1f6DFfC24";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_22 = "0x893411580e590D62dDBca8a703d61Cc4A8c7b2b9";
-var EMISSION_MANAGER12 = "0x048f2228D7Bf6776f99aB50cB1b1eaB4D1d4cA73";
-var CAPS_PLUS_RISK_STEWARD3 = "0xD2C92b5A793e196aB11dBefBe3Af6BddeD6c3DD5";
-var FREEZING_STEWARD3 = "0x6d4F341d8Bb3Dc5ABe822Aa940F1884508C13f99";
-var DEBT_SWAP_ADAPTER6 = "0x8A9b2c132EA7676EE267F5b97b622083d6E3a2d4";
-var CONFIG_ENGINE7 = "0x0587B66Bc824368cFA5849bc56216a59260Df2c5";
-var POOL_ADDRESSES_PROVIDER_REGISTRY10 = "0x770ef9f4fe897e59daCc474EF11238303F9552b6";
-var PROOF_OF_RESERVE2 = "0xab22988D93d5F942fC6B6c6Ea285744809D1d9Cc";
-var PROOF_OF_RESERVE_AGGREGATOR2 = "0x80f2c02224a2E548FC67c0bF705eBFA825dd5439";
-var RATES_FACTORY7 = "0xDd81E6F85358292075B78fc8D5830BE8434aF8BA";
-var REPAY_WITH_COLLATERAL_ADAPTER6 = "0x49F5B996814fEd1dd39285B92A59CFb2dfd8D4f9";
-var STATIC_A_TOKEN_FACTORY3 = "0xbD37610BBB1ddc2a22797F7e3f531B59902b7bA7";
-var SWAP_COLLATERAL_ADAPTER6 = "0x2Cf641F7C0eac2788A7924B82d6Ca8EB7bAa4E3A";
-var UI_INCENTIVE_DATA_PROVIDER12 = "0x265d414f80b0fca9505710e6F16dB4b67555D365";
-var UI_POOL_DATA_PROVIDER12 = "0xF71DBe0FAEF1473ffC607d4c555dfF0aEaDb878d";
-var WALLET_BALANCE_PROVIDER12 = "0xBc790382B3686abffE4be14A030A96aC6154023a";
-var WETH_GATEWAY12 = "0x6F143FE2F7B02424ad3CaD1593D6f36c0Aab69d7";
-var WITHDRAW_SWAP_ADAPTER3 = "0x78F8Bd884C3D738B74B420540659c82f392820e0";
-var CHAIN_ID12 = 43114;
-var ASSETS12 = {
-  DAIe: {
-    decimals: 18,
-    UNDERLYING: "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
-    A_TOKEN: "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE",
-    S_TOKEN: "0xd94112B5B62d53C9402e7A60289c6810dEF1dC9B",
-    V_TOKEN: "0x8619d80FB0141ba7F184CbF22fd724116D9f7ffC",
-    INTEREST_RATE_STRATEGY: "0xfab05a6aF585da2F96e21452F91E812452996BD3",
-    ORACLE: "0x51D7180edA2260cc4F6e4EebB82FEF5c3c2B8300",
-    STATA_TOKEN: "0x234c4B76f749DffFd9C18eA7CC0972206b42D019"
-  },
-  LINKe: {
-    decimals: 18,
-    UNDERLYING: "0x5947BB275c521040051D82396192181b413227A3",
-    A_TOKEN: "0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530",
-    S_TOKEN: "0x89D976629b7055ff1ca02b927BA3e020F22A44e4",
-    V_TOKEN: "0x953A573793604aF8d41F306FEb8274190dB4aE0e",
-    INTEREST_RATE_STRATEGY: "0x79a906e8c998d2fb5C5D66d23c4c5416Fe0168D6",
-    ORACLE: "0x49ccd9ca821EfEab2b98c60dC60F518E765EDe9a",
-    STATA_TOKEN: "0x9020e690c517D91Dc405772c130F328982150EDb"
-  },
-  USDC: {
-    decimals: 6,
-    UNDERLYING: "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
-    A_TOKEN: "0x625E7708f30cA75bfd92586e17077590C60eb4cD",
-    S_TOKEN: "0x307ffe186F84a3bc2613D1eA417A5737D69A7007",
-    V_TOKEN: "0xFCCf3cAbbe80101232d343252614b6A3eE81C989",
-    INTEREST_RATE_STRATEGY: "0xD624AFA34614B4fe7FEe7e1751a2E5E04fb47398",
-    ORACLE: "0xF096872672F44d6EBA71458D74fe67F9a77a23B9",
-    STATA_TOKEN: "0xE7839ea8eA8543c7F5D9c9d7269C661904729fE7"
-  },
-  WBTCe: {
-    decimals: 8,
-    UNDERLYING: "0x50b7545627a5162F82A992c33b87aDc75187B218",
-    A_TOKEN: "0x078f358208685046a11C85e8ad32895DED33A249",
-    S_TOKEN: "0x633b207Dd676331c413D4C013a6294B0FE47cD0e",
-    V_TOKEN: "0x92b42c66840C7AD907b4BF74879FF3eF7c529473",
-    INTEREST_RATE_STRATEGY: "0x354E84ec43aCD91e1C0135c3e691960E881DB4b7",
-    ORACLE: "0x2779D32d5166BAaa2B2b658333bA7e6Ec0C65743",
-    STATA_TOKEN: "0xb516f74Eb030CebD5f616B1A33F88E1213b93c2C"
-  },
-  WETHe: {
-    decimals: 18,
-    UNDERLYING: "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
-    A_TOKEN: "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
-    S_TOKEN: "0xD8Ad37849950903571df17049516a5CD4cbE55F6",
-    V_TOKEN: "0x0c84331e39d6658Cd6e6b9ba04736cC4c4734351",
-    INTEREST_RATE_STRATEGY: "0x271f5f8325051f22caDa18FfedD4a805584a232A",
-    ORACLE: "0x976B3D034E162d8bD72D6b9C989d545b839003b0",
-    STATA_TOKEN: "0x41BafE0091d55378Ed921Af3784622923651FDD8"
-  },
-  USDt: {
-    decimals: 6,
-    UNDERLYING: "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
-    A_TOKEN: "0x6ab707Aca953eDAeFBc4fD23bA73294241490620",
-    S_TOKEN: "0x70eFfc565DB6EEf7B927610155602d31b670e802",
-    V_TOKEN: "0xfb00AC187a8Eb5AFAE4eACE434F493Eb62672df7",
-    INTEREST_RATE_STRATEGY: "0xfab05a6aF585da2F96e21452F91E812452996BD3",
-    ORACLE: "0xEBE676ee90Fe1112671f19b6B7459bC678B67e8a",
-    STATA_TOKEN: "0x759a2E28d4c3AD394d3125d5Ab75A6A5D6782Fd9"
-  },
-  AAVEe: {
-    decimals: 18,
-    UNDERLYING: "0x63a72806098Bd3D9520cC43356dD78afe5D386D9",
-    A_TOKEN: "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375",
-    S_TOKEN: "0xfAeF6A702D15428E588d4C0614AEFb4348D83D48",
-    V_TOKEN: "0xE80761Ea617F66F96274eA5e8c37f03960ecC679",
-    INTEREST_RATE_STRATEGY: "0x79a906e8c998d2fb5C5D66d23c4c5416Fe0168D6",
-    ORACLE: "0x3CA13391E9fb38a75330fb28f8cc2eB3D9ceceED",
-    STATA_TOKEN: "0x849526206f40678994b58d5524700248EAa1B75f"
-  },
-  WAVAX: {
-    decimals: 18,
-    UNDERLYING: "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
-    A_TOKEN: "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97",
-    S_TOKEN: "0xF15F26710c827DDe8ACBA678682F3Ce24f2Fb56E",
-    V_TOKEN: "0x4a1c3aD6Ed28a636ee1751C69071f6be75DEb8B8",
-    INTEREST_RATE_STRATEGY: "0xc76EF342898f1AE7E6C4632627Df683FAD8563DD",
-    ORACLE: "0x0A77230d17318075983913bC2145DB16C7366156",
-    STATA_TOKEN: "0xA291Ae608d8854CdbF9838E28E9BADCf10181669"
-  },
-  sAVAX: {
-    decimals: 18,
-    UNDERLYING: "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
-    A_TOKEN: "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf",
-    S_TOKEN: "0x08Cb71192985E936C7Cd166A8b268035e400c3c3",
-    V_TOKEN: "0x77CA01483f379E58174739308945f044e1a764dc",
-    INTEREST_RATE_STRATEGY: "0x79a906e8c998d2fb5C5D66d23c4c5416Fe0168D6",
-    ORACLE: "0xc9245871D69BF4c36c6F2D15E0D68Ffa883FE1A7",
-    STATA_TOKEN: "0x491E098e013a88eEb91E57be571bB2BD3B4aec67"
-  },
-  FRAX: {
-    decimals: 18,
-    UNDERLYING: "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
-    A_TOKEN: "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA",
-    S_TOKEN: "0x78246294a4c6fBf614Ed73CcC9F8b875ca8eE841",
-    V_TOKEN: "0x34e2eD44EF7466D5f9E0b782B5c08b57475e7907",
-    INTEREST_RATE_STRATEGY: "0xfab05a6aF585da2F96e21452F91E812452996BD3",
-    ORACLE: "0xbBa56eF1565354217a3353a466edB82E8F25b08e",
-    STATA_TOKEN: "0x318992E104cD645543aD1a0806CD3f06532FC696"
-  },
-  MAI: {
-    decimals: 18,
-    UNDERLYING: "0x5c49b268c9841AFF1Cc3B0a418ff5c3442eE3F3b",
-    A_TOKEN: "0x8Eb270e296023E9D92081fdF967dDd7878724424",
-    S_TOKEN: "0x3EF10DFf4928279c004308EbADc4Db8B7620d6fc",
-    V_TOKEN: "0xCE186F6Cccb0c955445bb9d10C59caE488Fea559",
-    INTEREST_RATE_STRATEGY: "0xfab05a6aF585da2F96e21452F91E812452996BD3",
-    ORACLE: "0x5D1F504211c17365CA66353442a74D4435A8b778",
-    STATA_TOKEN: "0x717F2193a7d94Fce8653E91D097df19E83e79E5D"
-  },
-  BTCb: {
-    decimals: 8,
-    UNDERLYING: "0x152b9d0FdC40C096757F570A51E494bd4b943E50",
-    A_TOKEN: "0x8ffDf2DE812095b1D19CB146E4c004587C0A0692",
-    S_TOKEN: "0xa5e408678469d23efDB7694b1B0A85BB0669e8bd",
-    V_TOKEN: "0xA8669021776Bc142DfcA87c21b4A52595bCbB40a",
-    INTEREST_RATE_STRATEGY: "0x79a906e8c998d2fb5C5D66d23c4c5416Fe0168D6",
-    ORACLE: "0x2779D32d5166BAaa2B2b658333bA7e6Ec0C65743",
-    STATA_TOKEN: "0x0e3DE807B3B4D65D40dfB7BB908289b227d816c8"
-  }
-};
-var E_MODES5 = {
-  NONE: 0,
-  STABLECOINS: 1,
-  AVAX_CORRELATED: 2
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3Fuji.mjs
-var AaveV3Fuji_exports = {};
-__export(AaveV3Fuji_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER13,
-  ACL_ADMIN: () => ACL_ADMIN6,
-  ACL_MANAGER: () => ACL_MANAGER6,
-  ASSETS: () => ASSETS13,
-  CHAIN_ID: () => CHAIN_ID13,
-  COLLECTOR: () => COLLECTOR13,
-  DEFAULT_A_TOKEN_IMPL_REV_1: () => DEFAULT_A_TOKEN_IMPL_REV_14,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER13,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_14,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_14,
-  EMISSION_MANAGER: () => EMISSION_MANAGER13,
-  E_MODES: () => E_MODES6,
-  FAUCET: () => FAUCET6,
-  ORACLE: () => ORACLE13,
-  POOL: () => POOL13,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER13,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR13,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL6,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER13,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER13,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER13,
-  WETH_GATEWAY: () => WETH_GATEWAY13
-});
-var POOL_ADDRESSES_PROVIDER13 = "0xfb87056c0587923f15EB0aABc7d0572450Cc8003";
-var POOL13 = "0xccEa5C65f6d4F465B71501418b88FBe4e7071283";
-var POOL_CONFIGURATOR13 = "0x34b80e82dFa833D65ef7618Cfc22bb1F359adce7";
-var ORACLE13 = "0x4DaE2f0f4Db78115eF114F1Dfef426ef2A4fC318";
-var PRICE_ORACLE_SENTINEL6 = "0x0000000000000000000000000000000000000000";
-var AAVE_PROTOCOL_DATA_PROVIDER13 = "0x544b4e38fC2E74DAd9a3C2f783A15776C0C25c51";
-var ACL_MANAGER6 = "0x4f2344ACBEfAe1aD87F41B84691E2552C719f723";
-var ACL_ADMIN6 = "0x9973Ce75946D56fA3B0C6aa3647d67D440BDAec8";
-var COLLECTOR13 = "0xB847a72802E43dF643ceC66315B58832Af724Efa";
-var DEFAULT_INCENTIVES_CONTROLLER13 = "0x25f130Df328c8c2f2C0270377D0e7a984E96ce56";
-var DEFAULT_A_TOKEN_IMPL_REV_14 = "0xDB8266d95Bc9E1b4C1440501Fae90838381a9156";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_14 = "0x4e38efc0097D11bc2926b02D4d6D8FB7057EA7a2";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_14 = "0x2Cc2d88880Bbc779bD31eC8c72f8f879f8046a80";
-var EMISSION_MANAGER13 = "0x94D29389b874E6B5b7190dd891E7360827c0E3B4";
-var FAUCET6 = "0xBCcD21ae43139bEF545e72e20E78f039A3Ac1b96";
-var UI_INCENTIVE_DATA_PROVIDER13 = "0x1EFf285a4E34217495b5531151bffa222A94A4F9";
-var UI_POOL_DATA_PROVIDER13 = "0x279c790Afcd547e2f20d896c5DDEe3846b9790B5";
-var WALLET_BALANCE_PROVIDER13 = "0xfFE3778c51e93EBf68f5d0a83c794E7f623024dd";
-var WETH_GATEWAY13 = "0x8A007E495449ffeda4C2d65f14eE31f8Bcb022CF";
-var CHAIN_ID13 = 43113;
-var ASSETS13 = {
-  DAI: {
-    decimals: 18,
-    UNDERLYING: "0x676bD5B5d0955925aeCe653C50426940c58036c8",
-    A_TOKEN: "0xc2E0542ae75DF6ceC02fea12972918a5D18Eb956",
-    S_TOKEN: "0x713106F071747aa337F40A52dc66D5aF0caB4510",
-    V_TOKEN: "0x070fF79b060C14284754e8d575d2B96eCd2Fb15F",
-    INTEREST_RATE_STRATEGY: "0x056e5A5ad84607fa7d9abaAe8464adE9D2020a7c",
-    ORACLE: "0xA99a7aCefb0a5Cc5152f27814A95c2D914e2f6e5"
-  },
-  LINK: {
-    decimals: 18,
-    UNDERLYING: "0x3A38c4d0444b5fFcc5323b2e86A21aBaaf5FbF26",
-    A_TOKEN: "0x6cC4457C7547E6995ba7bA000851182F94658A51",
-    S_TOKEN: "0xD79D85ce953266ef3c7f218c4b9F081b663566fC",
-    V_TOKEN: "0x03578922eD24B3B07525D12464e69646551fd58E",
-    INTEREST_RATE_STRATEGY: "0xeA461FF7c4e89150348b363F886b72c4E4d30Bd9",
-    ORACLE: "0x97cd7dc7DAA77E577C544Da7131e466952a72e9D"
-  },
-  USDC: {
-    decimals: 6,
-    UNDERLYING: "0xCaC7Ffa82c0f43EBB0FC11FCd32123EcA46626cf",
-    A_TOKEN: "0xb1c85310a1b809C70fA6806d27Da425C1261F801",
-    S_TOKEN: "0x37258ee15dE91909Ff2EF9e17ED3568196a6B62F",
-    V_TOKEN: "0xaEF614b7ab1e50A919A181623E0888452c5139e5",
-    INTEREST_RATE_STRATEGY: "0x58f262FBAE3a3F91db894E726ee35394b5649593",
-    ORACLE: "0x5Ce12885EFe9fc9E3D710F4e729D53BEBBf32a8E"
-  },
-  WBTC: {
-    decimals: 8,
-    UNDERLYING: "0x0EFD8Ad2231c0B9C4d63F892E0a0a59a626Ce88d",
-    A_TOKEN: "0x3d1F7da320eFDE834Cb7974d68591ca65de92FDC",
-    S_TOKEN: "0xA782143aBAC80aA3fB265c10dA31eaeCD84f82c4",
-    V_TOKEN: "0xbbBe736E39FC0a74C110869f837089fA5e57Ec04",
-    INTEREST_RATE_STRATEGY: "0xeA461FF7c4e89150348b363F886b72c4E4d30Bd9",
-    ORACLE: "0xBc251DE443F7Db3921e0cBC0d55c45336c646F7c"
-  },
-  WETH: {
-    decimals: 18,
-    UNDERLYING: "0xf97b6C636167B529B6f1D729Bd9bC0e2Bd491848",
-    A_TOKEN: "0x812664237ad3DfdaA697B77b7919bBde7486D90E",
-    S_TOKEN: "0x4921c29cb9f79eB7Bf1e7B16836F2984ef569B38",
-    V_TOKEN: "0xEBaC3ae7bFC81C4e05Ad65a69aD69673B1b53a0f",
-    INTEREST_RATE_STRATEGY: "0xeA461FF7c4e89150348b363F886b72c4E4d30Bd9",
-    ORACLE: "0x3A19706EC161e02917f056F0c2a91961d2Cf32a0"
-  },
-  USDT: {
-    decimals: 6,
-    UNDERLYING: "0xBDE7fbbb1DC89E74B73C54Ad911A1C9685caCD83",
-    A_TOKEN: "0x13f2B2AFCbe58e72b3d275aC197c3f602CC57735",
-    S_TOKEN: "0x663Fe6EF3Ce8330c9f9494f933FBb426553F4F12",
-    V_TOKEN: "0xa09275Af89b16036944a48F82D9980C55B950162",
-    INTEREST_RATE_STRATEGY: "0x58f262FBAE3a3F91db894E726ee35394b5649593",
-    ORACLE: "0x58D19E04fAfC6aC17c01B5667aF137431d9CaAF4"
-  },
-  AAVE: {
-    decimals: 18,
-    UNDERLYING: "0xfB4CeA030Fa61FC435E922CFDc4bF9C80456E19b",
-    A_TOKEN: "0x8419b35fA4AE8105d3241687a6421abA7303E642",
-    S_TOKEN: "0x38BcB6c581EEF8F6Ec545989B04973dC31252fA2",
-    V_TOKEN: "0x202AB06b46b0b37804753CF8B2bC0C750b6d6A35",
-    INTEREST_RATE_STRATEGY: "0xeA461FF7c4e89150348b363F886b72c4E4d30Bd9",
-    ORACLE: "0xe19ee4B292a3c52A5089e0f84b5874ee29005895"
-  },
-  WAVAX: {
-    decimals: 18,
-    UNDERLYING: "0x2f6179f64FFe203899600Ba26d10979B314eA13D",
-    A_TOKEN: "0x339f50bCbd874A892fb2c6A56Cf8D85Dd215Bf8e",
-    S_TOKEN: "0xeea401488B4752969cD67E325f818d657a0Ea9a5",
-    V_TOKEN: "0xDB40902115B5eEBe5810AfB469A32b66c8258c9E",
-    INTEREST_RATE_STRATEGY: "0xeA461FF7c4e89150348b363F886b72c4E4d30Bd9",
-    ORACLE: "0xA575a92bdEDe1740eF4De70F304A1288AD6E1fb8"
-  }
-};
-var E_MODES6 = {
-  NONE: 0,
-  STABLECOINS: 1
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3Base.mjs
-var AaveV3Base_exports = {};
-__export(AaveV3Base_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER14,
-  ACL_ADMIN: () => ACL_ADMIN7,
-  ACL_MANAGER: () => ACL_MANAGER7,
-  ASSETS: () => ASSETS14,
-  CAPS_PLUS_RISK_STEWARD: () => CAPS_PLUS_RISK_STEWARD4,
-  CHAIN_ID: () => CHAIN_ID14,
-  COLLECTOR: () => COLLECTOR14,
-  CONFIG_ENGINE: () => CONFIG_ENGINE8,
-  DEBT_SWAP_ADAPTER: () => DEBT_SWAP_ADAPTER7,
-  DEFAULT_A_TOKEN_IMPL_REV_1: () => DEFAULT_A_TOKEN_IMPL_REV_15,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER14,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_15,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_15,
-  EMISSION_MANAGER: () => EMISSION_MANAGER14,
-  E_MODES: () => E_MODES7,
-  FREEZING_STEWARD: () => FREEZING_STEWARD4,
-  L2_ENCODER: () => L2_ENCODER,
-  ORACLE: () => ORACLE14,
-  POOL: () => POOL14,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER14,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY11,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR14,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL7,
-  RATES_FACTORY: () => RATES_FACTORY8,
-  REPAY_WITH_COLLATERAL_ADAPTER: () => REPAY_WITH_COLLATERAL_ADAPTER7,
-  SWAP_COLLATERAL_ADAPTER: () => SWAP_COLLATERAL_ADAPTER7,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER14,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER14,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER14,
-  WETH_GATEWAY: () => WETH_GATEWAY14,
-  WITHDRAW_SWAP_ADAPTER: () => WITHDRAW_SWAP_ADAPTER4
-});
-var POOL_ADDRESSES_PROVIDER14 = "0xe20fCBdBfFC4Dd138cE8b2E6FBb6CB49777ad64D";
-var POOL14 = "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5";
-var POOL_CONFIGURATOR14 = "0x5731a04B1E775f0fdd454Bf70f3335886e9A96be";
-var ORACLE14 = "0x2Cc0Fc26eD4563A5ce5e8bdcfe1A2878676Ae156";
-var PRICE_ORACLE_SENTINEL7 = "0xe34949A48cd2E6f5CD41753e449bd2d43993C9AC";
-var AAVE_PROTOCOL_DATA_PROVIDER14 = "0x2d8A3C5677189723C4cB8873CfC9C8976FDF38Ac";
-var ACL_MANAGER7 = "0x43955b0899Ab7232E3a454cf84AedD22Ad46FD33";
-var ACL_ADMIN7 = "0x9390B1735def18560c509E2d0bc090E9d6BA257a";
-var COLLECTOR14 = "0xBA9424d650A4F5c80a0dA641254d1AcCE2A37057";
-var DEFAULT_INCENTIVES_CONTROLLER14 = "0xf9cc4F0D883F1a1eb2c253bdb46c254Ca51E1F44";
-var DEFAULT_A_TOKEN_IMPL_REV_15 = "0x98F409Fc4A42F34AE3c326c7f48ED01ae8cAeC69";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_15 = "0x2425A746911128c2eAA7bEBDc9Bc452eE52208a1";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_15 = "0xe0b9B4f959fa8B52B7228c8D78875482b8813349";
-var EMISSION_MANAGER14 = "0x6533A273F3aC84Df91DCD654D6EBAbA73687e246";
-var CAPS_PLUS_RISK_STEWARD4 = "0x12DEB4025b79f2B43f6aeF079F9D77C3f9a67bb6";
-var FREEZING_STEWARD4 = "0x4A4c73d563395ad827511F70097d4Ef82E653805";
-var DEBT_SWAP_ADAPTER7 = "0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731";
-var WITHDRAW_SWAP_ADAPTER4 = "0x5598BbFA2f4fE8151f45bBA0a3edE1b54B51a0a9";
-var SWAP_COLLATERAL_ADAPTER7 = "0x2E549104c516b8657A7D888494DfbAbD7C70b464";
-var REPAY_WITH_COLLATERAL_ADAPTER7 = "0x78F8Bd884C3D738B74B420540659c82f392820e0";
-var CONFIG_ENGINE8 = "0xc7751400F809cdB0C167F87985083C558a0610F7";
-var RATES_FACTORY8 = "0x0D1Fe8eAdb0a3e44C4Cc9D73De8dA50C1E475832";
-var L2_ENCODER = "0x39e97c588B2907Fb67F44fea256Ae3BA064207C5";
-var POOL_ADDRESSES_PROVIDER_REGISTRY11 = "0x2f6571d3Eb9a4e350C68C36bCD2afe39530078E2";
-var UI_INCENTIVE_DATA_PROVIDER14 = "0xEdD3b4737C1a0011626631a977b91Cf3E944982d";
-var UI_POOL_DATA_PROVIDER14 = "0x174446a6741300cD2E7C1b1A636Fee99c8F83502";
-var WALLET_BALANCE_PROVIDER14 = "0x5779b29B0a34577d927E8D511B595ef9abbFAE82";
-var WETH_GATEWAY14 = "0x18CD499E3d7ed42FEbA981ac9236A278E4Cdc2ee";
-var CHAIN_ID14 = 8453;
-var ASSETS14 = {
-  WETH: {
-    decimals: 18,
-    UNDERLYING: "0x4200000000000000000000000000000000000006",
-    A_TOKEN: "0xD4a0e0b9149BCee3C920d2E00b5dE09138fd8bb7",
-    S_TOKEN: "0xaED3b56FeA82E809665f02AcBcDEc0816c75f4d9",
-    V_TOKEN: "0x24e6e0795b3c7c71D965fCc4f371803d1c1DcA1E",
-    INTEREST_RATE_STRATEGY: "0xC1F6588f4A1145D0B7F94c86a773bB47F0eC0759",
-    ORACLE: "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70"
-  },
-  cbETH: {
-    decimals: 18,
-    UNDERLYING: "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
-    A_TOKEN: "0xcf3D55c10DB69f28fD1A75Bd73f3D8A2d9c595ad",
-    S_TOKEN: "0xa9dF5c62d16d3f496673F4d736852017b086eCA0",
-    V_TOKEN: "0x1DabC36f19909425f654777249815c073E8Fd79F",
-    INTEREST_RATE_STRATEGY: "0x05295489b6aE0d97ae7C49a42989497294F7F428",
-    ORACLE: "0x80f2c02224a2E548FC67c0bF705eBFA825dd5439"
-  },
-  USDbC: {
-    decimals: 6,
-    UNDERLYING: "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
-    A_TOKEN: "0x0a1d576f3eFeF75b330424287a95A366e8281D54",
-    S_TOKEN: "0xBBaDd47fbaFa9dE717FE203e4707DEB893C64654",
-    V_TOKEN: "0x7376b2F323dC56fCd4C191B34163ac8a84702DAB",
-    INTEREST_RATE_STRATEGY: "0x8BAdED77793c340ab79848A09C7F5f7F16007Ab6",
-    ORACLE: "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B"
-  }
-};
-var E_MODES7 = {
-  NONE: 0,
-  ETH_CORRELATED: 1
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3Metis.mjs
-var AaveV3Metis_exports = {};
-__export(AaveV3Metis_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER15,
-  ACL_ADMIN: () => ACL_ADMIN8,
-  ACL_MANAGER: () => ACL_MANAGER8,
-  ASSETS: () => ASSETS15,
-  CAPS_PLUS_RISK_STEWARD: () => CAPS_PLUS_RISK_STEWARD5,
-  CHAIN_ID: () => CHAIN_ID15,
-  COLLECTOR: () => COLLECTOR15,
-  CONFIG_ENGINE: () => CONFIG_ENGINE9,
-  DEFAULT_A_TOKEN_IMPL_REV_1: () => DEFAULT_A_TOKEN_IMPL_REV_16,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER15,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_16,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_16,
-  EMISSION_MANAGER: () => EMISSION_MANAGER15,
-  E_MODES: () => E_MODES8,
-  FREEZING_STEWARD: () => FREEZING_STEWARD5,
-  L2_ENCODER: () => L2_ENCODER2,
-  ORACLE: () => ORACLE15,
-  POOL: () => POOL15,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER15,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY12,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR15,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL8,
-  RATES_FACTORY: () => RATES_FACTORY9,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER15,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER15,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER15
-});
-var POOL_ADDRESSES_PROVIDER15 = "0xB9FABd7500B2C6781c35Dd48d54f81fc2299D7AF";
-var POOL15 = "0x90df02551bB792286e8D4f13E0e357b4Bf1D6a57";
-var POOL_CONFIGURATOR15 = "0x69FEE8F261E004453BE0800BC9039717528645A6";
-var ORACLE15 = "0x38D36e85E47eA6ff0d18B0adF12E5fC8984A6f8e";
-var PRICE_ORACLE_SENTINEL8 = "0xE2566C39db9559D318fB3a00D7B5992CBeeA8567";
-var AAVE_PROTOCOL_DATA_PROVIDER15 = "0x99411FC17Ad1B56f49719E3850B2CDcc0f9bBFd8";
-var ACL_MANAGER8 = "0xcDCb65fc657B701a5100a12eFB663978E7e8fFB8";
-var ACL_ADMIN8 = "0x6fD45D32375d5aDB8D76275A3932c740F03a8718";
-var COLLECTOR15 = "0xB5b64c7E00374e766272f8B442Cd261412D4b118";
-var DEFAULT_INCENTIVES_CONTROLLER15 = "0x30C1b8F0490fa0908863d6Cbd2E36400b4310A6B";
-var DEFAULT_A_TOKEN_IMPL_REV_16 = "0x246405C70461f93513C74606815615c24c5C8C79";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_16 = "0xE7fA271BD76FC9c6F2F968976E9f4f553256E02f";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_16 = "0x52aC2476Fc6F788B4c5A9B12Cfcb7fDB163955f4";
-var EMISSION_MANAGER15 = "0xfDb2580A1ac4CDc67E4236738b28af59e2022Dd2";
-var CAPS_PLUS_RISK_STEWARD5 = "0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731";
-var FREEZING_STEWARD5 = "0x2C77153fF4a1e83A8d8D750735FB101ECB55949f";
-var L2_ENCODER2 = "0x9f3A1B399A9074eBA63Dc4fc274bE2A2b2d80cB9";
-var CONFIG_ENGINE9 = "0x8be473dCfA93132658821E67CbEB684ec8Ea2E74";
-var POOL_ADDRESSES_PROVIDER_REGISTRY12 = "0x9E7B73ffD9D2026F3ff4212c29E209E09C8A91F5";
-var RATES_FACTORY9 = "0x87Aaba7cf8e1F319d0E3402d68017171201dEcd5";
-var UI_INCENTIVE_DATA_PROVIDER15 = "0x3e7BC5EcE0f22DbB16c3e3EeA288a10A57d68927";
-var UI_POOL_DATA_PROVIDER15 = "0x7dd60bd8507fDC3d300d53427b7AE566701a7320";
-var WALLET_BALANCE_PROVIDER15 = "0x1df710eb1E2FD9C21494aF2BFb1F210a4185885b";
-var CHAIN_ID15 = 1088;
-var ASSETS15 = {
-  mDAI: {
-    decimals: 18,
-    UNDERLYING: "0x4c078361FC9BbB78DF910800A991C7c3DD2F6ce0",
-    A_TOKEN: "0x85ABAdDcae06efee2CB5F75f33b6471759eFDE24",
-    S_TOKEN: "0xf1cd706E177F3AEa620c722Dc436B5a2066E4C68",
-    V_TOKEN: "0x13Bd89aF338f3c7eAE9a75852fC2F1ca28B4DDbF",
-    INTEREST_RATE_STRATEGY: "0x4a8de3E62B4a63905f62e56292ECdCfD3593d1c9",
-    ORACLE: "0xe0351cAAE70B5AdBD0107cD5331AD1D79c4c1CA1"
-  },
-  Metis: {
-    decimals: 18,
-    UNDERLYING: "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
-    A_TOKEN: "0x7314Ef2CA509490f65F52CC8FC9E0675C66390b8",
-    S_TOKEN: "0xeF547E238d689BAa811E597105A596bBE2Fe0761",
-    V_TOKEN: "0x0110174183e13D5Ea59D7512226c5D5A47bA2c40",
-    INTEREST_RATE_STRATEGY: "0xfe8FF9a19E251fe6cf2e8cBf0959ACa9624A97d1",
-    ORACLE: "0xD4a5Bb03B5D66d9bf81507379302Ac2C2DFDFa6D"
-  },
-  mUSDC: {
-    decimals: 6,
-    UNDERLYING: "0xEA32A96608495e54156Ae48931A7c20f0dcc1a21",
-    A_TOKEN: "0x885C8AEC5867571582545F894A5906971dB9bf27",
-    S_TOKEN: "0x81aC531A7CA8Bdaeb571d8d948e29481A35495C8",
-    V_TOKEN: "0x571171a7EF1e3c8c83d47EF1a50E225E9c351380",
-    INTEREST_RATE_STRATEGY: "0x3B88f83B2b0444F14B6fc904040F648206F551fc",
-    ORACLE: "0x663855969c85F3BE415807250414Ca9129533a5f"
-  },
-  mUSDT: {
-    decimals: 6,
-    UNDERLYING: "0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC",
-    A_TOKEN: "0xd9fa75D14c26720d5ce7eE2530793a823e8f07b9",
-    S_TOKEN: "0xb4984c08984776074fB9BB78fFE24e9F1E97CD3F",
-    V_TOKEN: "0x6B45DcE8aF4fE5Ab3bFCF030d8fB57718eAB54e5",
-    INTEREST_RATE_STRATEGY: "0x5A1bdAc4eBa2A70D465ef4aDd2f68dBBae183454",
-    ORACLE: "0x51864b8948Aa5e35aace2BaDaF901D63418A3b9D"
-  },
-  WETH: {
-    decimals: 18,
-    UNDERLYING: "0x420000000000000000000000000000000000000A",
-    A_TOKEN: "0x8acAe35059C9aE27709028fF6689386a44c09f3a",
-    S_TOKEN: "0x38cFF1C1dFE9e2566F11CB717Ac43fa56fEeCFbd",
-    V_TOKEN: "0x8Bb19e3DD277a73D4A95EE434F14cE4B92898421",
-    INTEREST_RATE_STRATEGY: "0x83e654d42f437915bf849dE04c19AAd8C5e8c01E",
-    ORACLE: "0x3BBe70e2F96c87aEce7F67A2b0178052f62E37fE"
-  }
-};
-var E_MODES8 = {
-  NONE: 0
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3Gnosis.mjs
-var AaveV3Gnosis_exports = {};
-__export(AaveV3Gnosis_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER16,
-  ACL_ADMIN: () => ACL_ADMIN9,
-  ACL_MANAGER: () => ACL_MANAGER9,
-  ASSETS: () => ASSETS16,
-  CAPS_PLUS_RISK_STEWARD: () => CAPS_PLUS_RISK_STEWARD6,
-  CHAIN_ID: () => CHAIN_ID16,
-  COLLECTOR: () => COLLECTOR16,
-  CONFIG_ENGINE: () => CONFIG_ENGINE10,
-  DEFAULT_A_TOKEN_IMPL_REV_1: () => DEFAULT_A_TOKEN_IMPL_REV_17,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER16,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_17,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_17,
-  EMISSION_MANAGER: () => EMISSION_MANAGER16,
-  E_MODES: () => E_MODES9,
-  FREEZING_STEWARD: () => FREEZING_STEWARD6,
-  L2_ENCODER: () => L2_ENCODER3,
-  ORACLE: () => ORACLE16,
-  POOL: () => POOL16,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER16,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY13,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR16,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL9,
-  RATES_FACTORY: () => RATES_FACTORY10,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER16,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER16,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER16,
-  WETH_GATEWAY: () => WETH_GATEWAY15
-});
-var POOL_ADDRESSES_PROVIDER16 = "0x36616cf17557639614c1cdDb356b1B83fc0B2132";
-var POOL16 = "0xb50201558B00496A145fE76f7424749556E326D8";
-var POOL_CONFIGURATOR16 = "0x7304979ec9E4EaA0273b6A037a31c4e9e5A75D16";
-var ORACLE16 = "0xeb0a051be10228213BAEb449db63719d6742F7c4";
-var PRICE_ORACLE_SENTINEL9 = "0x0000000000000000000000000000000000000000";
-var AAVE_PROTOCOL_DATA_PROVIDER16 = "0x501B4c19dd9C2e06E94dA7b6D5Ed4ddA013EC741";
-var ACL_MANAGER9 = "0xEc710f59005f48703908bC519D552Df5B8472614";
-var ACL_ADMIN9 = "0x1dF462e2712496373A347f8ad10802a5E95f053D";
-var COLLECTOR16 = "0x3e652E97ff339B73421f824F5b03d75b62F1Fb51";
-var DEFAULT_INCENTIVES_CONTROLLER16 = "0xaD4F91D26254B6B0C6346b390dDA2991FDE2F20d";
-var DEFAULT_A_TOKEN_IMPL_REV_17 = "0x589750BA8aF186cE5B55391B0b7148cAD43a1619";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_17 = "0xBeC519531F0E78BcDdB295242fA4EC5251B38574";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_17 = "0x06C35Cfd3FC61eC2aC437f0d08840d5776b945af";
-var EMISSION_MANAGER16 = "0x41585C50524fb8c3899B43D7D797d9486AAc94DB";
-var L2_ENCODER3 = "0xab923C4BD40eab9824C0b86FD8562eEcb933b56a";
-var CONFIG_ENGINE10 = "0x3238FC1d642b60F41a35f62570237656C85F4744";
-var POOL_ADDRESSES_PROVIDER_REGISTRY13 = "0x1236010CECea55998384e795B59815D871f5f94d";
-var RATES_FACTORY10 = "0x73dDE2A75c06a108912bf7Ff600eDdCE9d96Ed25";
-var UI_INCENTIVE_DATA_PROVIDER16 = "0xCFDAdA7DCd2e785cF706BaDBC2B8Af5084d595e9";
-var UI_POOL_DATA_PROVIDER16 = "0x86E2938daE289763D4e09a7e42c5cCcA62Cf9809";
-var WALLET_BALANCE_PROVIDER16 = "0x4172E6aAEC070ACB31aaCE343A58c93E4C70f44D";
-var WETH_GATEWAY15 = "0xb7E51aA2A5f4dD478F183A593F67637ed6F1d1D9";
-var CAPS_PLUS_RISK_STEWARD6 = "0x33AE1f41546a2e05368Bf789b3d868813c0Ae658";
-var FREEZING_STEWARD6 = "0x3Ceaf9b6CAb92dFe6302D0CC3F1BA880C28d35e5";
-var CHAIN_ID16 = 100;
-var ASSETS16 = {};
-var E_MODES9 = {};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3ArbitrumGoerli.mjs
-var AaveV3ArbitrumGoerli_exports = {};
-__export(AaveV3ArbitrumGoerli_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER17,
-  ACL_ADMIN: () => ACL_ADMIN10,
-  ACL_MANAGER: () => ACL_MANAGER10,
-  ASSETS: () => ASSETS17,
-  CHAIN_ID: () => CHAIN_ID17,
-  COLLECTOR: () => COLLECTOR17,
-  DEFAULT_A_TOKEN_IMPL_REV_1: () => DEFAULT_A_TOKEN_IMPL_REV_18,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER17,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_18,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_18,
-  EMISSION_MANAGER: () => EMISSION_MANAGER17,
-  E_MODES: () => E_MODES10,
-  FAUCET: () => FAUCET7,
-  L2_ENCODER: () => L2_ENCODER4,
-  ORACLE: () => ORACLE17,
-  POOL: () => POOL17,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER17,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR17,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL10,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER17,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER17,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER17,
-  WETH_GATEWAY: () => WETH_GATEWAY16
-});
-var POOL_ADDRESSES_PROVIDER17 = "0xD64dDe119f11C88850FD596BE11CE398CC5893e6";
-var POOL17 = "0x20fa38a4f8Af2E36f1Cc14caad2E603fbA5C535c";
-var POOL_CONFIGURATOR17 = "0x4850e2E7c92Fe5cC80E64FD9FA32216E0C30E2E9";
-var ORACLE17 = "0x4C0EBa43c13ac25885fE0edf3E8Fd4fe32b528dE";
-var PRICE_ORACLE_SENTINEL10 = "0x0000000000000000000000000000000000000000";
-var AAVE_PROTOCOL_DATA_PROVIDER17 = "0x7E4025a4e9Ae4e7EcA533cDFF1ba269eDD31146F";
-var ACL_MANAGER10 = "0xFBeB1c59e7aBb71A93ddc36359e57a116E602668";
-var ACL_ADMIN10 = "0x9973Ce75946D56fA3B0C6aa3647d67D440BDAec8";
-var COLLECTOR17 = "0xbE46486f69fc2882e5E4769CFBCe704E3EfecD25";
-var DEFAULT_INCENTIVES_CONTROLLER17 = "0xC8283AA1fAD9cc32f13334B914a602037772984D";
-var DEFAULT_A_TOKEN_IMPL_REV_18 = "0x23eA12332Ef09AF8C30799D299A1085a09149d4D";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_18 = "0x4579e891f735E4d3C0B10aEE041E4672f04636cb";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_18 = "0x64be7D8Aed08c7adAEeBBCcca7eC41d5E49f9e74";
-var EMISSION_MANAGER17 = "0xEF6a0951fE054F78Adc90ee9181297e40637C061";
-var FAUCET7 = "0xc1b3cc37cf2f922abDFE7F01A17bc932F4078665";
-var L2_ENCODER4 = "0x46605375317C3E8bd19E0ED70987354Cb6D16720";
-var UI_INCENTIVE_DATA_PROVIDER17 = "0x159E642e34ad712242F6057477277b093eb43950";
-var UI_POOL_DATA_PROVIDER17 = "0x1d5a0287E4ac7Ff805D8399D0177c75C8C95d4dC";
-var WALLET_BALANCE_PROVIDER17 = "0x8c7914af3926CfA5131Ce294c48E03C6d3aDc916";
-var WETH_GATEWAY16 = "0xcD1065F2c3A0e0a94d543Ce41720BFF515f753B7";
-var CHAIN_ID17 = 421613;
-var ASSETS17 = {
-  DAI: {
-    decimals: 18,
-    UNDERLYING: "0xe73C6dA65337ef99dBBc014C7858973Eba40a10b",
-    A_TOKEN: "0x48d70B5EF8aBF23944322c291D183EdCb3d1d09e",
-    S_TOKEN: "0x9326836cb60D287f45E6c1F0f12494A2FB8f6884",
-    V_TOKEN: "0x5eDfaf5467A8d68F0069d58c208DE24aB331cE8d",
-    INTEREST_RATE_STRATEGY: "0x8a93EEFc0E92451277B572173fCB22bB5545134d",
-    ORACLE: "0x3FF18768FeC4f61428a4D9188408cc8a96BeA7d0"
-  },
-  LINK: {
-    decimals: 18,
-    UNDERLYING: "0xB35Ec24CACC44C5F161bF098Ed5320BCbcda34FD",
-    A_TOKEN: "0xB7C5a28bE43543eccE023A63d69b88d441cB6a28",
-    S_TOKEN: "0x8B6003c72D161Bd74123217CD3c240973aB42F3D",
-    V_TOKEN: "0x16A9DCf2DF1C73B95B7aB3BD60dEB59d98BD0d56",
-    INTEREST_RATE_STRATEGY: "0x2E8FE952067C7f4e9782bA0743620bDEa6a14004",
-    ORACLE: "0xaD714A38D2348Cf62e9f375BD8eE79c2F9d717A5"
-  },
-  USDC: {
-    decimals: 6,
-    UNDERLYING: "0xd513E4537510C75E24f941f159B7CAFA74E7B3B9",
-    A_TOKEN: "0xC68eE187eb44227dCEaB89ce789193027887a30d",
-    S_TOKEN: "0xA1c1094877EF91e400697D5104cd9a7cA6a529f8",
-    V_TOKEN: "0xeF7D160a47bbe2dF4c2Ca893036e7Cf690415466",
-    INTEREST_RATE_STRATEGY: "0x1949f5dE0F6D5a57918734B659c112616fCb7af7",
-    ORACLE: "0x1E82Cd5eE25223247a2dDB69f1954626EB7DA315"
-  },
-  WBTC: {
-    decimals: 8,
-    UNDERLYING: "0x1377b75237a9ee83aC0C76dE258E68e875d96334",
-    A_TOKEN: "0x65Ae5B31CDC763F58cc70fC8780E07DEBccB4D4e",
-    S_TOKEN: "0xCb0Bf8E233b611D51100E1Bf97F6265daCf5e011",
-    V_TOKEN: "0xC60a4b631e9057193daf1C96DF9ea917EC9AC0F1",
-    INTEREST_RATE_STRATEGY: "0x2E8FE952067C7f4e9782bA0743620bDEa6a14004",
-    ORACLE: "0x6fBa7439D9D7c902C485D0373b189431aC230240"
-  },
-  WETH: {
-    decimals: 18,
-    UNDERLYING: "0x4284186b053ACdBA28E8B26E99475d891533086a",
-    A_TOKEN: "0x878092a3313bD2437ffbb6dC43638C0a1Cd0A8D2",
-    S_TOKEN: "0xe164EA80aB17C5f8D61286943b42F69c8FAA7Ca4",
-    V_TOKEN: "0x644E7aA021E14fE3cE8F973464B58A0935259D25",
-    INTEREST_RATE_STRATEGY: "0x2E8FE952067C7f4e9782bA0743620bDEa6a14004",
-    ORACLE: "0xabF81FF65097be8f19977D5fEEA6f58a90E5ea1f"
-  },
-  USDT: {
-    decimals: 6,
-    UNDERLYING: "0x8dA9412AbB78db20d0B496573D9066C474eA21B8",
-    A_TOKEN: "0xcDA8CEF39c407c2C00818C9A1aD99067fF06c142",
-    S_TOKEN: "0xda68dC7F3B64710a7F1C4BBc77D80Af322A6e50c",
-    V_TOKEN: "0x1f0Cec2f0dFDb673CD894450224d911A8FB4D80a",
-    INTEREST_RATE_STRATEGY: "0x1949f5dE0F6D5a57918734B659c112616fCb7af7",
-    ORACLE: "0xF60e69a57461257A873a8f3C5B66B54c9191567a"
-  },
-  AAVE: {
-    decimals: 18,
-    UNDERLYING: "0xD8A70FC58BC069CFE6529EBF0c1Db067f2b5347E",
-    A_TOKEN: "0xA4be980CE12b9bfe1C2976bD7Fc923b516Dcd4Ec",
-    S_TOKEN: "0x0dF6Aac6a80C1759C40b486e9DC7Ad71E7a9e666",
-    V_TOKEN: "0x0aDeE8D5d63aa67F9e03BD51ea23Fbbc8D11A804",
-    INTEREST_RATE_STRATEGY: "0x2E8FE952067C7f4e9782bA0743620bDEa6a14004",
-    ORACLE: "0x13dFCEfeB04fAbCB221D0f3d6122CFfd69B8b3d3"
-  },
-  EURS: {
-    decimals: 2,
-    UNDERLYING: "0x322bCff7b69F832B1a1F56E6BC600C9229CFb907",
-    A_TOKEN: "0x1dbe58049F741b78B87700C979e72C666f63c525",
-    S_TOKEN: "0xa8D2A9E7527dB0DED64E418C905627A0B2f5A255",
-    V_TOKEN: "0x5D975D3EB5f8b7472F0FEa5a12A977ad23500B1C",
-    INTEREST_RATE_STRATEGY: "0x1949f5dE0F6D5a57918734B659c112616fCb7af7",
-    ORACLE: "0x796F08fA985C4AA91CB6da871cc8eCd8410375eC"
-  }
-};
-var E_MODES10 = {
-  NONE: 0,
-  STABLECOINS: 1
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3Arbitrum.mjs
-var AaveV3Arbitrum_exports = {};
-__export(AaveV3Arbitrum_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER18,
-  ACL_ADMIN: () => ACL_ADMIN11,
-  ACL_MANAGER: () => ACL_MANAGER11,
-  ASSETS: () => ASSETS18,
-  CAPS_PLUS_RISK_STEWARD: () => CAPS_PLUS_RISK_STEWARD7,
-  CHAIN_ID: () => CHAIN_ID18,
-  COLLECTOR: () => COLLECTOR18,
-  CONFIG_ENGINE: () => CONFIG_ENGINE11,
-  DEBT_SWAP_ADAPTER: () => DEBT_SWAP_ADAPTER8,
-  DEFAULT_A_TOKEN_IMPL_REV_2: () => DEFAULT_A_TOKEN_IMPL_REV_23,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER18,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_2: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_23,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_2: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_23,
-  EMISSION_MANAGER: () => EMISSION_MANAGER18,
-  E_MODES: () => E_MODES11,
-  FREEZING_STEWARD: () => FREEZING_STEWARD7,
-  L2_ENCODER: () => L2_ENCODER5,
-  ORACLE: () => ORACLE18,
-  POOL: () => POOL18,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER18,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY14,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR18,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL11,
-  RATES_FACTORY: () => RATES_FACTORY11,
-  REPAY_WITH_COLLATERAL_ADAPTER: () => REPAY_WITH_COLLATERAL_ADAPTER8,
-  STATIC_A_TOKEN_FACTORY: () => STATIC_A_TOKEN_FACTORY4,
-  SWAP_COLLATERAL_ADAPTER: () => SWAP_COLLATERAL_ADAPTER8,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER18,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER18,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER18,
-  WETH_GATEWAY: () => WETH_GATEWAY17,
-  WITHDRAW_SWAP_ADAPTER: () => WITHDRAW_SWAP_ADAPTER5
-});
-var POOL_ADDRESSES_PROVIDER18 = "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb";
-var POOL18 = "0x794a61358D6845594F94dc1DB02A252b5b4814aD";
-var POOL_CONFIGURATOR18 = "0x8145eddDf43f50276641b55bd3AD95944510021E";
-var ORACLE18 = "0xb56c2F0B653B2e0b10C9b928C8580Ac5Df02C7C7";
-var PRICE_ORACLE_SENTINEL11 = "0xF876d26041a4Fdc7A787d209DC3D2795dDc74f1e";
-var AAVE_PROTOCOL_DATA_PROVIDER18 = "0x6b4E260b765B3cA1514e618C0215A6B7839fF93e";
-var ACL_MANAGER11 = "0xa72636CbcAa8F5FF95B2cc47F3CDEe83F3294a0B";
-var ACL_ADMIN11 = "0xFF1137243698CaA18EE364Cc966CF0e02A4e6327";
-var COLLECTOR18 = "0x053D55f9B5AF8694c503EB288a1B7E552f590710";
-var DEFAULT_INCENTIVES_CONTROLLER18 = "0x929EC64c34a17401F460460D4B9390518E5B473e";
-var DEFAULT_A_TOKEN_IMPL_REV_23 = "0x1Be1798b70aEe431c2986f7ff48d9D1fa350786a";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_23 = "0x5E76E98E0963EcDC6A065d1435F84065b7523f39";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_23 = "0x0c2C95b24529664fE55D4437D7A31175CFE6c4f7";
-var EMISSION_MANAGER18 = "0x048f2228D7Bf6776f99aB50cB1b1eaB4D1d4cA73";
-var CAPS_PLUS_RISK_STEWARD7 = "0xADf86b537eF08591c2777E144322E8b0Ca7E82a7";
-var FREEZING_STEWARD7 = "0xe59470B3BE3293534603487E00A44C72f2CD466d";
-var DEBT_SWAP_ADAPTER8 = "0x9E8e9D6b0D24216F59043db68BDda1620892f549";
-var L2_ENCODER5 = "0x9abADECD08572e0eA5aF4d47A9C7984a5AA503dC";
-var CONFIG_ENGINE11 = "0xc5de989E0D1BF605d19478Fdd32Aa827a10b464f";
-var POOL_ADDRESSES_PROVIDER_REGISTRY14 = "0x770ef9f4fe897e59daCc474EF11238303F9552b6";
-var RATES_FACTORY11 = "0xcC47c4Fe1F7f29ff31A8b62197023aC8553C7896";
-var REPAY_WITH_COLLATERAL_ADAPTER8 = "0x28201C152DC5B69A86FA54FCfd21bcA4C0eff3BA";
-var STATIC_A_TOKEN_FACTORY4 = "0xD9419920a9768d6EdaBbe5b93cB4B5B9F3019823";
-var SWAP_COLLATERAL_ADAPTER8 = "0xF3C3F14dd7BDb7E03e6EBc3bc5Ffc6D66De12251";
-var UI_INCENTIVE_DATA_PROVIDER18 = "0xDA67AF3403555Ce0AE3ffC22fDb7354458277358";
-var UI_POOL_DATA_PROVIDER18 = "0x145dE30c929a065582da84Cf96F88460dB9745A7";
-var WALLET_BALANCE_PROVIDER18 = "0xBc790382B3686abffE4be14A030A96aC6154023a";
-var WETH_GATEWAY17 = "0xB5Ee21786D28c5Ba61661550879475976B707099";
-var WITHDRAW_SWAP_ADAPTER5 = "0x5598BbFA2f4fE8151f45bBA0a3edE1b54B51a0a9";
-var CHAIN_ID18 = 42161;
-var ASSETS18 = {
-  DAI: {
-    decimals: 18,
-    UNDERLYING: "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
-    A_TOKEN: "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE",
-    S_TOKEN: "0xd94112B5B62d53C9402e7A60289c6810dEF1dC9B",
-    V_TOKEN: "0x8619d80FB0141ba7F184CbF22fd724116D9f7ffC",
-    INTEREST_RATE_STRATEGY: "0xA9F3C3caE095527061e6d270DBE163693e6fda9D",
-    ORACLE: "0xc5C8E77B397E531B8EC06BFb0048328B30E9eCfB",
-    STATA_TOKEN: "0x426e8778bf7F54b0e4fc703DccA6f26a4E5B71dE"
-  },
-  LINK: {
-    decimals: 18,
-    UNDERLYING: "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
-    A_TOKEN: "0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530",
-    S_TOKEN: "0x89D976629b7055ff1ca02b927BA3e020F22A44e4",
-    V_TOKEN: "0x953A573793604aF8d41F306FEb8274190dB4aE0e",
-    INTEREST_RATE_STRATEGY: "0x9b34E3e183c9b0d1a08fF57a8fb59c821616295f",
-    ORACLE: "0x86E53CF1B870786351Da77A57575e79CB55812CB",
-    STATA_TOKEN: "0xd9728C510F0CDD72ec4C73336340bEB291c2d9a8"
-  },
-  USDC: {
-    decimals: 6,
-    UNDERLYING: "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
-    A_TOKEN: "0x625E7708f30cA75bfd92586e17077590C60eb4cD",
-    S_TOKEN: "0x307ffe186F84a3bc2613D1eA417A5737D69A7007",
-    V_TOKEN: "0xFCCf3cAbbe80101232d343252614b6A3eE81C989",
-    INTEREST_RATE_STRATEGY: "0xd9d85499449f26d2A2c240defd75314f23920089",
-    ORACLE: "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3",
-    STATA_TOKEN: "0x3A301e7917689b8E8A19498b8A28fc912583490C"
-  },
-  WBTC: {
-    decimals: 8,
-    UNDERLYING: "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
-    A_TOKEN: "0x078f358208685046a11C85e8ad32895DED33A249",
-    S_TOKEN: "0x633b207Dd676331c413D4C013a6294B0FE47cD0e",
-    V_TOKEN: "0x92b42c66840C7AD907b4BF74879FF3eF7c529473",
-    INTEREST_RATE_STRATEGY: "0x8F183Ee74C790CB558232a141099b316D6C8Ba6E",
-    ORACLE: "0x6ce185860a4963106506C203335A2910413708e9",
-    STATA_TOKEN: "0xb289a29Cfe3efc23E46ddca642d4513511dB4f4e"
-  },
-  WETH: {
-    decimals: 18,
-    UNDERLYING: "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-    A_TOKEN: "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
-    S_TOKEN: "0xD8Ad37849950903571df17049516a5CD4cbE55F6",
-    V_TOKEN: "0x0c84331e39d6658Cd6e6b9ba04736cC4c4734351",
-    INTEREST_RATE_STRATEGY: "0x9a158802cD924747EF336cA3F9DE3bdb60Cf43D3",
-    ORACLE: "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
-    STATA_TOKEN: "0x18468b6eBA332285c6d9BB03Fe7fb52e108c4596"
-  },
-  USDT: {
-    decimals: 6,
-    UNDERLYING: "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-    A_TOKEN: "0x6ab707Aca953eDAeFBc4fD23bA73294241490620",
-    S_TOKEN: "0x70eFfc565DB6EEf7B927610155602d31b670e802",
-    V_TOKEN: "0xfb00AC187a8Eb5AFAE4eACE434F493Eb62672df7",
-    INTEREST_RATE_STRATEGY: "0xA9F3C3caE095527061e6d270DBE163693e6fda9D",
-    ORACLE: "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
-    STATA_TOKEN: "0x8B5541B773DD781852940490b0c3dC1a8CDb6A87"
-  },
-  AAVE: {
-    decimals: 18,
-    UNDERLYING: "0xba5DdD1f9d7F570dc94a51479a000E3BCE967196",
-    A_TOKEN: "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375",
-    S_TOKEN: "0xfAeF6A702D15428E588d4C0614AEFb4348D83D48",
-    V_TOKEN: "0xE80761Ea617F66F96274eA5e8c37f03960ecC679",
-    INTEREST_RATE_STRATEGY: "0x9b34E3e183c9b0d1a08fF57a8fb59c821616295f",
-    ORACLE: "0xaD1d5344AaDE45F43E596773Bcc4c423EAbdD034",
-    STATA_TOKEN: "0xE3274C0cd03D9a539C552162cacB31F5d3dd1A62"
-  },
-  EURS: {
-    decimals: 2,
-    UNDERLYING: "0xD22a58f79e9481D1a88e00c343885A588b34b68B",
-    A_TOKEN: "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97",
-    S_TOKEN: "0xF15F26710c827DDe8ACBA678682F3Ce24f2Fb56E",
-    V_TOKEN: "0x4a1c3aD6Ed28a636ee1751C69071f6be75DEb8B8",
-    INTEREST_RATE_STRATEGY: "0xCbDC7D7984D7AD59434f0B1999D2006898C40f9A",
-    ORACLE: "0xA14d53bC1F1c0F31B4aA3BD109344E5009051a84",
-    STATA_TOKEN: "0x0188c850F6b303e221822Dea4aC5A062B970129D"
-  },
-  wstETH: {
-    decimals: 18,
-    UNDERLYING: "0x5979D7b546E38E414F7E9822514be443A4800529",
-    A_TOKEN: "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf",
-    S_TOKEN: "0x08Cb71192985E936C7Cd166A8b268035e400c3c3",
-    V_TOKEN: "0x77CA01483f379E58174739308945f044e1a764dc",
-    INTEREST_RATE_STRATEGY: "0x4b8D3277d49E114C8F2D6E0B2eD310e29226fe16",
-    ORACLE: "0x945fD405773973d286De54E44649cc0d9e264F78",
-    STATA_TOKEN: "0x86c773F93D1efD209023444237d9Cf59E0bC5613"
-  },
-  MAI: {
-    decimals: 18,
-    UNDERLYING: "0x3F56e0c36d275367b8C502090EDF38289b3dEa0d",
-    A_TOKEN: "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA",
-    S_TOKEN: "0x78246294a4c6fBf614Ed73CcC9F8b875ca8eE841",
-    V_TOKEN: "0x34e2eD44EF7466D5f9E0b782B5c08b57475e7907",
-    INTEREST_RATE_STRATEGY: "0xA6459195d60A797D278f58Ffbd2BA62Fb3F7FA1E",
-    ORACLE: "0x59644ec622243878d1464A9504F9e9a31294128a",
-    STATA_TOKEN: "0x5F756955Fc1a43D658F4291Cf69Af16077b5326C"
-  },
-  rETH: {
-    decimals: 18,
-    UNDERLYING: "0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8",
-    A_TOKEN: "0x8Eb270e296023E9D92081fdF967dDd7878724424",
-    S_TOKEN: "0x3EF10DFf4928279c004308EbADc4Db8B7620d6fc",
-    V_TOKEN: "0xCE186F6Cccb0c955445bb9d10C59caE488Fea559",
-    INTEREST_RATE_STRATEGY: "0xC82dF96432346cFb632473eB619Db3B8AC280234",
-    ORACLE: "0x04c28D6fE897859153eA753f986cc249Bf064f71",
-    STATA_TOKEN: "0x1FC9680786F12Cb3c0027FD577053B411A6FC70A"
-  },
-  LUSD: {
-    decimals: 18,
-    UNDERLYING: "0x93b346b6BC2548dA6A1E7d98E9a421B42541425b",
-    A_TOKEN: "0x8ffDf2DE812095b1D19CB146E4c004587C0A0692",
-    S_TOKEN: "0xa5e408678469d23efDB7694b1B0A85BB0669e8bd",
-    V_TOKEN: "0xA8669021776Bc142DfcA87c21b4A52595bCbB40a",
-    INTEREST_RATE_STRATEGY: "0x07Fa3744FeC271F80c2EA97679823F65c13CCDf4",
-    ORACLE: "0x0411D28c94d85A36bC72Cb0f875dfA8371D8fFfF",
-    STATA_TOKEN: "0x8Ef77cdeEf0e0816fa75FA3E30BD20B9bE704fa2"
-  },
-  USDCn: {
-    decimals: 6,
-    UNDERLYING: "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
-    A_TOKEN: "0x724dc807b04555b71ed48a6896b6F41593b8C637",
-    S_TOKEN: "0xDC1fad70953Bb3918592b6fCc374fe05F5811B6a",
-    V_TOKEN: "0xf611aEb5013fD2c0511c9CD55c7dc5C1140741A6",
-    INTEREST_RATE_STRATEGY: "0xf6733B9842883BFE0e0a940eA2F572676af31bde",
-    ORACLE: "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3",
-    STATA_TOKEN: "0xbdE67e089886EC0E615D6f054BC6f746189A3d56"
-  },
-  FRAX: {
-    decimals: 18,
-    UNDERLYING: "0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F",
-    A_TOKEN: "0x38d693cE1dF5AaDF7bC62595A37D667aD57922e5",
-    S_TOKEN: "0x8a9FdE6925a839F6B1932d16B36aC026F8d3FbdB",
-    V_TOKEN: "0x5D557B07776D12967914379C71a1310e917C7555",
-    INTEREST_RATE_STRATEGY: "0xA9F3C3caE095527061e6d270DBE163693e6fda9D",
-    ORACLE: "0x0809E3d38d1B4214958faf06D8b1B1a2b73f2ab8",
-    STATA_TOKEN: "0x22739C6915ef610412673A086e683F1EaA1A1C05"
-  },
-  ARB: {
-    decimals: 18,
-    UNDERLYING: "0x912CE59144191C1204E64559FE8253a0e49E6548",
-    A_TOKEN: "0x6533afac2E7BCCB20dca161449A13A32D391fb00",
-    S_TOKEN: "0x6B4b37618D85Db2a7b469983C888040F7F05Ea3D",
-    V_TOKEN: "0x44705f578135cC5d703b4c9c122528C73Eb87145",
-    INTEREST_RATE_STRATEGY: "0xD87974E8ED49AB16d5053ba793F4e17078Be0426",
-    ORACLE: "0xb2A824043730FE05F3DA2efaFa1CBbe83fa548D6",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  }
-};
-var E_MODES11 = {
-  NONE: 0,
-  STABLECOINS: 1,
-  ETH_CORRELATED: 2
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3OptimismGoerli.mjs
-var AaveV3OptimismGoerli_exports = {};
-__export(AaveV3OptimismGoerli_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER19,
-  ACL_ADMIN: () => ACL_ADMIN12,
-  ACL_MANAGER: () => ACL_MANAGER12,
-  ASSETS: () => ASSETS19,
-  CHAIN_ID: () => CHAIN_ID19,
-  COLLECTOR: () => COLLECTOR19,
-  DEFAULT_A_TOKEN_IMPL_REV_1: () => DEFAULT_A_TOKEN_IMPL_REV_19,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER19,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_19,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_19,
-  EMISSION_MANAGER: () => EMISSION_MANAGER19,
-  E_MODES: () => E_MODES12,
-  FAUCET: () => FAUCET8,
-  L2_ENCODER: () => L2_ENCODER6,
-  ORACLE: () => ORACLE19,
-  POOL: () => POOL19,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER19,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR19,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL12,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER19,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER19,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER19,
-  WETH_GATEWAY: () => WETH_GATEWAY18
-});
-var POOL_ADDRESSES_PROVIDER19 = "0xf3a4595bD9FBf129DEb80802a4785873F0ceB65c";
-var POOL19 = "0x52dCE39f4A3823b335732178364f5590bDacb25D";
-var POOL_CONFIGURATOR19 = "0x54Ad998A389A82e4ACf9dC03A92512694EF25035";
-var ORACLE19 = "0xFd8Ec04CeC4B1A734A58E4920f76baFa9a1326D8";
-var PRICE_ORACLE_SENTINEL12 = "0x0000000000000000000000000000000000000000";
-var AAVE_PROTOCOL_DATA_PROVIDER19 = "0x586370F91E4a73659989a213C969487Cb2B2E7cD";
-var ACL_MANAGER12 = "0x00f7fecFAEbEd9499e1f3f9d04E755a21E5fc47C";
-var ACL_ADMIN12 = "0xfA0e305E0f46AB04f00ae6b5f4560d61a2183E00";
-var COLLECTOR19 = "0xd06dC54Fcc044A86D33454091b193B7E2104b50D";
-var DEFAULT_INCENTIVES_CONTROLLER19 = "0xF76301d2D80FE71314c8448E6FA4F4Ee2583046B";
-var DEFAULT_A_TOKEN_IMPL_REV_19 = "0xABa01108c4964731AAc2B6DA8d731A58c1DfA8cF";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_19 = "0xCAeB08beA60BE1cA547cbD19A5bC9ba372AE9f0e";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_19 = "0xd550780aaD654d03Cd355EAB6bB444BaF764Baae";
-var EMISSION_MANAGER19 = "0x69B9843A16a6E9933125EBD97659BA3CCbE2Ef8A";
-var FAUCET8 = "0x387d311e47e80b498169e6fb51d3193167d89F7D";
-var L2_ENCODER6 = "0x19cdecE64EDE475ba0EB114ff4E319d64Ef8ECCf";
-var UI_INCENTIVE_DATA_PROVIDER19 = "0x72A9c57cD5E2Ff20450e409cF6A542f1E6c710fc";
-var UI_POOL_DATA_PROVIDER19 = "0xD2f5680976c86ADd3978b7ad3422Ee5c7690ddb4";
-var WALLET_BALANCE_PROVIDER19 = "0x56033E114c61183590d39BA847400F02022Ebe47";
-var WETH_GATEWAY18 = "0xf556C102F47d806E21E8E78438E58ac06A14A29E";
-var CHAIN_ID19 = 420;
-var ASSETS19 = {
-  DAI: {
-    decimals: 18,
-    UNDERLYING: "0xCD4e0d6D2b1252E2A709B8aE97DBA31164C5a709",
-    A_TOKEN: "0x25E84646dF74FB9BCa68Aa8d018F7883ecE4B307",
-    S_TOKEN: "0x1A644682E141bC41a9b7dE2fA902D9Dc061F89d3",
-    V_TOKEN: "0x6048286Bd57Fc79b99758348bD0178e189760fe9",
-    INTEREST_RATE_STRATEGY: "0xFf04c1ccF076FDdEb1EE8b80Ef7d9E661A8c65c7",
-    ORACLE: "0x117B69220bFBA519A3f38a7e9b8529CA92A1A727"
-  },
-  LINK: {
-    decimals: 18,
-    UNDERLYING: "0xBA25de9a7DC623B30799F33B770d31B44c2C3b77",
-    A_TOKEN: "0xEf51CEE544Dc4f2046da04656a19a28d5C83BB60",
-    S_TOKEN: "0xf3642955986AC3D89Fce47e1c4a26923E201f3A0",
-    V_TOKEN: "0xCa4f4e3F9CF9bc5E0CBdEd8104CEFee4138b6c23",
-    INTEREST_RATE_STRATEGY: "0x3A2609560Deb92EAb6340DEad35CE6567F9C67B6",
-    ORACLE: "0x08fCD0348C30C80208db530719DF8b9E5AF8F3BA"
-  },
-  USDC: {
-    decimals: 6,
-    UNDERLYING: "0x69529987FA4A075D0C00B0128fa848dc9ebbE9CE",
-    A_TOKEN: "0x99A8acb66c7ED63141b868a603C2337B24f85B22",
-    S_TOKEN: "0x13FCf508A004f069ce43FA66367EdE8b0c666014",
-    V_TOKEN: "0x19971adbB2F5d68aE3E7e09C9dF89751d9590ACC",
-    INTEREST_RATE_STRATEGY: "0xc2e90fd19999E7Bd8558Af9A96B88af2f320aBB6",
-    ORACLE: "0x33D8f262F4EaCf4124A06F0AE30Af5CFb3378f72"
-  },
-  WBTC: {
-    decimals: 8,
-    UNDERLYING: "0x099E6dA9FFF9F0D8873AaD3FB4C9F7eDA5742692",
-    A_TOKEN: "0xa821B2BD2364194d24d3Cd92e0F450B0AD5823d0",
-    S_TOKEN: "0x53a2F2Ea5768Df4bB45b442F125AC4c52875D2bc",
-    V_TOKEN: "0x8D420406187Dd7A6A82A07BE17da1f5894177736",
-    INTEREST_RATE_STRATEGY: "0x3A2609560Deb92EAb6340DEad35CE6567F9C67B6",
-    ORACLE: "0x774956E09C6725DB04a3C9742bC832cB390e3964"
-  },
-  WETH: {
-    decimals: 18,
-    UNDERLYING: "0x4778caf7b5DBD3934c3906c2909653eB1e0E601f",
-    A_TOKEN: "0x18c9297E82dEf404a9472e7F208840Ae8261DFe8",
-    S_TOKEN: "0xeF1494966E5694ba0e8Ce942fC2323D58F1dFb58",
-    V_TOKEN: "0x3d40D0f10E1eC8f313b5D86D0bB6F362d39c16fC",
-    INTEREST_RATE_STRATEGY: "0x3A2609560Deb92EAb6340DEad35CE6567F9C67B6",
-    ORACLE: "0x59261Da4c82197D7D5EF10De6b6669d6F7AA11b7"
-  },
-  USDT: {
-    decimals: 6,
-    UNDERLYING: "0xf79129ae303764D79287FfF0c857003E95fC1506",
-    A_TOKEN: "0x053Ac73bCD255525123872E2248a06C9794f29c7",
-    S_TOKEN: "0xa1Ba2438620B24D2CEa57ee6b99045c083B1AcD9",
-    V_TOKEN: "0x9299Ae681F85cC9238542dD6445021A8cf6FE9D6",
-    INTEREST_RATE_STRATEGY: "0xc2e90fd19999E7Bd8558Af9A96B88af2f320aBB6",
-    ORACLE: "0x96CE8a757B79509e9DCF934477E3E3e09Dbc104e"
-  },
-  AAVE: {
-    decimals: 18,
-    UNDERLYING: "0x20288ac1Ef7711448DF03283E6B580710E73393a",
-    A_TOKEN: "0x79655b4d49d52fEDB9503A20a55ef5762dA17B18",
-    S_TOKEN: "0x3144b11E02eBD9f2843186d2c36f9c1C3606134B",
-    V_TOKEN: "0x5ba1a19f22f8fDC3B35Cc7435f1615215B19956A",
-    INTEREST_RATE_STRATEGY: "0x3A2609560Deb92EAb6340DEad35CE6567F9C67B6",
-    ORACLE: "0xB054425E0Eda0Fd52d08f0C817034Bc48B6d35EC"
-  },
-  SUSD: {
-    decimals: 18,
-    UNDERLYING: "0xC21D17E8E839C1286BBaa297d932AE9b33d7985b",
-    A_TOKEN: "0xaf68aDbd3d8BBaC6c59c32490c01Cf8F6dB1adAE",
-    S_TOKEN: "0xfb30ADd5184b79fDCF6f56a70d5A7899a3C77385",
-    V_TOKEN: "0xd9811Fd06C3b086314927272b72DbDd98AA9E6A5",
-    INTEREST_RATE_STRATEGY: "0xc2e90fd19999E7Bd8558Af9A96B88af2f320aBB6",
-    ORACLE: "0x34A3919db9CFB2eD29Da9E76747e70449e138A69"
-  }
-};
-var E_MODES12 = {
-  NONE: 0,
-  STABLECOINS: 1
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3Optimism.mjs
-var AaveV3Optimism_exports = {};
-__export(AaveV3Optimism_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER20,
-  ACL_ADMIN: () => ACL_ADMIN13,
-  ACL_MANAGER: () => ACL_MANAGER13,
-  ASSETS: () => ASSETS20,
-  CAPS_PLUS_RISK_STEWARD: () => CAPS_PLUS_RISK_STEWARD8,
-  CHAIN_ID: () => CHAIN_ID20,
-  COLLECTOR: () => COLLECTOR20,
-  CONFIG_ENGINE: () => CONFIG_ENGINE12,
-  DEBT_SWAP_ADAPTER: () => DEBT_SWAP_ADAPTER9,
-  DEFAULT_A_TOKEN_IMPL_REV_2: () => DEFAULT_A_TOKEN_IMPL_REV_24,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER20,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_2: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_24,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_2: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_24,
-  EMISSION_MANAGER: () => EMISSION_MANAGER20,
-  E_MODES: () => E_MODES13,
-  FREEZING_STEWARD: () => FREEZING_STEWARD8,
-  L2_ENCODER: () => L2_ENCODER7,
-  ORACLE: () => ORACLE20,
-  POOL: () => POOL20,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER20,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY15,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR20,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL13,
-  RATES_FACTORY: () => RATES_FACTORY12,
-  REPAY_WITH_COLLATERAL_ADAPTER: () => REPAY_WITH_COLLATERAL_ADAPTER9,
-  STATIC_A_TOKEN_FACTORY: () => STATIC_A_TOKEN_FACTORY5,
-  SWAP_COLLATERAL_ADAPTER: () => SWAP_COLLATERAL_ADAPTER9,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER20,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER20,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER20,
-  WETH_GATEWAY: () => WETH_GATEWAY19,
-  WITHDRAW_SWAP_ADAPTER: () => WITHDRAW_SWAP_ADAPTER6
-});
-var POOL_ADDRESSES_PROVIDER20 = "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb";
-var POOL20 = "0x794a61358D6845594F94dc1DB02A252b5b4814aD";
-var POOL_CONFIGURATOR20 = "0x8145eddDf43f50276641b55bd3AD95944510021E";
-var ORACLE20 = "0xD81eb3728a631871a7eBBaD631b5f424909f0c77";
-var PRICE_ORACLE_SENTINEL13 = "0xB1ba0787Ca0A45f086F8CA03c97E7593636E47D5";
-var AAVE_PROTOCOL_DATA_PROVIDER20 = "0xd9Ca4878dd38B021583c1B669905592EAe76E044";
-var ACL_MANAGER13 = "0xa72636CbcAa8F5FF95B2cc47F3CDEe83F3294a0B";
-var ACL_ADMIN13 = "0x746c675dAB49Bcd5BB9Dc85161f2d7Eb435009bf";
-var COLLECTOR20 = "0xB2289E329D2F85F1eD31Adbb30eA345278F21bcf";
-var DEFAULT_INCENTIVES_CONTROLLER20 = "0x929EC64c34a17401F460460D4B9390518E5B473e";
-var DEFAULT_A_TOKEN_IMPL_REV_24 = "0xbCb167bDCF14a8F791d6f4A6EDd964aed2F8813B";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_24 = "0x04a8D477eE202aDCE1682F5902e1160455205b12";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_24 = "0x6b4E260b765B3cA1514e618C0215A6B7839fF93e";
-var EMISSION_MANAGER20 = "0x048f2228D7Bf6776f99aB50cB1b1eaB4D1d4cA73";
-var CAPS_PLUS_RISK_STEWARD8 = "0x5E76E98E0963EcDC6A065d1435F84065b7523f39";
-var FREEZING_STEWARD8 = "0x3829943c53F2d00e20B58475aF19716724bF90Ba";
-var DEBT_SWAP_ADAPTER9 = "0xcFaE0D8c5707FCc6478D6a65fFA31efADeF8b8EC";
-var L2_ENCODER7 = "0x9abADECD08572e0eA5aF4d47A9C7984a5AA503dC";
-var CONFIG_ENGINE12 = "0x893411580e590D62dDBca8a703d61Cc4A8c7b2b9";
-var POOL_ADDRESSES_PROVIDER_REGISTRY15 = "0x770ef9f4fe897e59daCc474EF11238303F9552b6";
-var RATES_FACTORY12 = "0xDd81E6F85358292075B78fc8D5830BE8434aF8BA";
-var REPAY_WITH_COLLATERAL_ADAPTER9 = "0xa12734e64417f61f8442E7D5132EdBFdbDDeF0fa";
-var STATIC_A_TOKEN_FACTORY5 = "0xD9419920a9768d6EdaBbe5b93cB4B5B9F3019823";
-var SWAP_COLLATERAL_ADAPTER9 = "0x830C5A67a0C95D69dA5fb7801Ac1773c6fB53857";
-var UI_INCENTIVE_DATA_PROVIDER20 = "0x6F143FE2F7B02424ad3CaD1593D6f36c0Aab69d7";
-var UI_POOL_DATA_PROVIDER20 = "0xbd83DdBE37fc91923d59C8c1E0bDe0CccCa332d5";
-var WALLET_BALANCE_PROVIDER20 = "0xBc790382B3686abffE4be14A030A96aC6154023a";
-var WETH_GATEWAY19 = "0x76D3030728e52DEB8848d5613aBaDE88441cbc59";
-var WITHDRAW_SWAP_ADAPTER6 = "0x78F8Bd884C3D738B74B420540659c82f392820e0";
-var CHAIN_ID20 = 10;
-var ASSETS20 = {
-  DAI: {
-    decimals: 18,
-    UNDERLYING: "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
-    A_TOKEN: "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE",
-    S_TOKEN: "0xd94112B5B62d53C9402e7A60289c6810dEF1dC9B",
-    V_TOKEN: "0x8619d80FB0141ba7F184CbF22fd724116D9f7ffC",
-    INTEREST_RATE_STRATEGY: "0xA9F3C3caE095527061e6d270DBE163693e6fda9D",
-    ORACLE: "0x8dBa75e83DA73cc766A7e5a0ee71F656BAb470d6",
-    STATA_TOKEN: "0xCBb2B87a9B13C2787A93eaE9dF0e72344b36120A"
-  },
-  LINK: {
-    decimals: 18,
-    UNDERLYING: "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
-    A_TOKEN: "0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530",
-    S_TOKEN: "0x89D976629b7055ff1ca02b927BA3e020F22A44e4",
-    V_TOKEN: "0x953A573793604aF8d41F306FEb8274190dB4aE0e",
-    INTEREST_RATE_STRATEGY: "0xeE1BAc9355EaAfCD1B68d272d640d870bC9b4b5C",
-    ORACLE: "0xCc232dcFAAE6354cE191Bd574108c1aD03f86450",
-    STATA_TOKEN: "0x8e2154479FAc840Ce4e86ab1B83De589c7a0355C"
-  },
-  USDC: {
-    decimals: 6,
-    UNDERLYING: "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
-    A_TOKEN: "0x625E7708f30cA75bfd92586e17077590C60eb4cD",
-    S_TOKEN: "0x307ffe186F84a3bc2613D1eA417A5737D69A7007",
-    V_TOKEN: "0xFCCf3cAbbe80101232d343252614b6A3eE81C989",
-    INTEREST_RATE_STRATEGY: "0x354E84ec43aCD91e1C0135c3e691960E881DB4b7",
-    ORACLE: "0x16a9FA2FDa030272Ce99B29CF780dFA30361E0f3",
-    STATA_TOKEN: "0x41B75372F734ee9b7792ca5576a40E008C91A098"
-  },
-  WBTC: {
-    decimals: 8,
-    UNDERLYING: "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
-    A_TOKEN: "0x078f358208685046a11C85e8ad32895DED33A249",
-    S_TOKEN: "0x633b207Dd676331c413D4C013a6294B0FE47cD0e",
-    V_TOKEN: "0x92b42c66840C7AD907b4BF74879FF3eF7c529473",
-    INTEREST_RATE_STRATEGY: "0x04daBC3C1c052AB94AA2ca80140f2b978d2F6E17",
-    ORACLE: "0xD702DD976Fb76Fffc2D3963D037dfDae5b04E593",
-    STATA_TOKEN: "0xB7BA668e5378BA3dbfa252d03E54b62702f79F7e"
-  },
-  WETH: {
-    decimals: 18,
-    UNDERLYING: "0x4200000000000000000000000000000000000006",
-    A_TOKEN: "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
-    S_TOKEN: "0xD8Ad37849950903571df17049516a5CD4cbE55F6",
-    V_TOKEN: "0x0c84331e39d6658Cd6e6b9ba04736cC4c4734351",
-    INTEREST_RATE_STRATEGY: "0x5f58C25D17C09c9e1892F45DE6dA45ed973A5326",
-    ORACLE: "0x13e3Ee699D1909E989722E753853AE30b17e08c5",
-    STATA_TOKEN: "0x6b1440b08f467A2A68E562aC38bB5e2256d5C60E"
-  },
-  USDT: {
-    decimals: 6,
-    UNDERLYING: "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
-    A_TOKEN: "0x6ab707Aca953eDAeFBc4fD23bA73294241490620",
-    S_TOKEN: "0x70eFfc565DB6EEf7B927610155602d31b670e802",
-    V_TOKEN: "0xfb00AC187a8Eb5AFAE4eACE434F493Eb62672df7",
-    INTEREST_RATE_STRATEGY: "0xA9F3C3caE095527061e6d270DBE163693e6fda9D",
-    ORACLE: "0xECef79E109e997bCA29c1c0897ec9d7b03647F5E",
-    STATA_TOKEN: "0xef30602e3161924672d47D076f093938A33B9600"
-  },
-  AAVE: {
-    decimals: 18,
-    UNDERLYING: "0x76FB31fb4af56892A25e32cFC43De717950c9278",
-    A_TOKEN: "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375",
-    S_TOKEN: "0xfAeF6A702D15428E588d4C0614AEFb4348D83D48",
-    V_TOKEN: "0xE80761Ea617F66F96274eA5e8c37f03960ecC679",
-    INTEREST_RATE_STRATEGY: "0xeE1BAc9355EaAfCD1B68d272d640d870bC9b4b5C",
-    ORACLE: "0x338ed6787f463394D24813b297401B9F05a8C9d1",
-    STATA_TOKEN: "0x776F7111936fdE4305bF449f8b53FB54A1dfE7E2"
-  },
-  sUSD: {
-    decimals: 18,
-    UNDERLYING: "0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9",
-    A_TOKEN: "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97",
-    S_TOKEN: "0xF15F26710c827DDe8ACBA678682F3Ce24f2Fb56E",
-    V_TOKEN: "0x4a1c3aD6Ed28a636ee1751C69071f6be75DEb8B8",
-    INTEREST_RATE_STRATEGY: "0xA9F3C3caE095527061e6d270DBE163693e6fda9D",
-    ORACLE: "0x7f99817d87baD03ea21E05112Ca799d715730efe",
-    STATA_TOKEN: "0x947B28080700a1452C1DAC33755e64749398eDEB"
-  },
-  OP: {
-    decimals: 18,
-    UNDERLYING: "0x4200000000000000000000000000000000000042",
-    A_TOKEN: "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf",
-    S_TOKEN: "0x08Cb71192985E936C7Cd166A8b268035e400c3c3",
-    V_TOKEN: "0x77CA01483f379E58174739308945f044e1a764dc",
-    INTEREST_RATE_STRATEGY: "0xeE1BAc9355EaAfCD1B68d272d640d870bC9b4b5C",
-    ORACLE: "0x0D276FC14719f9292D5C1eA2198673d1f4269246",
-    STATA_TOKEN: "0x1F636CcbC15c94f063B1Ee25B437c520caE10D00"
-  },
-  wstETH: {
-    decimals: 18,
-    UNDERLYING: "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
-    A_TOKEN: "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA",
-    S_TOKEN: "0x78246294a4c6fBf614Ed73CcC9F8b875ca8eE841",
-    V_TOKEN: "0x34e2eD44EF7466D5f9E0b782B5c08b57475e7907",
-    INTEREST_RATE_STRATEGY: "0x6BA97468e2e6a3711a6DD05F0075d48E878c910e",
-    ORACLE: "0x80f2c02224a2E548FC67c0bF705eBFA825dd5439",
-    STATA_TOKEN: "0x15674aE44Af19DD95C4aCfDf0b5e8246179734ae"
-  },
-  LUSD: {
-    decimals: 18,
-    UNDERLYING: "0xc40F949F8a4e094D1b49a23ea9241D289B7b2819",
-    A_TOKEN: "0x8Eb270e296023E9D92081fdF967dDd7878724424",
-    S_TOKEN: "0x3EF10DFf4928279c004308EbADc4Db8B7620d6fc",
-    V_TOKEN: "0xCE186F6Cccb0c955445bb9d10C59caE488Fea559",
-    INTEREST_RATE_STRATEGY: "0x271f5f8325051f22caDa18FfedD4a805584a232A",
-    ORACLE: "0x9dfc79Aaeb5bb0f96C6e9402671981CdFc424052",
-    STATA_TOKEN: "0x77F53cf28c4116CB80e4F387549c98A252890473"
-  },
-  MAI: {
-    decimals: 18,
-    UNDERLYING: "0xdFA46478F9e5EA86d57387849598dbFB2e964b02",
-    A_TOKEN: "0x8ffDf2DE812095b1D19CB146E4c004587C0A0692",
-    S_TOKEN: "0xa5e408678469d23efDB7694b1B0A85BB0669e8bd",
-    V_TOKEN: "0xA8669021776Bc142DfcA87c21b4A52595bCbB40a",
-    INTEREST_RATE_STRATEGY: "0xD624AFA34614B4fe7FEe7e1751a2E5E04fb47398",
-    ORACLE: "0x73A3919a69eFCd5b19df8348c6740bB1446F5ed0",
-    STATA_TOKEN: "0x1aF3854efe7CDece0fb95Bb3a597d0438f9ABB70"
-  },
-  rETH: {
-    decimals: 18,
-    UNDERLYING: "0x9Bcef72be871e61ED4fBbc7630889beE758eb81D",
-    A_TOKEN: "0x724dc807b04555b71ed48a6896b6F41593b8C637",
-    S_TOKEN: "0xDC1fad70953Bb3918592b6fCc374fe05F5811B6a",
-    V_TOKEN: "0xf611aEb5013fD2c0511c9CD55c7dc5C1140741A6",
-    INTEREST_RATE_STRATEGY: "0x3B57B081dA6Af5e2759A57bD3211932Cb6176997",
-    ORACLE: "0x52d5F9f884CA21C27E2100735d793C6771eAB793",
-    STATA_TOKEN: "0x0000000000000000000000000000000000000000"
-  }
-};
-var E_MODES13 = {
-  NONE: 0,
-  STABLECOINS: 1,
-  ETH_CORRELATED: 2
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3ScrollSepolia.mjs
-var AaveV3ScrollSepolia_exports = {};
-__export(AaveV3ScrollSepolia_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER21,
-  ACL_ADMIN: () => ACL_ADMIN14,
-  ACL_MANAGER: () => ACL_MANAGER14,
-  ASSETS: () => ASSETS21,
-  CHAIN_ID: () => CHAIN_ID21,
-  COLLECTOR: () => COLLECTOR21,
-  DEFAULT_A_TOKEN_IMPL_REV_1: () => DEFAULT_A_TOKEN_IMPL_REV_110,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER21,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_110,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_110,
-  EMISSION_MANAGER: () => EMISSION_MANAGER21,
-  E_MODES: () => E_MODES14,
-  FAUCET: () => FAUCET9,
-  L2_ENCODER: () => L2_ENCODER8,
-  ORACLE: () => ORACLE21,
-  POOL: () => POOL21,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER21,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR21,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL14,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER21,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER21,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER21,
-  WETH_GATEWAY: () => WETH_GATEWAY20
-});
-var POOL_ADDRESSES_PROVIDER21 = "0x52A27dC690F8652288194Dd2bc523863eBdEa236";
-var POOL21 = "0x48914C788295b5db23aF2b5F0B3BE775C4eA9440";
-var POOL_CONFIGURATOR21 = "0x63BB78Fbac521998BD6E33f1a960677c7a1d4F10";
-var ORACLE21 = "0x4B7C7D2EbcDc1015D35F617596318C15d9d24e59";
-var PRICE_ORACLE_SENTINEL14 = "0x0000000000000000000000000000000000000000";
-var AAVE_PROTOCOL_DATA_PROVIDER21 = "0xaE58b3Be9E159bDEc67Ada8507CA3001c80725Ee";
-var ACL_MANAGER14 = "0x166601A0Cc6Cf979e2f0eF94EC5363B6BC24061C";
-var ACL_ADMIN14 = "0xA5bf8BC3c35D9F92b038254B9B8675266f6b62c0";
-var COLLECTOR21 = "0x104Cd7695C9247096F7AD37d3258B63c9675A00e";
-var DEFAULT_INCENTIVES_CONTROLLER21 = "0xa76F05D0cdf599E0186dec880F2FA480fd0c5280";
-var DEFAULT_A_TOKEN_IMPL_REV_110 = "0x0Eae78c97347bf6FCF784Aa91CABC4aCdB5cc2dd";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_110 = "0xAb8eaAE8383Abe28203cB6e6FAa0477B2fb97f07";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_110 = "0xC696d1c66Aa9F42764eE44fCc454a07a24aCe256";
-var EMISSION_MANAGER21 = "0x01dd3Ad7D942406C47acd5b70cBad28fd377c6f2";
-var FAUCET9 = "0x2F826FD1a0071476330a58dD1A9B36bcF7da832d";
-var L2_ENCODER8 = "0x3Bb33c67908D0d58F8d7349cBe726ff3b059e0fC";
-var UI_INCENTIVE_DATA_PROVIDER21 = "0xBf67A725F976d4A7C1fa9ea5303FD57D13CA0A37";
-var UI_POOL_DATA_PROVIDER21 = "0xDC55BcFC0963608401A4bA6298624E5895f8250a";
-var WALLET_BALANCE_PROVIDER21 = "0x6c68e975764a56e62AF3d1C8209F789779Eb763B";
-var WETH_GATEWAY20 = "0x57ce905CfD7f986A929A26b006f797d181dB706e";
-var CHAIN_ID21 = 534351;
-var ASSETS21 = {
-  DAI: {
-    decimals: 18,
-    UNDERLYING: "0x7984E363c38b590bB4CA35aEd5133Ef2c6619C40",
-    A_TOKEN: "0x99Cb50E6bE36C8096e6731ED7738d93090B710DD",
-    S_TOKEN: "0x94Bb76d2420C1F083c53061CA862619D6056fdFE",
-    V_TOKEN: "0x09F9A7cd11BE8468064b06FF20Dce43E0A434a2A",
-    INTEREST_RATE_STRATEGY: "0x85AD5a4a0974b6092d1F7369eC39c8b2255b8e6f",
-    ORACLE: "0x58A5C0E02CF344c538F4Cf8d3EFC51e7c134B31A"
-  },
-  LINK: {
-    decimals: 18,
-    UNDERLYING: "0x279cBF5B7e3651F03CB9b71A9E7A3c924b267801",
-    A_TOKEN: "0x55DD1cDFE13fCa68F6D14D452E2a20cABe191841",
-    S_TOKEN: "0x89Bb2A2904E89A90559e423Ec8ec00cc2E127146",
-    V_TOKEN: "0x2f42470c67aA2f6D7d2855FBB691179a6Dba4822",
-    INTEREST_RATE_STRATEGY: "0x9a8D012c2e26cE911AD211976aa06Ca020487389",
-    ORACLE: "0x01BdbF85210e113db2216e837D9b1e401eb7003e"
-  },
-  USDC: {
-    decimals: 6,
-    UNDERLYING: "0x2C9678042D52B97D27f2bD2947F7111d93F3dD0D",
-    A_TOKEN: "0x6E4A1BcBd3C3038e6957207cadC1A17092DC7ba3",
-    S_TOKEN: "0x307a974951cb1a06635432c40C8efDbc5C67446D",
-    V_TOKEN: "0x6ED2eB0A4141975A8A33558234137265f36055f7",
-    INTEREST_RATE_STRATEGY: "0x9c41A3E545126Cc2c160634405E00461Ec30F709",
-    ORACLE: "0xB1732127A07B05e6Ea1FA53c8B791560Ff768439"
-  },
-  WBTC: {
-    decimals: 8,
-    UNDERLYING: "0x5EA79f3190ff37418d42F9B2618688494dBD9693",
-    A_TOKEN: "0x43AE2a14AD923915aa85d683D1b7d0d320ae87B2",
-    S_TOKEN: "0x0e78aC6Bf2a391bbBD15C3DEFadeC7B5d9f00343",
-    V_TOKEN: "0x52a011bF32a85D952aa259D85b705b7cF040836f",
-    INTEREST_RATE_STRATEGY: "0x9a8D012c2e26cE911AD211976aa06Ca020487389",
-    ORACLE: "0xb09f1850207Af7AFcd564632bB541B7b3c776006"
-  },
-  WETH: {
-    decimals: 18,
-    UNDERLYING: "0xb123dCe044EdF0a755505d9623Fba16C0F41cae9",
-    A_TOKEN: "0x9E8CEC4F2F4596141B62e88966D7167E9db555aD",
-    S_TOKEN: "0xeab312503904945BfeC5d56dFaC03d69Ef11DdE5",
-    V_TOKEN: "0xD502CD7A595ec36992b0601fae0A4b50A88084D4",
-    INTEREST_RATE_STRATEGY: "0x9a8D012c2e26cE911AD211976aa06Ca020487389",
-    ORACLE: "0xA0579Ea869d26CE4dfED0b65b54A08A4BdF3F5A8"
-  },
-  USDT: {
-    decimals: 6,
-    UNDERLYING: "0x186C0C26c45A8DA1Da34339ee513624a9609156d",
-    A_TOKEN: "0x54Cb3ba40705d7CCB18c1C24edD8B602a88eF4CE",
-    S_TOKEN: "0x197E7980a9A5b2BE23345A492612FBb53317fb1D",
-    V_TOKEN: "0x4cB0Dd10789208630F4def0DAAB4161f4Bb7b09D",
-    INTEREST_RATE_STRATEGY: "0x9c41A3E545126Cc2c160634405E00461Ec30F709",
-    ORACLE: "0x2d00F2DBA40e677E23AC442B5ab932Ce699d163e"
-  },
-  AAVE: {
-    decimals: 18,
-    UNDERLYING: "0xfc2921bE7B2762F0E87039905d6019B0fF5978a8",
-    A_TOKEN: "0xC5209E1325A0DBeb28143D82e7E1DE709456Fc8a",
-    S_TOKEN: "0xD6CB6AE9f09eD5ffE6e0374482F9D64707Df061C",
-    V_TOKEN: "0x7AE95AD823943283c3D5b7E9bE5E24414ba980cD",
-    INTEREST_RATE_STRATEGY: "0x9a8D012c2e26cE911AD211976aa06Ca020487389",
-    ORACLE: "0x79fb53cF4Ba1B59E07Eeed92D641F8374DaAFC8f"
-  },
-  EURS: {
-    decimals: 2,
-    UNDERLYING: "0xDf40f3a3566b4271450083f1Ad5732590BA47575",
-    A_TOKEN: "0xD49d1CF2886B1c95A94e8a9066E8b298646716b6",
-    S_TOKEN: "0x5D77C7207385a3D2A731f13E555066B209a2b9fc",
-    V_TOKEN: "0x2160F75FB89A6C35Bd59Ecf120B26f459956c925",
-    INTEREST_RATE_STRATEGY: "0x9c41A3E545126Cc2c160634405E00461Ec30F709",
-    ORACLE: "0xC6C58919440AD9daBF04D85b29820477AE7E808E"
-  }
-};
-var E_MODES14 = {
-  NONE: 0,
-  STABLECOINS: 1
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3FantomTestnet.mjs
-var AaveV3FantomTestnet_exports = {};
-__export(AaveV3FantomTestnet_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER22,
-  ACL_ADMIN: () => ACL_ADMIN15,
-  ACL_MANAGER: () => ACL_MANAGER15,
-  ASSETS: () => ASSETS22,
-  CHAIN_ID: () => CHAIN_ID22,
-  COLLECTOR: () => COLLECTOR22,
-  DEFAULT_A_TOKEN_IMPL_REV_1: () => DEFAULT_A_TOKEN_IMPL_REV_111,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER22,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_111,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_111,
-  EMISSION_MANAGER: () => EMISSION_MANAGER22,
-  E_MODES: () => E_MODES15,
-  FAUCET: () => FAUCET10,
-  ORACLE: () => ORACLE22,
-  POOL: () => POOL22,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER22,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR22,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL15,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER22,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER22,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER22,
-  WETH_GATEWAY: () => WETH_GATEWAY21
-});
-var POOL_ADDRESSES_PROVIDER22 = "0x1558c6FadDe1bEaf0f6628BDd1DFf3461185eA24";
-var POOL22 = "0x56Ab717d882F7A8d4a3C2b191707322c5Cc70db8";
-var POOL_CONFIGURATOR22 = "0x257a6f06192D532e40F66b3DDfE2cBBaf8373822";
-var ORACLE22 = "0x18a8d31dA46eeb9138a16dfC429E74C04ff523F4";
-var PRICE_ORACLE_SENTINEL15 = "0x0000000000000000000000000000000000000000";
-var AAVE_PROTOCOL_DATA_PROVIDER22 = "0x3c9F4EEa18B02ee331218646Fea59EE3661d2A61";
-var ACL_MANAGER15 = "0xD5D4f4fe4BfC8e8193f38927EfafDbfbB66dd7e0";
-var ACL_ADMIN15 = "0x9973Ce75946D56fA3B0C6aa3647d67D440BDAec8";
-var COLLECTOR22 = "0x445e52B0C18704448f4589C4304f63Ea287c2eb0";
-var DEFAULT_INCENTIVES_CONTROLLER22 = "0x9F749B597414eD4F53a0F23971327bb60f16ad94";
-var DEFAULT_A_TOKEN_IMPL_REV_111 = "0x6056C29483433A095eF98Fb0d01F2827F5FCeB99";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_111 = "0x67F50B454972F7557c359AfE2DD3caef9930d665";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_111 = "0x979667835fE95F39609220C7582C7f21DaF1ce11";
-var EMISSION_MANAGER22 = "0xBAdD48c3EB42A10dB791D7b02E3c07Fbf95B3155";
-var FAUCET10 = "0x021BE22Bdfa497D6643D4035E530095E7b452967";
-var UI_INCENTIVE_DATA_PROVIDER22 = "0xf24dc19cFb9A25bbc4DDcaAdb116DfD17472207B";
-var UI_POOL_DATA_PROVIDER22 = "0xC91dB4F736b6Acf5A2e379a58280D1b06BD24E7d";
-var WALLET_BALANCE_PROVIDER22 = "0x49cC86071dEcC7999BA656763b8389f23058bB34";
-var WETH_GATEWAY21 = "0xd2B0C9778d088Fc79C28Da719bC02158E64796bD";
-var CHAIN_ID22 = 4002;
-var ASSETS22 = {
-  DAI: {
-    decimals: 18,
-    UNDERLYING: "0x77FDe93fEe5fe272dC17d799cb61447431E6Eba2",
-    A_TOKEN: "0x2B101eFBB4dFf1fbB8f87f02C560Fb8AC773aFC5",
-    S_TOKEN: "0xDbFbB8697438646fa75071C71d9B3dD1abaaB19f",
-    V_TOKEN: "0x7a277581a2b1F0B52ce98A1A9b3ADb2DAbE99639",
-    INTEREST_RATE_STRATEGY: "0xEF97dc4389e8198068939ac2E92ca24371b67F1F",
-    ORACLE: "0x00DF377c2C82a65A8bAe2Ff04a9434a721Bc5aEB"
-  },
-  LINK: {
-    decimals: 18,
-    UNDERLYING: "0x1Da81b322451C51D2580B373974a999d5A9C2D21",
-    A_TOKEN: "0x7d18f0834A38cA6B0e58CC671900f0017E6d55Ff",
-    S_TOKEN: "0xF21aC6F04D88Cb4EC2a33Aa3A3a909FF64d4dDe1",
-    V_TOKEN: "0x37a36207141fec36F383b9012FFACA924e4c7809",
-    INTEREST_RATE_STRATEGY: "0x9060C6E714BA5C3A46665599103989778a736D4B",
-    ORACLE: "0x55c7852e10fcd07cF63Ad1bb9FC191b6F4d96ebD"
-  },
-  USDC: {
-    decimals: 6,
-    UNDERLYING: "0x66F61903D7FEC18048bEc2e792f272cb8B657733",
-    A_TOKEN: "0xFFF336d1310D5Ba18CfFb2006afa762EC7d7a4fb",
-    S_TOKEN: "0xb9fdF942fd49A3876b4c5aAd3b65B48C8c7Bec2C",
-    V_TOKEN: "0x7723CeBe9a4D7416a7023d30bBefe73b755CE0bf",
-    INTEREST_RATE_STRATEGY: "0x3877E12506b087e56CdB7C9a54A04bE0D322B26C",
-    ORACLE: "0x4CeDCB57Af02293231BAA9D39354D6BFDFD251e0"
-  },
-  WBTC: {
-    decimals: 8,
-    UNDERLYING: "0x2c95d10bA4BBEc79e562e8B3f48687751808C925",
-    A_TOKEN: "0x17A6c7f20e804a558E0674c0Eef1F69442770596",
-    S_TOKEN: "0xCE3F0aA0b7cd4d7202a6c14e835EdF58F73e0F41",
-    V_TOKEN: "0x798FD7a01C614F23a9fF27427e94175c3A8eBa5B",
-    INTEREST_RATE_STRATEGY: "0x9060C6E714BA5C3A46665599103989778a736D4B",
-    ORACLE: "0x8022B4f0165644D9EFcDEF70b09F5739b95740bc"
-  },
-  WETH: {
-    decimals: 18,
-    UNDERLYING: "0xc8c0Cf9436F4862a8F60Ce680Ca5a9f0f99b5ded",
-    A_TOKEN: "0x0e426e6e6B226D8bd566e417b90411Dcf14DF861",
-    S_TOKEN: "0xFb58c0193E4BEBAd5385776e7e4c53bA80caEAda",
-    V_TOKEN: "0x5d18c525aD0C583aeEa44535cce7fd234D10Ef65",
-    INTEREST_RATE_STRATEGY: "0x9060C6E714BA5C3A46665599103989778a736D4B",
-    ORACLE: "0x9e2DDb6aA91399546Bd875E2e63E8d6df276922e"
-  },
-  USDT: {
-    decimals: 6,
-    UNDERLYING: "0x9DFf9E93B1e513379cf820504D642c6891d8F7CC",
-    A_TOKEN: "0x97293798206Fc4FDF23D6b536ED3D694599e35BC",
-    S_TOKEN: "0x3C2550b9D48B1c1814AeF3E58E76c6fD343d9775",
-    V_TOKEN: "0x8aE1A997A45C7A7b8c00889C8d0eAabBa899CA90",
-    INTEREST_RATE_STRATEGY: "0x3877E12506b087e56CdB7C9a54A04bE0D322B26C",
-    ORACLE: "0x7CBa02e449d1D41b792A28fC15ee3F72C5aDC113"
-  },
-  AAVE: {
-    decimals: 18,
-    UNDERLYING: "0x52D800ca262522580CeBAD275395ca6e7598C014",
-    A_TOKEN: "0xf10e04c48f14d50F7378e01a1EEf7498D9a27d08",
-    S_TOKEN: "0xc83e9eF21C7736dfA4049835e05dbCC6a9b1C42b",
-    V_TOKEN: "0xD54a60da0deA4054169faeD0217F8Be0198A789E",
-    INTEREST_RATE_STRATEGY: "0x9060C6E714BA5C3A46665599103989778a736D4B",
-    ORACLE: "0xB516d30421d2A0524769A243BBE5e193E78ab35c"
-  },
-  WFTM: {
-    decimals: 18,
-    UNDERLYING: "0x2Fa2e7a6dEB7bb51B625336DBe1dA23511914a8A",
-    A_TOKEN: "0xFA3AdA68fA9512B2e22a5fac6b6F0231068A2b36",
-    S_TOKEN: "0x519Cc175fe84B19A67D136216408774FA6145AEE",
-    V_TOKEN: "0x5a76c9C809e7032F857dC24430e724831b202e29",
-    INTEREST_RATE_STRATEGY: "0x9060C6E714BA5C3A46665599103989778a736D4B",
-    ORACLE: "0x76675dEA78639e06a0f6b377262A03dEA916D6a4"
-  },
-  CRV: {
-    decimals: 18,
-    UNDERLYING: "0xc199807AF4fEDB02EE567Ed0FeB814A077de4802",
-    A_TOKEN: "0x01CEf190E98cE7B8CA722e33C0D3aF456106103d",
-    S_TOKEN: "0x8DC8F6Db4805109590A07e6F1488D5fD20A2980c",
-    V_TOKEN: "0x40489046ABe77aa660C6270A4abD0018821eE2e6",
-    INTEREST_RATE_STRATEGY: "0x9060C6E714BA5C3A46665599103989778a736D4B",
-    ORACLE: "0xd409F17095a370800A9C352124C6a1e82695203E"
-  },
-  SUSHI: {
-    decimals: 18,
-    UNDERLYING: "0x1fdE0eCc619726f4cD597887C9F3b4c8740e19e2",
-    A_TOKEN: "0xac8fd53423708ac1C49E5486485854FBE1487e65",
-    S_TOKEN: "0x2D95dC1559576dF4A4d22e6befB6f23b151Df04c",
-    V_TOKEN: "0xd863A878743D56B1208DC3bf3F280c0d16eC28D4",
-    INTEREST_RATE_STRATEGY: "0x9060C6E714BA5C3A46665599103989778a736D4B",
-    ORACLE: "0xcDA8dE50b65cB2Affc8B89f35C40A97Eed4B270F"
-  }
-};
-var E_MODES15 = {
-  NONE: 0,
-  STABLECOINS: 1
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3Fantom.mjs
-var AaveV3Fantom_exports = {};
-__export(AaveV3Fantom_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER23,
-  ACL_ADMIN: () => ACL_ADMIN16,
-  ACL_MANAGER: () => ACL_MANAGER16,
-  ASSETS: () => ASSETS23,
-  CHAIN_ID: () => CHAIN_ID23,
-  COLLECTOR: () => COLLECTOR23,
-  DEFAULT_A_TOKEN_IMPL_REV_1: () => DEFAULT_A_TOKEN_IMPL_REV_112,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER23,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_112,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_112,
-  EMISSION_MANAGER: () => EMISSION_MANAGER23,
-  E_MODES: () => E_MODES16,
-  ORACLE: () => ORACLE23,
-  POOL: () => POOL23,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER23,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY16,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR23,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL16,
-  REPAY_WITH_COLLATERAL_ADAPTER: () => REPAY_WITH_COLLATERAL_ADAPTER10,
-  SWAP_COLLATERAL_ADAPTER: () => SWAP_COLLATERAL_ADAPTER10,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER23,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER23,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER23,
-  WETH_GATEWAY: () => WETH_GATEWAY22
-});
-var POOL_ADDRESSES_PROVIDER23 = "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb";
-var POOL23 = "0x794a61358D6845594F94dc1DB02A252b5b4814aD";
-var POOL_CONFIGURATOR23 = "0x8145eddDf43f50276641b55bd3AD95944510021E";
-var ORACLE23 = "0xfd6f3c1845604C8AE6c6E402ad17fb9885160754";
-var PRICE_ORACLE_SENTINEL16 = "0x0000000000000000000000000000000000000000";
-var AAVE_PROTOCOL_DATA_PROVIDER23 = "0x69FA688f1Dc47d4B5d8029D5a35FB7a548310654";
-var ACL_MANAGER16 = "0xa72636CbcAa8F5FF95B2cc47F3CDEe83F3294a0B";
-var ACL_ADMIN16 = "0x39CB97b105173b56b5a2b4b33AD25d6a50E6c949";
-var COLLECTOR23 = "0xBe85413851D195fC6341619cD68BfDc26a25b928";
-var DEFAULT_INCENTIVES_CONTROLLER23 = "0x929EC64c34a17401F460460D4B9390518E5B473e";
-var DEFAULT_A_TOKEN_IMPL_REV_112 = "0xa5ba6E5EC19a1Bf23C857991c857dB62b2Aa187B";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_112 = "0x81387c40EB75acB02757C1Ae55D5936E78c9dEd3";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_112 = "0x52A1CeB68Ee6b7B5D13E0376A1E0E4423A8cE26e";
-var EMISSION_MANAGER23 = "0x048f2228D7Bf6776f99aB50cB1b1eaB4D1d4cA73";
-var POOL_ADDRESSES_PROVIDER_REGISTRY16 = "0x770ef9f4fe897e59daCc474EF11238303F9552b6";
-var REPAY_WITH_COLLATERAL_ADAPTER10 = "0x1408401B2A7E28cB747b3e258D0831Fc926bAC51";
-var SWAP_COLLATERAL_ADAPTER10 = "0xE387c6053CE8EC9f8C3fa5cE085Af73114a695d3";
-var UI_INCENTIVE_DATA_PROVIDER23 = "0x67Da261c14fd94cE7fDd77a0A8476E5b244089A9";
-var UI_POOL_DATA_PROVIDER23 = "0xddf65434502E459C22263BE2ed7cF0f1FaFD44c0";
-var WALLET_BALANCE_PROVIDER23 = "0xBc790382B3686abffE4be14A030A96aC6154023a";
-var WETH_GATEWAY22 = "0x1DcDA4de2Bf6c7AD9a34788D22aE6b7d55016e1f";
-var CHAIN_ID23 = 250;
-var ASSETS23 = {
-  DAI: {
-    decimals: 18,
-    UNDERLYING: "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E",
-    A_TOKEN: "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE",
-    S_TOKEN: "0xd94112B5B62d53C9402e7A60289c6810dEF1dC9B",
-    V_TOKEN: "0x8619d80FB0141ba7F184CbF22fd724116D9f7ffC",
-    INTEREST_RATE_STRATEGY: "0xA9F3C3caE095527061e6d270DBE163693e6fda9D",
-    ORACLE: "0x91d5DEFAFfE2854C7D02F50c80FA1fdc8A721e52"
-  },
-  LINK: {
-    decimals: 18,
-    UNDERLYING: "0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8",
-    A_TOKEN: "0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530",
-    S_TOKEN: "0x89D976629b7055ff1ca02b927BA3e020F22A44e4",
-    V_TOKEN: "0x953A573793604aF8d41F306FEb8274190dB4aE0e",
-    INTEREST_RATE_STRATEGY: "0x4aa694e6c06D6162d95BE98a2Df6a521d5A7b521",
-    ORACLE: "0x221C773d8647BC3034e91a0c47062e26D20d97B4"
-  },
-  USDC: {
-    decimals: 6,
-    UNDERLYING: "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
-    A_TOKEN: "0x625E7708f30cA75bfd92586e17077590C60eb4cD",
-    S_TOKEN: "0x307ffe186F84a3bc2613D1eA417A5737D69A7007",
-    V_TOKEN: "0xFCCf3cAbbe80101232d343252614b6A3eE81C989",
-    INTEREST_RATE_STRATEGY: "0xf4a0039F2d4a2EaD5216AbB6Ae4C4C3AA2dB9b82",
-    ORACLE: "0x2553f4eeb82d5A26427b8d1106C51499CBa5D99c"
-  },
-  BTC: {
-    decimals: 8,
-    UNDERLYING: "0x321162Cd933E2Be498Cd2267a90534A804051b11",
-    A_TOKEN: "0x078f358208685046a11C85e8ad32895DED33A249",
-    S_TOKEN: "0x633b207Dd676331c413D4C013a6294B0FE47cD0e",
-    V_TOKEN: "0x92b42c66840C7AD907b4BF74879FF3eF7c529473",
-    INTEREST_RATE_STRATEGY: "0x4aa694e6c06D6162d95BE98a2Df6a521d5A7b521",
-    ORACLE: "0x8e94C22142F4A64b99022ccDd994f4e9EC86E4B4"
-  },
-  ETH: {
-    decimals: 18,
-    UNDERLYING: "0x74b23882a30290451A17c44f4F05243b6b58C76d",
-    A_TOKEN: "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
-    S_TOKEN: "0xD8Ad37849950903571df17049516a5CD4cbE55F6",
-    V_TOKEN: "0x0c84331e39d6658Cd6e6b9ba04736cC4c4734351",
-    INTEREST_RATE_STRATEGY: "0x4aa694e6c06D6162d95BE98a2Df6a521d5A7b521",
-    ORACLE: "0x11DdD3d147E5b83D01cee7070027092397d63658"
-  },
-  fUSDT: {
-    decimals: 6,
-    UNDERLYING: "0x049d68029688eAbF473097a2fC38ef61633A3C7A",
-    A_TOKEN: "0x6ab707Aca953eDAeFBc4fD23bA73294241490620",
-    S_TOKEN: "0x70eFfc565DB6EEf7B927610155602d31b670e802",
-    V_TOKEN: "0xfb00AC187a8Eb5AFAE4eACE434F493Eb62672df7",
-    INTEREST_RATE_STRATEGY: "0xf4a0039F2d4a2EaD5216AbB6Ae4C4C3AA2dB9b82",
-    ORACLE: "0xF64b636c5dFe1d3555A847341cDC449f612307d0"
-  },
-  AAVE: {
-    decimals: 18,
-    UNDERLYING: "0x6a07A792ab2965C72a5B8088d3a069A7aC3a993B",
-    A_TOKEN: "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375",
-    S_TOKEN: "0xfAeF6A702D15428E588d4C0614AEFb4348D83D48",
-    V_TOKEN: "0xE80761Ea617F66F96274eA5e8c37f03960ecC679",
-    INTEREST_RATE_STRATEGY: "0x4aa694e6c06D6162d95BE98a2Df6a521d5A7b521",
-    ORACLE: "0xE6ecF7d2361B6459cBb3b4fb065E0eF4B175Fe74"
-  },
-  WFTM: {
-    decimals: 18,
-    UNDERLYING: "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
-    A_TOKEN: "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97",
-    S_TOKEN: "0xF15F26710c827DDe8ACBA678682F3Ce24f2Fb56E",
-    V_TOKEN: "0x4a1c3aD6Ed28a636ee1751C69071f6be75DEb8B8",
-    INTEREST_RATE_STRATEGY: "0x4aa694e6c06D6162d95BE98a2Df6a521d5A7b521",
-    ORACLE: "0xf4766552D15AE4d256Ad41B6cf2933482B0680dc"
-  },
-  CRV: {
-    decimals: 18,
-    UNDERLYING: "0x1E4F97b9f9F913c46F1632781732927B9019C68b",
-    A_TOKEN: "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf",
-    S_TOKEN: "0x08Cb71192985E936C7Cd166A8b268035e400c3c3",
-    V_TOKEN: "0x77CA01483f379E58174739308945f044e1a764dc",
-    INTEREST_RATE_STRATEGY: "0x4aa694e6c06D6162d95BE98a2Df6a521d5A7b521",
-    ORACLE: "0xa141D7E3B44594cc65142AE5F2C7844Abea66D2B"
-  },
-  SUSHI: {
-    decimals: 18,
-    UNDERLYING: "0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC",
-    A_TOKEN: "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA",
-    S_TOKEN: "0x78246294a4c6fBf614Ed73CcC9F8b875ca8eE841",
-    V_TOKEN: "0x34e2eD44EF7466D5f9E0b782B5c08b57475e7907",
-    INTEREST_RATE_STRATEGY: "0x4aa694e6c06D6162d95BE98a2Df6a521d5A7b521",
-    ORACLE: "0xCcc059a1a17577676c8673952Dc02070D29e5a66"
-  }
-};
-var E_MODES16 = {
-  NONE: 0,
-  STABLECOINS: 1
-};
-
-// node_modules/@bgd-labs/aave-address-book/dist/AaveV3Harmony.mjs
-var AaveV3Harmony_exports = {};
-__export(AaveV3Harmony_exports, {
-  AAVE_PROTOCOL_DATA_PROVIDER: () => AAVE_PROTOCOL_DATA_PROVIDER24,
-  ACL_ADMIN: () => ACL_ADMIN17,
-  ACL_MANAGER: () => ACL_MANAGER17,
-  ASSETS: () => ASSETS24,
-  CHAIN_ID: () => CHAIN_ID24,
-  COLLECTOR: () => COLLECTOR24,
-  DEFAULT_A_TOKEN_IMPL_REV_1: () => DEFAULT_A_TOKEN_IMPL_REV_113,
-  DEFAULT_INCENTIVES_CONTROLLER: () => DEFAULT_INCENTIVES_CONTROLLER24,
-  DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_113,
-  DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_1: () => DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_113,
-  EMISSION_MANAGER: () => EMISSION_MANAGER24,
-  E_MODES: () => E_MODES17,
-  ORACLE: () => ORACLE24,
-  POOL: () => POOL24,
-  POOL_ADDRESSES_PROVIDER: () => POOL_ADDRESSES_PROVIDER24,
-  POOL_ADDRESSES_PROVIDER_REGISTRY: () => POOL_ADDRESSES_PROVIDER_REGISTRY17,
-  POOL_CONFIGURATOR: () => POOL_CONFIGURATOR24,
-  PRICE_ORACLE_SENTINEL: () => PRICE_ORACLE_SENTINEL17,
-  UI_INCENTIVE_DATA_PROVIDER: () => UI_INCENTIVE_DATA_PROVIDER24,
-  UI_POOL_DATA_PROVIDER: () => UI_POOL_DATA_PROVIDER24,
-  WALLET_BALANCE_PROVIDER: () => WALLET_BALANCE_PROVIDER24,
-  WETH_GATEWAY: () => WETH_GATEWAY23
-});
-var POOL_ADDRESSES_PROVIDER24 = "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb";
-var POOL24 = "0x794a61358D6845594F94dc1DB02A252b5b4814aD";
-var POOL_CONFIGURATOR24 = "0x8145eddDf43f50276641b55bd3AD95944510021E";
-var ORACLE24 = "0x3C90887Ede8D65ccb2777A5d577beAb2548280AD";
-var PRICE_ORACLE_SENTINEL17 = "0x0000000000000000000000000000000000000000";
-var AAVE_PROTOCOL_DATA_PROVIDER24 = "0x69FA688f1Dc47d4B5d8029D5a35FB7a548310654";
-var ACL_MANAGER17 = "0xa72636CbcAa8F5FF95B2cc47F3CDEe83F3294a0B";
-var ACL_ADMIN17 = "0xb2f0C5f37f4beD2cB51C44653cD5D84866BDcd2D";
-var COLLECTOR24 = "0x8A020d92D6B119978582BE4d3EdFdC9F7b28BF31";
-var DEFAULT_INCENTIVES_CONTROLLER24 = "0x929EC64c34a17401F460460D4B9390518E5B473e";
-var DEFAULT_A_TOKEN_IMPL_REV_113 = "0xa5ba6E5EC19a1Bf23C857991c857dB62b2Aa187B";
-var DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_113 = "0x81387c40EB75acB02757C1Ae55D5936E78c9dEd3";
-var DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_113 = "0x52A1CeB68Ee6b7B5D13E0376A1E0E4423A8cE26e";
-var EMISSION_MANAGER24 = "0x048f2228D7Bf6776f99aB50cB1b1eaB4D1d4cA73";
-var POOL_ADDRESSES_PROVIDER_REGISTRY17 = "0x770ef9f4fe897e59daCc474EF11238303F9552b6";
-var UI_INCENTIVE_DATA_PROVIDER24 = "0xf7a60467aBb8A3240A0382b22E1B03c7d4F59Da5";
-var UI_POOL_DATA_PROVIDER24 = "0x1DcDA4de2Bf6c7AD9a34788D22aE6b7d55016e1f";
-var WALLET_BALANCE_PROVIDER24 = "0xBc790382B3686abffE4be14A030A96aC6154023a";
-var WETH_GATEWAY23 = "0xE387c6053CE8EC9f8C3fa5cE085Af73114a695d3";
-var CHAIN_ID24 = 16666e5;
-var ASSETS24 = {
-  ONE_DAI: {
-    decimals: 18,
-    UNDERLYING: "0xEf977d2f931C1978Db5F6747666fa1eACB0d0339",
-    A_TOKEN: "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE",
-    S_TOKEN: "0xd94112B5B62d53C9402e7A60289c6810dEF1dC9B",
-    V_TOKEN: "0x8619d80FB0141ba7F184CbF22fd724116D9f7ffC",
-    INTEREST_RATE_STRATEGY: "0xfab05a6aF585da2F96e21452F91E812452996BD3",
-    ORACLE: "0xF8326D22b2CaFF4880115E92161c324AbC5e0395"
-  },
-  LINK: {
-    decimals: 18,
-    UNDERLYING: "0x218532a12a389a4a92fC0C5Fb22901D1c19198aA",
-    A_TOKEN: "0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530",
-    S_TOKEN: "0x89D976629b7055ff1ca02b927BA3e020F22A44e4",
-    V_TOKEN: "0x953A573793604aF8d41F306FEb8274190dB4aE0e",
-    INTEREST_RATE_STRATEGY: "0x145dE30c929a065582da84Cf96F88460dB9745A7",
-    ORACLE: "0xD54F119D10901b4509610eA259A63169647800C4"
-  },
-  ONE_USDC: {
-    decimals: 6,
-    UNDERLYING: "0x985458E523dB3d53125813eD68c274899e9DfAb4",
-    A_TOKEN: "0x625E7708f30cA75bfd92586e17077590C60eb4cD",
-    S_TOKEN: "0x307ffe186F84a3bc2613D1eA417A5737D69A7007",
-    V_TOKEN: "0xFCCf3cAbbe80101232d343252614b6A3eE81C989",
-    INTEREST_RATE_STRATEGY: "0xf4a0039F2d4a2EaD5216AbB6Ae4C4C3AA2dB9b82",
-    ORACLE: "0xA45A41be2D8419B60A6CE2Bc393A0B086b8B3bda"
-  },
-  ONE_WBTC: {
-    decimals: 8,
-    UNDERLYING: "0x3095c7557bCb296ccc6e363DE01b760bA031F2d9",
-    A_TOKEN: "0x078f358208685046a11C85e8ad32895DED33A249",
-    S_TOKEN: "0x633b207Dd676331c413D4C013a6294B0FE47cD0e",
-    V_TOKEN: "0x92b42c66840C7AD907b4BF74879FF3eF7c529473",
-    INTEREST_RATE_STRATEGY: "0xb023e699F5a33916Ea823A16485e259257cA8Bd1",
-    ORACLE: "0x3C41439Eb1bF3BA3b2C3f8C921088b267f8d11f4"
-  },
-  ONE_ETH: {
-    decimals: 18,
-    UNDERLYING: "0x6983D1E6DEf3690C4d616b13597A09e6193EA013",
-    A_TOKEN: "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
-    S_TOKEN: "0xD8Ad37849950903571df17049516a5CD4cbE55F6",
-    V_TOKEN: "0x0c84331e39d6658Cd6e6b9ba04736cC4c4734351",
-    INTEREST_RATE_STRATEGY: "0xb023e699F5a33916Ea823A16485e259257cA8Bd1",
-    ORACLE: "0xbaf7C8149D586055ed02c286367A41E0aDA96b7C"
-  },
-  ONE_USDT: {
-    decimals: 6,
-    UNDERLYING: "0x3C2B8Be99c50593081EAA2A724F0B8285F5aba8f",
-    A_TOKEN: "0x6ab707Aca953eDAeFBc4fD23bA73294241490620",
-    S_TOKEN: "0x70eFfc565DB6EEf7B927610155602d31b670e802",
-    V_TOKEN: "0xfb00AC187a8Eb5AFAE4eACE434F493Eb62672df7",
-    INTEREST_RATE_STRATEGY: "0xf4a0039F2d4a2EaD5216AbB6Ae4C4C3AA2dB9b82",
-    ORACLE: "0x5CaAeBE5C69a8287bffB9d00b5231bf7254145bf"
-  },
-  ONE_AAVE: {
-    decimals: 18,
-    UNDERLYING: "0xcF323Aad9E522B93F11c352CaA519Ad0E14eB40F",
-    A_TOKEN: "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375",
-    S_TOKEN: "0xfAeF6A702D15428E588d4C0614AEFb4348D83D48",
-    V_TOKEN: "0xE80761Ea617F66F96274eA5e8c37f03960ecC679",
-    INTEREST_RATE_STRATEGY: "0xb023e699F5a33916Ea823A16485e259257cA8Bd1",
-    ORACLE: "0x6EE1EfCCe688D5B79CB8a400870AF471c5282992"
-  },
-  WONE: {
-    decimals: 18,
-    UNDERLYING: "0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a",
-    A_TOKEN: "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97",
-    S_TOKEN: "0xF15F26710c827DDe8ACBA678682F3Ce24f2Fb56E",
-    V_TOKEN: "0x4a1c3aD6Ed28a636ee1751C69071f6be75DEb8B8",
-    INTEREST_RATE_STRATEGY: "0x145dE30c929a065582da84Cf96F88460dB9745A7",
-    ORACLE: "0xdCD81FbbD6c4572A69a534D8b8152c562dA8AbEF"
-  }
-};
-var E_MODES17 = {
-  NONE: 0,
-  STABLECOINS: 1
-};
-
-// src/ui-config/marketsConfig.tsx
 var marketsData = {
-  ["proto_mainnet_v3" /* proto_mainnet_v3 */]: {
-    marketTitle: "Ethereum",
-    chainId: import_contract_helpers2.ChainId.mainnet,
+  // [CustomMarket.proto_mainnet_v3]: {
+  //   marketTitle: 'Ethereum',
+  //   market: CustomMarket.proto_mainnet_v3,
+  //   chainId: ChainId.mainnet,
+  //   v3: true,
+  //   enabledFeatures: {
+  //     governance: true,
+  //     staking: true,
+  //     liquiditySwap: true,
+  //     collateralRepay: true,
+  //     incentives: true,
+  //     withdrawAndSwitch: true,
+  //     debtSwitch: true,
+  //     switch: true,
+  //   },
+  //   subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3Ethereum.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3Ethereum.POOL,
+  //     WETH_GATEWAY: AaveV3Ethereum.WETH_GATEWAY,
+  //     REPAY_WITH_COLLATERAL_ADAPTER: AaveV3Ethereum.REPAY_WITH_COLLATERAL_ADAPTER,
+  //     SWAP_COLLATERAL_ADAPTER: AaveV3Ethereum.SWAP_COLLATERAL_ADAPTER,
+  //     WALLET_BALANCE_PROVIDER: AaveV3Ethereum.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3Ethereum.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3Ethereum.UI_INCENTIVE_DATA_PROVIDER,
+  //     COLLECTOR: AaveV3Ethereum.COLLECTOR,
+  //     GHO_TOKEN_ADDRESS: AaveV3Ethereum.ASSETS.GHO.UNDERLYING,
+  //     GHO_UI_DATA_PROVIDER: AaveV3Ethereum.UI_GHO_DATA_PROVIDER,
+  //     WITHDRAW_SWITCH_ADAPTER: AaveV3Ethereum.WITHDRAW_SWAP_ADAPTER,
+  //     DEBT_SWITCH_ADAPTER: AaveV3Ethereum.DEBT_SWAP_ADAPTER,
+  //   },
+  //   halIntegration: {
+  //     URL: 'https://app.hal.xyz/recipes/aave-v3-track-health-factor',
+  //     marketName: 'aavev3',
+  //   },
+  // },
+  ["proto_rollux_v3" /* proto_rollux_v3 */]: {
+    marketTitle: "Rollux",
+    market: "proto_rollux_v3" /* proto_rollux_v3 */,
     v3: true,
+    chainId: 570,
     enabledFeatures: {
-      governance: true,
-      staking: true,
-      liquiditySwap: true,
-      collateralRepay: true,
-      incentives: true,
-      withdrawAndSwitch: true,
-      debtSwitch: true,
-      switch: true
+      // incentives: true,
+      // liquiditySwap: true,
+      // collateralRepay: true,
+      // debtSwitch: true,
+      // withdrawAndSwitch: true,
+      // switch: true,
     },
-    subgraphUrl: "https://api.thegraph.com/subgraphs/name/aave/protocol-v3",
+    // subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-arbitrum',
     addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3Ethereum_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3Ethereum_exports.POOL,
-      WETH_GATEWAY: AaveV3Ethereum_exports.WETH_GATEWAY,
-      REPAY_WITH_COLLATERAL_ADAPTER: AaveV3Ethereum_exports.REPAY_WITH_COLLATERAL_ADAPTER,
-      SWAP_COLLATERAL_ADAPTER: AaveV3Ethereum_exports.SWAP_COLLATERAL_ADAPTER,
-      WALLET_BALANCE_PROVIDER: AaveV3Ethereum_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3Ethereum_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3Ethereum_exports.UI_INCENTIVE_DATA_PROVIDER,
-      COLLECTOR: AaveV3Ethereum_exports.COLLECTOR,
-      GHO_TOKEN_ADDRESS: AaveV3Ethereum_exports.GHO_TOKEN,
-      GHO_UI_DATA_PROVIDER: AaveV3Ethereum_exports.UI_GHO_DATA_PROVIDER,
-      WITHDRAW_SWITCH_ADAPTER: AaveV3Ethereum_exports.WITHDRAW_SWAP_ADAPTER,
-      DEBT_SWITCH_ADAPTER: AaveV3Ethereum_exports.DEBT_SWAP_ADAPTER
-    },
-    halIntegration: {
-      URL: "https://app.hal.xyz/recipes/aave-v3-track-health-factor",
-      marketName: "aavev3"
+      LENDING_POOL_ADDRESS_PROVIDER: "0x4ed7c70F96B99c776995fB64377f0d4aB3B0e1C1",
+      LENDING_POOL: "0x56639dB16Ac50A89228026e42a316B30179A5376",
+      WETH_GATEWAY: "0x5081a39b8A5f0E35a8D959395a630b68B74Dd30f",
+      WALLET_BALANCE_PROVIDER: "0x1fA02b2d6A771842690194Cf62D91bdd92BfE28d",
+      UI_POOL_DATA_PROVIDER: "0x04C89607413713Ec9775E14b954286519d836FEf",
+      UI_INCENTIVE_DATA_PROVIDER: "0xdbC43Ba45381e02825b14322cDdd15eC4B3164E6"
+      // L2_ENCODER: '0xa6D9c5175B5b86Eb98a6E4B19E60B6a75F07F159',
+      // COLLECTOR: ZERO_ADDRESS,
+      // SWAP_COLLATERAL_ADAPTER: ZERO_ADDRESS,
+      // REPAY_WITH_COLLATERAL_ADAPTER: ZERO_ADDRESS,
+      // DEBT_SWITCH_ADAPTER: ZERO_ADDRESS,
+      // WITHDRAW_SWITCH_ADAPTER: ZERO_ADDRESS,
     }
-  },
-  ["proto_mainnet" /* proto_mainnet */]: {
-    marketTitle: "Ethereum",
-    chainId: import_contract_helpers2.ChainId.mainnet,
-    enabledFeatures: {
-      governance: true,
-      staking: true,
-      liquiditySwap: true,
-      collateralRepay: true,
-      incentives: true,
-      debtSwitch: true,
-      switch: true
-    },
-    subgraphUrl: "https://api.thegraph.com/subgraphs/name/aave/protocol-v2",
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV2Ethereum_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV2Ethereum_exports.POOL,
-      WETH_GATEWAY: AaveV2Ethereum_exports.WETH_GATEWAY,
-      REPAY_WITH_COLLATERAL_ADAPTER: AaveV2Ethereum_exports.REPAY_WITH_COLLATERAL_ADAPTER,
-      SWAP_COLLATERAL_ADAPTER: AaveV2Ethereum_exports.SWAP_COLLATERAL_ADAPTER,
-      WALLET_BALANCE_PROVIDER: AaveV2Ethereum_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV2Ethereum_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV2Ethereum_exports.UI_INCENTIVE_DATA_PROVIDER,
-      COLLECTOR: AaveV2Ethereum_exports.COLLECTOR,
-      V3_MIGRATOR: AaveV2Ethereum_exports.MIGRATION_HELPER,
-      DEBT_SWITCH_ADAPTER: AaveV2Ethereum_exports.DEBT_SWAP_ADAPTER
-    },
-    halIntegration: {
-      URL: "https://app.hal.xyz/recipes/aave-track-your-health-factor",
-      marketName: "aavev2"
-    }
-  },
+    // halIntegration: {
+    //   URL: 'https://app.hal.xyz/recipes/aave-v3-track-health-factor',
+    //   marketName: 'arbitrum',
+    // },
+  }
+  // [CustomMarket.proto_mainnet]: {
+  //   marketTitle: 'Ethereum',
+  //   market: CustomMarket.proto_mainnet,
+  //   chainId: ChainId.mainnet,
+  //   enabledFeatures: {
+  //     governance: true,
+  //     staking: true,
+  //     liquiditySwap: true,
+  //     collateralRepay: true,
+  //     incentives: true,
+  //     debtSwitch: true,
+  //     switch: true,
+  //   },
+  //   subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v2',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV2Ethereum.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV2Ethereum.POOL,
+  //     WETH_GATEWAY: AaveV2Ethereum.WETH_GATEWAY,
+  //     REPAY_WITH_COLLATERAL_ADAPTER: AaveV2Ethereum.REPAY_WITH_COLLATERAL_ADAPTER,
+  //     SWAP_COLLATERAL_ADAPTER: AaveV2Ethereum.SWAP_COLLATERAL_ADAPTER,
+  //     WALLET_BALANCE_PROVIDER: AaveV2Ethereum.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV2Ethereum.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV2Ethereum.UI_INCENTIVE_DATA_PROVIDER,
+  //     COLLECTOR: AaveV2Ethereum.COLLECTOR,
+  //     V3_MIGRATOR: AaveV2Ethereum.MIGRATION_HELPER,
+  //     DEBT_SWITCH_ADAPTER: AaveV2Ethereum.DEBT_SWAP_ADAPTER,
+  //   },
+  //   halIntegration: {
+  //     URL: 'https://app.hal.xyz/recipes/aave-track-your-health-factor',
+  //     marketName: 'aavev2',
+  //   },
+  // },
   // [CustomMarket.permissioned_market]: {
   //   marketTitle: 'Ethereum Permissioned Market example',
   //   chainId: ChainId.mainnet,
@@ -69049,885 +64997,619 @@ var marketsData = {
   //     PERMISSION_MANAGER: '<address here>',
   //   },
   // },
-  ["amm_mainnet" /* amm_mainnet */]: {
-    marketTitle: "Ethereum AMM",
-    chainId: import_contract_helpers2.ChainId.mainnet,
-    subgraphUrl: "https://api.thegraph.com/subgraphs/name/aave/protocol-v2",
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV2EthereumAMM_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV2EthereumAMM_exports.POOL,
-      WETH_GATEWAY: AaveV2EthereumAMM_exports.WETH_GATEWAY,
-      WALLET_BALANCE_PROVIDER: AaveV2EthereumAMM_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV2EthereumAMM_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV2EthereumAMM_exports.UI_INCENTIVE_DATA_PROVIDER,
-      COLLECTOR: AaveV2EthereumAMM_exports.COLLECTOR,
-      V3_MIGRATOR: AaveV2EthereumAMM_exports.MIGRATION_HELPER
-    }
-  },
-  ["proto_polygon" /* proto_polygon */]: {
-    marketTitle: "Polygon",
-    chainId: import_contract_helpers2.ChainId.polygon,
-    enabledFeatures: {
-      liquiditySwap: true,
-      incentives: true,
-      collateralRepay: true,
-      debtSwitch: true
-    },
-    subgraphUrl: "https://api.thegraph.com/subgraphs/name/aave/aave-v2-matic",
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV2Polygon_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV2Polygon_exports.POOL,
-      WETH_GATEWAY: AaveV2Polygon_exports.WETH_GATEWAY,
-      SWAP_COLLATERAL_ADAPTER: AaveV2Polygon_exports.SWAP_COLLATERAL_ADAPTER,
-      REPAY_WITH_COLLATERAL_ADAPTER: AaveV2Polygon_exports.REPAY_WITH_COLLATERAL_ADAPTER,
-      WALLET_BALANCE_PROVIDER: AaveV2Polygon_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV2Polygon_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV2Polygon_exports.UI_INCENTIVE_DATA_PROVIDER,
-      COLLECTOR: AaveV2Polygon_exports.COLLECTOR,
-      V3_MIGRATOR: AaveV2Polygon_exports.MIGRATION_HELPER,
-      DEBT_SWITCH_ADAPTER: AaveV2Polygon_exports.DEBT_SWAP_ADAPTER
-    },
-    halIntegration: {
-      URL: "https://app.hal.xyz/recipes/aave-track-your-health-factor",
-      marketName: "aavepolygon"
-    }
-  },
-  ["proto_avalanche" /* proto_avalanche */]: {
-    marketTitle: "Avalanche",
-    chainId: import_contract_helpers2.ChainId.avalanche,
-    enabledFeatures: {
-      liquiditySwap: true,
-      incentives: true,
-      collateralRepay: true,
-      debtSwitch: true,
-      switch: true
-    },
-    subgraphUrl: "https://api.thegraph.com/subgraphs/name/aave/protocol-v2-avalanche",
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV2Avalanche_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV2Avalanche_exports.POOL,
-      WETH_GATEWAY: AaveV2Avalanche_exports.WETH_GATEWAY,
-      SWAP_COLLATERAL_ADAPTER: AaveV2Avalanche_exports.SWAP_COLLATERAL_ADAPTER,
-      REPAY_WITH_COLLATERAL_ADAPTER: AaveV2Avalanche_exports.REPAY_WITH_COLLATERAL_ADAPTER,
-      WALLET_BALANCE_PROVIDER: AaveV2Avalanche_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV2Avalanche_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV2Avalanche_exports.UI_INCENTIVE_DATA_PROVIDER,
-      COLLECTOR: AaveV2Avalanche_exports.COLLECTOR,
-      V3_MIGRATOR: AaveV2Avalanche_exports.MIGRATION_HELPER,
-      DEBT_SWITCH_ADAPTER: AaveV2Avalanche_exports.DEBT_SWAP_ADAPTER
-    },
-    halIntegration: {
-      URL: "https://app.hal.xyz/recipes/aave-track-your-health-factor",
-      marketName: "aaveavalanche"
-    }
-  },
+  // [CustomMarket.amm_mainnet]: {
+  //   marketTitle: 'Ethereum AMM',
+  //   market: CustomMarket.amm_mainnet,
+  //   chainId: ChainId.mainnet,
+  //   subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v2',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV2EthereumAMM.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV2EthereumAMM.POOL,
+  //     WETH_GATEWAY: AaveV2EthereumAMM.WETH_GATEWAY,
+  //     WALLET_BALANCE_PROVIDER: AaveV2EthereumAMM.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV2EthereumAMM.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV2EthereumAMM.UI_INCENTIVE_DATA_PROVIDER,
+  //     COLLECTOR: AaveV2EthereumAMM.COLLECTOR,
+  //     V3_MIGRATOR: AaveV2EthereumAMM.MIGRATION_HELPER,
+  //   },
+  // },
+  // [CustomMarket.proto_polygon]: {
+  //   marketTitle: 'Polygon',
+  //   market: CustomMarket.proto_polygon,
+  //   chainId: ChainId.polygon,
+  //   enabledFeatures: {
+  //     liquiditySwap: true,
+  //     incentives: true,
+  //     collateralRepay: true,
+  //     debtSwitch: true,
+  //   },
+  //   subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/aave-v2-matic',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV2Polygon.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV2Polygon.POOL,
+  //     WETH_GATEWAY: AaveV2Polygon.WETH_GATEWAY,
+  //     SWAP_COLLATERAL_ADAPTER: AaveV2Polygon.SWAP_COLLATERAL_ADAPTER,
+  //     REPAY_WITH_COLLATERAL_ADAPTER: AaveV2Polygon.REPAY_WITH_COLLATERAL_ADAPTER,
+  //     WALLET_BALANCE_PROVIDER: AaveV2Polygon.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV2Polygon.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV2Polygon.UI_INCENTIVE_DATA_PROVIDER,
+  //     COLLECTOR: AaveV2Polygon.COLLECTOR,
+  //     V3_MIGRATOR: AaveV2Polygon.MIGRATION_HELPER,
+  //     DEBT_SWITCH_ADAPTER: AaveV2Polygon.DEBT_SWAP_ADAPTER,
+  //   },
+  //   halIntegration: {
+  //     URL: 'https://app.hal.xyz/recipes/aave-track-your-health-factor',
+  //     marketName: 'aavepolygon',
+  //   },
+  // },
+  // [CustomMarket.proto_avalanche]: {
+  //   marketTitle: 'Avalanche',
+  //   market: CustomMarket.proto_avalanche,
+  //   chainId: ChainId.avalanche,
+  //   enabledFeatures: {
+  //     liquiditySwap: true,
+  //     incentives: true,
+  //     collateralRepay: true,
+  //     debtSwitch: true,
+  //     switch: true,
+  //   },
+  //   subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v2-avalanche',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV2Avalanche.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV2Avalanche.POOL,
+  //     WETH_GATEWAY: AaveV2Avalanche.WETH_GATEWAY,
+  //     SWAP_COLLATERAL_ADAPTER: AaveV2Avalanche.SWAP_COLLATERAL_ADAPTER,
+  //     REPAY_WITH_COLLATERAL_ADAPTER: AaveV2Avalanche.REPAY_WITH_COLLATERAL_ADAPTER,
+  //     WALLET_BALANCE_PROVIDER: AaveV2Avalanche.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV2Avalanche.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV2Avalanche.UI_INCENTIVE_DATA_PROVIDER,
+  //     COLLECTOR: AaveV2Avalanche.COLLECTOR,
+  //     V3_MIGRATOR: AaveV2Avalanche.MIGRATION_HELPER,
+  //     DEBT_SWITCH_ADAPTER: AaveV2Avalanche.DEBT_SWAP_ADAPTER,
+  //   },
+  //   halIntegration: {
+  //     URL: 'https://app.hal.xyz/recipes/aave-track-your-health-factor',
+  //     marketName: 'aaveavalanche',
+  //   },
+  // },
   // v3
-  ["proto_sepolia_v3" /* proto_sepolia_v3 */]: {
-    marketTitle: "Ethereum Sepolia",
-    v3: true,
-    chainId: import_contract_helpers2.ChainId.sepolia,
-    enabledFeatures: {
-      faucet: true
-    },
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3Sepolia_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3Sepolia_exports.POOL,
-      WETH_GATEWAY: AaveV3Sepolia_exports.WETH_GATEWAY,
-      FAUCET: AaveV3Sepolia_exports.FAUCET,
-      WALLET_BALANCE_PROVIDER: AaveV3Sepolia_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3Sepolia_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3Sepolia_exports.UI_INCENTIVE_DATA_PROVIDER
-    }
-  },
-  ["proto_base_v3" /* proto_base_v3 */]: {
-    marketTitle: "Base",
-    v3: true,
-    chainId: import_contract_helpers2.ChainId.base,
-    enabledFeatures: {
-      incentives: true,
-      liquiditySwap: true,
-      withdrawAndSwitch: true,
-      collateralRepay: true,
-      debtSwitch: true,
-      switch: true
-    },
-    // TODO: Need subgraph, currently not supported
-    // subgraphUrl: '',
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3Base_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3Base_exports.POOL,
-      WETH_GATEWAY: AaveV3Base_exports.WETH_GATEWAY,
-      WALLET_BALANCE_PROVIDER: AaveV3Base_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3Base_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3Base_exports.UI_INCENTIVE_DATA_PROVIDER,
-      L2_ENCODER: AaveV3Base_exports.L2_ENCODER,
-      COLLECTOR: AaveV3Base_exports.COLLECTOR,
-      REPAY_WITH_COLLATERAL_ADAPTER: AaveV3Base_exports.REPAY_WITH_COLLATERAL_ADAPTER,
-      SWAP_COLLATERAL_ADAPTER: AaveV3Base_exports.SWAP_COLLATERAL_ADAPTER,
-      // WALLET_BALANCE_PROVIDER: AaveV2Ethereum.WALLET_BALANCE_PROVIDER,
-      WITHDRAW_SWITCH_ADAPTER: AaveV3Base_exports.WITHDRAW_SWAP_ADAPTER,
-      DEBT_SWITCH_ADAPTER: AaveV3Base_exports.DEBT_SWAP_ADAPTER
-    }
-  },
-  ["proto_arbitrum_v3" /* proto_arbitrum_v3 */]: {
-    marketTitle: "Arbitrum",
-    v3: true,
-    chainId: import_contract_helpers2.ChainId.arbitrum_one,
-    enabledFeatures: {
-      incentives: true,
-      liquiditySwap: true,
-      collateralRepay: true,
-      debtSwitch: true,
-      withdrawAndSwitch: true,
-      switch: true
-    },
-    subgraphUrl: "https://api.thegraph.com/subgraphs/name/aave/protocol-v3-arbitrum",
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3Arbitrum_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3Arbitrum_exports.POOL,
-      WETH_GATEWAY: AaveV3Arbitrum_exports.WETH_GATEWAY,
-      WALLET_BALANCE_PROVIDER: AaveV3Arbitrum_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3Arbitrum_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3Arbitrum_exports.UI_INCENTIVE_DATA_PROVIDER,
-      L2_ENCODER: AaveV3Arbitrum_exports.L2_ENCODER,
-      COLLECTOR: AaveV3Arbitrum_exports.COLLECTOR,
-      SWAP_COLLATERAL_ADAPTER: AaveV3Arbitrum_exports.SWAP_COLLATERAL_ADAPTER,
-      REPAY_WITH_COLLATERAL_ADAPTER: AaveV3Arbitrum_exports.REPAY_WITH_COLLATERAL_ADAPTER,
-      DEBT_SWITCH_ADAPTER: AaveV3Arbitrum_exports.DEBT_SWAP_ADAPTER,
-      WITHDRAW_SWITCH_ADAPTER: AaveV3Arbitrum_exports.WITHDRAW_SWAP_ADAPTER
-    },
-    halIntegration: {
-      URL: "https://app.hal.xyz/recipes/aave-v3-track-health-factor",
-      marketName: "arbitrum"
-    }
-  },
-  ["proto_arbitrum_goerli_v3" /* proto_arbitrum_goerli_v3 */]: {
-    marketTitle: "Arbitrum G\xF6rli",
-    v3: true,
-    chainId: import_contract_helpers2.ChainId.arbitrum_goerli,
-    enabledFeatures: {
-      faucet: true,
-      incentives: true
-    },
-    //subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-arbitrum-goerli',  needs re-deployment
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3ArbitrumGoerli_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3ArbitrumGoerli_exports.POOL,
-      WETH_GATEWAY: AaveV3ArbitrumGoerli_exports.WETH_GATEWAY,
-      FAUCET: AaveV3ArbitrumGoerli_exports.FAUCET,
-      WALLET_BALANCE_PROVIDER: AaveV3ArbitrumGoerli_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3ArbitrumGoerli_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3ArbitrumGoerli_exports.UI_INCENTIVE_DATA_PROVIDER,
-      L2_ENCODER: AaveV3ArbitrumGoerli_exports.L2_ENCODER
-    }
-  },
-  ["proto_avalanche_v3" /* proto_avalanche_v3 */]: {
-    marketTitle: "Avalanche",
-    v3: true,
-    chainId: import_contract_helpers2.ChainId.avalanche,
-    enabledFeatures: {
-      liquiditySwap: true,
-      incentives: true,
-      collateralRepay: true,
-      debtSwitch: true,
-      withdrawAndSwitch: true,
-      switch: true
-    },
-    subgraphUrl: "https://api.thegraph.com/subgraphs/name/aave/protocol-v3-avalanche",
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3Avalanche_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3Avalanche_exports.POOL,
-      WETH_GATEWAY: AaveV3Avalanche_exports.WETH_GATEWAY,
-      REPAY_WITH_COLLATERAL_ADAPTER: AaveV3Avalanche_exports.REPAY_WITH_COLLATERAL_ADAPTER,
-      SWAP_COLLATERAL_ADAPTER: AaveV3Avalanche_exports.SWAP_COLLATERAL_ADAPTER,
-      WALLET_BALANCE_PROVIDER: AaveV3Avalanche_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3Avalanche_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3Avalanche_exports.UI_INCENTIVE_DATA_PROVIDER,
-      COLLECTOR: AaveV3Avalanche_exports.COLLECTOR,
-      DEBT_SWITCH_ADAPTER: AaveV3Avalanche_exports.DEBT_SWAP_ADAPTER,
-      WITHDRAW_SWITCH_ADAPTER: AaveV3Avalanche_exports.WITHDRAW_SWAP_ADAPTER
-    },
-    halIntegration: {
-      URL: "https://app.hal.xyz/recipes/aave-v3-track-health-factor",
-      marketName: "avalanche"
-    }
-  },
-  ["proto_fuji_v3" /* proto_fuji_v3 */]: {
-    marketTitle: "Avalanche Fuji",
-    v3: true,
-    chainId: import_contract_helpers2.ChainId.fuji,
-    enabledFeatures: {
-      faucet: true,
-      incentives: true
-    },
-    //  subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-fuji',  needs re-deployment
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3Fuji_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3Fuji_exports.POOL,
-      WETH_GATEWAY: AaveV3Fuji_exports.WETH_GATEWAY,
-      FAUCET: AaveV3Fuji_exports.FAUCET,
-      WALLET_BALANCE_PROVIDER: AaveV3Fuji_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3Fuji_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3Fuji_exports.UI_INCENTIVE_DATA_PROVIDER
-    }
-  },
-  ["proto_optimism_goerli_v3" /* proto_optimism_goerli_v3 */]: {
-    marketTitle: "Optimism G\xF6rli",
-    v3: true,
-    chainId: import_contract_helpers2.ChainId.optimism_goerli,
-    enabledFeatures: {
-      faucet: true,
-      incentives: true
-    },
-    // subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-optimism-goerli',  needs re-deployment
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3OptimismGoerli_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3OptimismGoerli_exports.POOL,
-      WETH_GATEWAY: AaveV3OptimismGoerli_exports.WETH_GATEWAY,
-      FAUCET: AaveV3OptimismGoerli_exports.FAUCET,
-      WALLET_BALANCE_PROVIDER: AaveV3OptimismGoerli_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3OptimismGoerli_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3OptimismGoerli_exports.UI_INCENTIVE_DATA_PROVIDER,
-      L2_ENCODER: AaveV3OptimismGoerli_exports.L2_ENCODER
-    }
-  },
-  ["proto_scroll_sepolia_v3" /* proto_scroll_sepolia_v3 */]: {
-    marketTitle: "Scroll Sepolia",
-    v3: true,
-    chainId: import_contract_helpers2.ChainId.scroll_sepolia,
-    enabledFeatures: {
-      faucet: true,
-      incentives: true
-    },
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3ScrollSepolia_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3ScrollSepolia_exports.POOL,
-      WETH_GATEWAY: AaveV3ScrollSepolia_exports.WETH_GATEWAY,
-      FAUCET: AaveV3ScrollSepolia_exports.FAUCET,
-      WALLET_BALANCE_PROVIDER: AaveV3ScrollSepolia_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3ScrollSepolia_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3ScrollSepolia_exports.UI_INCENTIVE_DATA_PROVIDER,
-      L2_ENCODER: AaveV3ScrollSepolia_exports.L2_ENCODER
-    }
-  },
-  ["proto_fantom_v3" /* proto_fantom_v3 */]: {
-    marketTitle: "Fantom",
-    v3: true,
-    chainId: import_contract_helpers2.ChainId.fantom,
-    enabledFeatures: {
-      incentives: true,
-      collateralRepay: true,
-      liquiditySwap: true
-    },
-    subgraphUrl: "https://api.thegraph.com/subgraphs/name/aave/protocol-v3-fantom",
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3Fantom_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3Fantom_exports.POOL,
-      WETH_GATEWAY: AaveV3Fantom_exports.WETH_GATEWAY,
-      SWAP_COLLATERAL_ADAPTER: AaveV3Fantom_exports.SWAP_COLLATERAL_ADAPTER,
-      REPAY_WITH_COLLATERAL_ADAPTER: AaveV3Fantom_exports.REPAY_WITH_COLLATERAL_ADAPTER,
-      WALLET_BALANCE_PROVIDER: AaveV3Fantom_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3Fantom_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3Fantom_exports.UI_INCENTIVE_DATA_PROVIDER,
-      COLLECTOR: AaveV3Fantom_exports.COLLECTOR
-    },
-    halIntegration: {
-      URL: "https://app.hal.xyz/recipes/aave-v3-track-health-factor",
-      marketName: "fantom"
-    }
-  },
-  ["proto_fantom_testnet_v3" /* proto_fantom_testnet_v3 */]: {
-    marketTitle: "Fantom Testnet",
-    v3: true,
-    chainId: import_contract_helpers2.ChainId.fantom_testnet,
-    enabledFeatures: {
-      faucet: true,
-      incentives: true
-    },
-    // subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-fantom-testnet',  needs re-deployment
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3FantomTestnet_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3FantomTestnet_exports.POOL,
-      WETH_GATEWAY: AaveV3FantomTestnet_exports.WETH_GATEWAY,
-      FAUCET: AaveV3FantomTestnet_exports.FAUCET,
-      WALLET_BALANCE_PROVIDER: AaveV3FantomTestnet_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3FantomTestnet_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3FantomTestnet_exports.UI_INCENTIVE_DATA_PROVIDER
-    }
-  },
-  ["proto_harmony_v3" /* proto_harmony_v3 */]: {
-    marketTitle: "Harmony",
-    v3: true,
-    chainId: import_contract_helpers2.ChainId.harmony,
-    enabledFeatures: {
-      incentives: true
-    },
-    subgraphUrl: "https://api.thegraph.com/subgraphs/name/aave/protocol-v3-harmony",
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3Harmony_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3Harmony_exports.POOL,
-      WETH_GATEWAY: AaveV3Harmony_exports.WETH_GATEWAY,
-      WALLET_BALANCE_PROVIDER: AaveV3Harmony_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3Harmony_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3Harmony_exports.UI_INCENTIVE_DATA_PROVIDER,
-      COLLECTOR: AaveV3Harmony_exports.COLLECTOR
-    }
-  },
-  ["proto_optimism_v3" /* proto_optimism_v3 */]: {
-    marketTitle: "Optimism",
-    v3: true,
-    chainId: import_contract_helpers2.ChainId.optimism,
-    enabledFeatures: {
-      incentives: true,
-      collateralRepay: true,
-      liquiditySwap: true,
-      debtSwitch: true,
-      withdrawAndSwitch: true,
-      switch: true
-    },
-    subgraphUrl: "https://api.thegraph.com/subgraphs/name/aave/protocol-v3-optimism",
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3Optimism_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3Optimism_exports.POOL,
-      WETH_GATEWAY: AaveV3Optimism_exports.WETH_GATEWAY,
-      WALLET_BALANCE_PROVIDER: AaveV3Optimism_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3Optimism_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3Optimism_exports.UI_INCENTIVE_DATA_PROVIDER,
-      L2_ENCODER: AaveV3Optimism_exports.L2_ENCODER,
-      COLLECTOR: AaveV3Optimism_exports.COLLECTOR,
-      SWAP_COLLATERAL_ADAPTER: AaveV3Optimism_exports.SWAP_COLLATERAL_ADAPTER,
-      REPAY_WITH_COLLATERAL_ADAPTER: AaveV3Optimism_exports.REPAY_WITH_COLLATERAL_ADAPTER,
-      DEBT_SWITCH_ADAPTER: AaveV3Optimism_exports.DEBT_SWAP_ADAPTER,
-      WITHDRAW_SWITCH_ADAPTER: AaveV3Optimism_exports.WITHDRAW_SWAP_ADAPTER
-    }
-  },
-  ["proto_polygon_v3" /* proto_polygon_v3 */]: {
-    marketTitle: "Polygon",
-    chainId: import_contract_helpers2.ChainId.polygon,
-    v3: true,
-    enabledFeatures: {
-      liquiditySwap: true,
-      incentives: true,
-      collateralRepay: true,
-      debtSwitch: true,
-      withdrawAndSwitch: true,
-      switch: true
-    },
-    subgraphUrl: "https://api.thegraph.com/subgraphs/name/aave/protocol-v3-polygon",
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3Polygon_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3Polygon_exports.POOL,
-      WETH_GATEWAY: AaveV3Polygon_exports.WETH_GATEWAY,
-      REPAY_WITH_COLLATERAL_ADAPTER: AaveV3Polygon_exports.REPAY_WITH_COLLATERAL_ADAPTER,
-      SWAP_COLLATERAL_ADAPTER: AaveV3Polygon_exports.SWAP_COLLATERAL_ADAPTER,
-      WALLET_BALANCE_PROVIDER: AaveV3Polygon_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3Polygon_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3Polygon_exports.UI_INCENTIVE_DATA_PROVIDER,
-      COLLECTOR: AaveV3Polygon_exports.COLLECTOR,
-      DEBT_SWITCH_ADAPTER: AaveV3Polygon_exports.DEBT_SWAP_ADAPTER,
-      WITHDRAW_SWITCH_ADAPTER: AaveV3Polygon_exports.WITHDRAW_SWAP_ADAPTER
-    },
-    halIntegration: {
-      URL: "https://app.hal.xyz/recipes/aave-v3-track-health-factor",
-      marketName: "polygon"
-    }
-  },
-  ["proto_mumbai_v3" /* proto_mumbai_v3 */]: {
-    marketTitle: "Polygon Mumbai",
-    chainId: import_contract_helpers2.ChainId.mumbai,
-    enabledFeatures: {
-      incentives: true,
-      faucet: true
-    },
-    //  subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-mumbai',  needs re-deployment
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3Mumbai_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3Mumbai_exports.POOL,
-      WETH_GATEWAY: AaveV3Mumbai_exports.WETH_GATEWAY,
-      FAUCET: AaveV3Mumbai_exports.FAUCET,
-      WALLET_BALANCE_PROVIDER: AaveV3Mumbai_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3Mumbai_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3Mumbai_exports.UI_INCENTIVE_DATA_PROVIDER
-    },
-    v3: true
-  },
-  ["proto_goerli" /* proto_goerli */]: {
-    marketTitle: "Ethereum G\xF6rli",
-    chainId: import_contract_helpers2.ChainId.goerli,
-    enabledFeatures: {
-      faucet: true
-    },
-    subgraphUrl: "https://api.thegraph.com/subgraphs/name/aave/protocol-v2-goerli",
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV2Goerli_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV2Goerli_exports.POOL,
-      WETH_GATEWAY: AaveV2Goerli_exports.WETH_GATEWAY,
-      WALLET_BALANCE_PROVIDER: AaveV2Goerli_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV2Goerli_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV2Goerli_exports.UI_INCENTIVE_DATA_PROVIDER,
-      FAUCET: AaveV2Goerli_exports.FAUCET
-    }
-  },
-  ["proto_mumbai" /* proto_mumbai */]: {
-    marketTitle: "Polygon Mumbai",
-    chainId: import_contract_helpers2.ChainId.mumbai,
-    enabledFeatures: {
-      incentives: true,
-      faucet: true
-    },
-    subgraphUrl: "https://api.thegraph.com/subgraphs/name/aave/aave-v2-polygon-mumbai",
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV2Mumbai_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV2Mumbai_exports.POOL,
-      WETH_GATEWAY: AaveV2Mumbai_exports.WETH_GATEWAY,
-      FAUCET: AaveV2Mumbai_exports.FAUCET,
-      WALLET_BALANCE_PROVIDER: AaveV2Mumbai_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV2Mumbai_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV2Mumbai_exports.UI_INCENTIVE_DATA_PROVIDER
-    }
-  },
-  ["proto_fuji" /* proto_fuji */]: {
-    marketTitle: "Avalanche Fuji",
-    chainId: import_contract_helpers2.ChainId.fuji,
-    enabledFeatures: {
-      faucet: true,
-      incentives: true
-    },
-    subgraphUrl: "https://api.thegraph.com/subgraphs/name/aave/protocol-v2-fuji",
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV2Fuji_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV2Fuji_exports.POOL,
-      WETH_GATEWAY: AaveV2Fuji_exports.WETH_GATEWAY,
-      FAUCET: AaveV2Fuji_exports.FAUCET,
-      WALLET_BALANCE_PROVIDER: AaveV2Fuji_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV2Fuji_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV2Fuji_exports.UI_INCENTIVE_DATA_PROVIDER
-    }
-  },
-  ["proto_metis_v3" /* proto_metis_v3 */]: {
-    marketTitle: "Metis",
-    chainId: import_contract_helpers2.ChainId.metis_andromeda,
-    v3: true,
-    enabledFeatures: {
-      incentives: true
-    },
-    subgraphUrl: "https://andromeda.thegraph.metis.io/subgraphs/name/aave/protocol-v3-metis",
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3Metis_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3Metis_exports.POOL,
-      WETH_GATEWAY: "0x0",
-      // not applicable for Metis
-      WALLET_BALANCE_PROVIDER: AaveV3Metis_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3Metis_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3Metis_exports.UI_INCENTIVE_DATA_PROVIDER,
-      COLLECTOR: AaveV3Metis_exports.COLLECTOR
-    },
-    halIntegration: {
-      URL: "https://app.hal.xyz/recipes/aave-v3-track-health-factor",
-      marketName: "polygon"
-    }
-  },
-  ["proto_gnosis_v3" /* proto_gnosis_v3 */]: {
-    marketTitle: "Gnosis",
-    chainId: import_contract_helpers2.ChainId.xdai,
-    v3: true,
-    // subgraphUrl: '',
-    addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: AaveV3Gnosis_exports.POOL_ADDRESSES_PROVIDER,
-      LENDING_POOL: AaveV3Gnosis_exports.POOL,
-      WETH_GATEWAY: AaveV3Gnosis_exports.WETH_GATEWAY,
-      WALLET_BALANCE_PROVIDER: AaveV3Gnosis_exports.WALLET_BALANCE_PROVIDER,
-      UI_POOL_DATA_PROVIDER: AaveV3Gnosis_exports.UI_POOL_DATA_PROVIDER,
-      UI_INCENTIVE_DATA_PROVIDER: AaveV3Gnosis_exports.UI_INCENTIVE_DATA_PROVIDER,
-      COLLECTOR: AaveV3Gnosis_exports.COLLECTOR
-    }
-  }
+  // [CustomMarket.proto_sepolia_v3]: {
+  //   marketTitle: 'Ethereum Sepolia',
+  //   market: CustomMarket.proto_sepolia_v3,
+  //   v3: true,
+  //   chainId: ChainId.sepolia,
+  //   enabledFeatures: {
+  //     faucet: true,
+  //   },
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3Sepolia.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3Sepolia.POOL,
+  //     WETH_GATEWAY: AaveV3Sepolia.WETH_GATEWAY,
+  //     FAUCET: AaveV3Sepolia.FAUCET,
+  //     WALLET_BALANCE_PROVIDER: AaveV3Sepolia.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3Sepolia.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3Sepolia.UI_INCENTIVE_DATA_PROVIDER,
+  //     GHO_TOKEN_ADDRESS: '0xc4bF5CbDaBE595361438F8c6a187bDc330539c60',
+  //     GHO_UI_DATA_PROVIDER: '0x69B9843A16a6E9933125EBD97659BA3CCbE2Ef8A',
+  //   },
+  // },
+  // [CustomMarket.proto_base_v3]: {
+  //   marketTitle: 'Base',
+  //   market: CustomMarket.proto_base_v3,
+  //   v3: true,
+  //   chainId: ChainId.base,
+  //   enabledFeatures: {
+  //     incentives: true,
+  //     liquiditySwap: true,
+  //     withdrawAndSwitch: true,
+  //     collateralRepay: true,
+  //     debtSwitch: true,
+  //     switch: true,
+  //   },
+  //   // TODO: Need subgraph, currently not supported
+  //   // subgraphUrl: '',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3Base.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3Base.POOL,
+  //     WETH_GATEWAY: AaveV3Base.WETH_GATEWAY,
+  //     WALLET_BALANCE_PROVIDER: AaveV3Base.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3Base.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3Base.UI_INCENTIVE_DATA_PROVIDER,
+  //     L2_ENCODER: AaveV3Base.L2_ENCODER,
+  //     COLLECTOR: AaveV3Base.COLLECTOR,
+  //     REPAY_WITH_COLLATERAL_ADAPTER: AaveV3Base.REPAY_WITH_COLLATERAL_ADAPTER,
+  //     SWAP_COLLATERAL_ADAPTER: AaveV3Base.SWAP_COLLATERAL_ADAPTER,
+  //     // WALLET_BALANCE_PROVIDER: AaveV2Ethereum.WALLET_BALANCE_PROVIDER,
+  //     WITHDRAW_SWITCH_ADAPTER: AaveV3Base.WITHDRAW_SWAP_ADAPTER,
+  //     DEBT_SWITCH_ADAPTER: AaveV3Base.DEBT_SWAP_ADAPTER,
+  //   },
+  // },
+  // [CustomMarket.proto_arbitrum_v3]: {
+  //   marketTitle: 'Arbitrum',
+  //   market: CustomMarket.proto_arbitrum_v3,
+  //   v3: true,
+  //   chainId: ChainId.arbitrum_one,
+  //   enabledFeatures: {
+  //     incentives: true,
+  //     liquiditySwap: true,
+  //     collateralRepay: true,
+  //     debtSwitch: true,
+  //     withdrawAndSwitch: true,
+  //     switch: true,
+  //   },
+  //   subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-arbitrum',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3Arbitrum.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3Arbitrum.POOL,
+  //     WETH_GATEWAY: AaveV3Arbitrum.WETH_GATEWAY,
+  //     WALLET_BALANCE_PROVIDER: AaveV3Arbitrum.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3Arbitrum.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3Arbitrum.UI_INCENTIVE_DATA_PROVIDER,
+  //     L2_ENCODER: AaveV3Arbitrum.L2_ENCODER,
+  //     COLLECTOR: AaveV3Arbitrum.COLLECTOR,
+  //     SWAP_COLLATERAL_ADAPTER: AaveV3Arbitrum.SWAP_COLLATERAL_ADAPTER,
+  //     REPAY_WITH_COLLATERAL_ADAPTER: AaveV3Arbitrum.REPAY_WITH_COLLATERAL_ADAPTER,
+  //     DEBT_SWITCH_ADAPTER: AaveV3Arbitrum.DEBT_SWAP_ADAPTER,
+  //     WITHDRAW_SWITCH_ADAPTER: AaveV3Arbitrum.WITHDRAW_SWAP_ADAPTER,
+  //   },
+  //   halIntegration: {
+  //     URL: 'https://app.hal.xyz/recipes/aave-v3-track-health-factor',
+  //     marketName: 'arbitrum',
+  //   },
+  // },
+  // [CustomMarket.proto_base_sepolia_v3]: {
+  //   marketTitle: 'Base Sepolia',
+  //   market: CustomMarket.proto_arbitrum_sepolia_v3,
+  //   v3: true,
+  //   permitDisabled: true,
+  //   chainId: ChainId.base_sepolia,
+  //   //subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-arbitrum-goerli',  needs re-deployment
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3BaseSepolia.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3BaseSepolia.POOL,
+  //     WETH_GATEWAY: AaveV3BaseSepolia.WETH_GATEWAY,
+  //     // FAUCET: AaveV3ArbitrumSepolia.FAUCET,
+  //     WALLET_BALANCE_PROVIDER: AaveV3BaseSepolia.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3BaseSepolia.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3BaseSepolia.UI_INCENTIVE_DATA_PROVIDER,
+  //     L2_ENCODER: AaveV3BaseSepolia.L2_ENCODER,
+  //   },
+  // },
+  // [CustomMarket.proto_avalanche_v3]: {
+  //   marketTitle: 'Avalanche',
+  //   market: CustomMarket.proto_avalanche_v3,
+  //   v3: true,
+  //   chainId: ChainId.avalanche,
+  //   enabledFeatures: {
+  //     liquiditySwap: true,
+  //     incentives: true,
+  //     collateralRepay: true,
+  //     debtSwitch: true,
+  //     withdrawAndSwitch: true,
+  //     switch: true,
+  //   },
+  //   subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-avalanche',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3Avalanche.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3Avalanche.POOL,
+  //     WETH_GATEWAY: AaveV3Avalanche.WETH_GATEWAY,
+  //     REPAY_WITH_COLLATERAL_ADAPTER: AaveV3Avalanche.REPAY_WITH_COLLATERAL_ADAPTER,
+  //     SWAP_COLLATERAL_ADAPTER: AaveV3Avalanche.SWAP_COLLATERAL_ADAPTER,
+  //     WALLET_BALANCE_PROVIDER: AaveV3Avalanche.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3Avalanche.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3Avalanche.UI_INCENTIVE_DATA_PROVIDER,
+  //     COLLECTOR: AaveV3Avalanche.COLLECTOR,
+  //     DEBT_SWITCH_ADAPTER: AaveV3Avalanche.DEBT_SWAP_ADAPTER,
+  //     WITHDRAW_SWITCH_ADAPTER: AaveV3Avalanche.WITHDRAW_SWAP_ADAPTER,
+  //   },
+  //   halIntegration: {
+  //     URL: 'https://app.hal.xyz/recipes/aave-v3-track-health-factor',
+  //     marketName: 'avalanche',
+  //   },
+  // },
+  // [CustomMarket.proto_fuji_v3]: {
+  //   marketTitle: 'Avalanche Fuji',
+  //   market: CustomMarket.proto_fuji_v3,
+  //   v3: true,
+  //   chainId: ChainId.fuji,
+  //   enabledFeatures: {
+  //     faucet: true,
+  //     incentives: true,
+  //   },
+  //   //  subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-fuji',  needs re-deployment
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3Fuji.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3Fuji.POOL,
+  //     WETH_GATEWAY: AaveV3Fuji.WETH_GATEWAY,
+  //     FAUCET: AaveV3Fuji.FAUCET,
+  //     WALLET_BALANCE_PROVIDER: AaveV3Fuji.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3Fuji.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3Fuji.UI_INCENTIVE_DATA_PROVIDER,
+  //   },
+  // },
+  // [CustomMarket.proto_optimism_sepolia_v3]: {
+  //   marketTitle: 'Optimism Sepolia',
+  //   market: CustomMarket.proto_optimism_sepolia_v3,
+  //   v3: true,
+  //   permitDisabled: true,
+  //   chainId: ChainId.optimism_sepolia,
+  //   // subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-optimism-goerli',  needs re-deployment
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3OptimismSepolia.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3OptimismSepolia.POOL,
+  //     WETH_GATEWAY: AaveV3OptimismSepolia.WETH_GATEWAY,
+  //     // FAUCET: AaveV3OptimismSepolia.FAUCET,
+  //     WALLET_BALANCE_PROVIDER: AaveV3OptimismSepolia.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3OptimismSepolia.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3OptimismSepolia.UI_INCENTIVE_DATA_PROVIDER,
+  //     L2_ENCODER: AaveV3OptimismSepolia.L2_ENCODER,
+  //   },
+  // },
+  // [CustomMarket.proto_scroll_sepolia_v3]: {
+  //   marketTitle: 'Scroll Sepolia',
+  //   market: CustomMarket.proto_scroll_sepolia_v3,
+  //   v3: true,
+  //   chainId: ChainId.scroll_sepolia,
+  //   enabledFeatures: {
+  //     faucet: true,
+  //     incentives: true,
+  //   },
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3ScrollSepolia.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3ScrollSepolia.POOL,
+  //     WETH_GATEWAY: AaveV3ScrollSepolia.WETH_GATEWAY,
+  //     FAUCET: AaveV3ScrollSepolia.FAUCET,
+  //     WALLET_BALANCE_PROVIDER: AaveV3ScrollSepolia.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3ScrollSepolia.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3ScrollSepolia.UI_INCENTIVE_DATA_PROVIDER,
+  //     L2_ENCODER: AaveV3ScrollSepolia.L2_ENCODER,
+  //   },
+  // },
+  // [CustomMarket.proto_fantom_v3]: {
+  //   marketTitle: 'Fantom',
+  //   market: CustomMarket.proto_fantom_v3,
+  //   v3: true,
+  //   chainId: ChainId.fantom,
+  //   enabledFeatures: {
+  //     incentives: true,
+  //     collateralRepay: true,
+  //     liquiditySwap: true,
+  //   },
+  //   subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-fantom',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3Fantom.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3Fantom.POOL,
+  //     WETH_GATEWAY: AaveV3Fantom.WETH_GATEWAY,
+  //     SWAP_COLLATERAL_ADAPTER: AaveV3Fantom.SWAP_COLLATERAL_ADAPTER,
+  //     REPAY_WITH_COLLATERAL_ADAPTER: AaveV3Fantom.REPAY_WITH_COLLATERAL_ADAPTER,
+  //     WALLET_BALANCE_PROVIDER: AaveV3Fantom.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3Fantom.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3Fantom.UI_INCENTIVE_DATA_PROVIDER,
+  //     COLLECTOR: AaveV3Fantom.COLLECTOR,
+  //   },
+  //   halIntegration: {
+  //     URL: 'https://app.hal.xyz/recipes/aave-v3-track-health-factor',
+  //     marketName: 'fantom',
+  //   },
+  // },
+  // [CustomMarket.proto_fantom_testnet_v3]: {
+  //   marketTitle: 'Fantom Testnet',
+  //   market: CustomMarket.proto_fantom_testnet_v3,
+  //   v3: true,
+  //   chainId: ChainId.fantom_testnet,
+  //   enabledFeatures: {
+  //     faucet: true,
+  //     incentives: true,
+  //   },
+  //   // subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-fantom-testnet',  needs re-deployment
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3FantomTestnet.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3FantomTestnet.POOL,
+  //     WETH_GATEWAY: AaveV3FantomTestnet.WETH_GATEWAY,
+  //     FAUCET: AaveV3FantomTestnet.FAUCET,
+  //     WALLET_BALANCE_PROVIDER: AaveV3FantomTestnet.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3FantomTestnet.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3FantomTestnet.UI_INCENTIVE_DATA_PROVIDER,
+  //   },
+  // },
+  // [CustomMarket.proto_harmony_v3]: {
+  //   marketTitle: 'Harmony',
+  //   market: CustomMarket.proto_harmony_v3,
+  //   v3: true,
+  //   chainId: ChainId.harmony,
+  //   enabledFeatures: {
+  //     incentives: false,
+  //   },
+  //   subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-harmony',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3Harmony.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3Harmony.POOL,
+  //     WETH_GATEWAY: AaveV3Harmony.WETH_GATEWAY,
+  //     WALLET_BALANCE_PROVIDER: AaveV3Harmony.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: '0xeC6118C69af50660231108059ab98CD0cF9a6eA1',
+  //     // UI_POOL_DATA_PROVIDER: AaveV3Harmony.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3Harmony.UI_INCENTIVE_DATA_PROVIDER,
+  //     COLLECTOR: AaveV3Harmony.COLLECTOR,
+  //   },
+  // },
+  // [CustomMarket.proto_optimism_v3]: {
+  //   marketTitle: 'Optimism',
+  //   market: CustomMarket.proto_optimism_v3,
+  //   v3: true,
+  //   chainId: ChainId.optimism,
+  //   enabledFeatures: {
+  //     incentives: true,
+  //     collateralRepay: true,
+  //     liquiditySwap: true,
+  //     debtSwitch: true,
+  //     withdrawAndSwitch: true,
+  //     switch: true,
+  //   },
+  //   subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-optimism',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3Optimism.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3Optimism.POOL,
+  //     WETH_GATEWAY: AaveV3Optimism.WETH_GATEWAY,
+  //     WALLET_BALANCE_PROVIDER: AaveV3Optimism.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3Optimism.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3Optimism.UI_INCENTIVE_DATA_PROVIDER,
+  //     L2_ENCODER: AaveV3Optimism.L2_ENCODER,
+  //     COLLECTOR: AaveV3Optimism.COLLECTOR,
+  //     SWAP_COLLATERAL_ADAPTER: AaveV3Optimism.SWAP_COLLATERAL_ADAPTER,
+  //     REPAY_WITH_COLLATERAL_ADAPTER: AaveV3Optimism.REPAY_WITH_COLLATERAL_ADAPTER,
+  //     DEBT_SWITCH_ADAPTER: AaveV3Optimism.DEBT_SWAP_ADAPTER,
+  //     WITHDRAW_SWITCH_ADAPTER: AaveV3Optimism.WITHDRAW_SWAP_ADAPTER,
+  //   },
+  // },
+  // [CustomMarket.proto_polygon_v3]: {
+  //   marketTitle: 'Polygon',
+  //   market: CustomMarket.proto_polygon_v3,
+  //   chainId: ChainId.polygon,
+  //   v3: true,
+  //   enabledFeatures: {
+  //     liquiditySwap: true,
+  //     incentives: true,
+  //     collateralRepay: true,
+  //     debtSwitch: true,
+  //     withdrawAndSwitch: true,
+  //     switch: true,
+  //   },
+  //   subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-polygon',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3Polygon.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3Polygon.POOL,
+  //     WETH_GATEWAY: AaveV3Polygon.WETH_GATEWAY,
+  //     REPAY_WITH_COLLATERAL_ADAPTER: AaveV3Polygon.REPAY_WITH_COLLATERAL_ADAPTER,
+  //     SWAP_COLLATERAL_ADAPTER: AaveV3Polygon.SWAP_COLLATERAL_ADAPTER,
+  //     WALLET_BALANCE_PROVIDER: AaveV3Polygon.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3Polygon.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3Polygon.UI_INCENTIVE_DATA_PROVIDER,
+  //     COLLECTOR: AaveV3Polygon.COLLECTOR,
+  //     DEBT_SWITCH_ADAPTER: AaveV3Polygon.DEBT_SWAP_ADAPTER,
+  //     WITHDRAW_SWITCH_ADAPTER: AaveV3Polygon.WITHDRAW_SWAP_ADAPTER,
+  //   },
+  //   halIntegration: {
+  //     URL: 'https://app.hal.xyz/recipes/aave-v3-track-health-factor',
+  //     marketName: 'polygon',
+  //   },
+  // },
+  // [CustomMarket.proto_mumbai_v3]: {
+  //   marketTitle: 'Polygon Mumbai',
+  //   market: CustomMarket.proto_mumbai_v3,
+  //   chainId: ChainId.mumbai,
+  //   enabledFeatures: {
+  //     incentives: true,
+  //     faucet: true,
+  //   },
+  //   //  subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-mumbai',  needs re-deployment
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3Mumbai.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3Mumbai.POOL,
+  //     WETH_GATEWAY: AaveV3Mumbai.WETH_GATEWAY,
+  //     FAUCET: AaveV3Mumbai.FAUCET,
+  //     WALLET_BALANCE_PROVIDER: AaveV3Mumbai.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3Mumbai.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3Mumbai.UI_INCENTIVE_DATA_PROVIDER,
+  //   },
+  //   v3: true,
+  // },
+  // [CustomMarket.proto_mumbai]: {
+  //   marketTitle: 'Polygon Mumbai',
+  //   market: CustomMarket.proto_mumbai,
+  //   chainId: ChainId.mumbai,
+  //   enabledFeatures: {
+  //     incentives: true,
+  //     faucet: true,
+  //   },
+  //   subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/aave-v2-polygon-mumbai',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV2Mumbai.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV2Mumbai.POOL,
+  //     WETH_GATEWAY: AaveV2Mumbai.WETH_GATEWAY,
+  //     FAUCET: AaveV2Mumbai.FAUCET,
+  //     WALLET_BALANCE_PROVIDER: AaveV2Mumbai.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV2Mumbai.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV2Mumbai.UI_INCENTIVE_DATA_PROVIDER,
+  //   },
+  // },
+  // [CustomMarket.proto_fuji]: {
+  //   marketTitle: 'Avalanche Fuji',
+  //   market: CustomMarket.proto_fuji,
+  //   chainId: ChainId.fuji,
+  //   enabledFeatures: {
+  //     faucet: true,
+  //     incentives: true,
+  //   },
+  //   subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v2-fuji',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV2Fuji.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV2Fuji.POOL,
+  //     WETH_GATEWAY: AaveV2Fuji.WETH_GATEWAY,
+  //     FAUCET: AaveV2Fuji.FAUCET,
+  //     WALLET_BALANCE_PROVIDER: AaveV2Fuji.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV2Fuji.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV2Fuji.UI_INCENTIVE_DATA_PROVIDER,
+  //   },
+  // },
+  // [CustomMarket.proto_metis_v3]: {
+  //   marketTitle: 'Metis',
+  //   market: CustomMarket.proto_metis_v3,
+  //   chainId: ChainId.metis_andromeda,
+  //   v3: true,
+  //   enabledFeatures: {
+  //     incentives: true,
+  //   },
+  //   subgraphUrl: 'https://metisapi.0xgraph.xyz/subgraphs/name/aave/protocol-v3-metis',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3Metis.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3Metis.POOL,
+  //     WETH_GATEWAY: '0x0', // not applicable for Metis
+  //     WALLET_BALANCE_PROVIDER: AaveV3Metis.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3Metis.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3Metis.UI_INCENTIVE_DATA_PROVIDER,
+  //     COLLECTOR: AaveV3Metis.COLLECTOR,
+  //   },
+  //   halIntegration: {
+  //     URL: 'https://app.hal.xyz/recipes/aave-v3-track-health-factor',
+  //     marketName: 'polygon',
+  //   },
+  // },
+  // [CustomMarket.proto_gnosis_v3]: {
+  //   marketTitle: 'Gnosis',
+  //   market: CustomMarket.proto_gnosis_v3,
+  //   chainId: ChainId.xdai,
+  //   v3: true,
+  //   // subgraphUrl: '',
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3Gnosis.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3Gnosis.POOL,
+  //     WETH_GATEWAY: AaveV3Gnosis.WETH_GATEWAY,
+  //     WALLET_BALANCE_PROVIDER: AaveV3Gnosis.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3Gnosis.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3Gnosis.UI_INCENTIVE_DATA_PROVIDER,
+  //     COLLECTOR: AaveV3Gnosis.COLLECTOR,
+  //   },
+  // },
+  // [CustomMarket.proto_bnb_v3]: {
+  //   marketTitle: 'BNB Chain',
+  //   market: CustomMarket.proto_bnb_v3,
+  //   chainId: ChainId.bnb,
+  //   v3: true,
+  //   // subgraphUrl: '',
+  //   enabledFeatures: {
+  //     liquiditySwap: true,
+  //     collateralRepay: true,
+  //     debtSwitch: true,
+  //     withdrawAndSwitch: true,
+  //     switch: true,
+  //   },
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3BNB.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3BNB.POOL,
+  //     WETH_GATEWAY: AaveV3BNB.WETH_GATEWAY,
+  //     REPAY_WITH_COLLATERAL_ADAPTER: AaveV3BNB.REPAY_WITH_COLLATERAL_ADAPTER,
+  //     SWAP_COLLATERAL_ADAPTER: AaveV3BNB.SWAP_COLLATERAL_ADAPTER,
+  //     WALLET_BALANCE_PROVIDER: AaveV3BNB.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3BNB.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3BNB.UI_INCENTIVE_DATA_PROVIDER,
+  //     COLLECTOR: AaveV3BNB.COLLECTOR,
+  //     DEBT_SWITCH_ADAPTER: AaveV3BNB.DEBT_SWAP_ADAPTER,
+  //     WITHDRAW_SWITCH_ADAPTER: AaveV3BNB.WITHDRAW_SWAP_ADAPTER,
+  //   },
+  // },
+  // [CustomMarket.proto_scroll_v3]: {
+  //   marketTitle: 'Scroll',
+  //   market: CustomMarket.proto_scroll_v3,
+  //   chainId: ChainId.scroll,
+  //   v3: true,
+  //   addresses: {
+  //     LENDING_POOL_ADDRESS_PROVIDER: AaveV3Scroll.POOL_ADDRESSES_PROVIDER,
+  //     LENDING_POOL: AaveV3Scroll.POOL,
+  //     WETH_GATEWAY: AaveV3Scroll.WETH_GATEWAY,
+  //     WALLET_BALANCE_PROVIDER: AaveV3Scroll.WALLET_BALANCE_PROVIDER,
+  //     UI_POOL_DATA_PROVIDER: AaveV3Scroll.UI_POOL_DATA_PROVIDER,
+  //     UI_INCENTIVE_DATA_PROVIDER: AaveV3Scroll.UI_INCENTIVE_DATA_PROVIDER,
+  //     COLLECTOR: AaveV3Scroll.COLLECTOR,
+  //   },
+  // },
 };
 
 // src/ui-config/networksConfig.ts
-var import_contract_helpers3 = __toESM(require_cjs());
 var networkConfigs = {
-  [import_contract_helpers3.ChainId.sepolia]: {
-    name: "Ethereum Sepolia",
-    publicJsonRPCUrl: [
-      "https://eth-sepolia.public.blastapi.io",
-      "https://rpc.sepolia.org",
-      "https://rpc2.sepolia.org",
-      "https://rpc.sepolia.online",
-      "https://www.sepoliarpc.space"
-    ],
+  // [ChainId.sepolia]: {
+  //   name: 'Ethereum Sepolia',
+  //   privateJsonRPCUrl: 'https://eth-sepolia.g.alchemy.com/v2/VAfNJrTN-TopQjFDwcdLeeDOLDiFQcBP',
+  //   publicJsonRPCUrl: [
+  //     'https://eth-sepolia.public.blastapi.io',
+  //     'https://rpc.sepolia.org',
+  //     'https://rpc2.sepolia.org',
+  //     'https://rpc.sepolia.online',
+  //     'https://www.sepoliarpc.space',
+  //   ],
+  //   // publicJsonRPCWSUrl: 'wss://eth-goerli.public.blastapi.io',
+  //   // protocolDataUrl: '',
+  //   baseUniswapAdapter: '0x0',
+  //   baseAssetSymbol: 'ETH',
+  //   wrappedBaseAssetSymbol: 'WETH',
+  //   baseAssetDecimals: 18,
+  //   explorerLink: 'https://sepolia.etherscan.io',
+  //   // usdMarket: true,
+  //   isTestnet: true,
+  //   networkLogoPath: '/icons/networks/ethereum.svg',
+  // },
+  // [ChainId.mainnet]: {
+  //   name: 'Ethereum',
+  //   privateJsonRPCUrl: 'https://eth-mainnet.rpc.grove.city/v1/62b3314e123e6f00397f19ca',
+  //   publicJsonRPCUrl: [
+  //     'https://rpc.ankr.com/eth',
+  //     'https://rpc.flashbots.net',
+  //     'https://eth-mainnet.public.blastapi.io',
+  //     'https://cloudflare-eth.com/v1/mainnet',
+  //   ],
+  //   publicJsonRPCWSUrl: 'wss://eth-mainnet.alchemyapi.io/v2/demo',
+  //   // cachingServerUrl: 'https://cache-api-1.aave.com/graphql',
+  //   // cachingWSServerUrl: 'wss://cache-api-1.aave.com/graphql',
+  //   // protocolDataUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v2',
+  //   baseUniswapAdapter: '0xc3efa200a60883a96ffe3d5b492b121d6e9a1f3f',
+  //   baseAssetSymbol: 'ETH',
+  //   wrappedBaseAssetSymbol: 'WETH',
+  //   baseAssetDecimals: 18,
+  //   explorerLink: 'https://etherscan.io',
+  //   ratesHistoryApiUrl,
+  //   networkLogoPath: '/icons/networks/ethereum.svg',
+  // },
+  // [570]: {
+  //   name: 'Rollux',
+  //   privateJsonRPCUrl: 'https://rpc.rollux.com/',
+  //   publicJsonRPCUrl: [
+  //     'https://rpc.rollux.com',
+  //   ],
+  //   publicJsonRPCWSUrl: 'wss://rpc.rollux.com/wss',
+  //   // cachingServerUrl: 'https://cache-api-1.aave.com/graphql',
+  //   // cachingWSServerUrl: 'wss://cache-api-1.aave.com/graphql',
+  //   // protocolDataUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v2',
+  //   baseUniswapAdapter: '0x0',
+  //   baseAssetSymbol: 'SYS',
+  //   wrappedBaseAssetSymbol: 'WSYS',
+  //   baseAssetDecimals: 18,
+  //   explorerLink: 'https://explorer.rollux.com/',
+  //   // ratesHistoryApiUrl,
+  //   networkLogoPath: '/icons/networks/ethereum.svg',
+  // },
+  [570]: {
+    name: "Rollux",
+    privateJsonRPCUrl: "https://rpc.rollux.com/",
+    publicJsonRPCUrl: ["https://rpc.rollux.com/"],
     // publicJsonRPCWSUrl: 'wss://eth-goerli.public.blastapi.io',
     // protocolDataUrl: '',
     baseUniswapAdapter: "0x0",
-    baseAssetSymbol: "ETH",
-    wrappedBaseAssetSymbol: "WETH",
+    baseAssetSymbol: "SYS",
+    wrappedBaseAssetSymbol: "SYS",
     baseAssetDecimals: 18,
-    explorerLink: "https://sepolia.etherscan.io",
+    explorerLink: "https://explorer.rollux.com/",
     // usdMarket: true,
-    isTestnet: true,
-    networkLogoPath: "/icons/networks/ethereum.svg"
-  },
-  [import_contract_helpers3.ChainId.goerli]: {
-    name: "Ethereum G\xF6rli",
-    publicJsonRPCUrl: [
-      "https://eth-goerli.public.blastapi.io",
-      "https://rpc.ankr.com/eth_goerli",
-      "https://goerli.prylabs.net"
-    ],
-    publicJsonRPCWSUrl: "wss://eth-goerli.public.blastapi.io",
-    // protocolDataUrl: '',
-    baseUniswapAdapter: "0x0",
-    baseAssetSymbol: "ETH",
-    wrappedBaseAssetSymbol: "WETH",
-    baseAssetDecimals: 18,
-    explorerLink: "https://goerli.etherscan.io",
-    // usdMarket: true,
-    isTestnet: true,
-    networkLogoPath: "/icons/networks/ethereum.svg"
-  },
-  [import_contract_helpers3.ChainId.mainnet]: {
-    name: "Ethereum",
-    privateJsonRPCUrl: "https://eth-mainnet.gateway.pokt.network/v1/lb/62b3314e123e6f00397f19ca",
-    publicJsonRPCUrl: [
-      "https://rpc.ankr.com/eth",
-      "https://rpc.flashbots.net",
-      "https://eth-mainnet.public.blastapi.io",
-      "https://cloudflare-eth.com/v1/mainnet"
-    ],
-    publicJsonRPCWSUrl: "wss://eth-mainnet.alchemyapi.io/v2/demo",
-    // cachingServerUrl: 'https://cache-api-1.aave.com/graphql',
-    // cachingWSServerUrl: 'wss://cache-api-1.aave.com/graphql',
-    // protocolDataUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v2',
-    baseUniswapAdapter: "0xc3efa200a60883a96ffe3d5b492b121d6e9a1f3f",
-    baseAssetSymbol: "ETH",
-    wrappedBaseAssetSymbol: "WETH",
-    baseAssetDecimals: 18,
-    explorerLink: "https://etherscan.io",
-    ratesHistoryApiUrl: "https://aave-api-v2.aave.com/data/rates-history",
-    networkLogoPath: "/icons/networks/ethereum.svg"
-  },
-  [import_contract_helpers3.ChainId.polygon]: {
-    name: "Polygon POS",
-    displayName: "Polygon",
-    privateJsonRPCUrl: "https://poly-mainnet.gateway.pokt.network/v1/lb/62b3314e123e6f00397f19ca",
-    publicJsonRPCUrl: [
-      "https://polygon-rpc.com",
-      "https://polygon-mainnet.public.blastapi.io",
-      "https://rpc-mainnet.matic.quiknode.pro"
-    ],
-    publicJsonRPCWSUrl: "wss://polygon-rpc.com",
-    // cachingServerUrl: 'https://cache-api-137.aave.com/graphql',
-    // cachingWSServerUrl: 'wss://cache-api-137.aave.com/graphql',
-    // protocolDataUrl: 'https://api.thegraph.com/subgraphs/name/aave/aave-v2-matic',
-    baseAssetSymbol: "MATIC",
-    wrappedBaseAssetSymbol: "WMATIC",
-    baseAssetDecimals: 18,
-    explorerLink: "https://polygonscan.com",
-    networkLogoPath: "/icons/networks/polygon.svg",
-    bridge: {
-      icon: "/icons/bridge/polygon.svg",
-      name: "Polygon PoS Bridge",
-      url: "https://wallet.polygon.technology/polygon/bridge"
-    },
-    ratesHistoryApiUrl: "https://aave-api-v2.aave.com/data/rates-history"
-  },
-  [import_contract_helpers3.ChainId.mumbai]: {
-    name: "Mumbai",
-    publicJsonRPCUrl: [
-      "https://rpc.ankr.com/polygon_mumbai",
-      "https://rpc-mumbai.maticvigil.com",
-      "https://polygon-testnet.public.blastapi.io",
-      "https://polygon-mumbai.g.alchemy.com/v2/demo"
-    ],
-    publicJsonRPCWSUrl: "wss://polygon-mumbai.g.alchemy.com/v2/demo",
-    // protocolDataUrl: 'https://api.thegraph.com/subgraphs/name/aave/aave-v2-polygon-mumbai',
-    baseAssetSymbol: "MATIC",
-    wrappedBaseAssetSymbol: "WMATIC",
-    baseAssetDecimals: 18,
-    explorerLink: "https://explorer-mumbai.maticvigil.com",
-    isTestnet: true,
-    networkLogoPath: "/icons/networks/polygon.svg"
-  },
-  [import_contract_helpers3.ChainId.fuji]: {
-    name: "Avalanche Fuji",
-    publicJsonRPCUrl: [
-      "https://api.avax-test.network/ext/bc/C/rpc",
-      "https://rpc.ankr.com/avalanche_fuji",
-      "https://ava-testnet.public.blastapi.io/ext/bc/C/rpc"
-    ],
-    publicJsonRPCWSUrl: "wss://api.avax-test.network/ext/bc/C/rpc",
-    // protocolDataUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v2-fuji',
-    baseUniswapAdapter: "0x0",
-    baseAssetSymbol: "AVAX",
-    wrappedBaseAssetSymbol: "WAVAX",
-    baseAssetDecimals: 18,
-    explorerLink: "https://cchain.explorer.avax-test.network",
-    // usdMarket: true,
-    isTestnet: true,
-    networkLogoPath: "/icons/networks/avalanche.svg",
-    bridge: {
-      icon: "/icons/bridge/avalanche.svg",
-      name: "Avalanche Bridge",
-      url: "https://bridge.avax.network/"
-    }
-  },
-  [import_contract_helpers3.ChainId.avalanche]: {
-    name: "Avalanche",
-    privateJsonRPCUrl: "https://avax-mainnet.gateway.pokt.network/v1/lb/62b3314e123e6f00397f19ca",
-    publicJsonRPCUrl: [
-      "https://api.avax.network/ext/bc/C/rpc",
-      "https://ava-mainnet.public.blastapi.io/ext/bc/C/rpc",
-      "https://rpc.ankr.com/avalanche"
-    ],
-    publicJsonRPCWSUrl: "wss://api.avax.network/ext/bc/C/rpc",
-    // protocolDataUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v2-avalanche',
-    // cachingServerUrl: 'https://cache-api-43114.aave.com/graphql',
-    // cachingWSServerUrl: 'wss://cache-api-43114.aave.com/graphql',
-    baseUniswapAdapter: "0x0",
-    baseAssetSymbol: "AVAX",
-    wrappedBaseAssetSymbol: "WAVAX",
-    baseAssetDecimals: 18,
-    explorerLink: "https://cchain.explorer.avax.network",
-    // usdMarket: true,
-    networkLogoPath: "/icons/networks/avalanche.svg",
-    bridge: {
-      icon: "/icons/bridge/avalanche.svg",
-      name: "Avalanche Bridge",
-      url: "https://bridge.avax.network/"
-    },
-    ratesHistoryApiUrl: "https://aave-api-v2.aave.com/data/rates-history"
-  },
-  [import_contract_helpers3.ChainId.arbitrum_goerli]: {
-    name: "Arbitrum G\xF6rli",
-    publicJsonRPCUrl: [
-      "https://goerli-rollup.arbitrum.io/rpc",
-      "https://arb-goerli.g.alchemy.com/v2/demo"
-    ],
-    publicJsonRPCWSUrl: "wss://goerli-rollup.arbitrum.io/rpc",
-    baseUniswapAdapter: "0x0",
-    baseAssetSymbol: "ETH",
-    wrappedBaseAssetSymbol: "WETH",
-    baseAssetDecimals: 18,
-    explorerLink: "https://goerli.arbiscan.io",
-    // usdMarket: true,
-    isTestnet: true,
-    networkLogoPath: "/icons/networks/arbitrum.svg",
-    bridge: {
-      icon: "/icons/bridge/arbitrum.svg",
-      name: "Arbitrum Bridge",
-      url: "https://bridge.arbitrum.io"
-    }
-  },
-  [import_contract_helpers3.ChainId.arbitrum_one]: {
-    name: "Arbitrum",
-    publicJsonRPCUrl: [
-      "https://arb1.arbitrum.io/rpc",
-      "https://rpc.ankr.com/arbitrum",
-      "https://1rpc.io/arb"
-    ],
-    publicJsonRPCWSUrl: "wss://arb1.arbitrum.io/rpc",
-    // protocolDataUrl: '',
-    baseUniswapAdapter: "0x0",
-    baseAssetSymbol: "ETH",
-    wrappedBaseAssetSymbol: "WETH",
-    baseAssetDecimals: 18,
-    explorerLink: "https://arbiscan.io",
-    // usdMarket: true,
-    networkLogoPath: "/icons/networks/arbitrum.svg",
-    bridge: {
-      icon: "/icons/bridge/arbitrum.svg",
-      name: "Arbitrum Bridge",
-      url: "https://bridge.arbitrum.io"
-    },
-    ratesHistoryApiUrl: "https://aave-api-v2.aave.com/data/rates-history"
-  },
-  [import_contract_helpers3.ChainId.base]: {
-    name: "Base",
-    privateJsonRPCUrl: "https://base-mainnet.gateway.pokt.network/v1/lb/62b3314e123e6f00397f19ca",
-    publicJsonRPCUrl: [
-      "https://mainnet.base.org",
-      "https://1rpc.io/base",
-      "https://base.publicnode.com",
-      "https://base-mainnet.public.blastapi.io"
-    ],
-    // protocolDataUrl: '',
-    baseUniswapAdapter: "0x0",
-    baseAssetSymbol: "ETH",
-    wrappedBaseAssetSymbol: "WETH",
-    baseAssetDecimals: 18,
-    explorerLink: "https://basescan.org",
-    // usdMarket: true,
-    networkLogoPath: "/icons/networks/base.svg",
-    bridge: {
-      icon: "/icons/networks/base.svg",
-      name: "Base Bridge",
-      url: "https://bridge.base.org/"
-    }
-    // ratesHistoryApiUrl: 'https://aave-api-v2.aave.com/data/rates-history',
-  },
-  [import_contract_helpers3.ChainId.harmony]: {
-    name: "Harmony",
-    privateJsonRPCUrl: "https://harmony-0.gateway.pokt.network/v1/lb/62b3314e123e6f00397f19ca",
-    publicJsonRPCUrl: [
-      "https://api.s0.t.hmny.io",
-      "https://api.harmony.one",
-      "https://rpc.ankr.com/harmony"
-    ],
-    publicJsonRPCWSUrl: "wss://ws.s0.t.hmny.io",
-    // protocolDataUrl: '',
-    baseUniswapAdapter: "0x0",
-    baseAssetSymbol: "ONE",
-    wrappedBaseAssetSymbol: "WONE",
-    baseAssetDecimals: 18,
-    explorerLink: "https://explorer.harmony.one",
-    // usdMarket: true,
-    networkLogoPath: "/icons/networks/harmony.svg",
-    bridge: {
-      icon: "/icons/bridge/harmony.svg",
-      name: "Harmony Bridge",
-      url: "https://bridge.harmony.one"
-    },
-    ratesHistoryApiUrl: "https://aave-api-v2.aave.com/data/rates-history"
-  },
-  [import_contract_helpers3.ChainId.optimism]: {
-    name: "Optimism",
-    privateJsonRPCUrl: "https://optimism-mainnet.gateway.pokt.network/v1/lb/62b3314e123e6f00397f19ca",
-    publicJsonRPCUrl: ["https://optimism-mainnet.public.blastapi.io", "https://1rpc.io/op"],
-    publicJsonRPCWSUrl: "wss://optimism-mainnet.public.blastapi.io",
-    // protocolDataUrl: '',
-    baseUniswapAdapter: "0x0",
-    baseAssetSymbol: "ETH",
-    // OETH
-    wrappedBaseAssetSymbol: "WETH",
-    baseAssetDecimals: 18,
-    explorerLink: "https://optimistic.etherscan.io",
-    // usdMarket: true,
-    networkLogoPath: "/icons/networks/optimism.svg",
-    bridge: {
-      icon: "/icons/bridge/optimism.svg",
-      name: "Optimism Bridge",
-      url: "https://app.optimism.io/bridge"
-    },
-    ratesHistoryApiUrl: "https://aave-api-v2.aave.com/data/rates-history"
-  },
-  [import_contract_helpers3.ChainId.optimism_goerli]: {
-    name: "Optimism G\xF6rli",
-    publicJsonRPCUrl: ["https://goerli.optimism.io", "https://opt-goerli.g.alchemy.com/v2/demo"],
-    publicJsonRPCWSUrl: "wss://goerli.optimism.io",
-    // protocolDataUrl: '',
-    baseUniswapAdapter: "0x0",
-    baseAssetSymbol: "ETH",
-    wrappedBaseAssetSymbol: "WETH",
-    baseAssetDecimals: 18,
-    explorerLink: "https://l2-explorer.surge.sh",
-    // usdMarket: true,
-    isTestnet: true,
-    networkLogoPath: "/icons/networks/optimism.svg"
-    // bridge: {
-    //   icon: '/icons/bridge/optimism.svg',
-    //   name: 'Optimism Bridge',
-    //   url: 'https://app.optimism.io/bridge',
-    // },
-  },
-  [import_contract_helpers3.ChainId.scroll_sepolia]: {
-    name: "Scroll Sepolia",
-    publicJsonRPCUrl: [
-      "https://sepolia-rpc.scroll.io",
-      "https://scroll-sepolia.blockpi.network/v1/rpc/public"
-    ],
-    publicJsonRPCWSUrl: "wss://sepolia-rpc.scroll.io",
-    // protocolDataUrl: '',
-    baseUniswapAdapter: "0x0",
-    baseAssetSymbol: "ETH",
-    wrappedBaseAssetSymbol: "WETH",
-    baseAssetDecimals: 18,
-    explorerLink: "https://sepolia.scrollscan.dev",
-    // usdMarket: true,
-    isTestnet: true,
-    networkLogoPath: "/icons/networks/scroll.svg"
-    // bridge: {
-    //   icon: '/icons/bridge/scroll.svg',
-    //   name: 'Scroll Sepolia Bridge',
-    //   url: 'https://scroll.io/bridge',
-    // },
-  },
-  [import_contract_helpers3.ChainId.fantom]: {
-    name: "Fantom",
-    privateJsonRPCUrl: "https://fantom-mainnet.gateway.pokt.network/v1/lb/62b3314e123e6f00397f19ca",
-    publicJsonRPCUrl: [
-      "https://rpc.fantom.network",
-      "https://rpc.ankr.com/fantom",
-      "https://fantom-mainnet.public.blastapi.io"
-    ],
-    // publicJsonRPCWSUrl: 'wss://wsapi.fantom.network',
-    // protocolDataUrl: '',
-    baseUniswapAdapter: "0x0",
-    baseAssetSymbol: "FTM",
-    wrappedBaseAssetSymbol: "WFTM",
-    baseAssetDecimals: 18,
-    explorerLink: "https://ftmscan.com",
-    // usdMarket: true,
-    networkLogoPath: "/icons/networks/fantom.svg",
-    bridge: {
-      icon: "/icons/bridge/fantom.svg",
-      name: "Fantom Bridge",
-      url: "https://app.multichain.org/#/router"
-    },
-    ratesHistoryApiUrl: "https://aave-api-v2.aave.com/data/rates-history"
-  },
-  [import_contract_helpers3.ChainId.fantom_testnet]: {
-    name: "Fantom Testnet",
-    publicJsonRPCUrl: [
-      "https://rpc.testnet.fantom.network",
-      "https://fantom-testnet.public.blastapi.io",
-      "https://rpc.ankr.com/fantom_testnet"
-    ],
-    publicJsonRPCWSUrl: "",
-    // protocolDataUrl: '',
-    baseUniswapAdapter: "0x0",
-    baseAssetSymbol: "FTM",
-    wrappedBaseAssetSymbol: "WFTM",
-    baseAssetDecimals: 18,
-    explorerLink: "https://testnet.ftmscan.com",
-    // usdMarket: true,
-    isTestnet: true,
-    networkLogoPath: "/icons/networks/fantom.svg",
-    bridge: {
-      icon: "/icons/bridge/fantom.svg",
-      name: "Fantom Bridge",
-      url: "https://app.multichain.org/#/router"
-    }
-  },
-  [import_contract_helpers3.ChainId.metis_andromeda]: {
-    name: "Metis Andromeda",
-    privateJsonRPCUrl: "https://metis-mainnet.gateway.pokt.network/v1/lb/62b3314e123e6f00397f19ca",
-    publicJsonRPCUrl: ["https://andromeda.metis.io/?owner=1088"],
-    baseAssetSymbol: "",
-    // N/A
-    wrappedBaseAssetSymbol: "",
-    // N/A
-    baseAssetDecimals: 0,
-    // N/A
-    explorerLink: "https://andromeda-explorer.metis.io",
-    networkLogoPath: "/icons/networks/metis.svg"
-  },
-  [import_contract_helpers3.ChainId.xdai]: {
-    name: "Gnosis Chain",
-    privateJsonRPCUrl: "https://gnosischain-mainnet.gateway.pokt.network/v1/lb/62b3314e123e6f00397f19ca",
-    publicJsonRPCUrl: ["https://rpc.ankr.com/gnosis", "https://rpc.gnosischain.com"],
-    publicJsonRPCWSUrl: "wss://rpc.gnosischain.com/wss",
-    baseUniswapAdapter: "0x0",
-    baseAssetSymbol: "xDAI",
-    wrappedBaseAssetSymbol: "WXDAI",
-    baseAssetDecimals: 18,
-    explorerLink: "https://gnosisscan.io",
-    isTestnet: false,
-    networkLogoPath: "/icons/networks/gnosis.svg",
-    bridge: {
-      icon: "/icons/networks/gnosis.svg",
-      name: "xDai Bridge",
-      url: "https://bridge.gnosischain.com/"
-    }
+    // isTestnet: true,
+    networkLogoPath: "/icons/networks/base.svg"
   }
 };
 
@@ -70110,7 +65792,7 @@ var linkBuilder = ({ baseUrl, addressPrefix = "address", txPrefix = "tx" }) => (
 function getNetworkConfig(chainId) {
   const config = networkConfigs2[chainId];
   if (!config) {
-    const name2 = import_contract_helpers4.ChainIdToNetwork[chainId];
+    const name2 = import_contract_helpers.ChainIdToNetwork[chainId];
     return {
       name: name2 || `unknown chainId: ${chainId}`
     };
@@ -70141,65 +65823,9 @@ var getProvider = (chainId) => {
   }
   return providers[chainId];
 };
-var ammDisableProposal = "https://app.aave.com/governance/proposal/44";
-var ustDisableProposal = "https://app.aave.com/governance/proposal/75";
-var kncDisableProposal = "https://app.aave.com/governance/proposal/69";
-var v2MainnetDisableProposal = "https://app.aave.com/governance/proposal/111";
-var v2MainnetDisableProposal2 = "https://app.aave.com/governance/proposal/125";
-var v2PolygonDisableProposal = "https://app.aave.com/governance/proposal/124";
-var frozenProposalMap = {
-  ["UST" + "proto_mainnet" /* proto_mainnet */]: ustDisableProposal,
-  ["KNC" + "proto_mainnet" /* proto_mainnet */]: kncDisableProposal,
-  ["UNIDAIUSDC" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["UNIWBTCUSDC" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["UNIDAIWETH" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["UNIUSDCWETH" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["UNIAAVEWETH" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["UNIBATWETH" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["UNICRVWETH" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["UNILINKWETH" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["UNIMKRWETH" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["UNIRENWETH" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["UNISNXWETH" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["UNIUNIWETH" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["UNIWBTCWETH" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["UNIYFIWETH" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["BPTWBTCWETH" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["BPTBALWETH" + "proto_mainnet" /* proto_mainnet */]: ammDisableProposal,
-  ["BAL" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal,
-  ["CVX" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal,
-  ["REN" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal,
-  ["YFI" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["CRV" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["ZRX" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["MANA" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["1INCH" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["BAT" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["SUSD" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["ENJ" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["GUSD" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["AMPL" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["RAI" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["USDP" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["LUSD" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["XSUSHI" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["DPI" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["RENFIL" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["MKR" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["ENS" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["LINK" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["UNI" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["SNX" + "proto_mainnet" /* proto_mainnet */]: v2MainnetDisableProposal2,
-  ["BAL" + "proto_polygon" /* proto_polygon */]: v2PolygonDisableProposal,
-  ["CRV" + "proto_polygon" /* proto_polygon */]: v2PolygonDisableProposal,
-  ["DPI" + "proto_polygon" /* proto_polygon */]: v2PolygonDisableProposal,
-  ["GHST" + "proto_polygon" /* proto_polygon */]: v2PolygonDisableProposal,
-  ["LINK" + "proto_polygon" /* proto_polygon */]: v2PolygonDisableProposal,
-  ["XSUSHI" + "proto_polygon" /* proto_polygon */]: v2PolygonDisableProposal
-};
 
 // src/modules/governance/utils/governanceProvider.tsx
-var governanceContract = new import_contract_helpers5.AaveGovernanceService(getProvider(governanceConfig.chainId), {
+var governanceContract = new import_contract_helpers2.AaveGovernanceService(getProvider(governanceConfig.chainId), {
   GOVERNANCE_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2,
   GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2_HELPER
 });
@@ -70511,7 +66137,7 @@ var import_lodash2 = __toESM(require_lodash());
 var import_path3 = require("path");
 
 // src/modules/governance/utils/formatProposal.ts
-var import_contract_helpers6 = __toESM(require_cjs());
+var import_contract_helpers3 = __toESM(require_cjs());
 
 // node_modules/bignumber.js/bignumber.mjs
 var isNumeric = /^-?(?:\d+(?:\.\d*)?|\.\d+)(?:e[+-]?\d+)?$/i;
@@ -70896,7 +66522,7 @@ function clone(configObject) {
       sum = sum.plus(args[i++]);
     return sum;
   };
-  convertBase = function() {
+  convertBase = /* @__PURE__ */ function() {
     var decimal = "0123456789";
     function toBaseOut(str2, baseIn, baseOut, alphabet) {
       var j, arr = [0], arrL, i = 0, len = str2.length;
@@ -70976,7 +66602,7 @@ function clone(configObject) {
       return str2;
     };
   }();
-  div = function() {
+  div = /* @__PURE__ */ function() {
     function multiply(x, k, base) {
       var m, temp, xlo, xhi, carry = 0, i = x.length, klo = k % SQRT_BASE, khi = k / SQRT_BASE | 0;
       for (x = x.slice(); i--; ) {
@@ -71200,7 +66826,7 @@ function clone(configObject) {
     }
     return n;
   }
-  parseNumeric = function() {
+  parseNumeric = /* @__PURE__ */ function() {
     var basePrefix = /^(-?)0([xbo])(?=\w[\w.]*$)/i, dotAfter = /^([^.]+)\.$/, dotBefore = /^\.([^.]+)$/, isInfinityOrNaN = /^-?(Infinity|NaN)$/, whitespaceOrPlus = /^\s*\+(?=[\w.])|^\s+|\s+$/g;
     return function(x, str2, isNum, b) {
       var base, s = isNum ? str2 : str2.replace(whitespaceOrPlus, "");
@@ -71975,8 +67601,8 @@ var BigNumber = clone();
 var averageBlockTime = 12;
 function enhanceProposalWithTimes(proposal) {
   return __async(this, null, function* () {
-    const provider = getProvider(import_contract_helpers6.ChainId.mainnet);
-    if (proposal.state === import_contract_helpers6.ProposalState.Pending) {
+    const provider = getProvider(570);
+    if (proposal.state === import_contract_helpers3.ProposalState.Pending) {
       const { timestamp: creationTimestamp2 } = yield provider.getBlock(proposal.proposalCreated);
       const currentBlock = yield provider.getBlock("latest");
       return __spreadProps(__spreadValues({}, proposal), {
@@ -71989,7 +67615,7 @@ function enhanceProposalWithTimes(proposal) {
       provider.getBlock(proposal.startBlock),
       provider.getBlock(proposal.proposalCreated)
     ]);
-    if (proposal.state === import_contract_helpers6.ProposalState.Active) {
+    if (proposal.state === import_contract_helpers3.ProposalState.Active) {
       const currentBlock = yield provider.getBlock("latest");
       return __spreadProps(__spreadValues({}, proposal), {
         startTimestamp,
@@ -72003,12 +67629,12 @@ function enhanceProposalWithTimes(proposal) {
 }
 
 // src/modules/governance/utils/immutableStates.ts
-var import_contract_helpers7 = __toESM(require_cjs());
+var import_contract_helpers4 = __toESM(require_cjs());
 var isProposalStateImmutable = (proposal) => ![
-  import_contract_helpers7.ProposalState.Active,
-  import_contract_helpers7.ProposalState.Pending,
-  import_contract_helpers7.ProposalState.Queued,
-  import_contract_helpers7.ProposalState.Succeeded
+  import_contract_helpers4.ProposalState.Active,
+  import_contract_helpers4.ProposalState.Pending,
+  import_contract_helpers4.ProposalState.Queued,
+  import_contract_helpers4.ProposalState.Succeeded
 ].includes(proposal.state);
 
 // src/static-build/proposal.ts

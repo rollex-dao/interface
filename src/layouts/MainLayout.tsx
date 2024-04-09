@@ -19,13 +19,10 @@ export function MainLayout({ children }: { children: ReactNode }) {
 
   return (
     <>
-      {currentMarket === 'proto_mainnet' ||
-      currentMarket === 'proto_avalanche_v3' ||
-      currentMarket === 'proto_polygon_v3' ||
-      currentMarket === 'proto_optimism_v3' ? (
+      {currentMarket === 'proto_rollux_v3' ? (
         <TopBarNotify
           learnMoreLink="https://governance.aave.com/t/aave-v2-v3-security-incident-04-11-2023/15335"
-          notifyText={currentMarket === 'proto_mainnet' ? notifyText : unPauseText}
+          notifyText={currentMarket === 'proto_rollux_v3' ? notifyText : unPauseText}
         />
       ) : null}
 
