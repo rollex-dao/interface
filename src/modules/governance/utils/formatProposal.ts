@@ -65,7 +65,7 @@ export function formatProposal(proposal: Omit<Proposal, 'values'>): FormattedPro
 const averageBlockTime = 12;
 
 export async function enhanceProposalWithTimes(proposal: Omit<Proposal, 'values'>) {
-  const provider = getProvider(ChainId.mainnet);
+  const provider = getProvider(570 as ChainId);
   if (proposal.state === ProposalState.Pending) {
     const { timestamp: creationTimestamp } = await provider.getBlock(proposal.proposalCreated);
     const currentBlock = await provider.getBlock('latest');
