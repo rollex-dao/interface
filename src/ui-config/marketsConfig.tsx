@@ -122,9 +122,9 @@ export enum CustomMarket {
 export const marketsData: {
   [key in keyof typeof CustomMarket]: MarketDataType;
 } = {
-  // [CustomMarket.proto_mainnet_v3]: {
+  // [12 as ChainId]: {
   //   marketTitle: 'Ethereum',
-  //   market: CustomMarket.proto_mainnet_v3,
+  //   market: CustomMarket.proto_rollux_v3,
   //   chainId: ChainId.mainnet,
   //   v3: true,
   //   enabledFeatures: {
@@ -164,6 +164,8 @@ export const marketsData: {
     v3: true,
     chainId: 570 as ChainId,
     enabledFeatures: {
+      governance: true,
+      staking: true,
       // incentives: true,
       // liquiditySwap: true,
       // collateralRepay: true,
@@ -171,7 +173,7 @@ export const marketsData: {
       // withdrawAndSwitch: true,
       // switch: true,
     },
-    // subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-arbitrum',
+    subgraphUrl: 'https://rollux.graph.pegasys.fi/subgraphs/name/pollum-io/pegasys-lending',
     addresses: {
       LENDING_POOL_ADDRESS_PROVIDER: '0x4ed7c70F96B99c776995fB64377f0d4aB3B0e1C1',
       LENDING_POOL: '0x56639dB16Ac50A89228026e42a316B30179A5376',
