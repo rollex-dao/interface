@@ -64847,22 +64847,22 @@ var import_contract_helpers2 = __toESM(require_cjs());
 // src/ui-config/governanceConfig.ts
 var governanceConfig = {
   chainId: 570,
-  votingAssetName: "AAVE + stkAAVE",
-  averageNetworkBlockTime: 13.5,
+  votingAssetName: " stkPSYS",
+  averageNetworkBlockTime: 1,
   queryGovernanceDataUrl: "https://api.thegraph.com/subgraphs/name/aave/governance-v2",
   wsGovernanceDataUrl: "wss://api.thegraph.com/subgraphs/name/aave/governance-v2",
-  aaveTokenAddress: "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
-  aAaveTokenAddress: "0xDa5E8e1C3596D3Cc11a4dd5aD66b8f03B5410F8C",
-  stkAaveTokenAddress: "0x4da27a545c0c5b758a6ba100e3a049001de870f5",
+  aaveTokenAddress: "0x48023b16c3e81AA7F6eFFbdEB35Bb83f4f31a8fd",
+  // aAaveTokenAddress: '0xDa5E8e1C3596D3Cc11a4dd5aD66b8f03B5410F8C',
+  stkAaveTokenAddress: "0x7170FeE145954863ca1c456BE1b6FB1e869e3B77",
   governanceForumLink: "https://governance.aave.com",
   governanceFAQLink: "https://docs.aave.com/faq/governance",
-  walletBalanceProvider: "0x8E8dAd5409E0263a51C0aB5055dA66Be28cFF922",
+  walletBalanceProvider: "0x7cC050298928bab7287517d5185e1AFFa240852F",
   governanceSnapshotLink: "https://snapshot.org/#/aave.eth",
   addresses: {
-    AAVE_GOVERNANCE_V2: "0xEC568fffba86c094cf06b22134B23074DFE2252c",
-    AAVE_GOVERNANCE_V2_EXECUTOR_SHORT: "0x61910EcD7e8e942136CE7Fe7943f956cea1CC2f7",
-    AAVE_GOVERNANCE_V2_EXECUTOR_LONG: "0xEE56e2B3D491590B5b31738cC34d5232F378a8D5",
-    AAVE_GOVERNANCE_V2_HELPER: "0xBb7baf0534423e3108E1D03c259104cDba2C1cB7"
+    AAVE_GOVERNANCE_V2: "0x4894A8900D0fDB4DAAFA80383F212f03E1d0f351",
+    AAVE_GOVERNANCE_V2_EXECUTOR_SHORT: "0xEC2d95Fa98F69401648484A6584AeE6de586b65c",
+    AAVE_GOVERNANCE_V2_EXECUTOR_LONG: "0xEC2d95Fa98F69401648484A6584AeE6de586b65c",
+    AAVE_GOVERNANCE_V2_HELPER: "0x7AbaCB2043CCE3E6f4eC3cE13c27b83b25EB3702"
   },
   ipfsGateway: "https://cloudflare-ipfs.com/ipfs",
   fallbackIpfsGateway: "https://ipfs.io/ipfs"
@@ -64874,9 +64874,9 @@ var import_providers2 = __toESM(require_lib30());
 
 // src/ui-config/marketsConfig.tsx
 var marketsData = {
-  // [CustomMarket.proto_mainnet_v3]: {
+  // [12 as ChainId]: {
   //   marketTitle: 'Ethereum',
-  //   market: CustomMarket.proto_mainnet_v3,
+  //   market: CustomMarket.proto_rollux_v3,
   //   chainId: ChainId.mainnet,
   //   v3: true,
   //   enabledFeatures: {
@@ -64916,6 +64916,8 @@ var marketsData = {
     v3: true,
     chainId: 570,
     enabledFeatures: {
+      governance: true,
+      staking: true
       // incentives: true,
       // liquiditySwap: true,
       // collateralRepay: true,
@@ -64923,14 +64925,14 @@ var marketsData = {
       // withdrawAndSwitch: true,
       // switch: true,
     },
-    // subgraphUrl: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3-arbitrum',
+    subgraphUrl: "https://rollux.graph.pegasys.fi/subgraphs/name/pollum-io/pegasys-lending",
     addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER: "0x4ed7c70F96B99c776995fB64377f0d4aB3B0e1C1",
-      LENDING_POOL: "0x56639dB16Ac50A89228026e42a316B30179A5376",
-      WETH_GATEWAY: "0x5081a39b8A5f0E35a8D959395a630b68B74Dd30f",
-      WALLET_BALANCE_PROVIDER: "0x1fA02b2d6A771842690194Cf62D91bdd92BfE28d",
-      UI_POOL_DATA_PROVIDER: "0x04C89607413713Ec9775E14b954286519d836FEf",
-      UI_INCENTIVE_DATA_PROVIDER: "0xdbC43Ba45381e02825b14322cDdd15eC4B3164E6"
+      LENDING_POOL_ADDRESS_PROVIDER: "0x4E4D3f7AF9ba410D4721b61517143D7C0134aa5a",
+      LENDING_POOL: "0x384cAE0Dd193d4B117817d93Fdc761372b99F3b0",
+      WETH_GATEWAY: "0xfA340E14C6febCD0dF2dCe6eB77eA735af84f3D3",
+      WALLET_BALANCE_PROVIDER: "0x7cC050298928bab7287517d5185e1AFFa240852F",
+      UI_POOL_DATA_PROVIDER: "0x93eA994d286FC44d3B6c3b3204d4c64af44Fd50D",
+      UI_INCENTIVE_DATA_PROVIDER: "0x4e2d2701e551eA91E73255eA4f921E25422c2836"
       // L2_ENCODER: '0xa6D9c5175B5b86Eb98a6E4B19E60B6a75F07F159',
       // COLLECTOR: ZERO_ADDRESS,
       // SWAP_COLLATERAL_ADAPTER: ZERO_ADDRESS,

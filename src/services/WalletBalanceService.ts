@@ -35,7 +35,7 @@ export class WalletBalanceService {
       [user],
       [
         governanceConfig.aaveTokenAddress,
-        governanceConfig.aAaveTokenAddress,
+        // governanceConfig.aAaveTokenAddress,
         governanceConfig.stkAaveTokenAddress,
       ]
     );

@@ -13,11 +13,15 @@ import { useUserStakeUiData } from 'src/hooks/stake/useUserStakeUiData';
 import { useModalContext } from 'src/hooks/useModal';
 import { MainLayout } from 'src/layouts/MainLayout';
 import { BuyWithFiat } from 'src/modules/staking/BuyWithFiat';
-import { GetABPToken } from 'src/modules/staking/GetABPToken';
+// import { GetABPToken } from 'src/modules/staking/GetABPToken';
 import { StakingHeader } from 'src/modules/staking/StakingHeader';
 import { StakingPanel } from 'src/modules/staking/StakingPanel';
 import { useRootStore } from 'src/store/root';
-import { ENABLE_TESTNET, getNetworkConfig, STAGING_ENV } from 'src/utils/marketsAndNetworksConfig';
+import {
+  // ENABLE_TESTNET,
+  getNetworkConfig,
+  // STAGING_ENV
+} from 'src/utils/marketsAndNetworksConfig';
 
 import { useWeb3Context } from '../src/libs/hooks/useWeb3Context';
 
@@ -133,7 +137,7 @@ export default function Staking() {
               <Grid
                 item
                 xs={12}
-                lg={STAGING_ENV || ENABLE_TESTNET ? 12 : 6}
+                lg={12}
                 sx={{
                   display: { xs: !isStakeAAVE ? 'none' : 'block', lg: 'block' },
                 }}
@@ -157,7 +161,7 @@ export default function Staking() {
                   hasDiscountProgram={true}
                 />
               </Grid>
-              <Grid
+              {/* <Grid
                 item
                 xs={12}
                 lg={6}
@@ -177,7 +181,7 @@ export default function Staking() {
                   onStakeRewardClaimAction={() => openStakeRewardsClaim('bpt', 'AAVE')}
                   headerAction={<GetABPToken />}
                 />
-              </Grid>
+              </Grid> */}
             </Grid>
           </>
         ) : (
