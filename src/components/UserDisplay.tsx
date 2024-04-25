@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
 import { blo } from 'blo';
 import { useMemo } from 'react';
-import useGetEns from 'src/libs/hooks/use-get-ens';
+// import useGetEns from 'src/libs/hooks/use-get-ens';
 import { useWeb3Context } from 'src/libs/hooks/useWeb3Context';
 import { useRootStore } from 'src/store/root';
 import shallow from 'zustand/shallow';
@@ -98,7 +98,7 @@ export const ExternalUserDisplay: React.FC<ExternalUserDisplayProps> = ({
   titleProps,
   address,
 }) => {
-  const { name, avatar } = useGetEns(address);
+  // const { name, avatar } = useGetEns(address);
 
   const fallbackImage = useMemo(
     () => (address ? blo(address as `0x${string}`) : undefined),
@@ -106,11 +106,11 @@ export const ExternalUserDisplay: React.FC<ExternalUserDisplayProps> = ({
   );
   return (
     <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-      <Avatar image={avatar} fallbackImage={fallbackImage} {...avatarProps} />
+      <Avatar image={undefined} fallbackImage={fallbackImage} {...avatarProps} />
       <UserNameText
         variant="h4"
         address={address}
-        domainName={name}
+        domainName={undefined}
         link={`https://etherscan.io/address/${address}`}
         iconSize={14}
         {...titleProps}
