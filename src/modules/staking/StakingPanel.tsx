@@ -150,7 +150,7 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
   );
 
   return (
-    <Paper sx={{ p: { xs: 4, xsm: 6 }, pt: 4, height: '100%' }}>
+    <Paper sx={{ p: { xs: 4, xsm: 6 }, pt: 4, height: '100%', borderRadius: '20px' }}>
       <Box
         sx={{
           display: { xs: 'none', xsm: 'flex' },

@@ -4,12 +4,10 @@ import { Button, Menu, MenuItem, SvgIcon, Typography } from '@mui/material';
 import React, { useState } from 'react';
 import { DEFAULT_LOCALE } from 'src/libs/LanguageProvider';
 import { useRootStore } from 'src/store/root';
-import { PROD_ENV } from 'src/utils/marketsAndNetworksConfig';
 import { SETTINGS } from 'src/utils/mixPanelEvents';
 
 import { DarkModeSwitcher } from './components/DarkModeSwitcher';
 import { LanguageListItem, LanguagesList } from './components/LanguageSwitcher';
-import { TestNetModeSwitcher } from './components/TestNetModeSwitcher';
 
 export const LANG_MAP = {
   en: 'English',
@@ -56,16 +54,22 @@ export function SettingsMenu() {
   return (
     <>
       <Button
-        variant="surface"
+        variant="contained"
         aria-label="settings"
         id="settings-button"
         aria-controls={settingsOpen ? 'settings-menu' : undefined}
         aria-expanded={settingsOpen ? 'true' : undefined}
         aria-haspopup="true"
         onClick={handleSettingsClick}
-        sx={{ p: '7px 8px', minWidth: 'unset', ml: 2 }}
+        sx={{
+          p: '7px 8px',
+          minWidth: 'unset',
+          ml: 2,
+          bgcolor: 'transparent',
+          '&:hover': { bgcolor: 'transparent' },
+        }}
       >
-        <SvgIcon sx={{ color: '#F1F1F3' }} fontSize="small">
+        <SvgIcon sx={{ color: 'text.primary' }} fontSize="small">
           <CogIcon />
         </SvgIcon>
       </Button>
@@ -88,7 +92,6 @@ export function SettingsMenu() {
         </MenuItem>
 
         <DarkModeSwitcher component={MenuItem} />
-        {PROD_ENV && <TestNetModeSwitcher />}
         <LanguageListItem onClick={handleLanguageClick} component={MenuItem} />
       </Menu>
 

@@ -106,7 +106,7 @@ export default function WalletWidget({ open, setOpen, headerHeight }: WalletWidg
 
   const Content = ({ component = ListItem }: { component?: typeof MenuItem | typeof ListItem }) => (
     <>
-      <Typography
+      {/* <Typography
         variant="subheader2"
         sx={{
           display: { xs: 'block', md: 'none' },
@@ -116,7 +116,7 @@ export default function WalletWidget({ open, setOpen, headerHeight }: WalletWidg
         }}
       >
         <Trans>Account</Trans>
-      </Typography>
+      </Typography> */}
 
       <Box component={component} disabled>
         <Box sx={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
@@ -304,10 +304,13 @@ export default function WalletWidget({ open, setOpen, headerHeight }: WalletWidg
           aria-expanded={open ? 'true' : undefined}
           aria-haspopup="true"
           onClick={handleClick}
-          sx={{
+          sx={({ palette }) => ({
             p: connected ? '5px 8px' : undefined,
             minWidth: hideWalletAccountText ? 'unset' : undefined,
-          }}
+            bgcolor: `${palette.mode === 'dark' ? '#53d9d9' : '#665ee1'}`,
+            borderRadius: '20px',
+            '&:hover': { bgcolor: `${palette.mode === 'dark' ? '#53d9d990' : '#665ee190'}` },
+          })}
           endIcon={
             connected &&
             !hideWalletAccountText &&

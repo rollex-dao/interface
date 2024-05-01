@@ -55,7 +55,7 @@ export const PageTitle = ({ pageTitle, withMarketSwitcher, withMigrateButton }: 
           mb: !pageTitle ? 4 : 0,
         }}
       >
-        {withMarketSwitcher && <MarketSwitcher />}
+        {withMarketSwitcher && <MarketSwitcher disableSwitch={true} />}
         {/* <BridgeButton bridge={bridge} variant="surface" withoutIcon={!upToMD} /> */}
         {/* NOTE:// Removing for now  */}
         {isMigrateToV3Available && withMigrateButton && (

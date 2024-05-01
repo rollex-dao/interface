@@ -53,6 +53,19 @@ export function AppGlobalStyles({ children }: { children: ReactNode }) {
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
+        {mode === 'dark' ? (
+          <>
+            <div id="starsLightMode" />
+            <div id="starsLightMode2" />
+            <div id="starsLightMode3" />
+          </>
+        ) : (
+          <>
+            <div id="stars" />
+            <div id="stars2" />
+            <div id="stars3" />
+          </>
+        )}
 
         {children}
       </ThemeProvider>
