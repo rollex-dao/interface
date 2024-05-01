@@ -127,6 +127,6 @@ export const networkConfigs: Record<string, BaseNetworkConfig> = {
     explorerLink: 'https://explorer.rollux.com/',
     // usdMarket: true,
     // isTestnet: true,
-    networkLogoPath: '/icons/networks/base.svg',
+    networkLogoPath: '/icons/networks/rollux.svg',
   },
 } as const;
