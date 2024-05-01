@@ -25,7 +25,14 @@ export const ReserveConfigurationWrapper: React.FC<ReserveConfigurationProps> = 
   const isGho = displayGho({ symbol: reserve.symbol, currentMarket });
 
   return (
-    <Paper sx={{ pt: 4, pb: 20, px: downToXsm ? 4 : 6 }}>
+    <Paper
+      sx={{
+        pt: 4,
+        pb: 20,
+        px: downToXsm ? 4 : 6,
+        borderRadius: '20px',
+      }}
+    >
       <Box
         sx={{
           display: 'flex',

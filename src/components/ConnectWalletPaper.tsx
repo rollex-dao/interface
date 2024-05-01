@@ -26,6 +26,7 @@ export const ConnectWalletPaper = ({
         alignItems: 'center',
         justifyContent: 'center',
         textAlign: 'center',
+        borderRadius: '20px',
         p: 4,
         flex: 1,
         ...sx,
