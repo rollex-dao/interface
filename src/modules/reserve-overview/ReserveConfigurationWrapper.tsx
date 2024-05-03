@@ -26,12 +26,13 @@ export const ReserveConfigurationWrapper: React.FC<ReserveConfigurationProps> = 
 
   return (
     <Paper
-      sx={{
+      sx={({ palette }) => ({
+        boxShadow: palette.background.deepShadow,
         pt: 4,
         pb: 20,
         px: downToXsm ? 4 : 6,
         borderRadius: '20px',
-      }}
+      })}
     >
       <Box
         sx={{

@@ -131,7 +131,13 @@ export const DelegatedInfoPanel = () => {
     powers.stkAaveVotingDelegatee !== '';
 
   return (
-    <Paper sx={{ mt: 2 }}>
+    <Paper
+      sx={({ palette }) => ({
+        boxShadow: palette.background.deepShadow,
+        borderRadius: '20px',
+        mt: 2,
+      })}
+    >
       <Box sx={{ px: 6, pb: 6, pt: 4 }}>
         <Typography typography="h3">
           <Trans>Delegated power</Trans>

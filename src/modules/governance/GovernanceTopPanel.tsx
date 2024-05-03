@@ -60,7 +60,7 @@ export const GovernanceTopPanel = () => {
             </Typography>
           </Box>
 
-          <Typography sx={{ color: '#8E92A3', maxWidth: '824px' }}>
+          <Typography sx={{ color: 'text.primary', maxWidth: '824px' }}>
             <Trans>
               Aave is a fully decentralized, community governed protocol by the AAVE token-holders.
               AAVE token-holders collectively discuss, propose, and vote on upgrades to the

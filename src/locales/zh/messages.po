@@ -276,7 +276,7 @@ msgstr "长度应该相等的数组参数不是"
 #: src/modules/dashboard/lists/BorrowedPositionsList/BorrowedPositionsList.tsx
 #: src/modules/dashboard/lists/SuppliedPositionsList/SuppliedPositionsList.tsx
 #: src/modules/faucet/FaucetAssetsList.tsx
-#: src/modules/markets/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsList.tsx
 msgid "Asset"
 msgstr "资产"
 
@@ -462,17 +462,17 @@ msgstr "借用年化收益率"
 msgid "Borrow APY rate"
 msgstr "借入年利率"
 
-#: src/modules/markets/Gho/GhoBanner.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
 msgid "Borrow APY, fixed rate"
 msgstr "借入年化收益率，固定利率"
 
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "Borrow APY, stable"
 msgstr "借入年化收益率，稳定"
 
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "Borrow APY, variable"
 msgstr "借入 APY，可变"
 
@@ -836,7 +836,7 @@ msgstr "授权"
 #: src/modules/dashboard/lists/BorrowAssetsList/GhoBorrowAssetsListItem.tsx
 #: src/modules/dashboard/lists/BorrowAssetsList/GhoBorrowAssetsListItem.tsx
 #: src/modules/dashboard/lists/SupplyAssetsList/SupplyAssetsListMobileItem.tsx
-#: src/modules/markets/MarketAssetsListItem.tsx
+#: src/modules/market/MarketAssetsListItem.tsx
 msgid "Details"
 msgstr "详"
 
@@ -1376,7 +1376,7 @@ msgstr "管理分析"
 msgid "Market"
 msgstr "市场"
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 #: src/ui-config/menu-items/index.tsx
 msgid "Markets"
 msgstr "市场"
@@ -1426,7 +1426,7 @@ msgstr "最大可用供应量是有限的，因为协议供应上限 {0}%."
 msgid "Maximum loan to value"
 msgstr "最高贷款价值比"
 
-#: src/modules/markets/Gho/GhoBanner.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
 msgid "Meet GHO"
 msgstr "认识 GHO"
 
@@ -2022,7 +2022,7 @@ msgstr "在推特上分享"
 msgid "Show"
 msgstr "显示"
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "Show Frozen or paused assets"
 msgstr "显示冻结或暂停的资产"
 
@@ -2195,8 +2195,8 @@ msgstr "供应"
 #: src/components/transactions/Supply/SupplyModalContent.tsx
 #: src/modules/dashboard/lists/SuppliedPositionsList/SuppliedPositionsListMobileItem.tsx
 #: src/modules/dashboard/lists/SupplyAssetsList/SupplyAssetsListMobileItem.tsx
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "Supply APY"
 msgstr "供应年化收益率"
 
@@ -2428,7 +2428,7 @@ msgstr "没有足够的流动性供目标资产执行转换。尝试降低金额
 msgid "There was some error. Please try changing the parameters or <0><1>copy the error</1></0>"
 msgstr "有一些错误。请尝试更改参数或 <0><1>复制错误</1></0>"
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "These assets are temporarily frozen or paused by Aave community decisions, meaning that further supply / borrow, or rate swap of these assets are unavailable. Withdrawals and debt repayments are allowed. Follow the <0>Aave governance forum</0> for further updates."
 msgstr "这些资产被 Aave 社区决定暂时冻结或暂停，这意味着这些资产的进一步供应/借款或利率互换不可用。允许提款和偿还债务。关注 <0>Aave 治理论坛</0> ，了解进一步的更新。"
 
@@ -2553,13 +2553,13 @@ msgstr "要提交对协议进行细微更改的提案，您至少需要 80.00K �
 msgid "Top 10 addresses"
 msgstr "前 10 个地址"
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 msgid "Total available"
 msgstr "可用总数"
 
-#: src/modules/markets/Gho/GhoBanner.tsx
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 #: src/modules/reserve-overview/BorrowInfo.tsx
 #: src/modules/reserve-overview/BorrowInfo.tsx
 #: src/modules/reserve-overview/Gho/GhoBorrowInfo.tsx
@@ -2568,7 +2568,7 @@ msgstr "可用总数"
 msgid "Total borrowed"
 msgstr "借款总额"
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 msgid "Total borrows"
 msgstr "借款总额"
 
@@ -2580,12 +2580,12 @@ msgstr "每天的总排放量"
 msgid "Total interest accrued"
 msgstr "应计利息总额"
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 msgid "Total market size"
 msgstr "总市场规模"
 
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 #: src/modules/reserve-overview/SupplyInfo.tsx
 #: src/modules/reserve-overview/SupplyInfo.tsx
 msgid "Total supplied"
@@ -2780,8 +2780,8 @@ msgstr "查看所有选票"
 msgid "View contract"
 msgstr "查看合同"
 
-#: src/modules/markets/Gho/GhoBanner.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "View details"
 msgstr "查看详情"
 
@@ -2848,7 +2848,7 @@ msgstr "未检测到钱包。连接或安装钱包，然后重试"
 msgid "Wallets are provided by External Providers and by selecting you agree to Terms of those Providers. Your access to the wallet might be reliant on the External Provider being operational."
 msgstr "钱包由外部提供商提供，选择即表示您同意这些提供商的条款。您对钱包的访问可能取决于外部提供商的运行情况。"
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "We couldn't find any assets related to your search. Try again with a different asset name, symbol, or address."
 msgstr "我们找不到与您的搜索相关的任何资产。使用其他资产名称、符号或地址重试。"
 
@@ -3099,7 +3099,7 @@ msgstr "你 {networkName} 钱包是空的。获取免费测试 {0} 在"
 msgid "Zero address not valid"
 msgstr "零地址无效"
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "assets"
 msgstr "资产"
 

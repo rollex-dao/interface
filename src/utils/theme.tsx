@@ -12,7 +12,7 @@ import { createTheme } from '@mui/material/styles';
 import { ColorPartial } from '@mui/material/styles/createPalette';
 import React from 'react';
 
-// import { opacify } from './utils';
+import { opacify } from './utils';
 
 const theme = createTheme();
 const {
@@ -193,10 +193,10 @@ export const getDesignTokens = (mode: 'light' | 'dark') => {
           'radial-gradient(60% 50% at 50% 45%, #68e1ffbe, #e6faff)!important',
           'radial-gradient(60% 50% at 50% 45% , #56BED8, #010101)'
         ),
-        // deepShadow: `0px 5px 24px ${opacify(24, '#00D9EF')}, 5px 0px 24px ${opacify(
-        //   24,
-        //   '#8C15E8'
-        // )}`,
+        deepShadow: `0px 5px 24px ${opacify(24, '#00D9EF')}, 5px 0px 24px ${opacify(
+          24,
+          '#8C15E8'
+        )}`,
       },
       divider: getColor('#EAEBEF', '#EBEBEF14'),
       action: {
@@ -448,7 +448,7 @@ export function getThemedComponents(theme: Theme) {
               borderColor: '#EBEBED1F',
               backgroundColor: '#383D51',
               '&:hover, &.Mui-focusVisible': {
-                backgroundColor: theme.palette.background.header,
+                backgroundColor: '#383D51B8',
               },
             },
           },

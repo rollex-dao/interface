@@ -20,8 +20,8 @@ export const navigation: Navigation[] = [
     dataCy: 'menuDashboard',
   },
   {
-    link: ROUTES.markets,
-    title: t`Markets`,
+    link: ROUTES.market,
+    title: t`Market`,
     dataCy: 'menuMarkets',
   },
   {

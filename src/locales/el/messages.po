@@ -276,7 +276,7 @@ msgstr "Οι παράμετροι της συστοιχίας που θα έπρ
 #: src/modules/dashboard/lists/BorrowedPositionsList/BorrowedPositionsList.tsx
 #: src/modules/dashboard/lists/SuppliedPositionsList/SuppliedPositionsList.tsx
 #: src/modules/faucet/FaucetAssetsList.tsx
-#: src/modules/markets/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsList.tsx
 msgid "Asset"
 msgstr "Περιουσιακό στοιχείο"
 
@@ -462,17 +462,17 @@ msgstr ""
 msgid "Borrow APY rate"
 msgstr "Επιτόκιο δανεισμού APY"
 
-#: src/modules/markets/Gho/GhoBanner.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
 msgid "Borrow APY, fixed rate"
 msgstr ""
 
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "Borrow APY, stable"
 msgstr "Δανεισμός APY, σταθερό"
 
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "Borrow APY, variable"
 msgstr "Δανεισμός APY, μεταβλητό"
 
@@ -836,7 +836,7 @@ msgstr ""
 #: src/modules/dashboard/lists/BorrowAssetsList/GhoBorrowAssetsListItem.tsx
 #: src/modules/dashboard/lists/BorrowAssetsList/GhoBorrowAssetsListItem.tsx
 #: src/modules/dashboard/lists/SupplyAssetsList/SupplyAssetsListMobileItem.tsx
-#: src/modules/markets/MarketAssetsListItem.tsx
+#: src/modules/market/MarketAssetsListItem.tsx
 msgid "Details"
 msgstr "Λεπτομέρειες"
 
@@ -1376,7 +1376,7 @@ msgstr ""
 msgid "Market"
 msgstr "Αγορά"
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 #: src/ui-config/menu-items/index.tsx
 msgid "Markets"
 msgstr "Αγορές"
@@ -1426,7 +1426,7 @@ msgstr ""
 msgid "Maximum loan to value"
 msgstr ""
 
-#: src/modules/markets/Gho/GhoBanner.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
 msgid "Meet GHO"
 msgstr ""
 
@@ -2022,7 +2022,7 @@ msgstr "Μοιραστείτε το στο twitter"
 msgid "Show"
 msgstr "Εμφάνιση"
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "Show Frozen or paused assets"
 msgstr ""
 
@@ -2195,8 +2195,8 @@ msgstr "Προσφορά"
 #: src/components/transactions/Supply/SupplyModalContent.tsx
 #: src/modules/dashboard/lists/SuppliedPositionsList/SuppliedPositionsListMobileItem.tsx
 #: src/modules/dashboard/lists/SupplyAssetsList/SupplyAssetsListMobileItem.tsx
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "Supply APY"
 msgstr "Προσφορά APY"
 
@@ -2429,7 +2429,7 @@ msgstr ""
 msgid "There was some error. Please try changing the parameters or <0><1>copy the error</1></0>"
 msgstr "Υπήρξε κάποιο σφάλμα. Προσπαθήστε να αλλάξετε τις παραμέτρους ή <0><1>αντιγράψτε το σφάλμα</1></0>"
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "These assets are temporarily frozen or paused by Aave community decisions, meaning that further supply / borrow, or rate swap of these assets are unavailable. Withdrawals and debt repayments are allowed. Follow the <0>Aave governance forum</0> for further updates."
 msgstr ""
 
@@ -2554,13 +2554,13 @@ msgstr ""
 msgid "Top 10 addresses"
 msgstr ""
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 msgid "Total available"
 msgstr "Σύνολο διαθέσιμων"
 
-#: src/modules/markets/Gho/GhoBanner.tsx
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 #: src/modules/reserve-overview/BorrowInfo.tsx
 #: src/modules/reserve-overview/BorrowInfo.tsx
 #: src/modules/reserve-overview/Gho/GhoBorrowInfo.tsx
@@ -2569,7 +2569,7 @@ msgstr "Σύνολο διαθέσιμων"
 msgid "Total borrowed"
 msgstr "Σύνολο δανεικών"
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 msgid "Total borrows"
 msgstr "Σύνολο δανείων"
 
@@ -2581,12 +2581,12 @@ msgstr "Συνολικές εκπομπές ανά ημέρα"
 msgid "Total interest accrued"
 msgstr ""
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 msgid "Total market size"
 msgstr "Συνολικό μέγεθος της αγοράς"
 
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 #: src/modules/reserve-overview/SupplyInfo.tsx
 #: src/modules/reserve-overview/SupplyInfo.tsx
 msgid "Total supplied"
@@ -2781,8 +2781,8 @@ msgstr ""
 msgid "View contract"
 msgstr ""
 
-#: src/modules/markets/Gho/GhoBanner.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "View details"
 msgstr "Προβολή λεπτομερειών"
 
@@ -2849,7 +2849,7 @@ msgstr "Το πορτοφόλι δεν εντοπίστηκε. Συνδέστε 
 msgid "Wallets are provided by External Providers and by selecting you agree to Terms of those Providers. Your access to the wallet might be reliant on the External Provider being operational."
 msgstr "Τα πορτοφόλια παρέχονται από Εξωτερικούς Παρόχους και επιλέγοντας τα συμφωνείτε με τους Όρους των εν λόγω Παρόχων. Η πρόσβασή σας στο πορτοφόλι ενδέχεται να εξαρτάται από τη λειτουργία του Εξωτερικού Παρόχου."
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "We couldn't find any assets related to your search. Try again with a different asset name, symbol, or address."
 msgstr ""
 
@@ -3100,7 +3100,7 @@ msgstr ""
 msgid "Zero address not valid"
 msgstr "Η μηδενική διεύθυνση δεν είναι έγκυρη"
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "assets"
 msgstr "περιουσιακά στοιχεία"
 
