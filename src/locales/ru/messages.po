@@ -276,7 +276,7 @@ msgstr "Параметры массива, которые должны быть 
 #: src/modules/dashboard/lists/BorrowedPositionsList/BorrowedPositionsList.tsx
 #: src/modules/dashboard/lists/SuppliedPositionsList/SuppliedPositionsList.tsx
 #: src/modules/faucet/FaucetAssetsList.tsx
-#: src/modules/markets/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsList.tsx
 msgid "Asset"
 msgstr "Актив"
 
@@ -462,17 +462,17 @@ msgstr "Займ APY"
 msgid "Borrow APY rate"
 msgstr "Ставка по займу APY"
 
-#: src/modules/markets/Gho/GhoBanner.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
 msgid "Borrow APY, fixed rate"
 msgstr "Займ APY, фиксированная ставка"
 
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "Borrow APY, stable"
 msgstr "Заемная годовая доходность, стабильная"
 
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "Borrow APY, variable"
 msgstr "Заимствование APY, переменная"
 
@@ -836,7 +836,7 @@ msgstr "Делегированные полномочия"
 #: src/modules/dashboard/lists/BorrowAssetsList/GhoBorrowAssetsListItem.tsx
 #: src/modules/dashboard/lists/BorrowAssetsList/GhoBorrowAssetsListItem.tsx
 #: src/modules/dashboard/lists/SupplyAssetsList/SupplyAssetsListMobileItem.tsx
-#: src/modules/markets/MarketAssetsListItem.tsx
+#: src/modules/market/MarketAssetsListItem.tsx
 msgid "Details"
 msgstr "Подробности"
 
@@ -1376,7 +1376,7 @@ msgstr "Управление аналитикой"
 msgid "Market"
 msgstr "Рынок"
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 #: src/ui-config/menu-items/index.tsx
 msgid "Markets"
 msgstr "Рынки"
@@ -1426,7 +1426,7 @@ msgstr "Максимальное количество, доступное для
 msgid "Maximum loan to value"
 msgstr "Максимальное отношение кредита к стоимости кредита"
 
-#: src/modules/markets/Gho/GhoBanner.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
 msgid "Meet GHO"
 msgstr "Знакомьтесь, GHO"
 
@@ -2022,7 +2022,7 @@ msgstr "Поделиться в twitter"
 msgid "Show"
 msgstr "Показывать"
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "Show Frozen or paused assets"
 msgstr "Отображение замороженных или приостановленных ресурсов"
 
@@ -2195,8 +2195,8 @@ msgstr "Снабжение"
 #: src/components/transactions/Supply/SupplyModalContent.tsx
 #: src/modules/dashboard/lists/SuppliedPositionsList/SuppliedPositionsListMobileItem.tsx
 #: src/modules/dashboard/lists/SupplyAssetsList/SupplyAssetsListMobileItem.tsx
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "Supply APY"
 msgstr "Поставка APY"
 
@@ -2428,7 +2428,7 @@ msgstr "Ликвидности недостаточно для того, что�
 msgid "There was some error. Please try changing the parameters or <0><1>copy the error</1></0>"
 msgstr "Произошла какая-то ошибка. Пожалуйста, попробуйте изменить параметры или <0><1>скопируйте ошибку</1></0>"
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "These assets are temporarily frozen or paused by Aave community decisions, meaning that further supply / borrow, or rate swap of these assets are unavailable. Withdrawals and debt repayments are allowed. Follow the <0>Aave governance forum</0> for further updates."
 msgstr "Эти активы временно замораживаются или приостанавливаются по решению сообщества Aave, что означает, что дальнейшее предложение/заимствование или обмен ставок этих активов недоступны. Снятие средств и погашение задолженности разрешено. Следите за дальнейшими обновлениями <0>на форуме управления Aave</0> ."
 
@@ -2553,13 +2553,13 @@ msgstr "Чтобы внести предложение о незначитель
 msgid "Top 10 addresses"
 msgstr "Топ-10 адресов"
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 msgid "Total available"
 msgstr "Всего доступно"
 
-#: src/modules/markets/Gho/GhoBanner.tsx
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 #: src/modules/reserve-overview/BorrowInfo.tsx
 #: src/modules/reserve-overview/BorrowInfo.tsx
 #: src/modules/reserve-overview/Gho/GhoBorrowInfo.tsx
@@ -2568,7 +2568,7 @@ msgstr "Всего доступно"
 msgid "Total borrowed"
 msgstr "Итого заемных средств"
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 msgid "Total borrows"
 msgstr "Итого заемных средств"
 
@@ -2580,12 +2580,12 @@ msgstr "Общий объем выбросов в сутки"
 msgid "Total interest accrued"
 msgstr "Общая сумма начисленных процентов"
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 msgid "Total market size"
 msgstr "Общий объем рынка"
 
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 #: src/modules/reserve-overview/SupplyInfo.tsx
 #: src/modules/reserve-overview/SupplyInfo.tsx
 msgid "Total supplied"
@@ -2780,8 +2780,8 @@ msgstr "Посмотреть все голоса"
 msgid "View contract"
 msgstr "Посмотреть контракт"
 
-#: src/modules/markets/Gho/GhoBanner.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "View details"
 msgstr "Подробнее"
 
@@ -2848,7 +2848,7 @@ msgstr "Кошелек не обнаружен. Подключите или ус
 msgid "Wallets are provided by External Providers and by selecting you agree to Terms of those Providers. Your access to the wallet might be reliant on the External Provider being operational."
 msgstr "Кошельки предоставляются Внешними поставщиками, и, выбирая их, вы соглашаетесь с Условиями этих Провайдеров. Ваш доступ к кошельку может зависеть от работоспособности внешнего провайдера."
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "We couldn't find any assets related to your search. Try again with a different asset name, symbol, or address."
 msgstr "Мы не смогли найти активы, связанные с вашим поиском. Повторите попытку с другим именем, символом или адресом ресурса."
 
@@ -3099,7 +3099,7 @@ msgstr "Твой {networkName} Кошелек пуст. Получить бес�
 msgid "Zero address not valid"
 msgstr "Нулевой адрес недействителен"
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "assets"
 msgstr "авуары"
 

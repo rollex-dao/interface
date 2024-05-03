@@ -40,7 +40,8 @@ export const BasicModal = ({
       data-cy={'Modal'}
     >
       <Paper
-        sx={{
+        sx={({ palette }) => ({
+          boxShadow: palette.background.deepShadow,
           position: 'relative',
           margin: '10px',
           overflowY: 'auto',
@@ -49,7 +50,7 @@ export const BasicModal = ({
           maxHeight: 'calc(100vh - 20px)',
           p: 6,
           borderRadius: '16px',
-        }}
+        })}
       >
         {children}
 

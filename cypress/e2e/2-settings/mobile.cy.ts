@@ -17,7 +17,7 @@ describe('MOBILE RESOLUTION SPEC, AAVE V2 MARKET', () => {
   describe('CASE1:Check mobile menu', () => {
     it('Check content on menu', () => {
       cy.get('#settings-button-mobile').click();
-      checkContent('Markets', '/markets/');
+      checkContent('Markets', '/market/');
       checkContent('Governance', '/governance/');
       checkContent('Stake', '/staking/');
     });

@@ -1,7 +1,7 @@
 import { configEnvWithTenderlyMainnetFork } from '../../support/steps/configuration.steps';
 
 export const verifyElementsOnMarketsPage = (totalBorrows: string, totalMarketSize: string) => {
-  cy.get('a[href*="/markets/"]').click();
+  cy.get('a[href*="/market/"]').click();
   cy.contains(totalBorrows);
   cy.contains(totalMarketSize);
 };

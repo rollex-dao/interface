@@ -34,7 +34,7 @@ export function ProposalsList({ proposals: initialProposals }: GovernancePagePro
     try {
       const count = await governanceContract.getProposalsCount();
       const nextProposals: GovernancePageProps['proposals'] = [];
-      console.log(`fetching ${count - proposals.length} new proposals`);
+
       if (count - proposals.length) {
         for (let i = proposals.length; i < count; i++) {
           const { values, ...rest } = await governanceContract.getProposal({ proposalId: i });
@@ -135,7 +135,12 @@ export function ProposalsList({ proposals: initialProposals }: GovernancePagePro
   };
 
   return (
-    <Paper>
+    <Paper
+      sx={({ palette }) => ({
+        boxShadow: palette.background.deepShadow,
+        borderRadius: '20px',
+      })}
+    >
       <ProposalListHeader
         proposalFilter={proposalFilter}
         handleProposalFilterChange={setProposalFilter}

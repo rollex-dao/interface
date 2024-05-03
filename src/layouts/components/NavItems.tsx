@@ -16,10 +16,10 @@ interface NavItemsProps {
 export const NavItems = ({ setOpen }: NavItemsProps) => {
   const { i18n } = useLingui();
   const { currentMarketData } = useProtocolDataContext();
-
   const { breakpoints } = useTheme();
   const md = useMediaQuery(breakpoints.down('md'));
   const trackEvent = useRootStore((store) => store.trackEvent);
+
   const handleClick = (title: string, isMd: boolean) => {
     if (isMd && setOpen) {
       trackEvent(NAV_BAR.MAIN_MENU, { nav_link: title });
@@ -28,6 +28,7 @@ export const NavItems = ({ setOpen }: NavItemsProps) => {
       trackEvent(NAV_BAR.MAIN_MENU, { nav_link: title });
     }
   };
+
   return (
     <List
       sx={{
@@ -55,7 +56,11 @@ export const NavItems = ({ setOpen }: NavItemsProps) => {
                 href={item.link}
                 variant="h2"
                 color="color.primary"
-                sx={{ width: '100%', p: 4 }}
+                sx={({ palette }) => ({
+                  width: '100%',
+                  p: 4,
+                  color: palette.mode === 'dark' ? 'white' : '#7780A0',
+                })}
                 onClick={() => handleClick(item.title, true)}
               >
                 {i18n._(item.title)}
@@ -65,25 +70,21 @@ export const NavItems = ({ setOpen }: NavItemsProps) => {
                 component={Link}
                 onClick={() => handleClick(item.title, false)}
                 href={item.link}
-                sx={(theme) => ({
-                  color: 'color.primary',
-                  p: '6px 8px',
+                disableRipple
+                sx={({ palette }) => ({
+                  color: palette.mode === 'dark' ? 'white' : '#7780A0',
+                  padding: '12px 14px',
+                  fontSize: '16px',
+                  fontWeight: 500,
+                  borderRadius: '30px',
+                  lineHeight: '16px',
+                  '&:hover': { bgcolor: 'transparent' },
                   position: 'relative',
-                  '.active&:after, &:hover&:after': {
-                    transform: 'scaleX(1)',
-                    transformOrigin: 'bottom left',
-                  },
-                  '&:after': {
-                    content: "''",
-                    position: 'absolute',
+                  '.active&': {
                     width: '100%',
-                    transform: 'scaleX(0)',
-                    height: '2px',
-                    bottom: '-6px',
-                    left: '0',
-                    background: theme.palette.gradients.aaveGradient,
-                    transformOrigin: 'bottom right',
-                    transition: 'transform 0.25s ease-out',
+                    height: '100%',
+                    background: palette.mode === 'dark' ? '#081120' : '#665EE1',
+                    color: 'white',
                   },
                 })}
               >

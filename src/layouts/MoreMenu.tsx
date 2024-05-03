@@ -35,14 +35,16 @@ export function MoreMenu() {
         aria-expanded={open ? 'true' : undefined}
         aria-haspopup="true"
         onClick={handleClick}
-        sx={{
-          color: 'color.primary',
+        disableRipple
+        sx={({ palette }) => ({
+          color: palette.mode === 'dark' ? 'white' : '#7780A0',
           minWidth: 'unset',
           p: '6px 8px',
+          bgcolor: 'transparent',
           '&:hover': {
-            bgcolor: 'rgba(250, 251, 252, 0.08)',
+            bgcolor: 'transparent',
           },
-        }}
+        })}
       >
         <SvgIcon color="inherit" sx={{ ml: 1 }}>
           <DotsHorizontalIcon />
