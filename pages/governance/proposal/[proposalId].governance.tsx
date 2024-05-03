@@ -184,7 +184,16 @@ export default function ProposalPage({
       <ContentContainer>
         <Grid container spacing={4}>
           <Grid item xs={12} md={8}>
-            <Paper sx={{ px: 6, pt: 4, pb: 12 }} data-cy="vote-info-body">
+            <Paper
+              sx={({ palette }) => ({
+                boxShadow: palette.background.deepShadow,
+                borderRadius: '20px',
+                px: 6,
+                pt: 4,
+                pb: 12,
+              })}
+              data-cy="vote-info-body"
+            >
               <Typography variant="h3">
                 <Trans>Proposal overview</Trans>
               </Typography>
@@ -360,8 +369,26 @@ export default function ProposalPage({
             </Paper>
           </Grid>
           <Grid item xs={12} md={4}>
-            <Paper sx={{ px: 6, py: 4, mb: 2.5 }}>{proposal && <VoteInfo {...proposal} />}</Paper>
-            <Paper sx={{ px: 6, py: 4, mb: 2.5 }}>
+            <Paper
+              sx={({ palette }) => ({
+                boxShadow: palette.background.deepShadow,
+                borderRadius: '20px',
+                px: 6,
+                py: 4,
+                mb: 2.5,
+              })}
+            >
+              {proposal && <VoteInfo {...proposal} />}
+            </Paper>
+            <Paper
+              sx={({ palette }) => ({
+                boxShadow: palette.background.deepShadow,
+                borderRadius: '20px',
+                px: 6,
+                py: 4,
+                mb: 2.5,
+              })}
+            >
               <Typography variant="h3">
                 <Trans>Voting results</Trans>
               </Typography>
@@ -501,7 +528,14 @@ export default function ProposalPage({
                 </>
               )}
             </Paper>
-            <Paper sx={{ px: 6, py: 4 }}>
+            <Paper
+              sx={({ palette }) => ({
+                boxShadow: palette.background.deepShadow,
+                borderRadius: '20px',
+                px: 6,
+                py: 4,
+              })}
+            >
               <Typography variant="h3" sx={{ mb: '22px' }}>
                 <Trans>Proposal details</Trans>
               </Typography>

@@ -11,13 +11,13 @@ const switchLanguageStep = (language: string, languageTo: string) => {
 
 const verifyTranslation = (markets: string, More: string) => {
   it(`step2: Verify translation on ${markets} and on ${More}`, () => {
-    cy.get('a[href*="/markets/"]').contains(markets);
+    cy.get('a[href*="/market/"]').contains(markets);
     cy.get('#more-button').contains(More);
   });
 };
 export const verifyTranslationOnMarketsPage = (totalBorrows: string, totalMarketSize: string) => {
   it(`step3:Verify translation on the Markets page on the ${totalBorrows} and on the ${totalMarketSize}`, () => {
-    cy.get('a[href*="/markets/"]').first().click({ multiple: true });
+    cy.get('a[href*="/market/"]').first().click({ multiple: true });
     cy.contains(totalBorrows);
     cy.contains(totalMarketSize);
   });

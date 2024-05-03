@@ -14,7 +14,15 @@ export function VotingPowerInfoPanel() {
   const { currentAccount } = useWeb3Context();
   const { data: powers } = usePowers();
   return (
-    <Paper sx={{ px: 6, pb: 6, pt: 4 }}>
+    <Paper
+      sx={({ palette }) => ({
+        boxShadow: palette.background.deepShadow,
+        borderRadius: '20px',
+        px: 6,
+        pb: 6,
+        pt: 4,
+      })}
+    >
       <Typography
         variant="h3"
         sx={{ height: '36px', display: 'flex', alignItems: 'center', mb: 4 }}
