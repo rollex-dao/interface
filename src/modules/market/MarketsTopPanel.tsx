@@ -1,7 +1,7 @@
 import { valueToBigNumber } from '@aave/math-utils';
 import { Trans } from '@lingui/macro';
 import { useMediaQuery, useTheme } from '@mui/material';
-import { marketContainerProps } from 'pages/markets.page';
+import { marketContainerProps } from 'pages/market.page';
 import * as React from 'react';
 
 import { FormattedNumber } from '../../components/primitives/FormattedNumber';
@@ -34,8 +34,8 @@ export const MarketsTopPanel = () => {
   return (
     <TopInfoPanel
       containerProps={marketContainerProps}
-      pageTitle={<Trans>Markets</Trans>}
-      withMarketSwitcher
+      pageTitle={<Trans>Market</Trans>}
+      withMarketSwitcher={false}
     >
       <TopInfoPanelItem hideIcon title={<Trans>Total market size</Trans>} loading={loading}>
         <FormattedNumber
@@ -44,7 +44,7 @@ export const MarketsTopPanel = () => {
           variant={valueTypographyVariant}
           visibleDecimals={2}
           compact
-          symbolsColor="#A5A8B6"
+          symbolsColor="text.primary"
           symbolsVariant={symbolsVariant}
         />
       </TopInfoPanelItem>
@@ -55,7 +55,7 @@ export const MarketsTopPanel = () => {
           variant={valueTypographyVariant}
           visibleDecimals={2}
           compact
-          symbolsColor="#A5A8B6"
+          symbolsColor="text.primary"
           symbolsVariant={symbolsVariant}
         />
       </TopInfoPanelItem>
@@ -66,7 +66,7 @@ export const MarketsTopPanel = () => {
           variant={valueTypographyVariant}
           visibleDecimals={2}
           compact
-          symbolsColor="#A5A8B6"
+          symbolsColor="text.primary"
           symbolsVariant={symbolsVariant}
         />
       </TopInfoPanelItem>

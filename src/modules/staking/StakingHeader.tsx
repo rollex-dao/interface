@@ -41,7 +41,7 @@ export const StakingHeader: React.FC<StakingHeaderProps> = ({ tvl, stkEmission, 
             </Typography>
           </Box>
 
-          <Typography sx={{ color: '#8E92A3', maxWidth: '824px' }}>
+          <Typography sx={{ color: 'text.primary', maxWidth: '824px' }}>
             <Trans>
               AAVE holders (Ethereum network only) can stake their AAVE in the Safety Module to add
               more security to the protocol and earn Safety Incentives. In the case of a shortfall
@@ -74,7 +74,7 @@ export const StakingHeader: React.FC<StakingHeaderProps> = ({ tvl, stkEmission, 
           symbol="USD"
           variant={valueTypographyVariant}
           symbolsVariant={symbolsTypographyVariant}
-          symbolsColor="#A5A8B6"
+          symbolsColor="text.primary"
           visibleDecimals={2}
         />
       </TopInfoPanelItem>

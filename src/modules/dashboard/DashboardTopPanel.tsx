@@ -110,7 +110,7 @@ export const DashboardTopPanel = () => {
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <PageTitle
               pageTitle={<Trans>Dashboard</Trans>}
-              withMarketSwitcher={true}
+              withMarketSwitcher={false}
               bridge={currentNetworkConfig.bridge}
             />
             {showMigrateButton && !downToSM && (
@@ -135,7 +135,7 @@ export const DashboardTopPanel = () => {
               variant={valueTypographyVariant}
               visibleDecimals={2}
               compact
-              symbolsColor="#A5A8B6"
+              symbolsColor="text.primary"
               symbolsVariant={noDataTypographyVariant}
             />
           ) : (
@@ -164,11 +164,14 @@ export const DashboardTopPanel = () => {
               variant={valueTypographyVariant}
               visibleDecimals={2}
               percent
-              symbolsColor="#A5A8B6"
+              symbolsColor="text.primary"
               symbolsVariant={noDataTypographyVariant}
             />
           ) : (
-            <NoData variant={noDataTypographyVariant} sx={{ opacity: '0.7' }} />
+            <NoData
+              variant={noDataTypographyVariant}
+              sx={{ opacity: '0.7', color: 'text.primary' }}
+            />
           )}
         </TopInfoPanelItem>
 
@@ -218,7 +221,7 @@ export const DashboardTopPanel = () => {
                   visibleDecimals={2}
                   compact
                   symbol="USD"
-                  symbolsColor="#A5A8B6"
+                  symbolsColor="text.primary"
                   symbolsVariant={noDataTypographyVariant}
                   data-cy={'Claim_Value'}
                 />

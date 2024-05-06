@@ -18,7 +18,16 @@ export function MainLayout({ children }: { children: ReactNode }) {
     'Implementation of the approved governance proposal is underway for V2 markets. Your funds are secure.';
 
   return (
-    <>
+    <Box
+      sx={({ palette }) => ({
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh',
+        backgroundPosition: '0 -50vh',
+        backgroundRepeat: 'no-repeat',
+        backgroundImage: `radial-gradient(60% 50% at 50% 45% , #56BED8, ${palette.background.default})`,
+      })}
+    >
       {currentMarket === 'proto_rollux_v3' ? (
         <TopBarNotify
           learnMoreLink="https://governance.aave.com/t/aave-v2-v3-security-incident-04-11-2023/15335"
@@ -27,12 +36,22 @@ export function MainLayout({ children }: { children: ReactNode }) {
       ) : null}
 
       <AppHeader />
-      <Box component="main" sx={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
+
+      <Box
+        component="main"
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          flex: 1,
+          position: 'relative',
+          zIndex: 2,
+        }}
+      >
         {children}
       </Box>
 
       <AppFooter />
       {FORK_ENABLED ? null : <AnalyticsConsent />}
-    </>
+    </Box>
   );
 }

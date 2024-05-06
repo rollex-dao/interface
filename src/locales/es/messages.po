@@ -276,7 +276,7 @@ msgstr "Los parámetros del array que deberían ser iguales en longitud no lo so
 #: src/modules/dashboard/lists/BorrowedPositionsList/BorrowedPositionsList.tsx
 #: src/modules/dashboard/lists/SuppliedPositionsList/SuppliedPositionsList.tsx
 #: src/modules/faucet/FaucetAssetsList.tsx
-#: src/modules/markets/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsList.tsx
 msgid "Asset"
 msgstr "Activo"
 
@@ -462,17 +462,17 @@ msgstr "APY préstamo"
 msgid "Borrow APY rate"
 msgstr "Tasa de interés de préstamo APY"
 
-#: src/modules/markets/Gho/GhoBanner.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
 msgid "Borrow APY, fixed rate"
 msgstr "APY préstamo, interés fijo"
 
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "Borrow APY, stable"
 msgstr "APY préstamo, estable"
 
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "Borrow APY, variable"
 msgstr "APY préstamo, variable"
 
@@ -836,7 +836,7 @@ msgstr "Poder delegado"
 #: src/modules/dashboard/lists/BorrowAssetsList/GhoBorrowAssetsListItem.tsx
 #: src/modules/dashboard/lists/BorrowAssetsList/GhoBorrowAssetsListItem.tsx
 #: src/modules/dashboard/lists/SupplyAssetsList/SupplyAssetsListMobileItem.tsx
-#: src/modules/markets/MarketAssetsListItem.tsx
+#: src/modules/market/MarketAssetsListItem.tsx
 msgid "Details"
 msgstr "Detalles"
 
@@ -1376,7 +1376,7 @@ msgstr "Administrar analíticas"
 msgid "Market"
 msgstr "Mercado"
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 #: src/ui-config/menu-items/index.tsx
 msgid "Markets"
 msgstr "Mercados"
@@ -1426,7 +1426,7 @@ msgstr "La cantidad máxima disponible para suministrar está limitada porque el
 msgid "Maximum loan to value"
 msgstr "Máxima relación préstamo-valor"
 
-#: src/modules/markets/Gho/GhoBanner.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
 msgid "Meet GHO"
 msgstr "Conoce GHO"
 
@@ -2022,7 +2022,7 @@ msgstr "Compartir en twitter"
 msgid "Show"
 msgstr "Mostrar"
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "Show Frozen or paused assets"
 msgstr "Mostrar activos congelados o pausados"
 
@@ -2195,8 +2195,8 @@ msgstr "Suministrar"
 #: src/components/transactions/Supply/SupplyModalContent.tsx
 #: src/modules/dashboard/lists/SuppliedPositionsList/SuppliedPositionsListMobileItem.tsx
 #: src/modules/dashboard/lists/SupplyAssetsList/SupplyAssetsListMobileItem.tsx
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "Supply APY"
 msgstr "Suministrar APY"
 
@@ -2428,7 +2428,7 @@ msgstr "No hay suficiente liquidez para que el activo seleccionado realice el ca
 msgid "There was some error. Please try changing the parameters or <0><1>copy the error</1></0>"
 msgstr "Hubo un error. Por favor intenta cambiar los parámetros o <0><1>copiar el error</1></0>"
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "These assets are temporarily frozen or paused by Aave community decisions, meaning that further supply / borrow, or rate swap of these assets are unavailable. Withdrawals and debt repayments are allowed. Follow the <0>Aave governance forum</0> for further updates."
 msgstr "Estos activos están temporalmente congelados o pausados por decisiones de la comunidad de Aave, lo que significa que no se puede suministrar / tomar prestado o intercambiar tasas de estos activos. Se permiten retiros y pagos de deuda. Sigue el <0>foro de gobierno de Aave</0> para más actualizaciones."
 
@@ -2553,13 +2553,13 @@ msgstr "Para enviar una propuesta de cambios menores al protocolo, necesitarás 
 msgid "Top 10 addresses"
 msgstr "Top 10 direcciones"
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 msgid "Total available"
 msgstr "Total disponible"
 
-#: src/modules/markets/Gho/GhoBanner.tsx
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 #: src/modules/reserve-overview/BorrowInfo.tsx
 #: src/modules/reserve-overview/BorrowInfo.tsx
 #: src/modules/reserve-overview/Gho/GhoBorrowInfo.tsx
@@ -2568,7 +2568,7 @@ msgstr "Total disponible"
 msgid "Total borrowed"
 msgstr "Total tomado prestado"
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 msgid "Total borrows"
 msgstr "Total de préstamos"
 
@@ -2580,12 +2580,12 @@ msgstr "Emisiones totales por día"
 msgid "Total interest accrued"
 msgstr "Interés total acumulado"
 
-#: src/modules/markets/MarketsTopPanel.tsx
+#: src/modules/market/MarketsTopPanel.tsx
 msgid "Total market size"
 msgstr "Tamaño total del mercado"
 
-#: src/modules/markets/MarketAssetsList.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/MarketAssetsList.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 #: src/modules/reserve-overview/SupplyInfo.tsx
 #: src/modules/reserve-overview/SupplyInfo.tsx
 msgid "Total supplied"
@@ -2780,8 +2780,8 @@ msgstr "Ver todos los votos"
 msgid "View contract"
 msgstr "Ver contrato"
 
-#: src/modules/markets/Gho/GhoBanner.tsx
-#: src/modules/markets/MarketAssetsListMobileItem.tsx
+#: src/modules/market/Gho/GhoBanner.tsx
+#: src/modules/market/MarketAssetsListMobileItem.tsx
 msgid "View details"
 msgstr "Ver detalles"
 
@@ -2848,7 +2848,7 @@ msgstr "Cartera no detectada. Conecta o instala la cartera y vuelve a intentarlo
 msgid "Wallets are provided by External Providers and by selecting you agree to Terms of those Providers. Your access to the wallet might be reliant on the External Provider being operational."
 msgstr "Las carteras son proporcionadas por proveedores externos y al seleccionarla, aceptas los términos de dichos proveedores. Tu acceso a la cartera podría depender de que el proveedor externo esté operativo."
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "We couldn't find any assets related to your search. Try again with a different asset name, symbol, or address."
 msgstr "No pudimos encontrar ningún activo relacionado con tu búsqueda. Vuelve a intentarlo con un nombre diferente de activo, símbolo o dirección."
 
@@ -3099,7 +3099,7 @@ msgstr "Tu cartera de {networkName} está vacía. Consigue {0} de prueba gratis 
 msgid "Zero address not valid"
 msgstr "Dirección cero no válida"
 
-#: src/modules/markets/MarketAssetsListContainer.tsx
+#: src/modules/market/MarketAssetsListContainer.tsx
 msgid "assets"
 msgstr "activos"
 

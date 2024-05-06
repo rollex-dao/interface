@@ -1,5 +1,4 @@
 import { DotsHorizontalIcon } from '@heroicons/react/solid';
-import { Trans } from '@lingui/macro';
 import { useLingui } from '@lingui/react';
 import { Button, ListItemIcon, ListItemText, SvgIcon } from '@mui/material';
 import Menu from '@mui/material/Menu';
@@ -36,16 +35,17 @@ export function MoreMenu() {
         aria-expanded={open ? 'true' : undefined}
         aria-haspopup="true"
         onClick={handleClick}
-        sx={{
-          color: '#F1F1F3',
+        disableRipple
+        sx={({ palette }) => ({
+          color: palette.mode === 'dark' ? 'white' : '#7780A0',
           minWidth: 'unset',
           p: '6px 8px',
+          bgcolor: 'transparent',
           '&:hover': {
-            bgcolor: 'rgba(250, 251, 252, 0.08)',
+            bgcolor: 'transparent',
           },
-        }}
+        })}
       >
-        <Trans>More</Trans>
         <SvgIcon color="inherit" sx={{ ml: 1 }}>
           <DotsHorizontalIcon />
         </SvgIcon>

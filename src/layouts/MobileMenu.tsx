@@ -13,7 +13,6 @@ import {
   Typography,
 } from '@mui/material';
 import React, { ReactNode, useEffect, useState } from 'react';
-import { PROD_ENV } from 'src/utils/marketsAndNetworksConfig';
 
 import { Link } from '../components/primitives/Link';
 import { moreNavigation } from '../ui-config/menu-items';
@@ -22,7 +21,6 @@ import { DrawerWrapper } from './components/DrawerWrapper';
 import { LanguageListItem, LanguagesList } from './components/LanguageSwitcher';
 import { MobileCloseButton } from './components/MobileCloseButton';
 import { NavItems } from './components/NavItems';
-import { TestNetModeSwitcher } from './components/TestNetModeSwitcher';
 
 interface MobileMenuProps {
   open: boolean;
@@ -76,7 +74,6 @@ export const MobileMenu = ({ open, setOpen, headerHeight }: MobileMenuProps) => 
             <MenuItemsWrapper title={<Trans>Global settings</Trans>}>
               <List>
                 <DarkModeSwitcher />
-                {PROD_ENV && <TestNetModeSwitcher />}
                 <LanguageListItem onClick={() => setIsLanguagesListOpen(true)} />
               </List>
             </MenuItemsWrapper>

@@ -12,6 +12,8 @@ import { createTheme } from '@mui/material/styles';
 import { ColorPartial } from '@mui/material/styles/createPalette';
 import React from 'react';
 
+import { opacify } from './utils';
+
 const theme = createTheme();
 const {
   typography: { pxToRem },
@@ -181,12 +183,20 @@ export const getDesignTokens = (mode: 'light' | 'dark') => {
         highlight: getColor('#383D51', '#C9B3F9'),
       },
       background: {
-        default: getColor('#F1F1F3', '#1B2030'),
-        paper: getColor('#FFFFFF', '#292E41'),
+        default: getColor('#FFFFFF', '#010101'),
+        paper: getColor('#FFFFFF', '#081120;'),
         surface: getColor('#F7F7F9', '#383D51'),
         surface2: getColor('#F9F9FB', '#383D51'),
-        header: getColor('#2B2D3C', '#1B2030'),
+        header: getColor('#FFFFFF', '#010101'),
         disabled: getColor('#EAEBEF', '#EBEBEF14'),
+        bgGradient: getColor(
+          'radial-gradient(60% 50% at 50% 45%, #68e1ffbe, #e6faff)!important',
+          'radial-gradient(60% 50% at 50% 45% , #56BED8, #010101)'
+        ),
+        deepShadow: `0px 5px 24px ${opacify(24, '#00D9EF')}, 5px 0px 24px ${opacify(
+          24,
+          '#8C15E8'
+        )}`,
       },
       divider: getColor('#EAEBEF', '#EBEBEF14'),
       action: {
@@ -438,7 +448,7 @@ export function getThemedComponents(theme: Theme) {
               borderColor: '#EBEBED1F',
               backgroundColor: '#383D51',
               '&:hover, &.Mui-focusVisible': {
-                backgroundColor: theme.palette.background.header,
+                backgroundColor: '#383D51B8',
               },
             },
           },
@@ -505,6 +515,7 @@ export function getThemedComponents(theme: Theme) {
             style: {
               minWidth: 240,
               marginTop: '4px',
+              borderRadius: '16px',
             },
           },
         },
@@ -566,10 +577,7 @@ export function getThemedComponents(theme: Theme) {
             style: {
               border: `1px solid ${theme.palette.divider}`,
               boxShadow: '0px 0px 2px rgba(0, 0, 0, 0.2), 0px 2px 10px rgba(0, 0, 0, 0.1)',
-              background:
-                theme.palette.mode === 'light'
-                  ? theme.palette.background.paper
-                  : theme.palette.background.surface,
+              background: theme.palette.background.paper,
             },
           },
           {
@@ -633,25 +641,24 @@ export function getThemedComponents(theme: Theme) {
             '&.Mui-checked': {
               transform: 'translateX(14px)',
               '& + .MuiSwitch-track': {
-                backgroundColor: theme.palette.success.main,
                 opacity: 1,
               },
             },
-            '&.Mui-disabled': {
-              opacity: theme.palette.mode === 'dark' ? 0.3 : 0.7,
+            '&.Mui-enabled': {
+              backgroundColor: '#665ee11f',
             },
           },
           thumb: {
-            color: theme.palette.common.white,
-            borderRadius: '6px',
+            color: '#665ee1',
+            borderRadius: '50%',
             width: '16px',
             height: '16px',
             boxShadow: '0px 1px 1px rgba(0, 0, 0, 0.12)',
           },
           track: {
             opacity: 1,
-            backgroundColor: theme.palette.action.active,
-            borderRadius: '8px',
+            borderRadius: '20px',
+            backgroundColor: '#665ee11f',
           },
         },
       },

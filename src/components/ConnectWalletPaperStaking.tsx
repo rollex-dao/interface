@@ -19,7 +19,9 @@ export const ConnectWalletPaperStaking = ({
   return (
     <Paper
       {...rest}
-      sx={{
+      sx={({ palette }) => ({
+        boxShadow: palette.background.deepShadow,
+        borderRadius: '20px',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -27,8 +29,8 @@ export const ConnectWalletPaperStaking = ({
         textAlign: 'center',
         p: 4,
         flex: 1,
-        ...sx,
-      }}
+        ...((sx || {}) as Record<string, unknown>),
+      })}
     >
       <>
         {loading ? (

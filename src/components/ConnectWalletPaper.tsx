@@ -2,8 +2,7 @@ import { Trans } from '@lingui/macro';
 import { CircularProgress, Paper, PaperProps, Typography } from '@mui/material';
 import { ReactNode } from 'react';
 
-import LoveGhost from '/public/loveGhost.svg';
-
+import { PegasysLogo } from './icons/PegasysLogo';
 import { ConnectWalletButton } from './WalletConnection/ConnectWalletButton';
 
 interface ConnectWalletPaperProps extends PaperProps {
@@ -20,7 +19,9 @@ export const ConnectWalletPaper = ({
   return (
     <Paper
       {...rest}
-      sx={{
+      sx={({ palette }) => ({
+        boxShadow: palette.background.deepShadow,
+        borderRadius: '20px',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -28,10 +29,10 @@ export const ConnectWalletPaper = ({
         textAlign: 'center',
         p: 4,
         flex: 1,
-        ...sx,
-      }}
+        ...((sx || {}) as Record<string, unknown>),
+      })}
     >
-      <LoveGhost style={{ marginBottom: '16px' }} />
+      <PegasysLogo height={180} />
       <>
         {loading ? (
           <CircularProgress />
