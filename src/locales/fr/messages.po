@@ -144,8 +144,8 @@ msgid "Pegays per month"
 msgstr "Pegays par mois"
 
 #: src/modules/reserve-overview/Gho/GhoReserveConfiguration.tsx
-msgid "About GHO"
-msgstr "À propos de GHO"
+msgid "About HOE"
+msgstr "À propos de HOE"
 
 #: src/layouts/WalletWidget.tsx
 msgid "Account"
@@ -1094,7 +1094,7 @@ msgid "Funds in the Safety Module"
 msgstr "Fonds dans le Safety Module"
 
 #: src/modules/reserve-overview/Gho/GhoReserveConfiguration.tsx
-msgid "GHO is a native decentralized, collateral-backed digital asset pegged to USD. It is created by users via borrowing against multiple collateral. When user repays their GHO borrow position, the protocol burns that user's GHO. All the interest payments accrued by minters of GHO would be directly transferred to the PegaysDAO treasury."
+msgid "GHO is a native decentralized, collateral-backed digital asset pegged to USD. It is created by users via borrowing against multiple collateral. When user repays their HOE borrow position, the protocol burns that user's GHO. All the interest payments accrued by minters of GHO would be directly transferred to the PegaysDAO treasury."
 msgstr "GHO est un actif numérique natif décentralisé et adossé à des garanties, indexé sur le dollar américain. Il est créé par les utilisateurs en empruntant contre plusieurs garanties. Lorsque l’utilisateur rembourse sa position d’emprunt de HO, le protocole brûle le GHO de cet utilisateur. Tous les paiements d’intérêts accumulés par les minters de GHO seraient directement transférés à la trésorerie d’PegaysDAO."
 
 #: src/modules/staking/GetABPToken.tsx

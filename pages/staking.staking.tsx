@@ -122,7 +122,7 @@ export default function Staking() {
               >
                 <StyledToggleButton value="aave" disabled={mode === 'aave'}>
                   <Typography variant="subheader1">
-                    <Trans>Stake AAVE</Trans>
+                    <Trans>Stake PSYS</Trans>
                   </Typography>
                 </StyledToggleButton>
                 <StyledToggleButton value="bpt" disabled={mode === 'bpt'}>

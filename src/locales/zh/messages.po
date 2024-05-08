@@ -144,8 +144,8 @@ msgid "Pegasys per month"
 msgstr "Pegasys 每月"
 
 #: src/modules/reserve-overview/Gho/GhoReserveConfiguration.tsx
-msgid "About GHO"
-msgstr "关于GHO"
+msgid "About HOE"
+msgstr "关于HOE"
 
 #: src/layouts/WalletWidget.tsx
 msgid "Account"
@@ -1094,7 +1094,7 @@ msgid "Funds in the Safety Module"
 msgstr "安全模块中的资金"
 
 #: src/modules/reserve-overview/Gho/GhoReserveConfiguration.tsx
-msgid "GHO is a native decentralized, collateral-backed digital asset pegged to USD. It is created by users via borrowing against multiple collateral. When user repays their GHO borrow position, the protocol burns that user's GHO. All the interest payments accrued by minters of GHO would be directly transferred to the PegasysDAO treasury."
+msgid "GHO is a native decentralized, collateral-backed digital asset pegged to USD. It is created by users via borrowing against multiple collateral. When user repays their HOE borrow position, the protocol burns that user's GHO. All the interest payments accrued by minters of GHO would be directly transferred to the PegasysDAO treasury."
 msgstr "GHO 是一种与美元挂钩的原生去中心化、抵押品支持的数字资产。它是由用户通过借入多个抵押品创建的。当用户偿还其 GHO 借入头寸时，协议会销毁该用户的 GHO。GHO 的铸币者产生的所有利息支付将直接转入 PegasysDAO 金库。"
 
 #: src/modules/staking/GetABPToken.tsx
@@ -2332,8 +2332,8 @@ msgid "The % of your total borrowing power used. This is based on the amount of 
 msgstr "已使用总借贷能力的百分比。这是基于您提供的抵押品金额和您可以借入的总金额。"
 
 #: src/modules/staking/GetABPTokenModal.tsx
-msgid "The Pegasys Balancer Pool Token (ABPT) is a liquidity pool token. You can receive ABPT by depositing a combination of PSYS + ETH in the Balancer liquidity pool. You can then stake your BPT in the Safety Module to secure the protocol and earn Safety Incentives."
-msgstr "Pegasys Balancer Pool Token （ABPT） 是一种流动性池代币。您可以通过在 Balancer 流动性池中存入 PSYS + ETH 的组合来获得 ABPT。然后，您可以将 BPT 质押在安全模块中，以保护协议并获得安全奖励。"
+msgid "The Pegasys Balancer Pool Token (ABPT) is a liquidity pool token. You can receive ABPT by depositing a combination of PSYS + SYS in the Balancer liquidity pool. You can then stake your BPT in the Safety Module to secure the protocol and earn Safety Incentives."
+msgstr "Pegasys Balancer Pool Token （ABPT） 是一种流动性池代币。您可以通过在 Balancer 流动性池中存入 PSYS + SYS 的组合来获得 ABPT。然后，您可以将 BPT 质押在安全模块中，以保护协议并获得安全奖励。"
 
 #: src/modules/reserve-overview/Gho/GhoReserveTopDetails.tsx
 msgid "The Pegasys Protocol is programmed to always use the price of 1 GHO = $1. This is different from using market pricing via oracles for other crypto assets. This creates stabilizing arbitrage opportunities when the price of GHO fluctuates."
