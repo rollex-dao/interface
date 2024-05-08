@@ -143,21 +143,21 @@ export default function Staking() {
                 }}
               >
                 <StakingPanel
-                  stakeTitle="AAVE"
-                  stakedToken="AAVE"
+                  stakeTitle="PSYS"
+                  stakedToken="PSYS"
                   maxSlash="0.3"
-                  icon="aave"
+                  icon="psys"
                   stakeData={stakeGeneralResult?.aave}
                   stakeUserData={stakeUserResult?.aave}
                   ethPriceUsd={stakeGeneralResult?.ethPriceUsd}
-                  onStakeAction={() => openStake('aave', 'AAVE')}
-                  onCooldownAction={() => openStakeCooldown('aave')}
-                  onUnstakeAction={() => openUnstake('aave', 'AAVE')}
-                  onStakeRewardClaimAction={() => openStakeRewardsClaim('aave', 'AAVE')}
+                  onStakeAction={() => openStake('psys', 'PSYS')}
+                  onCooldownAction={() => openStakeCooldown('psys')}
+                  onUnstakeAction={() => openUnstake('psys', 'PSYS')}
+                  onStakeRewardClaimAction={() => openStakeRewardsClaim('psys', 'PSYS')}
                   onStakeRewardClaimRestakeAction={() =>
-                    openStakeRewardsRestakeClaim('aave', 'AAVE')
+                    openStakeRewardsRestakeClaim('psys', 'PSYS')
                   }
-                  headerAction={<BuyWithFiat cryptoSymbol="AAVE" networkMarketName={network} />}
+                  headerAction={<BuyWithFiat cryptoSymbol="PSYS" networkMarketName={network} />}
                   hasDiscountProgram={true}
                 />
               </Grid>

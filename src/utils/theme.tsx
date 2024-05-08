@@ -185,7 +185,7 @@ export const getDesignTokens = (mode: 'light' | 'dark') => {
       },
       background: {
         default: getColor('#FFFFFF', '#010101'),
-        paper: getColor('#FFFFFF', '#081120;'),
+        paper: getColor('#FFFFFF', '#081120'),
         surface: getColor('#F7F7F9', '#383D51'),
         surface2: getColor('#F9F9FB', '#383D51'),
         header: getColor('#FFFFFF', '#010101'),

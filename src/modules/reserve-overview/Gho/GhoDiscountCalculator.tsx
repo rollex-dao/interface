@@ -130,7 +130,7 @@ export const GhoDiscountCalculator = () => {
     if (!stkAave)
       alertText = (
         <Typography variant="caption" component="p" color="warning.dark">
-          <Trans>Add stkAAVE to see borrow APY with the discount</Trans>
+          <Trans>Add stkPSYS to see borrow APY with the discount</Trans>
         </Typography>
       );
 
@@ -157,7 +157,7 @@ export const GhoDiscountCalculator = () => {
                 <SvgIcon sx={{ fontSize: '14px', verticalAlign: 'middle', marginBottom: '3px' }}>
                   <AddIcon />
                 </SvgIcon>
-                <Trans>Add stkAAVE</Trans>
+                <Trans>Add stkPSYS</Trans>
               </Typography>{' '}
               <Trans>to see borrow rate with discount</Trans>
             </Trans>

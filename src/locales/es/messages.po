@@ -52,10 +52,6 @@ msgstr "<0>Atención:</0> Los cambios de parámetros a través de la gobernanza 
 msgid "<0>Slippage tolerance </0><1>{selectedSlippage}% </1><2>{0}</2>"
 msgstr "<0>Tolerancia de deslizamiento </0><1>{selectedSlippage}% </1><2>{0}</2>"
 
-#: src/modules/staking/StakingHeader.tsx
-msgid "AAVE holders (Ethereum network only) can stake their AAVE in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
-msgstr "Los poseedores de AAVE (solo en la red de Ethereum) pueden stakear sus AAVE en el Módulo de Seguridad para añadir más seguridad al protocolo y ganar Incentivos de Seguridad. En el caso de un evento de déficit, se puede recortar hasta el 30% de tu stakeo para cubrir el déficit, proporcionando una capa adicional de protección al protocolo."
-
 #: src/components/incentives/IncentivesTooltipContent.tsx
 #: src/components/incentives/IncentivesTooltipContent.tsx
 msgid "APR"
@@ -146,10 +142,6 @@ msgstr "Aave por mes"
 #: src/modules/reserve-overview/Gho/GhoReserveConfiguration.tsx
 msgid "About GHO"
 msgstr "Sobre GHO"
-
-#: src/layouts/WalletWidget.tsx
-msgid "Account"
-msgstr "Cuenta"
 
 #: src/ui-config/errorMapping.tsx
 msgid "Action cannot be performed because the reserve is frozen"
@@ -651,7 +643,7 @@ msgid "Claim {symbol}"
 msgstr "Reclamar {symbol}"
 
 #: src/modules/staking/StakingPanel.tsx
-msgid "Claimable AAVE"
+msgid "Claimable PSYS"
 msgstr "AAVE Reclamable"
 
 #: src/components/transactions/ClaimRewards/ClaimRewardsModalContent.tsx
@@ -853,10 +845,6 @@ msgstr "Diferencial"
 #: src/modules/dashboard/DashboardEModeButton.tsx
 msgid "Disable E-Mode"
 msgstr "Desactivar el E-Mode"
-
-#: src/layouts/AppHeader.tsx
-msgid "Disable testnet"
-msgstr "Deshabilitar testnet"
 
 #: src/components/transactions/CollateralChange/CollateralChangeActions.tsx
 msgid "Disable {symbol} as collateral"
@@ -1156,7 +1144,7 @@ msgid "Hide"
 msgstr "Ocultar"
 
 #: src/modules/staking/GhoDiscountProgram.tsx
-msgid "Holders of stkAAVE receive a discount on the GHO borrowing rate"
+msgid "Holders of stkPSYS receive a discount on the HOE borrowing rate"
 msgstr "Los poseedores de stkAAVE reciben un descuento en la tasa de préstamo de GHO"
 
 #: src/components/transactions/Borrow/BorrowAmountWarning.tsx
@@ -1372,14 +1360,11 @@ msgstr "MAX"
 msgid "Manage analytics"
 msgstr "Administrar analíticas"
 
+#: src/modules/market/MarketsTopPanel.tsx
 #: src/modules/reserve-overview/ReserveTopDetailsWrapper.tsx
+#: src/ui-config/menu-items/index.tsx
 msgid "Market"
 msgstr "Mercado"
-
-#: src/modules/market/MarketsTopPanel.tsx
-#: src/ui-config/menu-items/index.tsx
-msgid "Markets"
-msgstr "Mercados"
 
 #: src/components/transactions/AssetInput.tsx
 msgid "Max"
@@ -1482,10 +1467,6 @@ msgstr "Cantidad mínima de Aave stakeado"
 #: src/components/transactions/Switch/SwitchModalContent.tsx
 msgid "Minimum {0} received"
 msgstr "Mínimo {0} recibido"
-
-#: src/layouts/MoreMenu.tsx
-msgid "More"
-msgstr "Más"
 
 #: src/modules/governance/VoteBar.tsx
 msgid "NAY"
@@ -1619,6 +1600,10 @@ msgstr "Precio del oráculo"
 #: pages/reserve-overview.page.tsx
 msgid "Overview"
 msgstr "Resumen"
+
+#: src/modules/staking/StakingHeader.tsx
+msgid "PSYS holders (Rollux network only) can stake their PSYS in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
+msgstr "Los poseedores de AAVE (solo en la red de Ethereum) pueden stakear sus AAVE en el Módulo de Seguridad para añadir más seguridad al protocolo y ganar Incentivos de Seguridad. En el caso de un evento de déficit, se puede recortar hasta el 30% de tu stakeo para cubrir el déficit, proporcionando una capa adicional de protección al protocolo."
 
 #: pages/404.page.tsx
 msgid "Page not found"
@@ -2319,10 +2304,6 @@ msgstr "Activos de prueba"
 msgid "Testnet mode"
 msgstr "Testnet mode"
 
-#: src/layouts/AppHeader.tsx
-msgid "Testnet mode is ON"
-msgstr "Testnet mode está ON"
-
 #: src/components/transactions/GovVote/GovVoteModalContent.tsx
 msgid "Thank you for voting!!"
 msgstr "¡Gracias por votar!"
@@ -2351,10 +2332,6 @@ msgstr "La tasa estable no está habilitada para este activo"
 #: src/ui-config/errorMapping.tsx
 msgid "The address of the pool addresses provider is invalid"
 msgstr "La dirección del proveedor del grupo de direcciones no es válida"
-
-#: src/layouts/AppHeader.tsx
-msgid "The app is running in testnet mode. Learn how it works in"
-msgstr "La aplicación se está ejecutando en testnet mode. Aprende como funciona en"
 
 #: src/ui-config/errorMapping.tsx
 msgid "The caller of the function is not an AToken"
@@ -3268,4 +3245,3 @@ msgstr "{title}"
 #: src/components/CircleIcon.tsx
 msgid "{tooltipText}"
 msgstr "{tooltipText}"
-
