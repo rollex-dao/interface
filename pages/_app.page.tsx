@@ -123,9 +123,9 @@ export default function MyApp(props: MyAppProps) {
       <Meta
         title={'Open Source Liquidity Protocol'}
         description={
-          'Aave is an Open Source Protocol to create Non-Custodial Liquidity Markets to earn interest on supplying and borrowing assets with a variable or stable interest rate. The protocol is designed for easy integration into your products and services.'
+          'Pegasys is an Open Source Protocol to create Non-Custodial Liquidity Markets to earn interest on supplying and borrowing assets with a variable or stable interest rate. The protocol is designed for easy integration into your products and services.'
         }
-        imageUrl="https://app.aave.com/aaveMetaLogo-min.jpg"
+        imageUrl="https://info.pegasys.fi/static/media/pegasys.c6d706db.png"
       />
       <LanguageProvider>
         <QueryClientProvider client={queryClient}>
