@@ -12,7 +12,7 @@ export function MainLayout({ children }: { children: ReactNode }) {
   const { currentMarket } = useProtocolDataContext();
 
   const notifyText =
-    'An issue in a certain feature of the Aave Protocol was identified. Some markets or assets are temporarily paused. No funds are at risk.';
+    'An issue in a certain feature of the Pegasys Protocol was identified. Some markets or assets are temporarily paused. No funds are at risk.';
 
   const unPauseText =
     'Implementation of the approved governance proposal is underway for V2 markets. Your funds are secure.';
