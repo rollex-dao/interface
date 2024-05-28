@@ -50,13 +50,13 @@ export const GhoDiscountProgram = () => {
       >
         <Box
           component="img"
-          src="/illustration_token.png"
+          src="/pegasys.svg"
           sx={{
             position: 'absolute',
-            left: -40,
-            top: -33,
-            width: 250,
-            height: 250,
+            left: 10,
+            // top: -33,
+            width: 150,
+            height: 150,
             overflow: 'hidden',
             display: {
               xs: 'none',
@@ -64,9 +64,9 @@ export const GhoDiscountProgram = () => {
             },
             transform: 'matrix(1, -0.14, 0.14, 1, 0, 0)',
           }}
-          width={220}
-          height={220}
-          alt="gho coin"
+          width={150}
+          height={150}
+          alt="psys coin"
         />
         <Box display="flex" flexDirection="column" alignItems={['flex-start', 'center']} gap={3}>
           <Typography
@@ -98,11 +98,11 @@ export const GhoDiscountProgram = () => {
         </Box>
         <Box
           component="img"
-          src="/illustration_friendly_ghost.png"
+          src="/illustration_token.png"
           sx={{
             position: 'absolute',
-            right: [-200, -190],
-            bottom: [-265, -270],
+            right: [-200, -180],
+            bottom: [-265, -250],
             overflow: 'hidden',
             transform: 'scaleY(0.5) scaleX(0.5)',
           }}
