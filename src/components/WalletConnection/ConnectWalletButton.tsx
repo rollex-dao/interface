@@ -29,9 +29,10 @@ export const ConnectWalletButton: React.FC<ConnectWalletProps> = ({ funnel }) =>
             palette.mode === 'dark'
               ? 'linear-gradient(90deg, rgb(83, 217, 217) 9.38%, rgba(0, 184, 255, 0.1) 128.42%)'
               : 'linear-gradient(90deg, rgb(102, 94, 225) 9.38%, rgba(0, 184, 255, 0.3) 128.42%)',
+          color: 'white',
         }}
       >
-        <Trans>Connect wallettt</Trans>
+        <Trans>Connect wallet</Trans>
       </Button>
       <WalletModal />
     </>
