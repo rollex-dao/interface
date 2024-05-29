@@ -44,7 +44,7 @@ export const GhoDiscountProgram = () => {
             xs: 120,
             xsm: 104,
           },
-          backgroundColor: '#9C93B338',
+          backgroundColor: '#0a1426',
           position: 'relative',
         }}
       >
@@ -98,15 +98,16 @@ export const GhoDiscountProgram = () => {
         </Box>
         <Box
           component="img"
-          src="/illustration_token.png"
+          src="/purple-pegasys.svg"
           sx={{
             position: 'absolute',
-            right: [-200, -180],
-            bottom: [-265, -250],
+            right: [-10, -35],
+            bottom: [-55, -130],
             overflow: 'hidden',
             transform: 'scaleY(0.5) scaleX(0.5)',
           }}
           alt="gho ghost"
+          width={250}
         />
       </Box>
     </Box>
