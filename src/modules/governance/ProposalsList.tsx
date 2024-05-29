@@ -1,5 +1,5 @@
 import { AaveGovernanceV2 } from '@bgd-labs/aave-address-book';
-import { LinearProgress, Paper } from '@mui/material';
+import { LinearProgress, Paper, useTheme } from '@mui/material';
 import Fuse from 'fuse.js';
 import { GovernancePageProps } from 'pages/governance/index.governance';
 import { useMemo, useRef, useState } from 'react';
@@ -29,6 +29,8 @@ export function ProposalsList({ proposals: initialProposals }: GovernancePagePro
       threshold: 0.3,
     })
   );
+
+  const { palette } = useTheme();
 
   async function fetchNewProposals() {
     try {
@@ -145,7 +147,16 @@ export function ProposalsList({ proposals: initialProposals }: GovernancePagePro
         handleProposalFilterChange={setProposalFilter}
         handleSearchQueryChange={onSearchTermChange}
       />
-      {(loadingNewProposals || updatingPendingProposals) && <LinearProgress />}
+      {(loadingNewProposals || updatingPendingProposals) && (
+        <LinearProgress
+          sx={{
+            background:
+              palette.mode === 'dark'
+                ? 'linear-gradient(90deg, rgb(83, 217, 217) 9.38%, rgba(0, 184, 255, 0.1) 128.42%)'
+                : 'linear-gradient(90deg, rgb(102, 94, 225) 9.38%, rgba(0, 184, 255, 0.3) 128.42%)',
+          }}
+        />
+      )}
       {loadedProposals.length ? (
         <InfiniteScroll
           pageStart={1}
