@@ -302,6 +302,13 @@ export default function WalletWidget({ open, setOpen, headerHeight }: WalletWidg
                 : 'linear-gradient(90deg, rgb(102, 94, 225) 9.38%, rgba(0, 184, 255, 0.3) 128.42%)',
             borderRadius: '20px',
             border: 'none',
+            '&:hover': {
+              background:
+                palette.mode === 'dark'
+                  ? 'linear-gradient(90deg, rgb(83, 217, 217) 9.38%, rgba(0, 184, 255, 0.1) 128.42%)'
+                  : 'linear-gradient(90deg, rgb(102, 94, 225) 9.38%, rgba(0, 184, 255, 0.3) 128.42%)',
+              cursor: 'pointer',
+            },
           })}
           endIcon={
             connected &&
