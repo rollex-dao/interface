@@ -151,13 +151,12 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
 
   return (
     <Paper
-      sx={({ palette }) => ({
+      sx={{
         p: { xs: 4, xsm: 6 },
         pt: 4,
         height: '100%',
         borderRadius: '20px',
-        boxShadow: palette.background.deepShadow,
-      })}
+      }}
     >
       <Box
         sx={{

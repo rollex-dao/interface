@@ -15,13 +15,12 @@ export function VotingPowerInfoPanel() {
   const { data: powers } = usePowers();
   return (
     <Paper
-      sx={({ palette }) => ({
-        boxShadow: palette.background.deepShadow,
+      sx={{
         borderRadius: '20px',
         px: 6,
         pb: 6,
         pt: 4,
-      })}
+      }}
     >
       <Typography
         variant="h3"

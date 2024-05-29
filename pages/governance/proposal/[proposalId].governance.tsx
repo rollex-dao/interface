@@ -185,13 +185,12 @@ export default function ProposalPage({
         <Grid container spacing={4}>
           <Grid item xs={12} md={8}>
             <Paper
-              sx={({ palette }) => ({
-                boxShadow: palette.background.deepShadow,
+              sx={{
                 borderRadius: '20px',
                 px: 6,
                 pt: 4,
                 pb: 12,
-              })}
+              }}
               data-cy="vote-info-body"
             >
               <Typography variant="h3">
@@ -370,24 +369,22 @@ export default function ProposalPage({
           </Grid>
           <Grid item xs={12} md={4}>
             <Paper
-              sx={({ palette }) => ({
-                boxShadow: palette.background.deepShadow,
+              sx={{
                 borderRadius: '20px',
                 px: 6,
                 py: 4,
                 mb: 2.5,
-              })}
+              }}
             >
               {proposal && <VoteInfo {...proposal} />}
             </Paper>
             <Paper
-              sx={({ palette }) => ({
-                boxShadow: palette.background.deepShadow,
+              sx={{
                 borderRadius: '20px',
                 px: 6,
                 py: 4,
                 mb: 2.5,
-              })}
+              }}
             >
               <Typography variant="h3">
                 <Trans>Voting results</Trans>
@@ -529,12 +526,11 @@ export default function ProposalPage({
               )}
             </Paper>
             <Paper
-              sx={({ palette }) => ({
-                boxShadow: palette.background.deepShadow,
+              sx={{
                 borderRadius: '20px',
                 px: 6,
                 py: 4,
-              })}
+              }}
             >
               <Typography variant="h3" sx={{ mb: '22px' }}>
                 <Trans>Proposal details</Trans>

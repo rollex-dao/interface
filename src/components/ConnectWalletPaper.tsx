@@ -19,8 +19,7 @@ export const ConnectWalletPaper = ({
   return (
     <Paper
       {...rest}
-      sx={({ palette }) => ({
-        boxShadow: palette.background.deepShadow,
+      sx={{
         borderRadius: '20px',
         display: 'flex',
         flexDirection: 'column',
@@ -30,7 +29,7 @@ export const ConnectWalletPaper = ({
         p: 4,
         flex: 1,
         ...((sx || {}) as Record<string, unknown>),
-      })}
+      }}
     >
       <PegasysLogo height={180} />
       <>

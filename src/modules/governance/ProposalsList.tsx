@@ -136,10 +136,9 @@ export function ProposalsList({ proposals: initialProposals }: GovernancePagePro
 
   return (
     <Paper
-      sx={({ palette }) => ({
-        boxShadow: palette.background.deepShadow,
+      sx={{
         borderRadius: '20px',
-      })}
+      }}
     >
       <ProposalListHeader
         proposalFilter={proposalFilter}

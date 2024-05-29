@@ -88,11 +88,10 @@ export const ListWrapper = ({
 
   return (
     <Paper
-      sx={({ palette }) => ({
+      sx={{
         mt: withTopMargin ? 4 : 0,
         borderRadius: '20px',
-        boxShadow: palette.background.deepShadow,
-      })}
+      }}
     >
       <Box
         sx={{
