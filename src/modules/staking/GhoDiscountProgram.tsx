@@ -111,7 +111,7 @@ export const GhoDiscountProgram = () => {
             right: [-10, -35],
             bottom: [-55, -130],
             overflow: 'hidden',
-            transform: 'scaleY(0.5) scaleX(0.5)',
+            transform: 'scaleX(-1) scale(0.5)',
           }}
           alt="gho ghost"
           width={250}
