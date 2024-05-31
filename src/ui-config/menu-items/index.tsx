@@ -66,7 +66,7 @@ const moreMenuItems: MoreMenuItem[] = [
     icon: <BookOpenIcon />,
   },
   {
-    link: 'https://docs.aave.com/portal/',
+    link: 'https://app.pegasys.fi/#/swap',
     title: t`Go to V3`,
     icon: (
       <svg
