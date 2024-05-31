@@ -116,24 +116,36 @@ export const SupplyAssetsListItem = ({
       <ListButtonsColumn>
         <Button
           disabled={disableSupply}
-          variant="contained"
+          // variant="contained"
           onClick={() => {
             openSupply(underlyingAsset, currentMarket, name, 'dashboard');
+          }}
+          sx={{
+            borderRadius: '20px',
+            background: '#1d2e49',
+            '&:hover': {
+              background: '#0c172b',
+            },
           }}
         >
           <Trans>Supply</Trans>
         </Button>
         <Button
           id="supply-extra-button"
-          sx={{
-            minWidth: 0,
-            px: 4,
-          }}
           variant="outlined"
           onClick={handleClick}
           aria-controls={open ? 'basic-menu' : undefined}
           aria-haspopup="true"
           aria-expanded={open ? 'true' : undefined}
+          sx={{
+            minWidth: 0,
+            px: 4,
+            borderRadius: '20px',
+            background: '#1d2e49',
+            '&:hover': {
+              background: '#0c172b',
+            },
+          }}
         >
           <Trans>...</Trans>
         </Button>
