@@ -125,7 +125,7 @@ export const MarketAssetsListItem = ({ ...reserve }: ComputedReserveData) => {
 
       <ListColumn minWidth={95} maxWidth={95} align="right">
         <Button
-          variant="outlined"
+          // variant="outlined"
           component={Link}
           href={ROUTES.reserveOverview(reserve.underlyingAsset, currentMarket)}
           onClick={() =>
@@ -136,6 +136,13 @@ export const MarketAssetsListItem = ({ ...reserve }: ComputedReserveData) => {
               market: currentMarket,
             })
           }
+          sx={{
+            borderRadius: '20px',
+            background: '#1d2e49',
+            '&:hover': {
+              background: '#0c172b',
+            },
+          }}
         >
           <Trans>Details</Trans>
         </Button>
