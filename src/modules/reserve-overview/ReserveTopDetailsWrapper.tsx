@@ -106,7 +106,11 @@ export const ReserveTopDetailsWrapper = ({ underlyingAsset }: ReserveTopDetailsP
               sx={{
                 mr: 3,
                 mb: downToSM ? '24px' : '0',
-                '&:hover': { bgcolor: '#383D5180' },
+                borderRadius: '20px',
+                background: '#1d2e49',
+                '&:hover': {
+                  background: '#0c172b',
+                },
               }}
             >
               <Trans>Go Back</Trans>
@@ -117,7 +121,7 @@ export const ReserveTopDetailsWrapper = ({ underlyingAsset }: ReserveTopDetailsP
               <Typography variant="subheader1" sx={{ color: 'common.white' }}>
                 {market.marketTitle} <Trans>Market</Trans>
               </Typography>
-              {market.v3 && (
+              {/* {market.v3 && (
                 <Box
                   sx={{
                     color: '#fff',
@@ -132,7 +136,7 @@ export const ReserveTopDetailsWrapper = ({ underlyingAsset }: ReserveTopDetailsP
                 >
                   <Typography variant="subheader2">Version 3</Typography>
                 </Box>
-              )}
+              )} */}
             </Box>
           </Box>
 
