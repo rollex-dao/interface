@@ -275,8 +275,16 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
 
         {/**Stake action */}
         <Button
-          variant="contained"
-          sx={{ minWidth: '96px', mb: { xs: 6, xsm: 0 } }}
+          // variant="contained"
+          sx={{
+            minWidth: '96px',
+            mb: { xs: 6, xsm: 0 },
+            borderRadius: '20px',
+            background: '#1d2e49',
+            '&:hover': {
+              background: '#0c172b',
+            },
+          }}
           onClick={onStakeAction}
           disabled={+availableToStake === 0}
           fullWidth={!xsm}
@@ -473,11 +481,18 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
 
           {!isCooldownActive && (
             <Button
-              variant="outlined"
+              // variant="outlined"
               fullWidth
               onClick={onCooldownAction}
               disabled={stakeUserData?.stakeTokenRedeemableAmount === '0'}
               data-cy={`coolDownBtn_${stakedToken}`}
+              sx={{
+                borderRadius: '20px',
+                background: '#1d2e49',
+                '&:hover': {
+                  background: '#0c172b',
+                },
+              }}
             >
               <Trans>Cooldown to unstake</Trans>
             </Button>
@@ -507,7 +522,7 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
             }}
           >
             <Button
-              variant="contained"
+              // variant="contained"
               onClick={onStakeRewardClaimAction}
               disabled={stakeUserData?.userIncentivesToClaim === '0'}
               data-cy={`claimBtn_${stakedToken}`}
@@ -515,6 +530,11 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
                 flex: 1,
                 mb: { xs: 2, sm: 0 },
                 mr: { xs: 0, sm: 1 },
+                borderRadius: '20px',
+                background: '#1d2e49',
+                '&:hover': {
+                  background: '#0c172b',
+                },
               }}
             >
               <Trans>Claim</Trans>

@@ -82,14 +82,21 @@ export const GhoDiscountProgram = () => {
             )}
           </Typography>
           <Button
-            variant="contained"
+            // variant="contained"
             component={Link}
             href={ROUTES.reserveOverview(ghoTokenAddress, currentMarket)}
             size={downToXsm ? 'medium' : 'small'}
             sx={{
               alignItems: 'center',
+              justifyContent: 'center',
               display: 'flex',
               gap: [2, 1],
+              borderRadius: '20px',
+              padding: '3px',
+              background: '#1d2e49',
+              '&:hover': {
+                background: '#0c172b',
+              },
             }}
           >
             <Trans>{downToXsm ? 'View details' : 'VIEW DETAILS'}</Trans>
