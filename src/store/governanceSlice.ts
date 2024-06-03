@@ -65,8 +65,8 @@ export const createGovernanceSlice: StateCreator<
     },
     submitVote: (args) => {
       const governanceService = new AaveGovernanceService(getCorrectProvider(), {
-        GOVERNANCE_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2,
-        GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2_HELPER,
+        GOVERNANCE_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2,
+        GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2_HELPER,
         ipfsGateway: governanceConfig.ipfsGateway,
       });
       return governanceService.submitVote(args);
@@ -78,16 +78,16 @@ export const createGovernanceSlice: StateCreator<
     },
     delegateTokensBySig: async (args) => {
       const governanceService = new AaveGovernanceService(getCorrectProvider(), {
-        GOVERNANCE_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2,
-        GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2_HELPER,
+        GOVERNANCE_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2,
+        GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2_HELPER,
         ipfsGateway: governanceConfig.ipfsGateway,
       });
       return governanceService.delegateTokensBySig(args);
     },
     delegateTokensByTypeBySig: async (args) => {
       const governanceService = new AaveGovernanceService(getCorrectProvider(), {
-        GOVERNANCE_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2,
-        GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2_HELPER,
+        GOVERNANCE_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2,
+        GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2_HELPER,
         ipfsGateway: governanceConfig.ipfsGateway,
       });
       return governanceService.delegateTokensByTypeBySig(args);

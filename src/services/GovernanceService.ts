@@ -38,8 +38,8 @@ export class GovernanceService implements Hashable {
 
   constructor(provider: Provider, public readonly chainId: number) {
     this.governanceService = new AaveGovernanceService(provider, {
-      GOVERNANCE_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2,
-      GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2_HELPER,
+      GOVERNANCE_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2,
+      GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2_HELPER,
       ipfsGateway: governanceConfig.ipfsGateway,
     });
   }

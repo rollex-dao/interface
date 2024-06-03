@@ -64859,10 +64859,10 @@ var governanceConfig = {
   walletBalanceProvider: "0x7cC050298928bab7287517d5185e1AFFa240852F",
   governanceSnapshotLink: "https://snapshot.org/#/aave.eth",
   addresses: {
-    AAVE_GOVERNANCE_V2: "0x4894A8900D0fDB4DAAFA80383F212f03E1d0f351",
-    AAVE_GOVERNANCE_V2_EXECUTOR_SHORT: "0xEC2d95Fa98F69401648484A6584AeE6de586b65c",
-    AAVE_GOVERNANCE_V2_EXECUTOR_LONG: "0xEC2d95Fa98F69401648484A6584AeE6de586b65c",
-    AAVE_GOVERNANCE_V2_HELPER: "0x7AbaCB2043CCE3E6f4eC3cE13c27b83b25EB3702"
+    PEGASYS_GOVERNANCE_V2: "0x4894A8900D0fDB4DAAFA80383F212f03E1d0f351",
+    PEGASYS_GOVERNANCE_V2_EXECUTOR_SHORT: "0xEC2d95Fa98F69401648484A6584AeE6de586b65c",
+    PEGASYS_GOVERNANCE_V2_EXECUTOR_LONG: "0xEC2d95Fa98F69401648484A6584AeE6de586b65c",
+    PEGASYS_GOVERNANCE_V2_HELPER: "0x7AbaCB2043CCE3E6f4eC3cE13c27b83b25EB3702"
   },
   ipfsGateway: "https://cloudflare-ipfs.com/ipfs",
   fallbackIpfsGateway: "https://ipfs.io/ipfs"
@@ -65828,8 +65828,8 @@ var getProvider = (chainId) => {
 
 // src/modules/governance/utils/governanceProvider.tsx
 var governanceContract = new import_contract_helpers2.AaveGovernanceService(getProvider(governanceConfig.chainId), {
-  GOVERNANCE_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2,
-  GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2_HELPER
+  GOVERNANCE_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2,
+  GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2_HELPER
 });
 
 // src/static-build/ipfs.ts
@@ -67703,10 +67703,10 @@ populateCache().then(() => console.log("finished"));
 tslib/tslib.es6.js:
   (*! *****************************************************************************
   Copyright (c) Microsoft Corporation.
-  
+
   Permission to use, copy, modify, and/or distribute this software for any
   purpose with or without fee is hereby granted.
-  
+
   THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
   REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
   AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
@@ -67732,12 +67732,12 @@ reflect-metadata/Reflect.js:
   Licensed under the Apache License, Version 2.0 (the "License"); you may not use
   this file except in compliance with the License. You may obtain a copy of the
   License at http://www.apache.org/licenses/LICENSE-2.0
-  
+
   THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
   KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
   WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
   MERCHANTABLITY OR NON-INFRINGEMENT.
-  
+
   See the Apache Version 2.0 License for specific language governing permissions
   and limitations under the License.
   ***************************************************************************** *)
