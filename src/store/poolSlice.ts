@@ -51,7 +51,7 @@ import { SwapActionProps } from 'src/components/transactions/Swap/SwapActions';
 import { WithdrawAndSwitchActionProps } from 'src/components/transactions/Withdraw/WithdrawAndSwitchActions';
 import { Approval } from 'src/helpers/useTransactionHandler';
 import { MarketDataType } from 'src/ui-config/marketsConfig';
-import { minBaseTokenRemainingByNetwork, optimizedPath } from 'src/utils/utils';
+import { minBaseTokenRemainingByNetwork } from 'src/utils/utils';
 import { StateCreator } from 'zustand';
 
 import { selectCurrentChainIdV3MarketData, selectFormattedReserves } from './poolSelectors';
@@ -395,7 +395,6 @@ export const createPoolSlice: StateCreator<
       return pool.withdraw({
         ...args,
         user,
-        useOptimizedPath: optimizedPath(get().currentChainId),
       });
     },
     setUsageAsCollateral: async (args) => {
@@ -766,7 +765,7 @@ export const createPoolSlice: StateCreator<
       }
     },
     useOptimizedPath: () => {
-      return get().currentMarketData.v3 && optimizedPath(get().currentChainId);
+      return get().currentMarketData.v3;
     },
     poolComputed: {
       get minRemainingBaseTokenBalance() {

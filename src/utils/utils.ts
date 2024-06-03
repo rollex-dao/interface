@@ -33,16 +33,6 @@ export const makeCancelable = <T>(promise: Promise<T>) => {
   };
 };
 
-export const optimizedPath = (currentChainId: ChainId) => {
-  return (
-    currentChainId === ChainId.arbitrum_one ||
-    currentChainId === ChainId.arbitrum_rinkeby ||
-    currentChainId === ChainId.optimism
-    // ||
-    // currentChainId === ChainId.optimism_kovan
-  );
-};
-
 // Overrides for minimum base token remaining after performing an action
 export const minBaseTokenRemainingByNetwork: Record<number, string> = {
   [ChainId.optimism]: '0.0001',
