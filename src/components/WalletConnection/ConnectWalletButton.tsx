@@ -30,6 +30,7 @@ export const ConnectWalletButton: React.FC<ConnectWalletProps> = ({ funnel }) =>
               ? 'linear-gradient(90deg, rgb(83, 217, 217) 9.38%, rgba(0, 184, 255, 0.1) 128.42%)'
               : 'linear-gradient(90deg, rgb(102, 94, 225) 9.38%, rgba(0, 184, 255, 0.3) 128.42%)',
           color: 'white',
+          borderRadius: '20px',
         }}
       >
         <Trans>Connect wallet</Trans>
