@@ -1,5 +1,5 @@
-import { ChainId } from '@aave/contract-helpers';
 import { SafeAppConnector } from '@gnosis.pm/safe-apps-web3-react';
+import { ChainId } from '@pollum-io/contract-helpers';
 import { AbstractConnector } from '@web3-react/abstract-connector';
 import { UnsupportedChainIdError } from '@web3-react/core';
 import { FrameConnector } from '@web3-react/frame-connector';

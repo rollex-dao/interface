@@ -1,5 +1,5 @@
-import { UiStakeDataProvider } from '@aave/contract-helpers';
 import { Provider } from '@ethersproject/providers';
+import { UiStakeDataProvider } from '@pollum-io/contract-helpers';
 import { Hashable } from 'src/utils/types';
 
 type GetUserStakeUIDataHumanizedParams = {

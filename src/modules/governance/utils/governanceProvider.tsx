@@ -1,4 +1,4 @@
-import { AaveGovernanceService } from '@aave/contract-helpers';
+import { AaveGovernanceService } from '@pollum-io/contract-helpers';
 
 import { governanceConfig } from '../../../ui-config/governanceConfig';
 import { getProvider } from '../../../utils/marketsAndNetworksConfig';

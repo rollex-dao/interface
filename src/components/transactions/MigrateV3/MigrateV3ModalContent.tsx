@@ -1,6 +1,6 @@
-import { InterestRate } from '@aave/contract-helpers';
 import { Trans } from '@lingui/macro';
 import { Box, Button } from '@mui/material';
+import { InterestRate } from '@pollum-io/contract-helpers';
 import { useCallback } from 'react';
 import { useCurrentTimestamp } from 'src/hooks/useCurrentTimestamp';
 import { useModalContext } from 'src/hooks/useModal';

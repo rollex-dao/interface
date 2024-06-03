@@ -9,7 +9,7 @@ import {
   GovernancePowerDelegationTokenService,
   GovPrepareDelegateSig,
   GovPrepareDelegateSigByType,
-} from '@aave/contract-helpers';
+} from '@pollum-io/contract-helpers';
 import { governanceConfig } from 'src/ui-config/governanceConfig';
 import { getProvider } from 'src/utils/marketsAndNetworksConfig';
 import { StateCreator } from 'zustand';

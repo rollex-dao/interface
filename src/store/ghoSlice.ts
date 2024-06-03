@@ -1,5 +1,5 @@
-import { GhoService } from '@aave/contract-helpers';
 import { GhoReserveData, GhoUserData, normalize } from '@aave/math-utils';
+import { GhoService } from '@pollum-io/contract-helpers';
 import { GHO_SUPPORTED_MARKETS } from 'src/utils/ghoUtilities';
 import { getProvider } from 'src/utils/marketsAndNetworksConfig';
 import { StateCreator } from 'zustand';

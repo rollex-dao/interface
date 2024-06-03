@@ -1,5 +1,5 @@
-import { InterestRate } from '@aave/contract-helpers';
 import { Trans } from '@lingui/macro';
+import { InterestRate } from '@pollum-io/contract-helpers';
 import React from 'react';
 import { BasicModal } from 'src/components/primitives/BasicModal';
 import { ModalContextType, ModalType, useModalContext } from 'src/hooks/useModal';

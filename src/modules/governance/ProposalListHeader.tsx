@@ -1,4 +1,3 @@
-import { ProposalState } from '@aave/contract-helpers';
 import { Trans } from '@lingui/macro';
 import {
   Box,
@@ -9,6 +8,7 @@ import {
   useMediaQuery,
   useTheme,
 } from '@mui/material';
+import { ProposalState } from '@pollum-io/contract-helpers';
 import { useRootStore } from 'src/store/root';
 import { GOVERNANCE_PAGE } from 'src/utils/mixPanelEvents';
 

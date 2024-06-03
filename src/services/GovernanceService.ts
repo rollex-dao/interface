@@ -1,12 +1,12 @@
+import { normalize, valueToBigNumber } from '@aave/math-utils';
+import { Provider } from '@ethersproject/providers';
 import {
   AaveGovernanceService,
   GovGetVoteOnProposal,
   GovGetVotingAtBlockType,
   Power,
   tEthereumAddress,
-} from '@aave/contract-helpers';
-import { normalize, valueToBigNumber } from '@aave/math-utils';
-import { Provider } from '@ethersproject/providers';
+} from '@pollum-io/contract-helpers';
 import { governanceConfig } from 'src/ui-config/governanceConfig';
 import { Hashable } from 'src/utils/types';
 

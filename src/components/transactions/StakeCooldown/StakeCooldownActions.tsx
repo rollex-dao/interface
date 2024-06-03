@@ -1,6 +1,6 @@
-import { ProtocolAction } from '@aave/contract-helpers';
 import { Trans } from '@lingui/macro';
 import { BoxProps } from '@mui/material';
+import { ProtocolAction } from '@pollum-io/contract-helpers';
 import { useRootStore } from 'src/store/root';
 
 import { useTransactionHandler } from '../../../helpers/useTransactionHandler';

@@ -1,9 +1,4 @@
 import {
-  API_ETH_MOCK_ADDRESS,
-  InterestRate,
-  synthetixProxyByChainId,
-} from '@aave/contract-helpers';
-import {
   BigNumberValue,
   calculateHealthFactorFromBalancesBigUnits,
   USD_DECIMALS,
@@ -11,6 +6,11 @@ import {
 } from '@aave/math-utils';
 import { Trans } from '@lingui/macro';
 import Typography from '@mui/material/Typography';
+import {
+  API_ETH_MOCK_ADDRESS,
+  InterestRate,
+  synthetixProxyByChainId,
+} from '@pollum-io/contract-helpers';
 import BigNumber from 'bignumber.js';
 import React, { useEffect, useRef, useState } from 'react';
 import { useAppDataContext } from 'src/hooks/app-data-provider/useAppDataProvider';

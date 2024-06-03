@@ -1,6 +1,6 @@
-import { canBeEnsAddress } from '@aave/contract-helpers';
 import { t, Trans } from '@lingui/macro';
 import { FormControl, TextField, Typography } from '@mui/material';
+import { canBeEnsAddress } from '@pollum-io/contract-helpers';
 import { utils } from 'ethers';
 import { parseUnits } from 'ethers/lib/utils';
 import { useEffect, useState } from 'react';

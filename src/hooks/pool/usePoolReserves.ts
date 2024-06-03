@@ -1,4 +1,4 @@
-import { ReservesDataHumanized } from '@aave/contract-helpers';
+import { ReservesDataHumanized } from '@pollum-io/contract-helpers';
 import { useQueries } from '@tanstack/react-query';
 import { MarketDataType } from 'src/ui-config/marketsConfig';
 import { POLLING_INTERVAL, QueryKeys } from 'src/ui-config/queries';

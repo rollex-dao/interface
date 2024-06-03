@@ -1,5 +1,5 @@
-import { UiIncentiveDataProvider } from '@aave/contract-helpers';
 import { Provider } from '@ethersproject/providers';
+import { UiIncentiveDataProvider } from '@pollum-io/contract-helpers';
 import { MarketDataType } from 'src/ui-config/marketsConfig';
 import invariant from 'tiny-invariant';
 

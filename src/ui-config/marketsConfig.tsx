@@ -27,7 +27,7 @@
 // AaveV3Sepolia,}
 // from '@bgd-labs/aave-address-book';
 
-import { ChainId } from '@aave/contract-helpers';
+import { ChainId } from '@pollum-io/contract-helpers';
 import { ReactNode } from 'react';
 
 // Enable for premissioned market

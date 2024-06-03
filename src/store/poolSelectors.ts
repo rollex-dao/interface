@@ -1,5 +1,5 @@
-import { ReserveDataHumanized } from '@aave/contract-helpers';
 import { formatReservesAndIncentives, formatUserSummaryAndIncentives } from '@aave/math-utils';
+import { ReserveDataHumanized } from '@pollum-io/contract-helpers';
 import { EmodeCategory } from 'src/helpers/types';
 import { fetchIconSymbolAndName } from 'src/ui-config/reservePatches';
 import { CustomMarket, marketsData } from 'src/utils/marketsAndNetworksConfig';

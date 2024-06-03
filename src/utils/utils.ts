@@ -1,5 +1,5 @@
-import { ChainId } from '@aave/contract-helpers';
 import { BigNumberValue, USD_DECIMALS, valueToBigNumber } from '@aave/math-utils';
+import { ChainId } from '@pollum-io/contract-helpers';
 
 export function hexToAscii(_hex: string): string {
   const hex = _hex.toString();

@@ -1,7 +1,3 @@
-import {
-  GeneralStakeUIDataHumanized,
-  GetUserStakeUIDataHumanized,
-} from '@aave/contract-helpers/dist/esm/uiStakeDataProvider-contract/types';
 import { valueToBigNumber } from '@aave/math-utils';
 import { RefreshIcon } from '@heroicons/react/outline';
 import { Trans } from '@lingui/macro';
@@ -15,6 +11,10 @@ import {
   useMediaQuery,
   useTheme,
 } from '@mui/material';
+import {
+  GeneralStakeUIDataHumanized,
+  GetUserStakeUIDataHumanized,
+} from '@pollum-io/contract-helpers/dist/esm/uiStakeDataProvider-contract/types';
 import { BigNumber } from 'ethers';
 import { formatEther, formatUnits } from 'ethers/lib/utils';
 import React from 'react';

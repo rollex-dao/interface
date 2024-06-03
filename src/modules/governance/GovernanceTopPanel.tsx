@@ -1,7 +1,7 @@
-import { ChainId } from '@aave/contract-helpers';
 import { ExternalLinkIcon } from '@heroicons/react/outline';
 import { Trans } from '@lingui/macro';
 import { Box, Button, SvgIcon, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { ChainId } from '@pollum-io/contract-helpers';
 import * as React from 'react';
 import { ChainAvailabilityText } from 'src/components/ChainAvailabilityText';
 import { Link } from 'src/components/primitives/Link';

@@ -2,7 +2,7 @@ import {
   ReservesIncentiveDataHumanized,
   UiIncentiveDataProvider,
   UserReservesIncentivesDataHumanized,
-} from '@aave/contract-helpers';
+} from '@pollum-io/contract-helpers';
 import { StateCreator } from 'zustand';
 
 import { RootStore } from './root';

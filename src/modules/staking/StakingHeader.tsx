@@ -1,6 +1,6 @@
-import { ChainId } from '@aave/contract-helpers';
 import { Trans } from '@lingui/macro';
 import { Box, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { ChainId } from '@pollum-io/contract-helpers';
 import { ChainAvailabilityText } from 'src/components/ChainAvailabilityText';
 import { FormattedNumber } from 'src/components/primitives/FormattedNumber';
 import { TopInfoPanel } from 'src/components/TopInfoPanel/TopInfoPanel';

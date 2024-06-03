@@ -1,4 +1,4 @@
-import { ProposalState } from '@aave/contract-helpers';
+import { ProposalState } from '@pollum-io/contract-helpers';
 
 export const isProposalStateImmutable = (proposal: { state: ProposalState }) =>
   ![
