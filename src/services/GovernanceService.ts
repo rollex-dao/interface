@@ -1,9 +1,9 @@
 import { normalize, valueToBigNumber } from '@aave/math-utils';
 import { Provider } from '@ethersproject/providers';
 import {
-  AaveGovernanceService,
   GovGetVoteOnProposal,
   GovGetVotingAtBlockType,
+  PegasysGovernanceService,
   Power,
   tEthereumAddress,
 } from '@pollum-io/contract-helpers';
@@ -34,12 +34,12 @@ const checkIfDelegateeIsUser = (delegatee: tEthereumAddress, userAddress: tEther
   delegatee.toLocaleLowerCase() === userAddress.toLocaleLowerCase() ? '' : delegatee;
 
 export class GovernanceService implements Hashable {
-  private readonly governanceService: AaveGovernanceService;
+  private readonly governanceService: PegasysGovernanceService;
 
   constructor(provider: Provider, public readonly chainId: number) {
-    this.governanceService = new AaveGovernanceService(provider, {
-      GOVERNANCE_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2,
-      GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2_HELPER,
+    this.governanceService = new PegasysGovernanceService(provider, {
+      GOVERNANCE_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2,
+      GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2_HELPER,
       ipfsGateway: governanceConfig.ipfsGateway,
     });
   }

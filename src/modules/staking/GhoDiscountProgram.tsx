@@ -44,19 +44,19 @@ export const GhoDiscountProgram = () => {
             xs: 120,
             xsm: 104,
           },
-          backgroundColor: '#9C93B338',
+          backgroundColor: '#0a1426',
           position: 'relative',
         }}
       >
         <Box
           component="img"
-          src="/illustration_token.png"
+          src="/pegasys.svg"
           sx={{
             position: 'absolute',
-            left: -40,
-            top: -33,
-            width: 250,
-            height: 250,
+            left: 10,
+            // top: -33,
+            width: 150,
+            height: 150,
             overflow: 'hidden',
             display: {
               xs: 'none',
@@ -64,9 +64,9 @@ export const GhoDiscountProgram = () => {
             },
             transform: 'matrix(1, -0.14, 0.14, 1, 0, 0)',
           }}
-          width={220}
-          height={220}
-          alt="gho coin"
+          width={150}
+          height={150}
+          alt="psys coin"
         />
         <Box display="flex" flexDirection="column" alignItems={['flex-start', 'center']} gap={3}>
           <Typography
@@ -76,20 +76,27 @@ export const GhoDiscountProgram = () => {
             textAlign={['left', 'center']}
           >
             {downToXsm ? (
-              <Trans>stkAAVE holders get a discount on GHO borrow rate</Trans>
+              <Trans>stkPSYS holders get a discount on GHO borrow rate</Trans>
             ) : (
-              <Trans>Holders of stkAAVE receive a discount on the GHO borrowing rate</Trans>
+              <Trans>Holders of stkPSYS receive a discount on the HOE borrowing rate</Trans>
             )}
           </Typography>
           <Button
-            variant="contained"
+            // variant="contained"
             component={Link}
             href={ROUTES.reserveOverview(ghoTokenAddress, currentMarket)}
             size={downToXsm ? 'medium' : 'small'}
             sx={{
               alignItems: 'center',
+              justifyContent: 'center',
               display: 'flex',
               gap: [2, 1],
+              borderRadius: '20px',
+              padding: '3px',
+              background: '#1d2e49',
+              '&:hover': {
+                background: '#0c172b',
+              },
             }}
           >
             <Trans>{downToXsm ? 'View details' : 'VIEW DETAILS'}</Trans>
@@ -98,15 +105,16 @@ export const GhoDiscountProgram = () => {
         </Box>
         <Box
           component="img"
-          src="/illustration_friendly_ghost.png"
+          src="/purple-pegasys.svg"
           sx={{
             position: 'absolute',
-            right: [-200, -190],
-            bottom: [-265, -270],
+            right: [-10, -35],
+            bottom: [-55, -130],
             overflow: 'hidden',
-            transform: 'scaleY(0.5) scaleX(0.5)',
+            transform: 'scaleX(-1) scale(0.5)',
           }}
           alt="gho ghost"
+          width={250}
         />
       </Box>
     </Box>

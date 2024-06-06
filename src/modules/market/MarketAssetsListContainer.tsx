@@ -125,8 +125,8 @@ export const MarketAssetsListContainer = () => {
           {showFrozenMarketsToggle && (
             <Warning severity="info">
               <Trans>
-                These assets are temporarily frozen or paused by Aave community decisions, meaning
-                that further supply / borrow, or rate swap of these assets are unavailable.
+                These assets are temporarily frozen or paused by Pegasys community decisions,
+                meaning that further supply / borrow, or rate swap of these assets are unavailable.
                 Withdrawals and debt repayments are allowed. Follow the{' '}
                 <Link
                   onClick={() => {
@@ -138,7 +138,7 @@ export const MarketAssetsListContainer = () => {
                   href="https://governance.aave.com"
                   underline="always"
                 >
-                  Aave governance forum
+                  Pegasys governance forum
                 </Link>{' '}
                 for further updates.
               </Trans>

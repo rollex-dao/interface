@@ -36,7 +36,7 @@ export enum ErrorType {
   ALREADY_ON_COOLDOWN,
 }
 
-type StakingType = 'aave' | 'bpt';
+type StakingType = 'pegasys' | 'bpt';
 
 export const StakeCooldownModalContent = ({ stakeAssetName }: StakeCooldownProps) => {
   const { chainId: connectedChainId, readOnlyModeAddress } = useWeb3Context();

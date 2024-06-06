@@ -173,7 +173,7 @@ export const DebtSwitchModalContent = ({
     priceImpactDifference > Number(user.availableBorrowsUSD);
 
   let blockingError: ErrorType | undefined = undefined;
-  if (BigNumber(inputAmount).gt(availableLiquidityOfTargetReserve)) {
+  if (new BigNumber(inputAmount).gt(availableLiquidityOfTargetReserve)) {
     blockingError = ErrorType.INSUFFICIENT_LIQUIDITY;
   }
 

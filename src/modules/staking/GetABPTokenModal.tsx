@@ -22,8 +22,8 @@ export const GetABPTokenModal = ({ open, close }: GetABPTokenModalProps) => {
         </Typography>
         <Typography sx={{ my: 6 }}>
           <Trans>
-            The Aave Balancer Pool Token (ABPT) is a liquidity pool token. You can receive ABPT by
-            depositing a combination of AAVE + ETH in the Balancer liquidity pool. You can then
+            The Pegasys Balancer Pool Token (PBPT) is a liquidity pool token. You can receive PBPT
+            by depositing a combination of PSYS + SYS in the Balancer liquidity pool. You can then
             stake your BPT in the Safety Module to secure the protocol and earn Safety Incentives.
           </Trans>
         </Typography>

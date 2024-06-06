@@ -132,11 +132,10 @@ export const DelegatedInfoPanel = () => {
 
   return (
     <Paper
-      sx={({ palette }) => ({
-        boxShadow: palette.background.deepShadow,
+      sx={{
         borderRadius: '20px',
         mt: 2,
-      })}
+      }}
     >
       <Box sx={{ px: 6, pb: 6, pt: 4 }}>
         <Typography typography="h3">
@@ -144,7 +143,7 @@ export const DelegatedInfoPanel = () => {
         </Typography>
         <Typography typography="description" sx={{ mt: 1 }} color="text.secondary">
           <Trans>
-            Use your AAVE and stkAAVE balance to delegate your voting and proposition powers. You
+            Use your PSYS and stkPSYS balance to delegate your voting and proposition powers. You
             will not be sending any tokens, only the rights to vote and propose changes to the
             protocol. You can re-delegate or revoke power to self at any time.
           </Trans>
@@ -161,7 +160,7 @@ export const DelegatedInfoPanel = () => {
         </Typography>
         {disableButton ? (
           <Typography variant="description" color="text.muted" mt={6}>
-            <Trans>You have no AAVE/stkAAVE balance to delegate.</Trans>
+            <Trans>You have no PSYS/stkPSYS balance to delegate.</Trans>
           </Typography>
         ) : (
           <>

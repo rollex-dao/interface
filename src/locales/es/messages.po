@@ -33,28 +33,24 @@ msgid ".JSON"
 msgstr ".JSON"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "<0><1><2/></1>Add <3/> stkAAVE</0> to borrow at <4/> (max discount)"
-msgstr "<0><1><2/></1>añade <3/> stkAAVE</0> para tomar prestado al <4/> (descuento máximo)"
+msgid "<0><1><2/></1>Add <3/> stkPSYS</0> to borrow at <4/> (max discount)"
+msgstr "<0><1><2/></1>añade <3/> stkPSYS</0> para tomar prestado al <4/> (descuento máximo)"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "<0><1><2/></1>Add stkAAVE</0> to see borrow rate with discount"
-msgstr "<0><1><2/></1>Añade stkAAVE</0> para ver la tasa de préstamo con descuento"
+msgid "<0><1><2/></1>Add stkPSYS</0> to see borrow rate with discount"
+msgstr "<0><1><2/></1>Añade stkPSYS</0> para ver la tasa de préstamo con descuento"
 
 #: src/components/Warnings/AMPLWarning.tsx
 msgid "<0>Ampleforth</0> is a rebasing asset. Visit the <1>documentation</1> to learn more."
 msgstr "<0>Ampleforth</0> es un activo con rebase. Visita la <1>documentación</1> para aprender más."
 
 #: src/components/transactions/Borrow/ParameterChangewarning.tsx
-msgid "<0>Attention:</0> Parameter changes via governance can alter your account health factor and risk of liquidation. Follow the <1>Aave governance forum</1> for updates."
-msgstr "<0>Atención:</0> Los cambios de parámetros a través de la gobernanza pueden alterar el factor de salud de tu cuenta y el riesgo de liquidación. Sigue el <1>foro de gobierno de Aave</1> para mantenerte actualizado."
+msgid "<0>Attention:</0> Parameter changes via governance can alter your account health factor and risk of liquidation. Follow the <1>Pegasys governance forum</1> for updates."
+msgstr "<0>Atención:</0> Los cambios de parámetros a través de la gobernanza pueden alterar el factor de salud de tu cuenta y el riesgo de liquidación. Sigue el <1>foro de gobierno de Pegasys</1> para mantenerte actualizado."
 
 #: src/modules/dashboard/lists/SlippageList.tsx
 msgid "<0>Slippage tolerance </0><1>{selectedSlippage}% </1><2>{0}</2>"
 msgstr "<0>Tolerancia de deslizamiento </0><1>{selectedSlippage}% </1><2>{0}</2>"
-
-#: src/modules/staking/StakingHeader.tsx
-msgid "AAVE holders (Ethereum network only) can stake their AAVE in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
-msgstr "Los poseedores de AAVE (solo en la red de Ethereum) pueden stakear sus AAVE en el Módulo de Seguridad para añadir más seguridad al protocolo y ganar Incentivos de Seguridad. En el caso de un evento de déficit, se puede recortar hasta el 30% de tu stakeo para cubrir el déficit, proporcionando una capa adicional de protección al protocolo."
 
 #: src/components/incentives/IncentivesTooltipContent.tsx
 #: src/components/incentives/IncentivesTooltipContent.tsx
@@ -123,33 +119,29 @@ msgid "AToken supply is not zero"
 msgstr "El balance de AToken no es cero"
 
 #: src/modules/governance/GovernanceTopPanel.tsx
-msgid "Aave Governance"
-msgstr "Gobierno de Aave"
+msgid "Pegasys Governance"
+msgstr "Gobierno de Pegasys"
 
 #: src/modules/reserve-overview/AddTokenDropdown.tsx
 #: src/modules/reserve-overview/TokenLinkDropdown.tsx
-msgid "Aave aToken"
-msgstr "aToken de Aave"
+msgid "Pegasys aToken"
+msgstr "aToken de Pegasys"
 
 #: src/modules/reserve-overview/TokenLinkDropdown.tsx
-msgid "Aave debt token"
-msgstr "Token de deuda de Aave"
+msgid "Pegasys debt token"
+msgstr "Token de deuda de Pegasys"
 
 #: src/modules/governance/GovernanceTopPanel.tsx
-msgid "Aave is a fully decentralized, community governed protocol by the AAVE token-holders. AAVE token-holders collectively discuss, propose, and vote on upgrades to the protocol. AAVE token-holders (Ethereum network only) can either vote themselves on new proposals or delagate to an address of choice. To learn more check out the Governance"
-msgstr "Aave es un protocolo totalmente descentralizado, gobernado por la comunidad de poseedores de tokens AAVE. Los poseedores de tokens AAVE discuten, proponen y votan colectivamente sobre las actualizaciones del protocolo. Los poseedores de tokens AAVE (solo en la red Ethereum) pueden votar ellos mismos sobre nuevas propuestas o delegarse a una dirección de su elección. Para aprender más, consulta la"
+msgid "Pegasys is a fully decentralized, community governed protocol by the PSYS token-holders. PSYS token-holders collectively discuss, propose, and vote on upgrades to the protocol. PSYS token-holders (Rollux network only) can either vote themselves on new proposals or delagate to an address of choice. To learn more check out the Governance"
+msgstr "Pegasys es un protocolo totalmente descentralizado, gobernado por la comunidad de poseedores de tokens PSYS. Los poseedores de tokens PSYS discuten, proponen y votan colectivamente sobre las actualizaciones del protocolo. Los poseedores de tokens PSYS (solo en la red Rollux) pueden votar ellos mismos sobre nuevas propuestas o delegarse a una dirección de su elección. Para aprender más, consulta la"
 
 #: src/modules/staking/StakingPanel.tsx
-msgid "Aave per month"
-msgstr "Aave por mes"
+msgid "Pegasys per month"
+msgstr "Pegasys por mes"
 
 #: src/modules/reserve-overview/Gho/GhoReserveConfiguration.tsx
-msgid "About GHO"
-msgstr "Sobre GHO"
-
-#: src/layouts/WalletWidget.tsx
-msgid "Account"
-msgstr "Cuenta"
+msgid "About HOE"
+msgstr "Sobre HOE"
 
 #: src/ui-config/errorMapping.tsx
 msgid "Action cannot be performed because the reserve is frozen"
@@ -169,8 +161,8 @@ msgid "Activate Cooldown"
 msgstr "Activar Cooldown"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "Add stkAAVE to see borrow APY with the discount"
-msgstr "Añade stkAAVE para ver el APY de préstamo con el descuento"
+msgid "Add stkPSYS to see borrow APY with the discount"
+msgstr "Añade stkPSYS para ver el APY de préstamo con el descuento"
 
 #: src/components/transactions/FlowCommons/Success.tsx
 msgid "Add to wallet"
@@ -542,8 +534,8 @@ msgid "Borrowing is currently unavailable for {0}."
 msgstr "Tomar prestado no está disponible actualmente para {0}."
 
 #: src/components/Warnings/BorrowDisabledWarning.tsx
-msgid "Borrowing is disabled due to an Aave community decision. <0>More details</0>"
-msgstr "Tomar prestado está deshabilitado debido a una decisión de la comunidad de Aave. <0>Más información</0>"
+msgid "Borrowing is disabled due to an Pegasys community decision. <0>More details</0>"
+msgstr "Tomar prestado está deshabilitado debido a una decisión de la comunidad de Pegasys. <0>Más información</0>"
 
 #: src/ui-config/errorMapping.tsx
 msgid "Borrowing is not enabled"
@@ -621,8 +613,8 @@ msgid "Cannot disable E-Mode"
 msgstr "No se puede deshabilitar E-Mode"
 
 #: src/components/transactions/GovDelegation/GovDelegationModalContent.tsx
-msgid "Choose how much voting/proposition power to give to someone else by delegating some of your AAVE or stkAAVE balance. Your tokens will remain in your account, but your delegate will be able to vote or propose on your behalf. If your AAVE or stkAAVE balance changes, your delegate's voting/proposition power will be automatically adjusted."
-msgstr "Elije cuánto poder de voto/proposición otorgar a otra persona delegando parte de tu balance de AAVE o stkAAVE. Tus tokens permanecerán en tu cuenta, pero tu delegado podrá votar o proponer en tu lugar. Si tu balance de AAVE o stkAAVE cambia, el poder de voto/proposición de tu delegado se ajustará automáticamente."
+msgid "Choose how much voting/proposition power to give to someone else by delegating some of your PSYS or stkPSYS balance. Your tokens will remain in your account, but your delegate will be able to vote or propose on your behalf. If your PSYS or stkPSYS balance changes, your delegate's voting/proposition power will be automatically adjusted."
+msgstr "Elije cuánto poder de voto/proposición otorgar a otra persona delegando parte de tu balance de PSYS o stkPSYS. Tus tokens permanecerán en tu cuenta, pero tu delegado podrá votar o proponer en tu lugar. Si tu balance de PSYS o stkPSYS cambia, el poder de voto/proposición de tu delegado se ajustará automáticamente."
 
 #: src/modules/staking/BuyWithFiatModal.tsx
 msgid "Choose one of the on-ramp services"
@@ -651,8 +643,8 @@ msgid "Claim {symbol}"
 msgstr "Reclamar {symbol}"
 
 #: src/modules/staking/StakingPanel.tsx
-msgid "Claimable AAVE"
-msgstr "AAVE Reclamable"
+msgid "Claimable PSYS"
+msgstr "PSYS Reclamable"
 
 #: src/components/transactions/ClaimRewards/ClaimRewardsModalContent.tsx
 #: src/components/transactions/StakeRewardClaim/StakeRewardClaimModalContent.tsx
@@ -854,10 +846,6 @@ msgstr "Diferencial"
 msgid "Disable E-Mode"
 msgstr "Desactivar el E-Mode"
 
-#: src/layouts/AppHeader.tsx
-msgid "Disable testnet"
-msgstr "Deshabilitar testnet"
-
 #: src/components/transactions/CollateralChange/CollateralChangeActions.tsx
 msgid "Disable {symbol} as collateral"
 msgstr "Desactivar {symbol} como garantía"
@@ -888,16 +876,16 @@ msgid "Discount"
 msgstr "Descuento"
 
 #: src/components/transactions/Borrow/GhoBorrowModalContent.tsx
-msgid "Discount applied for <0/> staking AAVE"
-msgstr "Descuento aplicado para <0/> AAVE stakeados"
+msgid "Discount applied for <0/> staking PSYS"
+msgstr "Descuento aplicado para <0/> PSYS stakeados"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
 msgid "Discount model parameters"
 msgstr "Parámetros del modelo de descuento"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "Discount parameters are decided by the Aave community and may be changed over time. Check Governance for updates and vote to participate. <0>Learn more</0>"
-msgstr "Los parámetros de descuento son decididos por la comunidad de Aave y pueden cambiar con el tiempo. Consulta el Gobierno para ver actualizaciones y vota para participar. <0>-Aprende más</0>"
+msgid "Discount parameters are decided by the Pegasys community and may be changed over time. Check Governance for updates and vote to participate. <0>Learn more</0>"
+msgstr "Los parámetros de descuento son decididos por la comunidad de Pegasys y pueden cambiar con el tiempo. Consulta el Gobierno para ver actualizaciones y vota para participar. <0>-Aprende más</0>"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
 msgid "Discountable amount"
@@ -916,8 +904,8 @@ msgid "Due to internal stETH mechanics required for rebasing support, it is not 
 msgstr "Debido a mecánicas internas de stETH requeridas para el soporte del rebase, no es posible realizar un cambio de garantía donde stETH es el token de origen."
 
 #: src/components/transactions/Warnings/MarketWarning.tsx
-msgid "Due to the Horizon bridge exploit, certain assets on the Harmony network are not at parity with Ethereum, which affects the Aave V3 Harmony market."
-msgstr "Debido al exploit del puente de Horizon, ciertos activos en la red de Harmony no están en paridad con Ethereum, lo que afecta al mercado de Harmony en Aave V3."
+msgid "Due to the Horizon bridge exploit, certain assets on the Harmony network are not at parity with Rollux, which affects the Pegasys V3 Harmony market."
+msgstr "Debido al exploit del puente de Horizon, ciertos activos en la red de Harmony no están en paridad con Rollux, lo que afecta al mercado de Harmony en Pegasys V3."
 
 #: src/modules/dashboard/DashboardEModeButton.tsx
 msgid "E-Mode"
@@ -940,8 +928,8 @@ msgid "E-Mode increases your LTV for a selected category of assets up to<0/>. <1
 msgstr "El E-Mode incrementa tu LTV para una categoría seleccionada de activos hasta el <0/>. <1>Aprende más</1>"
 
 #: src/modules/reserve-overview/ReserveEModePanel.tsx
-msgid "E-Mode increases your LTV for a selected category of assets, meaning that when E-mode is enabled, you will have higher borrowing power over assets of the same E-mode category which are defined by Aave Governance. You can enter E-Mode from your <0>Dashboard</0>. To learn more about E-Mode and applied restrictions in <1>FAQ</1> or <2>Aave V3 Technical Paper</2>."
-msgstr "El E-Mode aumenta tu LTV para una categoría seleccionada de activos, lo que significa que cuando el E-mode está habilitado, tendrás un mayor poder de préstamo sobre los activos de la misma categoría del E-mode que están definidos por el gobierno de Aave. Puedes entrar al E-Mode desde tu <0>Panel de control</0>. Para apreneder más sobre el E-Mode y las restricciones aplicables, puedes consultar las <1>Preguntas frecuentes</1> o el <2>Documento técnico de Aave V3</2>."
+msgid "E-Mode increases your LTV for a selected category of assets, meaning that when E-mode is enabled, you will have higher borrowing power over assets of the same E-mode category which are defined by Pegasys Governance. You can enter E-Mode from your <0>Dashboard</0>. To learn more about E-Mode and applied restrictions in <1>FAQ</1> or <2>Pegasys V3 Technical Paper</2>."
+msgstr "El E-Mode aumenta tu LTV para una categoría seleccionada de activos, lo que significa que cuando el E-mode está habilitado, tendrás un mayor poder de préstamo sobre los activos de la misma categoría del E-mode que están definidos por el gobierno de Pegasys. Puedes entrar al E-Mode desde tu <0>Panel de control</0>. Para apreneder más sobre el E-Mode y las restricciones aplicables, puedes consultar las <1>Preguntas frecuentes</1> o el <2>Documento técnico de Pegasys V3</2>."
 
 #: src/modules/reserve-overview/Gho/GhoInterestRateGraph.tsx
 msgid "Effective interest rate"
@@ -1006,8 +994,8 @@ msgid "Error connecting. Try refreshing the page."
 msgstr "Error de conexión. Intenta actualizar la página."
 
 #: src/components/incentives/GhoIncentivesCard.tsx
-msgid "Estimated compounding interest, including discount for Staking {0}AAVE in Safety Module."
-msgstr "Interés compuesto estimado, incluyendo el descuento por Staking {0}AAVE en el Módulo de Seguridad."
+msgid "Estimated compounding interest, including discount for Staking {0}PSYS in Safety Module."
+msgstr "Interés compuesto estimado, incluyendo el descuento por Staking {0}PSYS en el Módulo de Seguridad."
 
 #: src/modules/reserve-overview/Gho/GhoPieChartContainer.tsx
 msgid "Exceeds the discount"
@@ -1094,8 +1082,8 @@ msgid "Funds in the Safety Module"
 msgstr "Fondos en el módulo de seguridad"
 
 #: src/modules/reserve-overview/Gho/GhoReserveConfiguration.tsx
-msgid "GHO is a native decentralized, collateral-backed digital asset pegged to USD. It is created by users via borrowing against multiple collateral. When user repays their GHO borrow position, the protocol burns that user's GHO. All the interest payments accrued by minters of GHO would be directly transferred to the AaveDAO treasury."
-msgstr "GHO es un activo nativo descentralizado, digital y respaldado por garantía, vinculado al USD. Es creado por los usuarios que lo toman prestado contra múltiples garantías. Cuando el usuario paga su posición de préstamo de GHO, el protocolo quema el GHO de ese usuario. Todos los pagos de interés acumulados por los acuñadores de GHO serán transferidos directamente a la tesorería de la DAO de Aave."
+msgid "GHO is a native decentralized, collateral-backed digital asset pegged to USD. It is created by users via borrowing against multiple collateral. When user repays their HOE borrow position, the protocol burns that user's GHO. All the interest payments accrued by minters of GHO would be directly transferred to the PegasysDAO treasury."
+msgstr "GHO es un activo nativo descentralizado, digital y respaldado por garantía, vinculado al USD. Es creado por los usuarios que lo toman prestado contra múltiples garantías. Cuando el usuario paga su posición de préstamo de GHO, el protocolo quema el GHO de ese usuario. Todos los pagos de interés acumulados por los acuñadores de GHO serán transferidos directamente a la tesorería de la DAO de Pegasys."
 
 #: src/modules/staking/GetABPToken.tsx
 #: src/modules/staking/GetABPTokenModal.tsx
@@ -1156,8 +1144,8 @@ msgid "Hide"
 msgstr "Ocultar"
 
 #: src/modules/staking/GhoDiscountProgram.tsx
-msgid "Holders of stkAAVE receive a discount on the GHO borrowing rate"
-msgstr "Los poseedores de stkAAVE reciben un descuento en la tasa de préstamo de GHO"
+msgid "Holders of stkPSYS receive a discount on the HOE borrowing rate"
+msgstr "Los poseedores de stkPSYS reciben un descuento en la tasa de préstamo de GHO"
 
 #: src/components/transactions/Borrow/BorrowAmountWarning.tsx
 #: src/components/transactions/Withdraw/WithdrawAndSwitchModalContent.tsx
@@ -1372,7 +1360,9 @@ msgstr "MAX"
 msgid "Manage analytics"
 msgstr "Administrar analíticas"
 
+#: src/modules/market/MarketsTopPanel.tsx
 #: src/modules/reserve-overview/ReserveTopDetailsWrapper.tsx
+#: src/ui-config/menu-items/index.tsx
 msgid "Market"
 msgstr "Mercado"
 
@@ -1476,16 +1466,12 @@ msgid "Minimum USD value received"
 msgstr "Valor mínimo en USD recibido"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "Minimum staked Aave amount"
-msgstr "Cantidad mínima de Aave stakeado"
+msgid "Minimum staked Pegasys amount"
+msgstr "Cantidad mínima de Pegasys stakeado"
 
 #: src/components/transactions/Switch/SwitchModalContent.tsx
 msgid "Minimum {0} received"
 msgstr "Mínimo {0} recibido"
-
-#: src/layouts/MoreMenu.tsx
-msgid "More"
-msgstr "Más"
 
 #: src/modules/governance/VoteBar.tsx
 msgid "NAY"
@@ -1619,6 +1605,10 @@ msgstr "Precio del oráculo"
 #: pages/reserve-overview.page.tsx
 msgid "Overview"
 msgstr "Resumen"
+
+#: src/modules/staking/StakingHeader.tsx
+msgid "PSYS holders (Rollux network only) can stake their PSYS in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
+msgstr "Los poseedores de PSYS (solo en la red de Rollux) pueden stakear sus PSYS en el Módulo de Seguridad para añadir más seguridad al protocolo y ganar Incentivos de Seguridad. En el caso de un evento de déficit, se puede recortar hasta el 30% de tu stakeo para cubrir el déficit, proporcionando una capa adicional de protección al protocolo."
 
 #: pages/404.page.tsx
 msgid "Page not found"
@@ -1790,8 +1780,8 @@ msgid "Read more here."
 msgstr "Más información aquí."
 
 #: src/components/infoTooltips/ReadOnlyModeTooltip.tsx
-msgid "Read-only mode allows to see address positions in Aave, but you won't be able to perform transactions."
-msgstr "El modo de solo lectura permite ver las posiciones de las direcciones en Aave, pero no podrás realizar transacciones."
+msgid "Read-only mode allows to see address positions in Pegasys, but you won't be able to perform transactions."
+msgstr "El modo de solo lectura permite ver las posiciones de las direcciones en Pegasys, pero no podrás realizar transacciones."
 
 #: src/layouts/WalletWidget.tsx
 msgid "Read-only mode."
@@ -1877,8 +1867,8 @@ msgid "Reserve factor"
 msgstr "Factor de reserva"
 
 #: src/components/infoTooltips/ReserveFactorTooltip.tsx
-msgid "Reserve factor is a percentage of interest which goes to a {0} that is controlled by Aave governance to promote ecosystem growth."
-msgstr "El factor de reserva es un porcentaje de interés que va a un {0} que es controlado por el gobierno de Aave para promover el crecimiento del ecosistema."
+msgid "Reserve factor is a percentage of interest which goes to a {0} that is controlled by Pegasys governance to promote ecosystem growth."
+msgstr "El factor de reserva es un porcentaje de interés que va a un {0} que es controlado por el gobierno de Pegasys para promover el crecimiento del ecosistema."
 
 #: src/modules/reserve-overview/ReserveConfigurationWrapper.tsx
 msgid "Reserve status & configuration"
@@ -2119,8 +2109,8 @@ msgid "Stake"
 msgstr "Stakear"
 
 #: pages/staking.staking.tsx
-msgid "Stake AAVE"
-msgstr "Stakea AAVE"
+msgid "Stake PSYS"
+msgstr "Stakea PSYS"
 
 #: pages/staking.staking.tsx
 msgid "Stake ABPT"
@@ -2169,8 +2159,8 @@ msgid "State"
 msgstr "Estado"
 
 #: src/components/infoTooltips/FixedAPYTooltip.tsx
-msgid "Static interest rate that is determined by Aave Governance. This rate may be changed over time depending on the need for the GHO supply to contract/expand. <0>Learn more</0>"
-msgstr "Tasa de interés estática determinada por el Gobierno de Aave. Esta tasa puede ser cambiada con el tiempo dependiendo de la necesidad de que el suministro de GHO se reduzca/expanda. <0>Aprende más</0>"
+msgid "Static interest rate that is determined by Pegasys Governance. This rate may be changed over time depending on the need for the GHO supply to contract/expand. <0>Learn more</0>"
+msgstr "Tasa de interés estática determinada por el Gobierno de Pegasys. Esta tasa puede ser cambiada con el tiempo dependiendo de la necesidad de que el suministro de GHO se reduzca/expanda. <0>Aprende más</0>"
 
 #: src/components/transactions/Supply/SupplyModalContent.tsx
 msgid "Supplied"
@@ -2232,7 +2222,7 @@ msgstr "Se ha alcanzado el límite de suministro en la reserva especificada. Pru
 msgid "Supply {symbol}"
 msgstr "Suministrar {symbol}"
 
-#: src/components/transactions/Warnings/AAVEWarning.tsx
+#: src/components/transactions/Warnings/PSYSWarning.tsx
 msgid "Supplying your"
 msgstr "Suministrando tu"
 
@@ -2319,10 +2309,6 @@ msgstr "Activos de prueba"
 msgid "Testnet mode"
 msgstr "Testnet mode"
 
-#: src/layouts/AppHeader.tsx
-msgid "Testnet mode is ON"
-msgstr "Testnet mode está ON"
-
 #: src/components/transactions/GovVote/GovVoteModalContent.tsx
 msgid "Thank you for voting!!"
 msgstr "¡Gracias por votar!"
@@ -2332,12 +2318,12 @@ msgid "The % of your total borrowing power used. This is based on the amount of 
 msgstr "El % de tu poder de préstamo total utilizado. Esto se basa en la cantidad de tu garantía suministrada y la cantidad total que puedes pedir prestado."
 
 #: src/modules/staking/GetABPTokenModal.tsx
-msgid "The Aave Balancer Pool Token (ABPT) is a liquidity pool token. You can receive ABPT by depositing a combination of AAVE + ETH in the Balancer liquidity pool. You can then stake your BPT in the Safety Module to secure the protocol and earn Safety Incentives."
-msgstr "El Aave Balancer Pool Token (ABPT) es un token del pool de liquidez. Puedes recibir ABPT depositando una combinación de AAVE + ETH en el pool de liquidez de Balancer. Luego puedes stakear tus BPT en el módulo de seguridad para asegurar el protocolo y ganar incentivos de seguridad."
+msgid "The Pegasys Balancer Pool Token (ABPT) is a liquidity pool token. You can receive ABPT by depositing a combination of PSYS + SYS in the Balancer liquidity pool. You can then stake your BPT in the Safety Module to secure the protocol and earn Safety Incentives."
+msgstr "El Pegasys Balancer Pool Token (ABPT) es un token del pool de liquidez. Puedes recibir ABPT depositando una combinación de PSYS + SYS en el pool de liquidez de Balancer. Luego puedes stakear tus BPT en el módulo de seguridad para asegurar el protocolo y ganar incentivos de seguridad."
 
 #: src/modules/reserve-overview/Gho/GhoReserveTopDetails.tsx
-msgid "The Aave Protocol is programmed to always use the price of 1 GHO = $1. This is different from using market pricing via oracles for other crypto assets. This creates stabilizing arbitrage opportunities when the price of GHO fluctuates."
-msgstr "El Protocolo Aave está programado para usar siempre el precio de 1 GHO = $1. Esto es diferente del uso del precio de mercado a través de oráculos para otros criptoactivos. Esto crea oportunidades de arbitraje estabilizadoras cuando el precio de GHO fluctúa."
+msgid "The Pegasys Protocol is programmed to always use the price of 1 GHO = $1. This is different from using market pricing via oracles for other crypto assets. This creates stabilizing arbitrage opportunities when the price of GHO fluctuates."
+msgstr "El Protocolo Pegasys está programado para usar siempre el precio de 1 GHO = $1. Esto es diferente del uso del precio de mercado a través de oráculos para otros criptoactivos. Esto crea oportunidades de arbitraje estabilizadoras cuando el precio de GHO fluctúa."
 
 #: src/components/infoTooltips/MaxLTVTooltip.tsx
 msgid "The Maximum LTV ratio represents the maximum borrowing power of a specific collateral. For example, if a collateral has an LTV of 75%, the user can borrow up to 0.75 worth of ETH in the principal currency for every 1 ETH worth of collateral."
@@ -2351,10 +2337,6 @@ msgstr "La tasa estable no está habilitada para este activo"
 #: src/ui-config/errorMapping.tsx
 msgid "The address of the pool addresses provider is invalid"
 msgstr "La dirección del proveedor del grupo de direcciones no es válida"
-
-#: src/layouts/AppHeader.tsx
-msgid "The app is running in testnet mode. Learn how it works in"
-msgstr "La aplicación se está ejecutando en testnet mode. Aprende como funciona en"
 
 #: src/ui-config/errorMapping.tsx
 msgid "The caller of the function is not an AToken"
@@ -2473,20 +2455,20 @@ msgid "This asset has reached its supply cap. Nothing is available to be supplie
 msgstr "Este activo ha alcanzado su límite de suministro. No queda nada disponible para ser suministrado desde este mercado."
 
 #: src/components/infoTooltips/FrozenTooltip.tsx
-msgid "This asset is frozen due to an Aave Protocol Governance decision. <0>More details</0>"
-msgstr "Este activo está congelado debido a una decisión del Gobierno del Protocolo Aave. <0>More información</0>"
+msgid "This asset is frozen due to an Pegasys Protocol Governance decision. <0>More details</0>"
+msgstr "Este activo está congelado debido a una decisión del Gobierno del Protocolo Pegasys. <0>More información</0>"
 
 #: src/components/infoTooltips/RenFILToolTip.tsx
-msgid "This asset is frozen due to an Aave Protocol Governance decision. On the 20th of December 2022, renFIL will no longer be supported and cannot be bridged back to its native network. It is recommended to withdraw supply positions and repay borrow positions so that renFIL can be bridged back to FIL before the deadline. After this date, it will no longer be possible to convert renFIL to FIL. <0>More details</0>"
-msgstr "Este activo está congelado debido a una decisión del Gobierno del Protocolo Aave. El 20 de diciembre de 2022, renFIL ya no será compatible y no se podrá conectar de nuevo a su red nativa. Se recomienda retirar las posiciones de suministro y pagar las posiciones de préstamo para que renFIL se pueda convertir de nuevo a FIL antes de la fecha límite. Después de esta fecha, ya no será posible convertir renFIL a FIL. <0>Más detalles</0>"
+msgid "This asset is frozen due to an Pegasys Protocol Governance decision. On the 20th of December 2022, renFIL will no longer be supported and cannot be bridged back to its native network. It is recommended to withdraw supply positions and repay borrow positions so that renFIL can be bridged back to FIL before the deadline. After this date, it will no longer be possible to convert renFIL to FIL. <0>More details</0>"
+msgstr "Este activo está congelado debido a una decisión del Gobierno del Protocolo Pegasys. El 20 de diciembre de 2022, renFIL ya no será compatible y no se podrá conectar de nuevo a su red nativa. Se recomienda retirar las posiciones de suministro y pagar las posiciones de préstamo para que renFIL se pueda convertir de nuevo a FIL antes de la fecha límite. Después de esta fecha, ya no será posible convertir renFIL a FIL. <0>Más detalles</0>"
 
 #: src/modules/reserve-overview/ReserveConfiguration.tsx
-msgid "This asset is frozen due to an Aave community decision. <0>More details</0>"
-msgstr "Este activo está congelado debido a una decisión de la comunidad de Aave. <0>Más información</0>"
+msgid "This asset is frozen due to an Pegasys community decision. <0>More details</0>"
+msgstr "Este activo está congelado debido a una decisión de la comunidad de Pegasys. <0>Más información</0>"
 
 #: src/components/Warnings/OffboardingWarning.tsx
-msgid "This asset is planned to be offboarded due to an Aave Protocol Governance decision. <0>More details</0>"
-msgstr "Está previsto que este activo se desvincule debido a una decisión del Gobierno del Protocolo Aave. <0>Más detalles</0>"
+msgid "This asset is planned to be offboarded due to an Pegasys Protocol Governance decision. <0>More details</0>"
+msgstr "Está previsto que este activo se desvincule debido a una decisión del Gobierno del Protocolo Pegasys. <0>Más detalles</0>"
 
 #: src/components/infoTooltips/GasTooltip.tsx
 msgid "This gas calculation is only an estimation. Your wallet will set the price of the transaction. You can modify the gas settings directly from your wallet provider."
@@ -2530,8 +2512,8 @@ msgid "To borrow you need to supply any asset to be used as collateral."
 msgstr "Para tomar prestado, necesitas suministrar cualquier activo para ser utilizado como garantía."
 
 #: src/components/infoTooltips/ApprovalTooltip.tsx
-msgid "To continue, you need to grant Aave smart contracts permission to move your funds from your wallet. Depending on the asset and wallet you use, it is done by signing the permission message (gas free), or by submitting an approval transaction (requires gas). <0>Learn more</0>"
-msgstr "Para continuar, necesitas otorgar permiso a los contratos inteligentes de Aave para mover tus fondos de tu cartera. Según el activo y la cartera que uses, se hace firmando el mensaje de permiso (sin coste de gas), o enviando una transacción de aprobación (requiere coste de gas). <0>Aprende más</0>"
+msgid "To continue, you need to grant Pegasys smart contracts permission to move your funds from your wallet. Depending on the asset and wallet you use, it is done by signing the permission message (gas free), or by submitting an approval transaction (requires gas). <0>Learn more</0>"
+msgstr "Para continuar, necesitas otorgar permiso a los contratos inteligentes de Pegasys para mover tus fondos de tu cartera. Según el activo y la cartera que uses, se hace firmando el mensaje de permiso (sin coste de gas), o enviando una transacción de aprobación (requiere coste de gas). <0>Aprende más</0>"
 
 #: src/components/transactions/Emode/EmodeModalContent.tsx
 msgid "To enable E-mode for the {0} category, all borrow positions outside of this category must be closed."
@@ -2680,8 +2662,8 @@ msgid "Use it to vote for or against active proposals."
 msgstr "Úsalo para votar a favor o en contra de propuestas activas."
 
 #: src/modules/governance/DelegatedInfoPanel.tsx
-msgid "Use your AAVE and stkAAVE balance to delegate your voting and proposition powers. You will not be sending any tokens, only the rights to vote and propose changes to the protocol. You can re-delegate or revoke power to self at any time."
-msgstr "Utiliza tu balance de AAVE y stkAAVE para delegar tu voto y poder de proposición. No enviarás ningún token, solo los derechos de votar y proponer cambios en el protocolo. Puedes volver a delegar o revocar el poder a sí mismo en cualquier momento."
+msgid "Use your PSYS and stkPSYS balance to delegate your voting and proposition powers. You will not be sending any tokens, only the rights to vote and propose changes to the protocol. You can re-delegate or revoke power to self at any time."
+msgstr "Utiliza tu balance de PSYS y stkPSYS para delegar tu voto y poder de proposición. No enviarás ningún token, solo los derechos de votar y proponer cambios en el protocolo. Puedes volver a delegar o revocar el poder a sí mismo en cualquier momento."
 
 #: src/modules/dashboard/lists/SuppliedPositionsList/SuppliedPositionsListMobileItem.tsx
 msgid "Used as collateral"
@@ -2712,8 +2694,8 @@ msgid "User is trying to borrow multiple assets including a siloed one"
 msgstr "El usuario está intentando tomar prestado múltiples activos incluido uno aislado"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "Users who stake AAVE in Safety Module (i.e. stkAAVE holders) receive a discount on GHO borrow interest rate. The discount applies to 100 GHO for every 1 stkAAVE held. Use the calculator below to see GHO borrow rate with the discount applied."
-msgstr "Los usuarios que stakean AAVE en el Modulo de Seguridad (es decir, poseedores de stkAAVE) reciben un descuento en la tasa de interés de préstamo de GHO. Este descuento se aplica a 100 GHO por cada 1 stkAAVE en posesión. Usa el calculador de abajo para ver la tasa de préstamo de GHO con el descuento aplicado."
+msgid "Users who stake PSYS in Safety Module (i.e. stkPSYS holders) receive a discount on GHO borrow interest rate. The discount applies to 100 GHO for every 1 stkPSYS held. Use the calculator below to see GHO borrow rate with the discount applied."
+msgstr "Los usuarios que stakean PSYS en el Modulo de Seguridad (es decir, poseedores de stkPSYS) reciben un descuento en la tasa de interés de préstamo de GHO. Este descuento se aplica a 100 GHO por cada 1 stkPSYS en posesión. Usa el calculador de abajo para ver la tasa de préstamo de GHO con el descuento aplicado."
 
 #: src/modules/reserve-overview/ReserveConfiguration.tsx
 #: src/modules/reserve-overview/ReserveTopDetails.tsx
@@ -2878,8 +2860,8 @@ msgid "With a voting power of <0/>"
 msgstr "Con un poder de votación de <0/>"
 
 #: src/modules/faucet/FaucetTopPanel.tsx
-msgid "With testnet Faucet you can get free assets to test the Aave Protocol. Make sure to switch your wallet provider to the appropriate testnet network, select desired asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a testnet are not “real,” meaning they have no monetary value. <0>Learn more</0>"
-msgstr "Con la testnet Faucet puedes obtener activos gratuitos para probar el Protocolo Aave. Asegúrate de cambiar tu proveedor de cartera a la red de testnet adecuada, selecciona el activo deseado y haz clic en \"Faucet\" para obtener tokens transferidos a tu cartera. Los activos de una testnet no son \"reales\", lo que significada que no tienen valor monetario. <0>Aprende más</0>"
+msgid "With testnet Faucet you can get free assets to test the Pegasys Protocol. Make sure to switch your wallet provider to the appropriate testnet network, select desired asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a testnet are not “real,” meaning they have no monetary value. <0>Learn more</0>"
+msgstr "Con la testnet Faucet puedes obtener activos gratuitos para probar el Protocolo Pegasys. Asegúrate de cambiar tu proveedor de cartera a la red de testnet adecuada, selecciona el activo deseado y haz clic en \"Faucet\" para obtener tokens transferidos a tu cartera. Los activos de una testnet no son \"reales\", lo que significada que no tienen valor monetario. <0>Aprende más</0>"
 
 #: src/components/transactions/Withdraw/WithdrawAndSwitchModalContent.tsx
 #: src/components/transactions/Withdraw/WithdrawModal.tsx
@@ -2984,8 +2966,8 @@ msgid "You don’t have enough funds in your wallet to repay the full amount. If
 msgstr "No tienes suficientes fondos en tu cartera para pagar la cantidad total. Si procedes a pagar con tu cantidad actual de fondos, aún tendrás un pequeño préstamo en tu panel de control."
 
 #: src/modules/governance/DelegatedInfoPanel.tsx
-msgid "You have no AAVE/stkAAVE balance to delegate."
-msgstr "No tienes balance de AAVE/stkAAVE para delegar."
+msgid "You have no PSYS/stkPSYS balance to delegate."
+msgstr "No tienes balance de PSYS/stkPSYS para delegar."
 
 #: src/components/transactions/RateSwitch/RateSwitchModalContent.tsx
 msgid "You have not borrow yet using this currency"
@@ -3059,8 +3041,8 @@ msgid "Your info"
 msgstr "Tu información"
 
 #: src/modules/governance/VotingPowerInfoPanel.tsx
-msgid "Your proposition power is based on your AAVE/stkAAVE balance and received delegations."
-msgstr "Tu poder de proposición se basa en tu balance de AAVE/stkAAVE y delegaciones recibidas."
+msgid "Your proposition power is based on your PSYS/stkPSYS balance and received delegations."
+msgstr "Tu poder de proposición se basa en tu balance de PSYS/stkPSYS y delegaciones recibidas."
 
 #: src/components/transactions/ClaimRewards/ClaimRewardsModalContent.tsx
 msgid "Your reward balance is 0"
@@ -3076,8 +3058,8 @@ msgid "Your voting info"
 msgstr "Tu información de voto"
 
 #: src/modules/governance/VotingPowerInfoPanel.tsx
-msgid "Your voting power is based on your AAVE/stkAAVE balance and received delegations."
-msgstr "Tu poder de voto se basa en tu balance de AAVE/stkAAVE y delegaciones recibidas."
+msgid "Your voting power is based on your PSYS/stkPSYS balance and received delegations."
+msgstr "Tu poder de voto se basa en tu balance de PSYS/stkPSYS y delegaciones recibidas."
 
 #: src/modules/dashboard/lists/SupplyAssetsList/WalletEmptyInfo.tsx
 msgid "Your {name} wallet is empty. Purchase or transfer assets or use <0>{0}</0> to transfer your {network} assets."
@@ -3164,7 +3146,7 @@ msgstr "stETH suministrado como garantía continuará acumulando recompensas de 
 msgid "stETH tokens will be migrated to Wrapped stETH using Lido Protocol wrapper which leads to supply balance change after migration: {0}"
 msgstr "Los tokens stETH se migrarán a Wrapped stETH usando el wrapper del protocolo de Lido, lo que provoca un cambio en el balance de suministro después de la migración: {0}"
 
-#: src/components/transactions/Warnings/AAVEWarning.tsx
+#: src/components/transactions/Warnings/PSYSWarning.tsx
 msgid "staking view"
 msgstr "vista de stakeo"
 
@@ -3173,18 +3155,18 @@ msgid "starts"
 msgstr "empieza"
 
 #: src/modules/staking/GhoDiscountProgram.tsx
-msgid "stkAAVE holders get a discount on GHO borrow rate"
-msgstr "poseedores de stkAAVE obtienen un descuento en la tasa de préstamo de GHO"
+msgid "stkPSYS holders get a discount on GHO borrow rate"
+msgstr "poseedores de stkPSYS obtienen un descuento en la tasa de préstamo de GHO"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
 msgid "to"
 msgstr "para"
 
-#: src/components/transactions/Warnings/AAVEWarning.tsx
+#: src/components/transactions/Warnings/PSYSWarning.tsx
 msgid "tokens is not the same as staking them. If you wish to stake your"
 msgstr "tokens no es lo mismo que stakearlos. Si deseas stakearlos"
 
-#: src/components/transactions/Warnings/AAVEWarning.tsx
+#: src/components/transactions/Warnings/PSYSWarning.tsx
 msgid "tokens, please go to the"
 msgstr "tokens, por favor ve al"
 
@@ -3268,4 +3250,3 @@ msgstr "{title}"
 #: src/components/CircleIcon.tsx
 msgid "{tooltipText}"
 msgstr "{tooltipText}"
-

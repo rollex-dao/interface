@@ -184,15 +184,15 @@ export const getDesignTokens = (mode: 'light' | 'dark') => {
         highlight: getColor('#383D51', '#C9B3F9'),
       },
       background: {
-        default: getColor('#FFFFFF', '#010101'),
-        paper: getColor('#FFFFFF', '#081120;'),
+        default: getColor('#FFFFFF', '#000913'),
+        paper: getColor('#FFFFFF', '#081120'),
         surface: getColor('#F7F7F9', '#383D51'),
         surface2: getColor('#F9F9FB', '#383D51'),
-        header: getColor('#FFFFFF', '#010101'),
+        header: getColor('#FFFFFF', '#000913'),
         disabled: getColor('#EAEBEF', '#EBEBEF14'),
         bgGradient: getColor(
           'radial-gradient(60% 50% at 50% 45%, #68e1ffbe, #e6faff)!important',
-          'radial-gradient(60% 50% at 50% 45% , #56BED8, #010101)'
+          'radial-gradient(60% 50% at 50% 45% , #56BED8, #000913)'
         ),
         deepShadow: `0px 5px 24px ${opacify(24, '#00D9EF')}, 5px 0px 24px ${opacify(
           24,

@@ -79,8 +79,8 @@ export default function Staking() {
 
   // Total funds at Safety Module (stkaave tvl + stkbpt tvl)
   const tvl = formatUnits(
-    BigNumber.from(stakeGeneralResult?.aave.stakeTokenTotalSupply || '0')
-      .mul(stakeGeneralResult?.aave.stakeTokenPriceEth || '0')
+    BigNumber.from(stakeGeneralResult?.pegasys.stakeTokenTotalSupply || '0')
+      .mul(stakeGeneralResult?.pegasys.stakeTokenPriceEth || '0')
       .add(
         BigNumber.from(stakeGeneralResult?.bpt.stakeTokenTotalSupply || '0').mul(
           stakeGeneralResult?.bpt.stakeTokenPriceEth || '0'
@@ -92,7 +92,7 @@ export default function Staking() {
 
   // Total AAVE Emissions (stkaave dps + stkbpt dps)
   const stkEmission = formatEther(
-    BigNumber.from(stakeGeneralResult?.aave.distributionPerSecond || '0')
+    BigNumber.from(stakeGeneralResult?.pegasys.distributionPerSecond || '0')
       .add(stakeGeneralResult?.bpt.distributionPerSecond || '0')
       .mul('86400')
   );
@@ -122,7 +122,7 @@ export default function Staking() {
               >
                 <StyledToggleButton value="aave" disabled={mode === 'aave'}>
                   <Typography variant="subheader1">
-                    <Trans>Stake AAVE</Trans>
+                    <Trans>Stake PSYS</Trans>
                   </Typography>
                 </StyledToggleButton>
                 <StyledToggleButton value="bpt" disabled={mode === 'bpt'}>
@@ -143,21 +143,21 @@ export default function Staking() {
                 }}
               >
                 <StakingPanel
-                  stakeTitle="AAVE"
-                  stakedToken="AAVE"
+                  stakeTitle="PSYS"
+                  stakedToken="PSYS"
                   maxSlash="0.3"
-                  icon="aave"
-                  stakeData={stakeGeneralResult?.aave}
-                  stakeUserData={stakeUserResult?.aave}
+                  icon="psys"
+                  stakeData={stakeGeneralResult?.pegasys}
+                  stakeUserData={stakeUserResult?.pegasys}
                   ethPriceUsd={stakeGeneralResult?.ethPriceUsd}
-                  onStakeAction={() => openStake('aave', 'AAVE')}
-                  onCooldownAction={() => openStakeCooldown('aave')}
-                  onUnstakeAction={() => openUnstake('aave', 'AAVE')}
-                  onStakeRewardClaimAction={() => openStakeRewardsClaim('aave', 'AAVE')}
+                  onStakeAction={() => openStake('psys', 'PSYS')}
+                  onCooldownAction={() => openStakeCooldown('psys')}
+                  onUnstakeAction={() => openUnstake('psys', 'PSYS')}
+                  onStakeRewardClaimAction={() => openStakeRewardsClaim('psys', 'PSYS')}
                   onStakeRewardClaimRestakeAction={() =>
-                    openStakeRewardsRestakeClaim('aave', 'AAVE')
+                    openStakeRewardsRestakeClaim('psys', 'PSYS')
                   }
-                  headerAction={<BuyWithFiat cryptoSymbol="AAVE" networkMarketName={network} />}
+                  headerAction={<BuyWithFiat cryptoSymbol="PSYS" networkMarketName={network} />}
                   hasDiscountProgram={true}
                 />
               </Grid>

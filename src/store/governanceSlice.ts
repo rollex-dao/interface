@@ -1,5 +1,4 @@
 import {
-  AaveGovernanceService,
   ERC20_2612Service,
   EthereumTransactionTypeExtended,
   GovDelegate,
@@ -9,6 +8,7 @@ import {
   GovernancePowerDelegationTokenService,
   GovPrepareDelegateSig,
   GovPrepareDelegateSigByType,
+  PegasysGovernanceService,
 } from '@pollum-io/contract-helpers';
 import { governanceConfig } from 'src/ui-config/governanceConfig';
 import { getProvider } from 'src/utils/marketsAndNetworksConfig';
@@ -23,7 +23,7 @@ export interface GovernanceSlice {
   delegateByType: (
     args: Omit<GovDelegateByType, 'user'>
   ) => Promise<EthereumTransactionTypeExtended[]>;
-  submitVote: AaveGovernanceService['submitVote'];
+  submitVote: PegasysGovernanceService['submitVote'];
   getTokenNonce: (user: string, token: string) => Promise<number>;
   delegateTokensBySig: (args: GovDelegateTokensBySig) => Promise<EthereumTransactionTypeExtended[]>;
   delegateTokensByTypeBySig: (
@@ -64,9 +64,9 @@ export const createGovernanceSlice: StateCreator<
       return service.delegate({ ...args, user });
     },
     submitVote: (args) => {
-      const governanceService = new AaveGovernanceService(getCorrectProvider(), {
-        GOVERNANCE_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2,
-        GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2_HELPER,
+      const governanceService = new PegasysGovernanceService(getCorrectProvider(), {
+        GOVERNANCE_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2,
+        GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2_HELPER,
         ipfsGateway: governanceConfig.ipfsGateway,
       });
       return governanceService.submitVote(args);
@@ -77,17 +77,17 @@ export const createGovernanceSlice: StateCreator<
       return nonce || 0;
     },
     delegateTokensBySig: async (args) => {
-      const governanceService = new AaveGovernanceService(getCorrectProvider(), {
-        GOVERNANCE_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2,
-        GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2_HELPER,
+      const governanceService = new PegasysGovernanceService(getCorrectProvider(), {
+        GOVERNANCE_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2,
+        GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2_HELPER,
         ipfsGateway: governanceConfig.ipfsGateway,
       });
       return governanceService.delegateTokensBySig(args);
     },
     delegateTokensByTypeBySig: async (args) => {
-      const governanceService = new AaveGovernanceService(getCorrectProvider(), {
-        GOVERNANCE_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2,
-        GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.AAVE_GOVERNANCE_V2_HELPER,
+      const governanceService = new PegasysGovernanceService(getCorrectProvider(), {
+        GOVERNANCE_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2,
+        GOVERNANCE_HELPER_ADDRESS: governanceConfig.addresses.PEGASYS_GOVERNANCE_V2_HELPER,
         ipfsGateway: governanceConfig.ipfsGateway,
       });
       return governanceService.delegateTokensByTypeBySig(args);

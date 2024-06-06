@@ -29,7 +29,7 @@ export enum ErrorType {
   NOT_ENOUGH_BALANCE,
 }
 
-type StakingType = 'aave' | 'bpt';
+type StakingType = 'pegasys' | 'bpt';
 
 export const StakeRewardClaimRestakeModalContent = ({
   stakeAssetName,
@@ -105,7 +105,7 @@ export const StakeRewardClaimRestakeModalContent = ({
 
   return (
     <>
-      <TxModalTitle title="Restake AAVE rewards" />
+      <TxModalTitle title="Restake PSYS rewards" />
       {isWrongNetwork && !readOnlyModeAddress && (
         <ChangeNetworkWarning networkName={networkConfig.name} chainId={stakingChain} />
       )}

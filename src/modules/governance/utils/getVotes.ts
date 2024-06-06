@@ -21,7 +21,7 @@ export const getVotes = async (
   const latestBlock = currentBlock > endBlock ? endBlock : currentBlock;
 
   const contract = governanceContract.getContractInstance(
-    governanceConfig.addresses.AAVE_GOVERNANCE_V2
+    governanceConfig.addresses.PEGASYS_GOVERNANCE_V2
   );
 
   // TODO: properly type

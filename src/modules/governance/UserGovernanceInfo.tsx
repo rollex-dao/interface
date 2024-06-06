@@ -16,11 +16,10 @@ export const UserGovernanceInfo = () => {
     </>
   ) : (
     <Paper
-      sx={({ palette }) => ({
-        boxShadow: palette.background.deepShadow,
+      sx={{
         borderRadius: '20px',
         p: 6,
-      })}
+      }}
     >
       <Typography variant="h3" sx={{ mb: { xs: 6, xsm: 10 } }}>
         <Trans>Your info</Trans>

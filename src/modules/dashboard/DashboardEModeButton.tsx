@@ -1,6 +1,6 @@
 import { CogIcon, LightningBoltIcon } from '@heroicons/react/solid';
 import { Trans } from '@lingui/macro';
-import { Box, Button, SvgIcon, Typography } from '@mui/material';
+import { Box, Button, SvgIcon, Typography, useTheme } from '@mui/material';
 import Menu from '@mui/material/Menu';
 import React, { useState } from 'react';
 import { EmodeModalType } from 'src/components/transactions/Emode/EmodeModalContent';
@@ -24,6 +24,8 @@ export const DashboardEModeButton = ({ userEmodeCategoryId }: DashboardEModeButt
   const { openEmode } = useModalContext();
   const { eModes: _eModes } = useAppDataContext();
   const trackEvent = useRootStore((store) => store.trackEvent);
+
+  const { palette } = useTheme();
 
   const iconButtonSize = 12;
 
@@ -209,7 +211,13 @@ export const DashboardEModeButton = ({ userEmodeCategoryId }: DashboardEModeButt
           {isEModeDisabled ? (
             <Button
               fullWidth
-              variant={'gradient'}
+              // variant={'gradient'}
+              sx={{
+                background:
+                  palette.mode === 'dark'
+                    ? 'linear-gradient(90deg, rgb(83, 217, 217) 9.38%, rgba(0, 184, 255, 0.1) 128.42%)'
+                    : 'linear-gradient(90deg, rgb(102, 94, 225) 9.38%, rgba(0, 184, 255, 0.3) 128.42%)',
+              }}
               onClick={() => {
                 trackEvent(GENERAL.OPEN_MODAL, {
                   type: 'Enable E-Mode',

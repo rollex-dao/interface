@@ -18,15 +18,15 @@ export const GhoReserveConfiguration: React.FC<GhoReserveConfigurationProps> = (
     <>
       <PanelRow>
         <PanelTitle>
-          <Trans>About GHO</Trans>
+          <Trans>About HOE</Trans>
         </PanelTitle>
         <Box>
           <Typography gutterBottom>
             <Trans>
-              GHO is a native decentralized, collateral-backed digital asset pegged to USD. It is
-              created by users via borrowing against multiple collateral. When user repays their GHO
-              borrow position, the protocol burns that user&apos;s GHO. All the interest payments
-              accrued by minters of GHO would be directly transferred to the AaveDAO treasury.
+              HOE is a native decentralized, collateral-backed digital asset pegged to USD. It is
+              created by users via borrowing against multiple collateral. When user repays their HOE
+              borrow position, the protocol burns that user&apos;s HOE. All the interest payments
+              accrued by minters of HOE would be directly transferred to the PegasysDAO treasury.
             </Trans>
           </Typography>
           <Box
