@@ -44,7 +44,7 @@
     "@mui/icons-material": "^5.10.14",
     "@mui/material": "^5.10.9",
     "@paraswap/sdk": "6.2.4",
-    "@pollum-io/contract-helpers": "0.0.2",
+    "@pollum-io/contract-helpers": "0.0.3",
     "@tanstack/react-query": "^4.28.0",
     "@visx/annotation": "^3.3.0",
     "@visx/axis": "^2.14.0",
