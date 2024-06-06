@@ -71,8 +71,8 @@ export interface StakingPanelProps {
   onStakeRewardClaimRestakeAction?: () => void;
   onCooldownAction?: () => void;
   onUnstakeAction?: () => void;
-  stakeData?: GeneralStakeUIDataHumanized['aave'];
-  stakeUserData?: GetUserStakeUIDataHumanized['aave'];
+  stakeData?: GeneralStakeUIDataHumanized['pegasys'];
+  stakeUserData?: GetUserStakeUIDataHumanized['pegasys'];
   description?: React.ReactNode;
   headerAction?: React.ReactNode;
   ethPriceUsd?: string;

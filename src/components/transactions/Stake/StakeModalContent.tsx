@@ -30,7 +30,7 @@ export enum ErrorType {
   NOT_ENOUGH_BALANCE,
 }
 
-type StakingType = 'aave' | 'bpt';
+type StakingType = 'pegasys' | 'bpt';
 
 export const StakeModalContent = ({ stakeAssetName, icon }: StakeProps) => {
   const { chainId: connectedChainId, readOnlyModeAddress } = useWeb3Context();
