@@ -130,7 +130,7 @@ export const GhoDiscountCalculator = () => {
     if (!stkAave)
       alertText = (
         <Typography variant="caption" component="p" color="warning.dark">
-          <Trans>Add stkAAVE to see borrow APY with the discount</Trans>
+          <Trans>Add stkPSYS to see borrow APY with the discount</Trans>
         </Typography>
       );
 
@@ -157,7 +157,7 @@ export const GhoDiscountCalculator = () => {
                 <SvgIcon sx={{ fontSize: '14px', verticalAlign: 'middle', marginBottom: '3px' }}>
                   <AddIcon />
                 </SvgIcon>
-                <Trans>Add stkAAVE</Trans>
+                <Trans>Add stkPSYS</Trans>
               </Typography>{' '}
               <Trans>to see borrow rate with discount</Trans>
             </Trans>
@@ -196,7 +196,7 @@ export const GhoDiscountCalculator = () => {
                     }}
                   />{' '}
                 </Trans>
-                stkAAVE
+                stkPSYS
               </Typography>{' '}
               <Trans>
                 to borrow at{' '}
@@ -255,7 +255,7 @@ export const GhoDiscountCalculator = () => {
         </Box>
         <Box sx={{ width: '100%' }}>
           <CalculatorInput
-            title="Staked AAVE amount"
+            title="Staked PSYS amount"
             value={stkAave}
             disabled={ghoLoadingData}
             tokenSymbol="stkAAVE"
@@ -295,7 +295,7 @@ export const GhoDiscountCalculator = () => {
         </Box>
         <Box sx={{ width: '100%' }}>
           <CalculatorInput
-            title="Staked AAVE amount"
+            title="Staked PSYS amount"
             value={stkAave}
             disabled={ghoLoadingData}
             tokenSymbol="stkAAVE"
@@ -316,8 +316,8 @@ export const GhoDiscountCalculator = () => {
       </Typography>
       <Typography variant="caption" color="text.secondary" mb={6}>
         <Trans>
-          Users who stake AAVE in Safety Module (i.e. stkAAVE holders) receive a discount on GHO
-          borrow interest rate. The discount applies to 100 GHO for every 1 stkAAVE held. Use the
+          Users who stake PSYS in Safety Module (i.e. stkPSYS holders) receive a discount on GHO
+          borrow interest rate. The discount applies to 100 GHO for every 1 stkPSYS held. Use the
           calculator below to see GHO borrow rate with the discount applied.
         </Trans>
       </Typography>
@@ -396,7 +396,7 @@ const GhoDiscountParametersComponent: React.FC<{
           />
         </DiscountModelParameter>
         <DiscountModelParameter
-          title={<Trans>Minimum staked Aave amount</Trans>}
+          title={<Trans>Minimum staked Pegasys amount</Trans>}
           fullWidth={downToXsm}
           loading={loading}
         >
@@ -428,8 +428,8 @@ const GhoDiscountParametersComponent: React.FC<{
       </Box>
       <Typography variant="caption" color="text.secondary">
         <Trans>
-          Discount parameters are decided by the Aave community and may be changed over time. Check
-          Governance for updates and vote to participate.{' '}
+          Discount parameters are decided by the Pegasys community and may be changed over time.
+          Check Governance for updates and vote to participate.{' '}
           <Link
             href="https://governance.aave.com"
             sx={{ textDecoration: 'underline' }}

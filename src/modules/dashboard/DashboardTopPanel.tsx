@@ -1,7 +1,7 @@
-import { ChainId } from '@aave/contract-helpers';
 import { normalize, UserIncentiveData, valueToBigNumber } from '@aave/math-utils';
 import { Trans } from '@lingui/macro';
 import { Box, Button, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { ChainId } from '@pollum-io/contract-helpers';
 import Link from 'next/link';
 import * as React from 'react';
 import { useState } from 'react';

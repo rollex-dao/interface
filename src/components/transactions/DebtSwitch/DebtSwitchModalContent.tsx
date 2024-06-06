@@ -1,10 +1,10 @@
-import { InterestRate } from '@aave/contract-helpers';
 import { valueToBigNumber } from '@aave/math-utils';
 import { MaxUint256 } from '@ethersproject/constants';
 import { ArrowDownIcon } from '@heroicons/react/outline';
 import { ArrowNarrowRightIcon } from '@heroicons/react/solid';
 import { Trans } from '@lingui/macro';
 import { Box, ListItemText, ListSubheader, Stack, SvgIcon, Typography } from '@mui/material';
+import { InterestRate } from '@pollum-io/contract-helpers';
 import BigNumber from 'bignumber.js';
 import React, { useRef, useState } from 'react';
 import { GhoIncentivesCard } from 'src/components/incentives/GhoIncentivesCard';
@@ -173,7 +173,7 @@ export const DebtSwitchModalContent = ({
     priceImpactDifference > Number(user.availableBorrowsUSD);
 
   let blockingError: ErrorType | undefined = undefined;
-  if (BigNumber(inputAmount).gt(availableLiquidityOfTargetReserve)) {
+  if (new BigNumber(inputAmount).gt(availableLiquidityOfTargetReserve)) {
     blockingError = ErrorType.INSUFFICIENT_LIQUIDITY;
   }
 

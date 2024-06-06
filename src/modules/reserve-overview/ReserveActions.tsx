@@ -1,4 +1,3 @@
-import { API_ETH_MOCK_ADDRESS, InterestRate } from '@aave/contract-helpers';
 import { BigNumberValue, USD_DECIMALS, valueToBigNumber } from '@aave/math-utils';
 import { Trans } from '@lingui/macro';
 import {
@@ -12,6 +11,7 @@ import {
   Typography,
   useTheme,
 } from '@mui/material';
+import { API_ETH_MOCK_ADDRESS, InterestRate } from '@pollum-io/contract-helpers';
 import BigNumber from 'bignumber.js';
 import React, { ReactNode, useState } from 'react';
 import { WalletIcon } from 'src/components/icons/WalletIcon';
@@ -264,13 +264,12 @@ const ActionsSkeleton = () => {
 const PaperWrapper = ({ children }: { children: ReactNode }) => {
   return (
     <Paper
-      sx={({ palette }) => ({
-        boxShadow: palette.background.deepShadow,
+      sx={{
         pt: 4,
         pb: { xs: 4, xsm: 6 },
         px: { xs: 4, xsm: 6 },
         borderRadius: '20px',
-      })}
+      }}
     >
       <Typography variant="h3" sx={{ mb: 6 }}>
         <Trans>Your info</Trans>

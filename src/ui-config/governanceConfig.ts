@@ -1,4 +1,4 @@
-import { ChainId } from '@aave/contract-helpers';
+import { ChainId } from '@pollum-io/contract-helpers';
 
 export interface GovernanceConfig {
   chainId: ChainId;
@@ -14,10 +14,10 @@ export interface GovernanceConfig {
   governanceSnapshotLink: string;
   governanceFAQLink: string;
   addresses: {
-    AAVE_GOVERNANCE_V2: string;
-    AAVE_GOVERNANCE_V2_EXECUTOR_SHORT: string;
-    AAVE_GOVERNANCE_V2_EXECUTOR_LONG: string;
-    AAVE_GOVERNANCE_V2_HELPER: string;
+    PEGASYS_GOVERNANCE_V2: string;
+    PEGASYS_GOVERNANCE_V2_EXECUTOR_SHORT: string;
+    PEGASYS_GOVERNANCE_V2_EXECUTOR_LONG: string;
+    PEGASYS_GOVERNANCE_V2_HELPER: string;
   };
   ipfsGateway: string;
   fallbackIpfsGateway: string;
@@ -37,10 +37,10 @@ export const governanceConfig: GovernanceConfig = {
   walletBalanceProvider: '0x8E8dAd5409E0263a51C0aB5055dA66Be28cFF922',
   governanceSnapshotLink: 'https://snapshot.org/#/aave.eth',
   addresses: {
-    AAVE_GOVERNANCE_V2: '0xEC568fffba86c094cf06b22134B23074DFE2252c',
-    AAVE_GOVERNANCE_V2_EXECUTOR_SHORT: '0x61910EcD7e8e942136CE7Fe7943f956cea1CC2f7',
-    AAVE_GOVERNANCE_V2_EXECUTOR_LONG: '0xEE56e2B3D491590B5b31738cC34d5232F378a8D5',
-    AAVE_GOVERNANCE_V2_HELPER: '0xBb7baf0534423e3108E1D03c259104cDba2C1cB7',
+    PEGASYS_GOVERNANCE_V2: '0x46177D5023f5b374bB42af4742Af4B86175E43E5',
+    PEGASYS_GOVERNANCE_V2_EXECUTOR_SHORT: '0xF06674e8F1C81aAdA237BA96714B2305adE996A9',
+    PEGASYS_GOVERNANCE_V2_EXECUTOR_LONG: '0xF06674e8F1C81aAdA237BA96714B2305adE996A9',
+    PEGASYS_GOVERNANCE_V2_HELPER: '0x7E97595c9b112c038Cbee972a5B944F99035FaE3',
   },
   ipfsGateway: 'https://cloudflare-ipfs.com/ipfs',
   fallbackIpfsGateway: 'https://ipfs.io/ipfs',

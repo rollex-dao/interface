@@ -1,7 +1,7 @@
-import { API_ETH_MOCK_ADDRESS } from '@aave/contract-helpers';
 import { USD_DECIMALS, valueToBigNumber } from '@aave/math-utils';
 import { Trans } from '@lingui/macro';
 import { Box, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { API_ETH_MOCK_ADDRESS } from '@pollum-io/contract-helpers';
 import BigNumber from 'bignumber.js';
 import { Fragment, useState } from 'react';
 import { ListColumn } from 'src/components/lists/ListColumn';

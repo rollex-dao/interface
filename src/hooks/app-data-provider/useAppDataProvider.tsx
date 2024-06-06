@@ -1,4 +1,3 @@
-import { ReserveDataHumanized } from '@aave/contract-helpers';
 import {
   ComputedUserReserve,
   formatGhoReserveData,
@@ -11,6 +10,7 @@ import {
   USD_DECIMALS,
   UserReserveData,
 } from '@aave/math-utils';
+import { ReserveDataHumanized } from '@pollum-io/contract-helpers';
 import BigNumber from 'bignumber.js';
 import { formatUnits } from 'ethers/lib/utils';
 import React, { useContext } from 'react';

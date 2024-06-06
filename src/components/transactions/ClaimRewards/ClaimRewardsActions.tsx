@@ -1,5 +1,5 @@
-import { ProtocolAction } from '@aave/contract-helpers';
 import { Trans } from '@lingui/macro';
+import { ProtocolAction } from '@pollum-io/contract-helpers';
 import { Reward } from 'src/helpers/types';
 import { useTransactionHandler } from 'src/helpers/useTransactionHandler';
 import { useRootStore } from 'src/store/root';

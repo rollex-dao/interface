@@ -1,4 +1,3 @@
-import { ChainId, valueToWei } from '@aave/contract-helpers';
 import { BigNumberZeroDecimal, normalize, normalizeBN, valueToBigNumber } from '@aave/math-utils';
 import { MiscBase, MiscEthereum } from '@bgd-labs/aave-address-book';
 import {
@@ -12,6 +11,7 @@ import {
   TransactionParams,
 } from '@paraswap/sdk';
 import { RateOptions } from '@paraswap/sdk/dist/methods/swap/rates';
+import { ChainId, valueToWei } from '@pollum-io/contract-helpers';
 
 import { ComputedReserveData } from '../app-data-provider/useAppDataProvider';
 

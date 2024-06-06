@@ -1,5 +1,5 @@
-import { ChainId, ChainIdToNetwork } from '@aave/contract-helpers';
 import { StaticJsonRpcProvider } from '@ethersproject/providers';
+import { ChainId, ChainIdToNetwork } from '@pollum-io/contract-helpers';
 import { providers as ethersProviders } from 'ethers';
 
 import {

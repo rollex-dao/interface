@@ -1,5 +1,5 @@
-import { ReservesDataHumanized, UiPoolDataProvider } from '@aave/contract-helpers';
 import { Provider } from '@ethersproject/providers';
+import { ReservesDataHumanized, UiPoolDataProvider } from '@pollum-io/contract-helpers';
 import { MarketDataType } from 'src/ui-config/marketsConfig';
 
 export class UiPoolService {

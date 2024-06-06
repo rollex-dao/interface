@@ -73,15 +73,22 @@ export const BorrowAssetsListItem = ({
       <ListButtonsColumn>
         <Button
           disabled={disableBorrow}
-          variant="contained"
+          // variant="contained"
           onClick={() => {
             openBorrow(underlyingAsset, currentMarket, name, 'dashboard');
+          }}
+          sx={{
+            borderRadius: '20px',
+            background: '#1d2e49',
+            '&:hover': {
+              background: '#0c172b',
+            },
           }}
         >
           <Trans>Borrow</Trans>
         </Button>
         <Button
-          variant="outlined"
+          // variant="outlined"
           component={Link}
           href={ROUTES.reserveOverview(underlyingAsset, currentMarket)}
           onClick={() => {
@@ -91,6 +98,13 @@ export const BorrowAssetsListItem = ({
               assetName: name,
               asset: underlyingAsset,
             });
+          }}
+          sx={{
+            borderRadius: '20px',
+            background: '#1d2e49',
+            '&:hover': {
+              background: '#0c172b',
+            },
           }}
         >
           <Trans>Details</Trans>

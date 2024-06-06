@@ -1,5 +1,5 @@
-import { InterestRate } from '@aave/contract-helpers';
 import { FormatUserSummaryAndIncentivesResponse, valueToBigNumber } from '@aave/math-utils';
+import { InterestRate } from '@pollum-io/contract-helpers';
 import BigNumber from 'bignumber.js';
 import { ethers } from 'ethers';
 

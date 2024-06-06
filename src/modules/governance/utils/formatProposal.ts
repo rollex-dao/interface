@@ -1,5 +1,5 @@
-import { ChainId, Proposal, ProposalState } from '@aave/contract-helpers';
 import { normalizeBN } from '@aave/math-utils';
+import { ChainId, Proposal, ProposalState } from '@pollum-io/contract-helpers';
 import BigNumber from 'bignumber.js';
 import { getProvider } from 'src/utils/marketsAndNetworksConfig';
 

@@ -1,10 +1,10 @@
-import { GhoService } from '@aave/contract-helpers';
 import { GhoReserveData, GhoUserData, normalize } from '@aave/math-utils';
+import { GhoService } from '@pollum-io/contract-helpers';
 import { GHO_SUPPORTED_MARKETS } from 'src/utils/ghoUtilities';
 import { getProvider } from 'src/utils/marketsAndNetworksConfig';
-import { StateCreator } from 'zustand';
+// import { StateCreator } from 'zustand';
 
-import { RootStore } from './root';
+// import { RootStore } from './root';
 
 interface GhoMarketConfig {
   ghoTokenAddress: string;
@@ -27,12 +27,8 @@ export interface GhoSlice {
   displayGho: ({ symbol, currentMarket }: GhoUtilMintingAvailableParams) => boolean;
 }
 
-export const createGhoSlice: StateCreator<
-  RootStore,
-  [['zustand/subscribeWithSelector', never], ['zustand/devtools', never]],
-  [],
-  GhoSlice
-> = (set, get) => {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const createGhoSlice: any = (set: any, get: any) => {
   return {
     ghoReserveData: {
       ghoBaseVariableBorrowRate: '0',
@@ -42,8 +38,8 @@ export const createGhoSlice: StateCreator<
       ghoMinDiscountTokenBalanceForDiscount: '0',
       ghoReserveLastUpdateTimestamp: '0',
       ghoCurrentBorrowIndex: '0',
-      aaveFacilitatorBucketLevel: '0',
-      aaveFacilitatorBucketMaxCapacity: '0',
+      pegasysFacilitatorBucketLevel: '0',
+      pegasysFacilitatorBucketMaxCapacity: '0',
     },
     ghoUserData: {
       userGhoDiscountPercent: '0',

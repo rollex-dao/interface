@@ -1,5 +1,5 @@
-import { ProposalState } from '@aave/contract-helpers';
 import { alpha, experimental_sx, Skeleton, styled } from '@mui/material';
+import { ProposalState } from '@pollum-io/contract-helpers';
 
 interface StateBadgeProps {
   state: ProposalState;

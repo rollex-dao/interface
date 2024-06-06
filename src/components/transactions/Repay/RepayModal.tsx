@@ -1,5 +1,5 @@
-import { InterestRate, PERMISSION } from '@aave/contract-helpers';
 import { Trans } from '@lingui/macro';
+import { InterestRate, PERMISSION } from '@pollum-io/contract-helpers';
 import React, { useState } from 'react';
 import { useAppDataContext } from 'src/hooks/app-data-provider/useAppDataProvider';
 import { ModalContextType, ModalType, useModalContext } from 'src/hooks/useModal';

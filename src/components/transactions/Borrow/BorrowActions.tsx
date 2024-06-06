@@ -1,3 +1,5 @@
+import { Trans } from '@lingui/macro';
+import { BoxProps } from '@mui/material';
 import {
   API_ETH_MOCK_ADDRESS,
   ApproveDelegationType,
@@ -5,9 +7,7 @@ import {
   InterestRate,
   MAX_UINT_AMOUNT,
   ProtocolAction,
-} from '@aave/contract-helpers';
-import { Trans } from '@lingui/macro';
-import { BoxProps } from '@mui/material';
+} from '@pollum-io/contract-helpers';
 import { parseUnits } from 'ethers/lib/utils';
 import { queryClient } from 'pages/_app.page';
 import React, { useCallback, useEffect, useState } from 'react';

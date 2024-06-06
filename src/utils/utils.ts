@@ -1,5 +1,5 @@
-import { ChainId } from '@aave/contract-helpers';
 import { BigNumberValue, USD_DECIMALS, valueToBigNumber } from '@aave/math-utils';
+import { ChainId } from '@pollum-io/contract-helpers';
 
 export function hexToAscii(_hex: string): string {
   const hex = _hex.toString();
@@ -31,16 +31,6 @@ export const makeCancelable = <T>(promise: Promise<T>) => {
       hasCanceled_ = true;
     },
   };
-};
-
-export const optimizedPath = (currentChainId: ChainId) => {
-  return (
-    currentChainId === ChainId.arbitrum_one ||
-    currentChainId === ChainId.arbitrum_rinkeby ||
-    currentChainId === ChainId.optimism
-    // ||
-    // currentChainId === ChainId.optimism_kovan
-  );
 };
 
 // Overrides for minimum base token remaining after performing an action

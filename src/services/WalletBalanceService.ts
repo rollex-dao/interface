@@ -1,6 +1,6 @@
-import { WalletBalanceProvider } from '@aave/contract-helpers';
 import { normalize } from '@aave/math-utils';
 import { Provider } from '@ethersproject/providers';
+import { WalletBalanceProvider } from '@pollum-io/contract-helpers';
 import { governanceConfig } from 'src/ui-config/governanceConfig';
 import { MarketDataType } from 'src/ui-config/marketsConfig';
 

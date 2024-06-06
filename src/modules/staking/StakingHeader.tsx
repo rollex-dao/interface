@@ -1,6 +1,6 @@
-import { ChainId } from '@aave/contract-helpers';
 import { Trans } from '@lingui/macro';
 import { Box, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { ChainId } from '@pollum-io/contract-helpers';
 import { ChainAvailabilityText } from 'src/components/ChainAvailabilityText';
 import { FormattedNumber } from 'src/components/primitives/FormattedNumber';
 import { TopInfoPanel } from 'src/components/TopInfoPanel/TopInfoPanel';
@@ -32,7 +32,7 @@ export const StakingHeader: React.FC<StakingHeaderProps> = ({ tvl, stkEmission, 
         <Box mb={4}>
           <ChainAvailabilityText wrapperSx={{ mb: 4 }} chainId={570 as ChainId} />
           <Box sx={{ display: 'flex', alignItems: 'center', mb: 4 }}>
-            <img src={`/aave.svg`} width="32px" height="32px" alt="" />
+            <img src={`/icons/tokens/psys.svg`} width="32px" height="32px" alt="" />
             <Typography
               variant={downToXSM ? 'h2' : upToLG ? 'display1' : 'h1'}
               sx={{ ml: 2, mr: 3 }}
@@ -43,7 +43,7 @@ export const StakingHeader: React.FC<StakingHeaderProps> = ({ tvl, stkEmission, 
 
           <Typography sx={{ color: 'text.primary', maxWidth: '824px' }}>
             <Trans>
-              AAVE holders (Ethereum network only) can stake their AAVE in the Safety Module to add
+              PSYS holders (Rollux network only) can stake their PSYS in the Safety Module to add
               more security to the protocol and earn Safety Incentives. In the case of a shortfall
               event, up to 30% of your stake can be slashed to cover the deficit, providing an
               additional layer of protection for the protocol.
@@ -83,7 +83,7 @@ export const StakingHeader: React.FC<StakingHeaderProps> = ({ tvl, stkEmission, 
         {/** TBD value */}
         <FormattedNumber
           value={stkEmission || 0}
-          symbol="AAVE"
+          symbol="PSYS"
           variant={valueTypographyVariant}
           symbolsVariant={symbolsTypographyVariant}
           symbolsColor="#A5A8B6"

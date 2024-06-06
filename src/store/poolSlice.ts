@@ -1,3 +1,4 @@
+import { SignatureLike } from '@ethersproject/bytes';
 import {
   ApproveDelegationType,
   ApproveType,
@@ -26,19 +27,18 @@ import {
   UserReserveDataHumanized,
   V3FaucetService,
   WithdrawAndSwitchAdapterService,
-} from '@aave/contract-helpers';
+} from '@pollum-io/contract-helpers';
 import {
   LPBorrowParamsType,
   LPSetUsageAsCollateral,
   LPSwapBorrowRateMode,
   LPWithdrawParamsType,
-} from '@aave/contract-helpers/dist/esm/lendingPool-contract/lendingPoolTypes';
+} from '@pollum-io/contract-helpers/dist/esm/lendingPool-contract/lendingPoolTypes';
 import {
   LPSignERC20ApprovalType,
   LPSupplyParamsType,
   LPSupplyWithPermitType,
-} from '@aave/contract-helpers/dist/esm/v3-pool-contract/lendingPoolTypes';
-import { SignatureLike } from '@ethersproject/bytes';
+} from '@pollum-io/contract-helpers/dist/esm/v3-pool-contract/lendingPoolTypes';
 import dayjs from 'dayjs';
 import { BigNumber, PopulatedTransaction, Signature, utils } from 'ethers';
 import { splitSignature } from 'ethers/lib/utils';
@@ -51,7 +51,7 @@ import { SwapActionProps } from 'src/components/transactions/Swap/SwapActions';
 import { WithdrawAndSwitchActionProps } from 'src/components/transactions/Withdraw/WithdrawAndSwitchActions';
 import { Approval } from 'src/helpers/useTransactionHandler';
 import { MarketDataType } from 'src/ui-config/marketsConfig';
-import { minBaseTokenRemainingByNetwork, optimizedPath } from 'src/utils/utils';
+import { minBaseTokenRemainingByNetwork } from 'src/utils/utils';
 import { StateCreator } from 'zustand';
 
 import { selectCurrentChainIdV3MarketData, selectFormattedReserves } from './poolSelectors';
@@ -395,7 +395,6 @@ export const createPoolSlice: StateCreator<
       return pool.withdraw({
         ...args,
         user,
-        useOptimizedPath: optimizedPath(get().currentChainId),
       });
     },
     setUsageAsCollateral: async (args) => {
@@ -766,7 +765,7 @@ export const createPoolSlice: StateCreator<
       }
     },
     useOptimizedPath: () => {
-      return get().currentMarketData.v3 && optimizedPath(get().currentChainId);
+      return get().currentMarketData.v3;
     },
     poolComputed: {
       get minRemainingBaseTokenBalance() {

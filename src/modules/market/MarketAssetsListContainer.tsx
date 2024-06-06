@@ -1,6 +1,6 @@
-import { API_ETH_MOCK_ADDRESS } from '@aave/contract-helpers';
 import { Trans } from '@lingui/macro';
 import { Box, Switch, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { API_ETH_MOCK_ADDRESS } from '@pollum-io/contract-helpers';
 import { useState } from 'react';
 import { ListWrapper } from 'src/components/lists/ListWrapper';
 import { NoSearchResults } from 'src/components/NoSearchResults';
@@ -125,8 +125,8 @@ export const MarketAssetsListContainer = () => {
           {showFrozenMarketsToggle && (
             <Warning severity="info">
               <Trans>
-                These assets are temporarily frozen or paused by Aave community decisions, meaning
-                that further supply / borrow, or rate swap of these assets are unavailable.
+                These assets are temporarily frozen or paused by Pegasys community decisions,
+                meaning that further supply / borrow, or rate swap of these assets are unavailable.
                 Withdrawals and debt repayments are allowed. Follow the{' '}
                 <Link
                   onClick={() => {
@@ -138,7 +138,7 @@ export const MarketAssetsListContainer = () => {
                   href="https://governance.aave.com"
                   underline="always"
                 >
-                  Aave governance forum
+                  Pegasys governance forum
                 </Link>{' '}
                 for further updates.
               </Trans>

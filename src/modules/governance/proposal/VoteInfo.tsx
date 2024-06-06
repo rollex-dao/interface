@@ -1,6 +1,6 @@
-import { ProposalState } from '@aave/contract-helpers';
 import { Trans } from '@lingui/macro';
 import { Button, Typography } from '@mui/material';
+import { ProposalState } from '@pollum-io/contract-helpers';
 import { FormattedNumber } from 'src/components/primitives/FormattedNumber';
 import { Row } from 'src/components/primitives/Row';
 import { Warning } from 'src/components/primitives/Warning';
@@ -47,7 +47,7 @@ export function VoteInfo({ id, state, strategy, startBlock }: CustomProposalType
                     <Trans>Voting power</Trans>
                   </Typography>
                   <Typography variant="caption" color="text.secondary">
-                    (AAVE + stkAAVE)
+                    (PSYS + stkPSYS)
                   </Typography>
                 </>
               }

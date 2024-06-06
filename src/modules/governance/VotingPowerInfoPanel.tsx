@@ -15,13 +15,12 @@ export function VotingPowerInfoPanel() {
   const { data: powers } = usePowers();
   return (
     <Paper
-      sx={({ palette }) => ({
-        boxShadow: palette.background.deepShadow,
+      sx={{
         borderRadius: '20px',
         px: 6,
         pb: 6,
         pt: 4,
-      })}
+      }}
     >
       <Typography
         variant="h3"
@@ -58,7 +57,7 @@ export function VotingPowerInfoPanel() {
               <>
                 <Typography variant="subheader2">
                   <Trans>
-                    Your voting power is based on your AAVE/stkAAVE balance and received
+                    Your voting power is based on your PSYS/stkPSYS balance and received
                     delegations.
                   </Trans>
                 </Typography>
@@ -90,7 +89,7 @@ export function VotingPowerInfoPanel() {
               <>
                 <Typography variant="subheader2">
                   <Trans>
-                    Your proposition power is based on your AAVE/stkAAVE balance and received
+                    Your proposition power is based on your PSYS/stkPSYS balance and received
                     delegations.
                   </Trans>
                 </Typography>

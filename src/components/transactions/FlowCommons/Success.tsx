@@ -1,6 +1,6 @@
-import { InterestRate } from '@aave/contract-helpers';
 import { Trans } from '@lingui/macro';
 import { Box, Button, Typography, useTheme } from '@mui/material';
+import { InterestRate } from '@pollum-io/contract-helpers';
 import { ReactNode, useState } from 'react';
 import { WalletIcon } from 'src/components/icons/WalletIcon';
 import { FormattedNumber } from 'src/components/primitives/FormattedNumber';

@@ -1,6 +1,6 @@
-import { canBeEnsAddress } from '@aave/contract-helpers';
 import { t, Trans } from '@lingui/macro';
 import { FormControl, TextField, Typography } from '@mui/material';
+import { canBeEnsAddress } from '@pollum-io/contract-helpers';
 import { utils } from 'ethers';
 import { parseUnits } from 'ethers/lib/utils';
 import { useEffect, useState } from 'react';
@@ -79,8 +79,8 @@ export const GovDelegationModalContent: React.FC<GovDelegationModalContentProps>
   const tokens = [
     {
       address: governanceConfig.stkAaveTokenAddress,
-      symbol: 'stkAAVE',
-      name: 'Staked AAVE',
+      symbol: 'stkPSYS',
+      name: 'Staked PSYS',
       amount: stkAave,
       votingDelegatee: powers?.stkAaveVotingDelegatee,
       propositionDelegatee: powers?.stkAavePropositionDelegatee,
@@ -88,8 +88,8 @@ export const GovDelegationModalContent: React.FC<GovDelegationModalContentProps>
     },
     {
       address: governanceConfig.aaveTokenAddress,
-      symbol: 'AAVE',
-      name: 'AAVE',
+      symbol: 'PSYS',
+      name: 'PSYS',
       amount: aave,
       votingDelegatee: powers?.aaveVotingDelegatee,
       propositionDelegatee: powers?.aavePropositionDelegatee,
@@ -177,8 +177,8 @@ export const GovDelegationModalContent: React.FC<GovDelegationModalContentProps>
         >
           <Trans>
             Choose how much voting/proposition power to give to someone else by delegating some of
-            your AAVE or stkAAVE balance. Your tokens will remain in your account, but your delegate
-            will be able to vote or propose on your behalf. If your AAVE or stkAAVE balance changes,
+            your PSYS or stkPSYS balance. Your tokens will remain in your account, but your delegate
+            will be able to vote or propose on your behalf. If your PSYS or stkPSYS balance changes,
             your delegate&apos;s voting/proposition power will be automatically adjusted.
           </Trans>
         </TextWithTooltip>
