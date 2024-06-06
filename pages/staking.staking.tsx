@@ -79,8 +79,8 @@ export default function Staking() {
 
   // Total funds at Safety Module (stkaave tvl + stkbpt tvl)
   const tvl = formatUnits(
-    BigNumber.from(stakeGeneralResult?.aave.stakeTokenTotalSupply || '0')
-      .mul(stakeGeneralResult?.aave.stakeTokenPriceEth || '0')
+    BigNumber.from(stakeGeneralResult?.pegasys.stakeTokenTotalSupply || '0')
+      .mul(stakeGeneralResult?.pegasys.stakeTokenPriceEth || '0')
       .add(
         BigNumber.from(stakeGeneralResult?.bpt.stakeTokenTotalSupply || '0').mul(
           stakeGeneralResult?.bpt.stakeTokenPriceEth || '0'
@@ -92,7 +92,7 @@ export default function Staking() {
 
   // Total AAVE Emissions (stkaave dps + stkbpt dps)
   const stkEmission = formatEther(
-    BigNumber.from(stakeGeneralResult?.aave.distributionPerSecond || '0')
+    BigNumber.from(stakeGeneralResult?.pegasys.distributionPerSecond || '0')
       .add(stakeGeneralResult?.bpt.distributionPerSecond || '0')
       .mul('86400')
   );
@@ -147,8 +147,8 @@ export default function Staking() {
                   stakedToken="PSYS"
                   maxSlash="0.3"
                   icon="psys"
-                  stakeData={stakeGeneralResult?.aave}
-                  stakeUserData={stakeUserResult?.aave}
+                  stakeData={stakeGeneralResult?.pegasys}
+                  stakeUserData={stakeUserResult?.pegasys}
                   ethPriceUsd={stakeGeneralResult?.ethPriceUsd}
                   onStakeAction={() => openStake('psys', 'PSYS')}
                   onCooldownAction={() => openStakeCooldown('psys')}
