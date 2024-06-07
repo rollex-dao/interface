@@ -26,7 +26,7 @@ export const GhoDiscountProgram = () => {
       }}
     >
       <Box
-        sx={{
+        sx={(theme) => ({
           width: '100%',
           marginTop: 'auto',
           p: 4,
@@ -44,9 +44,10 @@ export const GhoDiscountProgram = () => {
             xs: 120,
             xsm: 104,
           },
-          backgroundColor: '#0a1426',
+          background: theme.palette.mode === 'dark' ? '#1d2e49' : '#e5effb',
+          color: theme.palette.mode === 'dark' ? '#FFF' : '#FFF',
           position: 'relative',
-        }}
+        })}
       >
         <Box
           component="img"
@@ -86,18 +87,19 @@ export const GhoDiscountProgram = () => {
             component={Link}
             href={ROUTES.reserveOverview(ghoTokenAddress, currentMarket)}
             size={downToXsm ? 'medium' : 'small'}
-            sx={{
+            sx={(theme) => ({
               alignItems: 'center',
               justifyContent: 'center',
               display: 'flex',
               gap: [2, 1],
               borderRadius: '20px',
               padding: '3px',
-              background: '#1d2e49',
+              background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+              color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
               '&:hover': {
-                background: '#0c172b',
+                background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
               },
-            }}
+            })}
           >
             <Trans>{downToXsm ? 'View details' : 'VIEW DETAILS'}</Trans>
             <ChevronRightIcon width={downToXsm ? 20 : 12} height={downToXsm ? 20 : 12} />

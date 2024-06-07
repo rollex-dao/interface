@@ -136,13 +136,14 @@ export const MarketAssetsListItem = ({ ...reserve }: ComputedReserveData) => {
               market: currentMarket,
             })
           }
-          sx={{
+          sx={(theme) => ({
             borderRadius: '20px',
-            background: '#1d2e49',
+            background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+            color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
             '&:hover': {
-              background: '#0c172b',
+              background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
             },
-          }}
+          })}
         >
           <Trans>Details</Trans>
         </Button>

@@ -77,13 +77,14 @@ export const BorrowAssetsListItem = ({
           onClick={() => {
             openBorrow(underlyingAsset, currentMarket, name, 'dashboard');
           }}
-          sx={{
+          sx={(theme) => ({
             borderRadius: '20px',
-            background: '#1d2e49',
+            background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+            color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
             '&:hover': {
-              background: '#0c172b',
+              background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
             },
-          }}
+          })}
         >
           <Trans>Borrow</Trans>
         </Button>
@@ -99,13 +100,14 @@ export const BorrowAssetsListItem = ({
               asset: underlyingAsset,
             });
           }}
-          sx={{
+          sx={(theme) => ({
             borderRadius: '20px',
-            background: '#1d2e49',
+            background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+            color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
             '&:hover': {
-              background: '#0c172b',
+              background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
             },
-          }}
+          })}
         >
           <Trans>Details</Trans>
         </Button>
