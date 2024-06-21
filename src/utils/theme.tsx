@@ -19,7 +19,7 @@ const {
   typography: { pxToRem },
 } = theme;
 
-const FONT = 'Inter, Arial';
+const FONT = 'Roboto Mono, Arial';
 
 declare module '@mui/material/styles/createPalette' {
   interface PaletteColor extends ColorPartial {}
