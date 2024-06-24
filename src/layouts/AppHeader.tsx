@@ -1,7 +1,7 @@
 import { Box, Typography, useMediaQuery, useScrollTrigger, useTheme } from '@mui/material';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { PegasysLogo } from 'src/components/icons/PegasysLogo';
+import { RollexLogo } from 'src/components/icons/RollexLogo';
 import { useWeb3Context } from 'src/libs/hooks/useWeb3Context';
 import { useRootStore } from 'src/store/root';
 
@@ -89,7 +89,7 @@ export function AppHeader() {
         }}
         onClick={() => setMobileMenuOpen(false)}
       >
-        <PegasysLogo height={48} />
+        <RollexLogo height={44} />
       </Box>
 
       <Box sx={{ display: { xs: 'none', md: 'block' } }}>
