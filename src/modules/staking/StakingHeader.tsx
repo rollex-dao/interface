@@ -32,7 +32,7 @@ export const StakingHeader: React.FC<StakingHeaderProps> = ({ tvl, stkEmission, 
         <Box mb={4}>
           <ChainAvailabilityText wrapperSx={{ mb: 4 }} chainId={570 as ChainId} />
           <Box sx={{ display: 'flex', alignItems: 'center', mb: 4 }}>
-            <img src={`/icons/tokens/psys.svg`} width="32px" height="32px" alt="" />
+            <img src={`/icons/tokens/rollex.png`} width="62px" height="62px" alt="" />
             <Typography
               variant={downToXSM ? 'h2' : upToLG ? 'display1' : 'h1'}
               sx={{ ml: 2, mr: 3 }}
