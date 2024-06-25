@@ -44,7 +44,8 @@ export const GhoDiscountProgram = () => {
             xs: 120,
             xsm: 104,
           },
-          background: theme.palette.mode === 'dark' ? '#1d2e49' : '#e5effb',
+          border: '1px solid #000000',
+          background: theme.palette.mode === 'dark' ? '#FFF' : '#FFF',
           color: theme.palette.mode === 'dark' ? '#FFF' : '#FFF',
           position: 'relative',
         })}
@@ -94,10 +95,11 @@ export const GhoDiscountProgram = () => {
               gap: [2, 1],
               borderRadius: '20px',
               padding: '3px',
-              background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-              color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
+              border: '1px solid #000000',
+              background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
+              color: theme.palette.mode === 'dark' ? '#000' : '#000',
               '&:hover': {
-                background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+                background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
               },
             })}
           >
