@@ -91,6 +91,7 @@ export const ListWrapper = ({
       sx={{
         mt: withTopMargin ? 4 : 0,
         borderRadius: '20px',
+        border: '1px solid #494949',
       }}
     >
       <Box
