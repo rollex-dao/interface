@@ -33,13 +33,23 @@ export const PageTitle = ({ pageTitle, withMarketSwitcher, withMigrateButton }: 
       }}
     >
       {pageTitle && (downToXSM || !withMarketSwitcher) && (
-        <Box sx={{ display: 'flex', alignItems: 'flex-start' }}>
+        <Box
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            background: '#000000',
+            padding: '8px 16px 8px 16px',
+            justifyContent: 'center',
+            borderRadius: '8px',
+          }}
+        >
           <Typography
             variant={downToXSM ? 'h2' : upToLG ? 'display1' : 'h1'}
             sx={{
-              color: withMarketSwitcher ? 'text.muted' : 'text.white',
-              mr: { xs: 5, xsm: 3 },
-              mb: { xs: 1, xsm: 0 },
+              color: '#DBEF88',
+              fontSize: '45px',
+              fontWeight: 500,
+              lineHeight: '56px',
             }}
           >
             {pageTitle}
