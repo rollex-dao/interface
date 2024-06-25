@@ -122,10 +122,11 @@ export const SupplyAssetsListItem = ({
           }}
           sx={(theme) => ({
             borderRadius: '20px',
-            background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-            color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
+            border: '1px solid #000000',
+            background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
+            color: theme.palette.mode === 'dark' ? '#000' : '#000',
             '&:hover': {
-              background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+              background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
             },
           })}
         >
@@ -142,10 +143,11 @@ export const SupplyAssetsListItem = ({
             minWidth: 0,
             px: 4,
             borderRadius: '20px',
-            background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-            color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
+            border: '1px solid #000000',
+            background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
+            color: theme.palette.mode === 'dark' ? '#000' : '#000',
             '&:hover': {
-              background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+              background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
             },
           })}
         >
