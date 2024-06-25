@@ -157,6 +157,7 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
         pt: 4,
         height: '100%',
         borderRadius: '20px',
+        border: '1px solid #000000',
       }}
     >
       <Box
@@ -282,14 +283,15 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
             minWidth: '96px',
             mb: { xs: 6, xsm: 0 },
             borderRadius: '20px',
-            background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-            color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
+            border: '1px solid #000000',
+            color: '#000000',
+            background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
             '&:hover': {
-              background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+              background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
             },
           })}
           onClick={onStakeAction}
-          disabled={+availableToStake === 0}
+          // disabled={+availableToStake === 0}
           fullWidth={!xsm}
           data-cy={`stakeBtn_${stakedToken.toUpperCase()}`}
         >
@@ -491,10 +493,11 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
               data-cy={`coolDownBtn_${stakedToken}`}
               sx={(theme) => ({
                 borderRadius: '20px',
-                background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-                color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
+                border: '1px solid #000000',
+                background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
+                color: theme.palette.mode === 'dark' ? '#000' : '#000',
                 '&:hover': {
-                  background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+                  background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
                 },
               })}
             >
@@ -535,10 +538,11 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
                 mb: { xs: 2, sm: 0 },
                 mr: { xs: 0, sm: 1 },
                 borderRadius: '20px',
-                background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-                color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
+                border: '1px solid #000000',
+                background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
+                color: theme.palette.mode === 'dark' ? '#000' : '#000',
                 '&:hover': {
-                  background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+                  background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
                 },
               })}
             >
