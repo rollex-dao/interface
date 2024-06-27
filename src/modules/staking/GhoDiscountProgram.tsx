@@ -68,7 +68,7 @@ export const GhoDiscountProgram = () => {
           }}
           width={150}
           height={150}
-          alt="psys coin"
+          alt="rlx coin"
         />
         <Box display="flex" flexDirection="column" alignItems={['flex-start', 'center']} gap={3}>
           <Typography
@@ -78,9 +78,9 @@ export const GhoDiscountProgram = () => {
             textAlign={['left', 'center']}
           >
             {downToXsm ? (
-              <Trans>stkPSYS holders get a discount on GHO borrow rate</Trans>
+              <Trans>stkRLX holders get a discount on GHO borrow rate</Trans>
             ) : (
-              <Trans>Holders of stkPSYS receive a discount on the HOE borrowing rate</Trans>
+              <Trans>Holders of stkRLX receive a discount on the HOE borrowing rate</Trans>
             )}
           </Typography>
           <Button

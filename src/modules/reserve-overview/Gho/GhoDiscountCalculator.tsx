@@ -130,7 +130,7 @@ export const GhoDiscountCalculator = () => {
     if (!stkAave)
       alertText = (
         <Typography variant="caption" component="p" color="warning.dark">
-          <Trans>Add stkPSYS to see borrow APY with the discount</Trans>
+          <Trans>Add stkRLX to see borrow APY with the discount</Trans>
         </Typography>
       );
 
@@ -157,7 +157,7 @@ export const GhoDiscountCalculator = () => {
                 <SvgIcon sx={{ fontSize: '14px', verticalAlign: 'middle', marginBottom: '3px' }}>
                   <AddIcon />
                 </SvgIcon>
-                <Trans>Add stkPSYS</Trans>
+                <Trans>Add stkRLX</Trans>
               </Typography>{' '}
               <Trans>to see borrow rate with discount</Trans>
             </Trans>
@@ -196,7 +196,7 @@ export const GhoDiscountCalculator = () => {
                     }}
                   />{' '}
                 </Trans>
-                stkPSYS
+                stkRLX
               </Typography>{' '}
               <Trans>
                 to borrow at{' '}
@@ -255,7 +255,7 @@ export const GhoDiscountCalculator = () => {
         </Box>
         <Box sx={{ width: '100%' }}>
           <CalculatorInput
-            title="Staked PSYS amount"
+            title="Staked RLX amount"
             value={stkAave}
             disabled={ghoLoadingData}
             tokenSymbol="stkAAVE"
@@ -295,7 +295,7 @@ export const GhoDiscountCalculator = () => {
         </Box>
         <Box sx={{ width: '100%' }}>
           <CalculatorInput
-            title="Staked PSYS amount"
+            title="Staked RLX amount"
             value={stkAave}
             disabled={ghoLoadingData}
             tokenSymbol="stkAAVE"
@@ -316,8 +316,8 @@ export const GhoDiscountCalculator = () => {
       </Typography>
       <Typography variant="caption" color="text.secondary" mb={6}>
         <Trans>
-          Users who stake PSYS in Safety Module (i.e. stkPSYS holders) receive a discount on GHO
-          borrow interest rate. The discount applies to 100 GHO for every 1 stkPSYS held. Use the
+          Users who stake RLX in Safety Module (i.e. stkRLX holders) receive a discount on GHO
+          borrow interest rate. The discount applies to 100 GHO for every 1 stkRLX held. Use the
           calculator below to see GHO borrow rate with the discount applied.
         </Trans>
       </Typography>

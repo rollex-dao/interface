@@ -47,10 +47,10 @@ export function AppHeader() {
     setMobileMenuOpen(state);
   };
 
-  const bgHeader = {
-    dark: 'rgba(8, 17, 32, 0.72)',
-    light: 'rgba(255, 255, 255, 0.72)',
-  };
+  // const bgHeader = {
+  //   dark: '#FFFFFF',
+  //   light: '#FFFFFF',
+  // };
 
   return (
     <Box
@@ -63,17 +63,19 @@ export function AppHeader() {
         top: 0,
         transition: theme.transitions.create('all'),
         zIndex: theme.zIndex.appBar,
-        padding: {
-          xs: mobileMenuOpen || walletWidgetOpen ? '8px 20px' : '20px 12px',
-          xsm: '20px 12px',
-        },
+        // padding: {
+        //   xs: mobileMenuOpen || walletWidgetOpen ? '8px 20px' : '20px 12px',
+        //   xsm: '20px 12px',
+        // },
+        padding: '40px 112px 28px 112px',
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'space-between',
-        ...(trigger && {
-          boxShadow: 'inset 0px -1px 0px rgba(242, 243, 247, 0.16)',
-          bgcolor: trigger ? bgHeader[theme.palette.mode] : 'transparent',
-        }),
+        bgcolor: '#FFFFFF',
+        // ...(trigger && {
+        //   boxShadow: 'inset 0px -1px 0px rgba(242, 243, 247, 0.16)',
+        //   bgcolor: trigger ? '#FFFFFF' : '#FFFFFF',
+        // }),
       })}
     >
       <Box

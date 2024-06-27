@@ -79,8 +79,8 @@ export const GovDelegationModalContent: React.FC<GovDelegationModalContentProps>
   const tokens = [
     {
       address: governanceConfig.stkAaveTokenAddress,
-      symbol: 'stkPSYS',
-      name: 'Staked PSYS',
+      symbol: 'stkRLX',
+      name: 'Staked RLX',
       amount: stkAave,
       votingDelegatee: powers?.stkAaveVotingDelegatee,
       propositionDelegatee: powers?.stkAavePropositionDelegatee,
@@ -88,8 +88,8 @@ export const GovDelegationModalContent: React.FC<GovDelegationModalContentProps>
     },
     {
       address: governanceConfig.aaveTokenAddress,
-      symbol: 'PSYS',
-      name: 'PSYS',
+      symbol: 'RLX',
+      name: 'Rollux',
       amount: aave,
       votingDelegatee: powers?.aaveVotingDelegatee,
       propositionDelegatee: powers?.aavePropositionDelegatee,
@@ -177,8 +177,8 @@ export const GovDelegationModalContent: React.FC<GovDelegationModalContentProps>
         >
           <Trans>
             Choose how much voting/proposition power to give to someone else by delegating some of
-            your PSYS or stkPSYS balance. Your tokens will remain in your account, but your delegate
-            will be able to vote or propose on your behalf. If your PSYS or stkPSYS balance changes,
+            your RLX or stkRLX balance. Your tokens will remain in your account, but your delegate
+            will be able to vote or propose on your behalf. If your RLX or stkRLX balance changes,
             your delegate&apos;s voting/proposition power will be automatically adjusted.
           </Trans>
         </TextWithTooltip>

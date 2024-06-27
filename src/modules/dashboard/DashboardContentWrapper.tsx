@@ -99,6 +99,10 @@ export const DashboardContentWrapper = ({ isBorrow }: DashboardContentWrapperPro
                 component="a"
                 variant="surface"
                 size="small"
+                sx={{
+                  color: '#191919',
+                  background: 'linear-gradient(90deg, #DBEF88 0%, #EACF5E 100%)',
+                }}
               >
                 <Trans>View Transactions</Trans>
               </Button>

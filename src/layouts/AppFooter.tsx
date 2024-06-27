@@ -86,18 +86,22 @@ export function AppFooter() {
     <Box
       sx={(theme) => ({
         display: 'flex',
-        padding: ['22px 0px 40px 0px', '0 22px 0 40px', '20px 22px'],
+        padding: '40px 112px 28px 112px',
         width: '100%',
         justifyContent: 'space-between',
         alignItems: 'center',
         gap: '22px',
         flexDirection: ['column', 'column', 'row'],
+        background: '#FFFFFF',
         boxShadow:
           theme.palette.mode === 'light'
             ? 'inset 0px 1px 0px rgba(0, 0, 0, 0.04)'
             : 'inset 0px 1px 0px rgba(255, 255, 255, 0.12)',
       })}
     >
+      <Box>
+        <img src="icons/tokens/rollex-logo.svg" alt="" />
+      </Box>
       <Box sx={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
         {FOOTER_LINKS.map((link) => (
           <StyledLink onClick={link.onClick} key={link.key} href={link.href}>
