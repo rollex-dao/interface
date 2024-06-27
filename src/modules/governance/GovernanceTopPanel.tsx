@@ -56,13 +56,13 @@ export const GovernanceTopPanel = () => {
               variant={downToXSM ? 'h2' : upToLG ? 'display1' : 'h1'}
               sx={{ ml: 2, mr: 3 }}
             >
-              <Trans>Pegasys Governance</Trans>
+              <Trans>Rollex Governance</Trans>
             </Typography>
           </Box>
 
           <Typography sx={{ color: 'text.primary', maxWidth: '824px' }}>
             <Trans>
-              Pegasys is a fully decentralized, community governed protocol by the PSYS
+              Rollex is a fully decentralized, community governed protocol by the PSYS
               token-holders. PSYS token-holders collectively discuss, propose, and vote on upgrades
               to the protocol. PSYS token-holders (Rollux network only) can either vote themselves
               on new proposals or delagate to an address of choice. To learn more check out the

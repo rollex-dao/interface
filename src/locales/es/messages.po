@@ -1607,7 +1607,7 @@ msgid "Overview"
 msgstr "Resumen"
 
 #: src/modules/staking/StakingHeader.tsx
-msgid "PSYS holders (Rollux network only) can stake their PSYS in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
+msgid "RLX holders (Rollux network only) can stake their PSYS in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
 msgstr "Los poseedores de PSYS (solo en la red de Rollux) pueden stakear sus PSYS en el Módulo de Seguridad para añadir más seguridad al protocolo y ganar Incentivos de Seguridad. En el caso de un evento de déficit, se puede recortar hasta el 30% de tu stakeo para cubrir el déficit, proporcionando una capa adicional de protección al protocolo."
 
 #: pages/404.page.tsx

@@ -45,13 +45,13 @@ export const UserDisplay: React.FC<UserDisplayProps> = ({
 
   return (
     <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-      <Avatar
+      {/* <Avatar
         fallbackImage={fallbackImage}
         loading={loading}
         badge={<ExclamationBadge size={BadgeSize.SM} />}
         invisibleBadge={!readOnlyMode}
         {...avatarProps}
-      />
+      /> */}
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
         {!oneLiner && defaultDomain?.name ? (
           <>

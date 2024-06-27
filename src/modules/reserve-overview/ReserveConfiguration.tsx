@@ -50,7 +50,7 @@ export const ReserveConfiguration: React.FC<ReserveConfigurationProps> = ({ rese
         {reserve.isFrozen && !offboardingDiscussion ? (
           <Warning sx={{ mt: '16px', mb: '40px' }} severity="error">
             <Trans>
-              This asset is frozen due to an Pegasys community decision.{' '}
+              This asset is frozen due to an Rollex community decision.{' '}
               <Link
                 href={getFrozenProposalLink(reserve.symbol, currentMarket)}
                 sx={{ textDecoration: 'underline' }}

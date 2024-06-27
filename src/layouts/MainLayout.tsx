@@ -1,6 +1,7 @@
 import { Box } from '@mui/material';
 import React, { ReactNode } from 'react';
 import AnalyticsConsent from 'src/components/Analytics/AnalyticsConsent';
+import { useWeb3Context } from 'src/libs/hooks/useWeb3Context';
 // import { useProtocolDataContext } from 'src/hooks/useProtocolDataContext';
 // import TopBarNotify from 'src/layouts/TopBarNotify';
 import { FORK_ENABLED } from 'src/utils/marketsAndNetworksConfig';
@@ -10,9 +11,10 @@ import { AppHeader } from './AppHeader';
 
 export function MainLayout({ children }: { children: ReactNode }) {
   // const { currentMarket } = useProtocolDataContext();
+  const { connected } = useWeb3Context();
 
   // const notifyText =
-  //   'An issue in a certain feature of the Pegasys Protocol was identified. Some markets or assets are temporarily paused. No funds are at risk.';
+  //   'An issue in a certain feature of the Rollex Protocol was identified. Some markets or assets are temporarily paused. No funds are at risk.';
 
   // const unPauseText =
   //   'Implementation of the approved governance proposal is underway for V2 markets. Your funds are secure.';
@@ -24,9 +26,13 @@ export function MainLayout({ children }: { children: ReactNode }) {
         flexDirection: 'column',
         minHeight: '100vh',
         backgroundPosition: '0 -50vh',
-        backgroundRepeat: 'no-repeat',
-        backgroundImage: `radial-gradient(60% 50% at 50% 45% , #56BED8, ${palette.background.default})`,
+        backgroundRepeat: 'bottom',
+        backgroundImage: connected
+          ? `radial-gradient(60% 50% at 50% 45% , #DBEF88, ${palette.background.default})`
+          : `radial-gradient(60% 50% at 50% 45% , #f08580, ${palette.background.default})`,
       })}
+
+      //EE1771 FD5249
     >
       {/* {currentMarket === 'proto_rollux_v3' ? (
         <TopBarNotify

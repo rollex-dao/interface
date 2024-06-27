@@ -396,7 +396,7 @@ const GhoDiscountParametersComponent: React.FC<{
           />
         </DiscountModelParameter>
         <DiscountModelParameter
-          title={<Trans>Minimum staked Pegasys amount</Trans>}
+          title={<Trans>Minimum staked Rollex amount</Trans>}
           fullWidth={downToXsm}
           loading={loading}
         >
@@ -428,7 +428,7 @@ const GhoDiscountParametersComponent: React.FC<{
       </Box>
       <Typography variant="caption" color="text.secondary">
         <Trans>
-          Discount parameters are decided by the Pegasys community and may be changed over time.
+          Discount parameters are decided by the Rollex community and may be changed over time.
           Check Governance for updates and vote to participate.{' '}
           <Link
             href="https://governance.aave.com"

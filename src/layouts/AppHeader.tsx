@@ -70,7 +70,6 @@ export function AppHeader() {
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'space-between',
-        bgcolor: 'transparent',
         ...(trigger && {
           boxShadow: 'inset 0px -1px 0px rgba(242, 243, 247, 0.16)',
           bgcolor: trigger ? bgHeader[theme.palette.mode] : 'transparent',
@@ -102,13 +101,12 @@ export function AppHeader() {
         <>
           {currentAccount && chainId === 570 && (
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mr: 3 }}>
-              <img src={`/icons/networks/rollux.svg`} width="24px" height="24px" alt="" />
-              <Typography fontSize={16} color="text.primary">
+              <img src={`/icons/networks/rollux-logo.svg`} alt="" />
+              {/* <Typography fontSize={16} color="text.primary">
                 Rollux
-              </Typography>
+              </Typography> */}
             </Box>
           )}
-
           <WalletWidget
             open={walletWidgetOpen}
             setOpen={toggleWalletWigit}

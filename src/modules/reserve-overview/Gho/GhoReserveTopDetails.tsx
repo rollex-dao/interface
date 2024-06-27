@@ -41,7 +41,7 @@ export const GhoReserveTopDetails = () => {
         title={
           <TextWithTooltip text={<Trans>Price</Trans>}>
             <Trans>
-              The Pegasys Protocol is programmed to always use the price of 1 HOE = $1. This is
+              The Rollex Protocol is programmed to always use the price of 1 HOE = $1. This is
               different from using market pricing via oracles for other crypto assets. This creates
               stabilizing arbitrage opportunities when the price of HOE fluctuates.
             </Trans>

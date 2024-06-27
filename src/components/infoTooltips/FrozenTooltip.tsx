@@ -32,7 +32,7 @@ export const FrozenTooltip = ({ symbol, currentMarket }: FrozenTooltipProps) => 
       tooltipContent={
         <Box>
           <Trans>
-            This asset is frozen due to an Pegasys Protocol Governance decision.{' '}
+            This asset is frozen due to an Rollex Protocol Governance decision.{' '}
             <Link
               href={getFrozenProposalLink(symbol, currentMarket)}
               sx={{ textDecoration: 'underline' }}

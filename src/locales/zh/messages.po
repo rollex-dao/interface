@@ -53,7 +53,7 @@ msgid "<0>Slippage tolerance </0><1>{selectedSlippage}% </1><2>{0}</2>"
 msgstr "<0>滑点容差 </0><1>{selectedSlippage}% </1><2>{0}</2>"
 
 #: src/modules/staking/StakingHeader.tsx
-msgid "PSYS holders (Rollux network only) can stake their PSYS in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
+msgid "RLX holders (Rollux network only) can stake their PSYS in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
 msgstr "PSYS持有者（仅限以太坊网络）可以将他们的PSYS质押在安全模块中，为协议增加更多安全性并获得安全奖励。在发生短缺事件的情况下，您的股份最多可以被削减 30% 以弥补赤字，为协议提供额外的保护层。"
 
 #: src/components/incentives/IncentivesTooltipContent.tsx
@@ -2473,20 +2473,20 @@ msgid "This asset has reached its supply cap. Nothing is available to be supplie
 msgstr "该资产已达到其供应上限。这个市场没有任何东西可以供应。"
 
 #: src/components/infoTooltips/FrozenTooltip.tsx
-msgid "This asset is frozen due to an Pegasys Protocol Governance decision. <0>More details</0>"
-msgstr "由于 Pegasys 协议治理决定，该资产被冻结。 <0>更多详情</0>"
+msgid "This asset is frozen due to an Rollex Protocol Governance decision. <0>More details</0>"
+msgstr "由于 Rollex 协议治理决定，该资产被冻结。 <0>更多详情</0>"
 
 #: src/components/infoTooltips/RenFILToolTip.tsx
-msgid "This asset is frozen due to an Pegasys Protocol Governance decision. On the 20th of December 2022, renFIL will no longer be supported and cannot be bridged back to its native network. It is recommended to withdraw supply positions and repay borrow positions so that renFIL can be bridged back to FIL before the deadline. After this date, it will no longer be possible to convert renFIL to FIL. <0>More details</0>"
-msgstr "由于 Pegasys 协议治理决定，该资产被冻结。2022 年 12 月 20 日，renFIL 将不再受支持，也无法桥接回其原生网络。建议在截止日期前撤回供应头寸并偿还借入头寸，以便renFIL可以桥接回FIL。在此日期之后，将无法再将renFIL转换为FIL。 <0>更多详情</0>"
+msgid "This asset is frozen due to an Rollex Protocol Governance decision. On the 20th of December 2022, renFIL will no longer be supported and cannot be bridged back to its native network. It is recommended to withdraw supply positions and repay borrow positions so that renFIL can be bridged back to FIL before the deadline. After this date, it will no longer be possible to convert renFIL to FIL. <0>More details</0>"
+msgstr "由于 Rollex 协议治理决定，该资产被冻结。2022 年 12 月 20 日，renFIL 将不再受支持，也无法桥接回其原生网络。建议在截止日期前撤回供应头寸并偿还借入头寸，以便renFIL可以桥接回FIL。在此日期之后，将无法再将renFIL转换为FIL。 <0>更多详情</0>"
 
 #: src/modules/reserve-overview/ReserveConfiguration.tsx
-msgid "This asset is frozen due to an Pegasys community decision. <0>More details</0>"
-msgstr "由于 Pegasys 社区的决定，该资产被冻结。 <0>更多详情</0>"
+msgid "This asset is frozen due to an Rollex community decision. <0>More details</0>"
+msgstr "由于 Rollex 社区的决定，该资产被冻结。 <0>更多详情</0>"
 
 #: src/components/Warnings/OffboardingWarning.tsx
-msgid "This asset is planned to be offboarded due to an Pegasys Protocol Governance decision. <0>More details</0>"
-msgstr "由于 Pegasys 协议治理决策，该资产计划被卸载。 <0>更多详情</0>"
+msgid "This asset is planned to be offboarded due to an Rollex Protocol Governance decision. <0>More details</0>"
+msgstr "由于 Rollex 协议治理决策，该资产计划被卸载。 <0>更多详情</0>"
 
 #: src/components/infoTooltips/GasTooltip.tsx
 msgid "This gas calculation is only an estimation. Your wallet will set the price of the transaction. You can modify the gas settings directly from your wallet provider."
@@ -2530,8 +2530,8 @@ msgid "To borrow you need to supply any asset to be used as collateral."
 msgstr "要借款，您需要提供任何用作抵押品的资产。"
 
 #: src/components/infoTooltips/ApprovalTooltip.tsx
-msgid "To continue, you need to grant Pegasys smart contracts permission to move your funds from your wallet. Depending on the asset and wallet you use, it is done by signing the permission message (gas free), or by submitting an approval transaction (requires gas). <0>Learn more</0>"
-msgstr "要继续，您需要授予 Pegasys 智能合约从钱包中转移资金的权限。根据您使用的资产和钱包，可以通过签署许可消息（无 gas）或提交批准交易（需要 gas）来完成。 <0>了解更多信息</0>"
+msgid "To continue, you need to grant Rollex smart contracts permission to move your funds from your wallet. Depending on the asset and wallet you use, it is done by signing the permission message (gas free), or by submitting an approval transaction (requires gas). <0>Learn more</0>"
+msgstr "要继续，您需要授予 Rollex 智能合约从钱包中转移资金的权限。根据您使用的资产和钱包，可以通过签署许可消息（无 gas）或提交批准交易（需要 gas）来完成。 <0>了解更多信息</0>"
 
 #: src/components/transactions/Emode/EmodeModalContent.tsx
 msgid "To enable E-mode for the {0} category, all borrow positions outside of this category must be closed."
@@ -2878,8 +2878,8 @@ msgid "With a voting power of <0/>"
 msgstr "投票权 <0/>"
 
 #: src/modules/faucet/FaucetTopPanel.tsx
-msgid "With testnet Faucet you can get free assets to test the Pegasys Protocol. Make sure to switch your wallet provider to the appropriate testnet network, select desired asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a testnet are not “real,” meaning they have no monetary value. <0>Learn more</0>"
-msgstr "使用测试网水龙头，您可以获得免费资产来测试 Pegasys 协议。确保将您的钱包提供商切换到适当的测试网网络，选择所需的资产，然后单击“水龙头”以将代币转移到您的钱包。测试网上的资产不是“真实的”，这意味着它们没有货币价值。 <0>了解更多信息</0>"
+msgid "With testnet Faucet you can get free assets to test the Rollex Protocol. Make sure to switch your wallet provider to the appropriate testnet network, select desired asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a testnet are not “real,” meaning they have no monetary value. <0>Learn more</0>"
+msgstr "使用测试网水龙头，您可以获得免费资产来测试 Rollex 协议。确保将您的钱包提供商切换到适当的测试网网络，选择所需的资产，然后单击“水龙头”以将代币转移到您的钱包。测试网上的资产不是“真实的”，这意味着它们没有货币价值。 <0>了解更多信息</0>"
 
 #: src/components/transactions/Withdraw/WithdrawAndSwitchModalContent.tsx
 #: src/components/transactions/Withdraw/WithdrawModal.tsx

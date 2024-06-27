@@ -254,7 +254,15 @@ export const BorrowAssetsList = () => {
                   </Warning>
                 )}
                 {user?.totalCollateralMarketReferenceCurrency === '0' && (
-                  <Warning severity="info">
+                  <Warning
+                    severity="info"
+                    sx={{
+                      background: '#fafafa',
+                      border: '1px solid black',
+                      color: 'black',
+                      borderRadius: '5px',
+                    }}
+                  >
                     <Trans>To borrow you need to supply any asset to be used as collateral.</Trans>
                   </Warning>
                 )}

@@ -136,14 +136,17 @@ export const MarketAssetsListItem = ({ ...reserve }: ComputedReserveData) => {
               market: currentMarket,
             })
           }
-          sx={(theme) => ({
-            borderRadius: '20px',
-            background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-            color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
-            '&:hover': {
-              background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-            },
-          })}
+          sx={{
+            borderRadius: '16px',
+            // background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+            // color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
+            // '&:hover': {
+            //   background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+            // },
+            background: '#FFFF',
+            border: '1px solid #494949',
+            padding: '16px',
+          }}
         >
           <Trans>Details</Trans>
         </Button>

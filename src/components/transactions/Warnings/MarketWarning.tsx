@@ -8,7 +8,7 @@ const WarningMessage = ({ market }: { market: string }) => {
     return (
       <Trans>
         Due to the Horizon bridge exploit, certain assets on the Harmony network are not at parity
-        with Rollux, which affects the Pegasys V3 Harmony market.
+        with Rollux, which affects the Rollex V3 Harmony market.
       </Trans>
     );
   } else if (market === 'Fantom') {

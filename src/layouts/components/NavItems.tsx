@@ -72,10 +72,11 @@ export const NavItems = ({ setOpen }: NavItemsProps) => {
                 href={item.link}
                 disableRipple
                 sx={({ palette }) => ({
-                  color: palette.mode === 'dark' ? 'white' : '#7780A0',
+                  // color: palette.mode === 'dark' ? 'white' : '#494949',
+                  color: '#494949',
                   padding: '12px 14px',
                   fontSize: '16px',
-                  fontWeight: 500,
+                  fontWeight: 400,
                   borderRadius: '30px',
                   lineHeight: '16px',
                   '&:hover': { bgcolor: 'transparent' },
@@ -83,8 +84,8 @@ export const NavItems = ({ setOpen }: NavItemsProps) => {
                   '.active&': {
                     width: '100%',
                     height: '100%',
-                    background: palette.mode === 'dark' ? '#081120' : '#665EE1',
-                    color: 'white',
+                    color: '#191919',
+                    fontWeight: 700,
                   },
                 })}
               >
