@@ -25,7 +25,7 @@ export function MainLayout({ children }: { children: ReactNode }) {
         display: 'flex',
         flexDirection: 'column',
         minHeight: '100vh',
-        backgroundPosition: '0 -50vh',
+        // backgroundPosition: 'top right',
         backgroundRepeat: 'bottom',
         backgroundImage: connected
           ? `radial-gradient(60% 50% at 50% 45% , #DBEF88, ${palette.background.default})`

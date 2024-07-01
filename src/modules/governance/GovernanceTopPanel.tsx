@@ -22,14 +22,24 @@ function ExternalLink({ text, href }: ExternalLinkProps) {
     <Button
       variant="surface"
       size="small"
-      sx={{ minWidth: 'unset' }}
+      sx={{
+        minWidth: 'unset',
+        background: 'linear-gradient(90deg, #DBEF88 0%, #EACF5E 100%)',
+        color: '#191919',
+      }}
       component={Link}
       href={href}
       target="_blank"
       rel="noopener"
       onClick={() => trackEvent(GENERAL.EXTERNAL_LINK, { Link: text })}
     >
-      <Box sx={{ display: 'flex', alignItems: 'center' }}>
+      <Box
+        sx={{
+          display: 'flex',
+          alignItems: 'center',
+          background: 'linear-gradient(90deg, #DBEF88 0%, #EACF5E 100%)',
+        }}
+      >
         {text}
         <SvgIcon sx={{ ml: 1, fontSize: 14 }}>
           <ExternalLinkIcon />

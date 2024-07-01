@@ -152,8 +152,8 @@ export function ProposalsList({ proposals: initialProposals }: GovernancePagePro
           sx={{
             background:
               palette.mode === 'dark'
-                ? 'linear-gradient(90deg, rgb(83, 217, 217) 9.38%, rgba(0, 184, 255, 0.1) 128.42%)'
-                : 'linear-gradient(90deg, rgb(102, 94, 225) 9.38%, rgba(0, 184, 255, 0.3) 128.42%)',
+                ? 'linear-gradient(90deg, #DBEF88 0%, #EACF5E 100%)'
+                : 'linear-gradient(90deg, #DBEF88 0%, #EACF5E 100%)',
           }}
         />
       )}
