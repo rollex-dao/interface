@@ -62,8 +62,7 @@ export const TokenLinkDropdown = ({
             sx={{
               display: 'inline-flex',
               alignItems: 'center',
-              color: '#A5A8B6',
-              '&:hover': { color: '#F1F1F3' },
+              color: '#494949',
               cursor: 'pointer',
             }}
           >
