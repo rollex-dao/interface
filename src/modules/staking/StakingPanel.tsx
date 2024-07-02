@@ -17,6 +17,7 @@ import {
 } from '@pollum-io/contract-helpers/dist/esm/uiStakeDataProvider-contract/types';
 import { BigNumber } from 'ethers';
 import { formatEther, formatUnits } from 'ethers/lib/utils';
+import Image from 'next/image';
 import React from 'react';
 import { DarkTooltip } from 'src/components/infoTooltips/DarkTooltip';
 import { FormattedNumber } from 'src/components/primitives/FormattedNumber';
@@ -208,7 +209,7 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
             mb: { xs: 3, xsm: 0 },
           }}
         >
-          <TokenIcon symbol={icon} sx={{ fontSize: { xs: '40px', xsm: '32px' } }} />
+          <Image src={'/icons/tokens/rollex.svg'} alt="token icon" width={34} height={34} />
           <Typography variant={xsm ? 'subheader1' : 'h4'} ml={2}>
             {stakedToken}
           </Typography>
