@@ -4848,7 +4848,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@latest, @types/react@npm:*":
+"@types/react@npm:*":
   version: 17.0.39
   resolution: "@types/react@npm:17.0.39"
   dependencies:
@@ -4856,6 +4856,16 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: bf04d3c2894559012710d595553e12b422d3b91cd8f4f7e122d8cb044ba9c2ba17f6e8a4e09581359cc5509ddc59cd8c8fabd6774f3505a40a45393f074d6e6e
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^18.3.3":
+  version: 18.3.3
+  resolution: "@types/react@npm:18.3.3"
+  dependencies:
+    "@types/prop-types": "*"
+    csstype: ^3.0.2
+  checksum: c63d6a78163244e2022b01ef79b0baec4fe4da3475dc4a90bb8accefad35ef0c43560fd0312e5974f92a0f1108aa4d669ac72d73d66396aa060ea03b5d2e3873
   languageName: node
   linkType: hard
 
@@ -5846,7 +5856,7 @@ __metadata:
     "@types/d3-time-format": ^4.0.0
     "@types/lodash": ^4.14.189
     "@types/mixpanel-browser": ^2.38.1
-    "@types/react": latest
+    "@types/react": ^18.3.3
     "@types/react-infinite-scroller": ^1.2.3
     "@typescript-eslint/eslint-plugin": ^5.38.1
     "@visx/annotation": ^3.3.0
