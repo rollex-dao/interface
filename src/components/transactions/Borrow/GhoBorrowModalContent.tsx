@@ -316,7 +316,7 @@ export const GhoBorrowModalContent = ({
                 visibleDecimals={2}
                 value={userStakedAaveBalance}
               />{' '}
-              staking RLX
+              staking REX
             </Trans>
           </Typography>
         )}

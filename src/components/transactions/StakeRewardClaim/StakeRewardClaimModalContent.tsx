@@ -43,7 +43,7 @@ export const StakeRewardClaimModalContent = ({ stakeAssetName, icon }: StakeRewa
   const stakeData = stakeGeneralResult?.[stakeAssetName as StakingType];
 
   // hardcoded as all rewards will be in rlx token
-  const rewardsSymbol = 'RLX';
+  const rewardsSymbol = 'REX';
 
   const maxAmountToClaim = normalize(
     stakeUserResult?.[stakeAssetName as StakingType].userIncentivesToClaim || '0',

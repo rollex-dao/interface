@@ -508,7 +508,7 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
         </StakeActionBox>
 
         <StakeActionBox
-          title={<Trans>Claimable RLX</Trans>}
+          title={<Trans>Claimable REX</Trans>}
           value={formatEther(stakeUserData?.userIncentivesToClaim || '0')}
           valueUSD={claimableUSD}
           bottomLineTitle={<Trans>Aave per month</Trans>}

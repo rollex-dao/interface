@@ -53,7 +53,7 @@ msgid "<0>Slippage tolerance </0><1>{selectedSlippage}% </1><2>{0}</2>"
 msgstr "<0>Допуск проскальзывания </0><1>{selectedSlippage}% </1><2>{0}</2>"
 
 #: src/modules/staking/StakingHeader.tsx
-msgid "RLX holders (Rollux network only) can stake their PSYS in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
+msgid "REX holders (Rollux network only) can stake their PSYS in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
 msgstr "Держатели PSYS (только в сети Rollux) могут разместить свои PSYS в модуле безопасности, чтобы повысить безопасность протокола и заработать поощрения за безопасность. В случае недостачи до 30% вашей ставки может быть урезано, чтобы покрыть дефицит, обеспечивая дополнительный уровень защиты протокола."
 
 #: src/components/incentives/IncentivesTooltipContent.tsx

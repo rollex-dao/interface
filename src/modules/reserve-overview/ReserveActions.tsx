@@ -348,22 +348,23 @@ const SupplyAction = ({
             symbol="USD"
           />
         </Box>
-        <Button
+        {/* <Button
           sx={{
             height: '36px',
             width: '96px',
             background: '#fffff',
             border: '1px solid #191919',
             borderRadius: '1000px',
+            color: '#191919',
           }}
           onClick={onActionClicked}
           disabled={disable}
           fullWidth={false}
-          // variant="contained"
-          // data-cy="supplyButton"
+          variant="contained"
+          data-cy="supplyButton"
         >
           <Trans>Supply</Trans>
-        </Button>
+        </Button> */}
       </Stack>
     </Stack>
   );

@@ -72,9 +72,9 @@ export const GovernanceTopPanel = () => {
 
           <Typography sx={{ color: 'text.primary', maxWidth: '824px' }}>
             <Trans>
-              Rollex is a fully decentralized, community governed protocol by the RLX token-holders.
-              RLX token-holders collectively discuss, propose, and vote on upgrades to the protocol.
-              RLX token-holders (Rollux network only) can either vote themselves on new proposals or
+              Rollex is a fully decentralized, community governed protocol by the REX token-holders.
+              REX token-holders collectively discuss, propose, and vote on upgrades to the protocol.
+              REX token-holders (Rollux network only) can either vote themselves on new proposals or
               delagate to an address of choice. To learn more check out the Governance
             </Trans>{' '}
             <Link

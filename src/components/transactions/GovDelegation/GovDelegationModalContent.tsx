@@ -80,7 +80,7 @@ export const GovDelegationModalContent: React.FC<GovDelegationModalContentProps>
     {
       address: governanceConfig.stkAaveTokenAddress,
       symbol: 'stkRLX',
-      name: 'Staked RLX',
+      name: 'Staked REX',
       amount: stkAave,
       votingDelegatee: powers?.stkAaveVotingDelegatee,
       propositionDelegatee: powers?.stkAavePropositionDelegatee,
@@ -88,7 +88,7 @@ export const GovDelegationModalContent: React.FC<GovDelegationModalContentProps>
     },
     {
       address: governanceConfig.aaveTokenAddress,
-      symbol: 'RLX',
+      symbol: 'REX',
       name: 'Rollux',
       amount: aave,
       votingDelegatee: powers?.aaveVotingDelegatee,
@@ -177,8 +177,8 @@ export const GovDelegationModalContent: React.FC<GovDelegationModalContentProps>
         >
           <Trans>
             Choose how much voting/proposition power to give to someone else by delegating some of
-            your RLX or stkRLX balance. Your tokens will remain in your account, but your delegate
-            will be able to vote or propose on your behalf. If your RLX or stkRLX balance changes,
+            your REX or stkRLX balance. Your tokens will remain in your account, but your delegate
+            will be able to vote or propose on your behalf. If your REX or stkRLX balance changes,
             your delegate&apos;s voting/proposition power will be automatically adjusted.
           </Trans>
         </TextWithTooltip>

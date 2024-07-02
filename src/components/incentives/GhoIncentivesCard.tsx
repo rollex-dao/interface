@@ -67,7 +67,7 @@ export const GhoIncentivesCard = ({
                 <FormattedNumber variant="subheader2" value={stkAaveAmount} visibleDecimals={2} />{' '}
               </>
             ) : null}
-            RLX in Safety Module.
+            REX in Safety Module.
           </Trans>{' '}
           <Link
             onClick={onMoreDetailsClick}

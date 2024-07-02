@@ -255,7 +255,7 @@ export const GhoDiscountCalculator = () => {
         </Box>
         <Box sx={{ width: '100%' }}>
           <CalculatorInput
-            title="Staked RLX amount"
+            title="Staked REX amount"
             value={stkAave}
             disabled={ghoLoadingData}
             tokenSymbol="stkAAVE"
@@ -295,7 +295,7 @@ export const GhoDiscountCalculator = () => {
         </Box>
         <Box sx={{ width: '100%' }}>
           <CalculatorInput
-            title="Staked RLX amount"
+            title="Staked REX amount"
             value={stkAave}
             disabled={ghoLoadingData}
             tokenSymbol="stkAAVE"
@@ -316,7 +316,7 @@ export const GhoDiscountCalculator = () => {
       </Typography>
       <Typography variant="caption" color="text.secondary" mb={6}>
         <Trans>
-          Users who stake RLX in Safety Module (i.e. stkRLX holders) receive a discount on GHO
+          Users who stake REX in Safety Module (i.e. stkRLX holders) receive a discount on GHO
           borrow interest rate. The discount applies to 100 GHO for every 1 stkRLX held. Use the
           calculator below to see GHO borrow rate with the discount applied.
         </Trans>

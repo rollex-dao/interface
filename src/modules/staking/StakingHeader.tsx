@@ -43,7 +43,7 @@ export const StakingHeader: React.FC<StakingHeaderProps> = ({ tvl, stkEmission, 
 
           <Typography sx={{ color: 'text.primary', maxWidth: '824px' }}>
             <Trans>
-              RLX holders (Rollux network only) can stake their RLX in the Safety Module to add more
+              REX holders (Rollux network only) can stake their REX in the Safety Module to add more
               security to the protocol and earn Safety Incentives. In the case of a shortfall event,
               up to 30% of your stake can be slashed to cover the deficit, providing an additional
               layer of protection for the protocol.
@@ -83,7 +83,7 @@ export const StakingHeader: React.FC<StakingHeaderProps> = ({ tvl, stkEmission, 
         {/** TBD value */}
         <FormattedNumber
           value={stkEmission || 0}
-          symbol="RLX"
+          symbol="REX"
           variant={valueTypographyVariant}
           symbolsVariant={symbolsTypographyVariant}
           symbolsColor="#A5A8B6"

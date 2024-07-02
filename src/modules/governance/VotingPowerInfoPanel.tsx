@@ -57,7 +57,7 @@ export function VotingPowerInfoPanel() {
               <>
                 <Typography variant="subheader2">
                   <Trans>
-                    Your voting power is based on your RLX/stkRLX balance and received delegations.
+                    Your voting power is based on your REX/stkRLX balance and received delegations.
                   </Trans>
                 </Typography>
                 <Typography variant="subheader2" mt={4}>
@@ -88,7 +88,7 @@ export function VotingPowerInfoPanel() {
               <>
                 <Typography variant="subheader2">
                   <Trans>
-                    Your proposition power is based on your RLX/stkRLX balance and received
+                    Your proposition power is based on your REX/stkRLX balance and received
                     delegations.
                   </Trans>
                 </Typography>
