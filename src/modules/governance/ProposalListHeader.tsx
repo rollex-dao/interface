@@ -53,6 +53,7 @@ export const ProposalListHeaderDesktop: React.FC<ProposalListHeaderElementProps>
       <SearchInput
         wrapperSx={{
           width: '280px',
+          border: '1px solid #191919',
         }}
         placeholder="Search proposals"
         onSearchTermChange={handleSearchQueryChange}
