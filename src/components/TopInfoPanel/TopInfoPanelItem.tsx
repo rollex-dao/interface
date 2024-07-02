@@ -106,7 +106,11 @@ export const TopInfoPanelItem = ({
         </Box>
 
         {loading ? (
-          <Skeleton width={60} height={upToSM ? 28 : 24} sx={{ background: '#383D51' }} />
+          <Skeleton
+            width={60}
+            height={upToSM ? 28 : 24}
+            sx={{ background: 'linear-gradient(90deg, #DBEF88 0%, #EACF5E 100%)' }}
+          />
         ) : (
           children
         )}
