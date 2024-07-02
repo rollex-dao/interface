@@ -52,7 +52,7 @@ export const GhoDiscountProgram = () => {
       >
         <Box
           component="img"
-          src="/pegasys.svg"
+          src="/rollex.svg"
           sx={{
             position: 'absolute',
             left: 10,
@@ -64,7 +64,7 @@ export const GhoDiscountProgram = () => {
               xs: 'none',
               xsm: 'block',
             },
-            transform: 'matrix(1, -0.14, 0.14, 1, 0, 0)',
+            // transform: 'matrix(1, -0.14, 0.14, 1, 0, 0)',
           }}
           width={150}
           height={150}
@@ -107,9 +107,9 @@ export const GhoDiscountProgram = () => {
             <ChevronRightIcon width={downToXsm ? 20 : 12} height={downToXsm ? 20 : 12} />
           </Button>
         </Box>
-        <Box
+        {/* <Box
           component="img"
-          src="/purple-pegasys.svg"
+          src="/rollex.svg"
           sx={{
             position: 'absolute',
             right: [-10, -35],
@@ -119,7 +119,7 @@ export const GhoDiscountProgram = () => {
           }}
           alt="gho ghost"
           width={250}
-        />
+        /> */}
       </Box>
     </Box>
   );
