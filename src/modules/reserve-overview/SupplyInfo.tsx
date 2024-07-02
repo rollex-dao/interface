@@ -175,15 +175,27 @@ export const SupplyInfo = ({
             <Typography variant="subheader1" color="text.main" paddingBottom={'12px'}>
               <Trans>Collateral usage</Trans>
             </Typography>
-            <Warning severity="warning">
-              <Typography variant="subheader1">
+            <Warning
+              severity="warning"
+              sx={{
+                border: '1px dashed #DD6B20',
+                background: '#ffff',
+              }}
+            >
+              <Typography variant="subheader1" style={{ color: '#191919', fontWeight: 700 }}>
                 <Trans>Asset can only be used as collateral in isolation mode only.</Trans>
               </Typography>
-              <Typography variant="caption">
+              <Typography
+                variant="caption"
+                style={{ color: '#191919', fontWeight: 400, marginTop: '10px' }}
+              >
                 In Isolation mode you cannot supply other assets as collateral for borrowing. Assets
                 used as collateral in Isolation mode can only be borrowed to a specific debt
                 ceiling.{' '}
-                <Link href="https://docs.aave.com/faq/aave-v3-features#isolation-mode">
+                <Link
+                  href="https://docs.aave.com/faq/aave-v3-features#isolation-mode"
+                  style={{ color: '#191919', fontWeight: 400 }}
+                >
                   Learn more
                 </Link>
               </Typography>

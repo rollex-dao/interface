@@ -67,7 +67,7 @@ export function AppHeader() {
         //   xs: mobileMenuOpen || walletWidgetOpen ? '8px 20px' : '20px 12px',
         //   xsm: '20px 12px',
         // },
-        padding: '40px 112px 28px 112px',
+        padding: '40px 112px 40px 112px',
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'space-between',

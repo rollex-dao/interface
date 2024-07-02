@@ -31,7 +31,7 @@ interface FilterLabelProps {
 const FilterLabel: React.FC<FilterLabelProps> = ({ filter }) => {
   switch (filter) {
     case FilterOptions.SUPPLY:
-      return <Trans>Supply</Trans>;
+      return <Trans>Supplyyy</Trans>;
     case FilterOptions.BORROW:
       return <Trans>Borrow</Trans>;
     case FilterOptions.WITHDRAW:

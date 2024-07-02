@@ -159,7 +159,7 @@ export const getDesignTokens = (mode: 'light' | 'dark') => {
         main: getColor('#F89F1A', '#FFA726'),
         light: getColor('#FFCE00', '#FFB74D'),
         dark: getColor('#C67F15', '#F57C00'),
-        '100': getColor('#63400A', '#FFDCA8'), // for alert text
+        '100': getColor('#FFFFFF', '#FFDCA8'), // for alert text
         '200': getColor('#FEF5E8', '#301E04'), // for alert background
       },
       info: {

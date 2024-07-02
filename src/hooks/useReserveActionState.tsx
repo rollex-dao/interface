@@ -90,7 +90,16 @@ export const useReserveActionState = ({
         )}
 
         {(balance !== '0' || isGho) && user?.totalCollateralMarketReferenceCurrency === '0' && (
-          <Warning sx={{ mb: 0 }} severity="info" icon={false}>
+          <Warning
+            sx={{
+              background: '#EE177133',
+              color: '#191919',
+              borderRadius: '12px',
+              fontWeight: 400,
+            }}
+            severity="info"
+            icon={false}
+          >
             <Trans>To borrow you need to supply any asset to be used as collateral.</Trans>
           </Warning>
         )}

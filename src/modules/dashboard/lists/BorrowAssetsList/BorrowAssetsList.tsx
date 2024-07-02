@@ -262,6 +262,7 @@ export const BorrowAssetsList = () => {
                       color: 'black',
                       borderRadius: '5px',
                     }}
+                    icon={false}
                   >
                     <Trans>To borrow you need to supply any asset to be used as collateral.</Trans>
                   </Warning>

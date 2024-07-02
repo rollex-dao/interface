@@ -349,12 +349,18 @@ const SupplyAction = ({
           />
         </Box>
         <Button
-          sx={{ height: '36px', width: '96px' }}
+          sx={{
+            height: '36px',
+            width: '96px',
+            background: '#fffff',
+            border: '1px solid #191919',
+            borderRadius: '1000px',
+          }}
           onClick={onActionClicked}
           disabled={disable}
           fullWidth={false}
-          variant="contained"
-          data-cy="supplyButton"
+          // variant="contained"
+          // data-cy="supplyButton"
         >
           <Trans>Supply</Trans>
         </Button>
@@ -477,10 +483,10 @@ const WalletBalance = ({ balance, symbol, marketTitle }: WalletBalanceProps) => 
     <Stack direction="row" gap={3}>
       <Box
         sx={(theme) => ({
-          width: '42px',
-          height: '42px',
+          width: '62px',
+          height: '62px',
           background: theme.palette.background.surface,
-          border: `0.5px solid ${theme.palette.background.disabled}`,
+          border: `0.5px solid #EACF5E`,
           borderRadius: '12px',
           display: 'flex',
           alignItems: 'center',
