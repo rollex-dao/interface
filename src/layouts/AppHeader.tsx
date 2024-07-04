@@ -1,4 +1,4 @@
-import { Box, Typography, useMediaQuery, useScrollTrigger, useTheme } from '@mui/material';
+import { Box, useMediaQuery, useTheme } from '@mui/material';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { RollexLogo } from 'src/components/icons/RollexLogo';
@@ -15,7 +15,7 @@ export function AppHeader() {
   const { currentAccount, chainId } = useWeb3Context();
   const { breakpoints } = useTheme();
   const md = useMediaQuery(breakpoints.down('md'));
-  const trigger = useScrollTrigger({ threshold: md ? 160 : 80 });
+  // const trigger = useScrollTrigger({ threshold: md ? 160 : 80 });
 
   const [mobileDrawerOpen, setMobileDrawerOpen] = useRootStore((state) => [
     state.mobileDrawerOpen,

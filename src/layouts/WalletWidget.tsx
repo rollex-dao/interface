@@ -1,4 +1,4 @@
-import { ChevronDownIcon, ChevronUpIcon, ExternalLinkIcon } from '@heroicons/react/solid';
+import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/solid';
 import { Trans } from '@lingui/macro';
 import {
   Avatar,
@@ -7,7 +7,6 @@ import {
   Divider,
   List,
   ListItem,
-  ListItemIcon,
   ListItemText,
   Menu,
   MenuItem,
