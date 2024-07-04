@@ -12,6 +12,7 @@ import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import { ReactNode, useEffect } from 'react';
 import { AddressBlocked } from 'src/components/AddressBlocked';
+import PaliWalletBanner from 'src/components/Analytics/PaliWalletBanner';
 import { Meta } from 'src/components/Meta';
 import { TransactionEventHandler } from 'src/components/TransactionEventHandler';
 import { GasStationProvider } from 'src/components/transactions/GasStation/GasStationProvider';
@@ -159,6 +160,7 @@ export default function MyApp(props: MyAppProps) {
                               <MigrateV3Modal />
                               <TransactionEventHandler />
                               <SwitchModal />
+                              <PaliWalletBanner />
                             </SharedDependenciesProvider>
                           </GasStationProvider>
                         </AppDataProvider>
