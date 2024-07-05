@@ -37,7 +37,7 @@ export function getMaxAmountAvailableToBorrow(
 
   const availableBorrowCap =
     poolReserve.borrowCap === '0'
-      ? valueToBigNumber(ethers.constants.MaxUint256.toString())
+      ? valueToBigNumber(ethers.MaxInt256.toString())
       : valueToBigNumber(Number(poolReserve.borrowCap)).minus(
           valueToBigNumber(poolReserve.totalDebt)
         );
@@ -114,7 +114,7 @@ export function getMaxGhoMintAmount(
 
   const availableBorrowCap =
     poolReserve.borrowCap === '0'
-      ? valueToBigNumber(ethers.constants.MaxUint256.toString())
+      ? valueToBigNumber(ethers.MaxUint256.toString())
       : valueToBigNumber(Number(poolReserve.borrowCap)).minus(
           valueToBigNumber(poolReserve.totalDebt)
         );
