@@ -71,7 +71,7 @@ export const NavItems = ({ setOpen }: NavItemsProps) => {
                 onClick={() => handleClick(item.title, false)}
                 href={item.link}
                 disableRipple
-                sx={{
+                sx={({ palette }) => ({
                   // color: palette.mode === 'dark' ? 'white' : '#494949',
                   color: '#494949',
                   padding: '12px 14px',
@@ -87,7 +87,7 @@ export const NavItems = ({ setOpen }: NavItemsProps) => {
                     color: '#191919',
                     fontWeight: 700,
                   },
-                }}
+                })}
               >
                 {i18n._(item.title)}
               </Button>
