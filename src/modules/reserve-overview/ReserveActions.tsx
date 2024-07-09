@@ -314,9 +314,9 @@ const SupplyAction = ({
   value,
   usdValue,
   symbol,
-}: // disable,
-// onActionClicked,
-ActionProps) => {
+  disable,
+  onActionClicked,
+}: ActionProps) => {
   return (
     <Stack>
       <AvailableTooltip
