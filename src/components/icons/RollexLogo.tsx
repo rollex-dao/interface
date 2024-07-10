@@ -59,8 +59,8 @@ export const RollexLogo = (props: SVGProps) => (
         y2="19.2496"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#DBEF88" />
-        <stop offset="1" stop-color="#EACF5E" />
+        <stop stopColor="#DBEF88" />
+        <stop offset="1" stopColor="#EACF5E" />
       </linearGradient>
     </defs>
   </svg>

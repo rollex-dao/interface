@@ -71,8 +71,7 @@ export const NavItems = ({ setOpen }: NavItemsProps) => {
                 onClick={() => handleClick(item.title, false)}
                 href={item.link}
                 disableRipple
-                sx={({ palette }) => ({
-                  // color: palette.mode === 'dark' ? 'white' : '#494949',
+                sx={() => ({
                   color: '#494949',
                   padding: '12px 14px',
                   fontSize: '16px',

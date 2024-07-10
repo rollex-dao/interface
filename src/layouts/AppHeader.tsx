@@ -1,4 +1,4 @@
-import { Box, Typography, useMediaQuery, useScrollTrigger, useTheme } from '@mui/material';
+import { Box, useMediaQuery, useTheme } from '@mui/material';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { RollexLogo } from 'src/components/icons/RollexLogo';
@@ -15,7 +15,6 @@ export function AppHeader() {
   const { currentAccount, chainId } = useWeb3Context();
   const { breakpoints } = useTheme();
   const md = useMediaQuery(breakpoints.down('md'));
-  const trigger = useScrollTrigger({ threshold: md ? 160 : 80 });
 
   const [mobileDrawerOpen, setMobileDrawerOpen] = useRootStore((state) => [
     state.mobileDrawerOpen,
@@ -47,35 +46,21 @@ export function AppHeader() {
     setMobileMenuOpen(state);
   };
 
-  // const bgHeader = {
-  //   dark: '#FFFFFF',
-  //   light: '#FFFFFF',
-  // };
-
   return (
     <Box
       component="header"
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
       sx={(theme) => ({
         height: headerHeight,
         position: 'sticky',
         top: 0,
         transition: theme.transitions.create('all'),
         zIndex: theme.zIndex.appBar,
-        // padding: {
-        //   xs: mobileMenuOpen || walletWidgetOpen ? '8px 20px' : '20px 12px',
-        //   xsm: '20px 12px',
-        // },
+
         padding: '40px 112px 40px 112px',
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'space-between',
         bgcolor: '#FFFFFF',
-        // ...(trigger && {
-        //   boxShadow: 'inset 0px -1px 0px rgba(242, 243, 247, 0.16)',
-        //   bgcolor: trigger ? '#FFFFFF' : '#FFFFFF',
-        // }),
       })}
     >
       <Box
@@ -104,9 +89,6 @@ export function AppHeader() {
           {currentAccount && chainId === 570 && (
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mr: 3 }}>
               <img src={`/icons/networks/rollux-logo.svg`} alt="" />
-              {/* <Typography fontSize={16} color="text.primary">
-                Rollux
-              </Typography> */}
             </Box>
           )}
           <WalletWidget

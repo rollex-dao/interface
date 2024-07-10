@@ -309,14 +309,7 @@ interface ActionProps {
   reserve: ComputedReserveData;
 }
 
-const SupplyAction = ({
-  reserve,
-  value,
-  usdValue,
-  symbol,
-  disable,
-  onActionClicked,
-}: ActionProps) => {
+const SupplyAction = ({ reserve, value, usdValue, symbol }: ActionProps) => {
   return (
     <Stack>
       <AvailableTooltip

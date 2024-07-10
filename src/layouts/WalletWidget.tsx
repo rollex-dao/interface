@@ -1,4 +1,4 @@
-import { ChevronDownIcon, ChevronUpIcon, ExternalLinkIcon } from '@heroicons/react/solid';
+import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/solid';
 import { Trans } from '@lingui/macro';
 import {
   Avatar,
@@ -7,7 +7,6 @@ import {
   Divider,
   List,
   ListItem,
-  ListItemIcon,
   ListItemText,
   Menu,
   MenuItem,
@@ -83,12 +82,6 @@ export default function WalletWidget({ open, setOpen, headerHeight }: WalletWidg
       handleClose();
     }
   };
-
-  // const handleCopy = async () => {
-  //   navigator.clipboard.writeText(currentAccount);
-  //   trackEvent(AUTH.COPY_ADDRESS);
-  //   handleClose();
-  // };
 
   const handleSwitchWallet = (): void => {
     setWalletModalOpen(true);
@@ -213,90 +206,8 @@ export default function WalletWidget({ open, setOpen, headerHeight }: WalletWidg
       )}
       <Divider sx={{ my: { xs: 7, md: 0 }, borderColor: { xs: '#FFFFFF1F', md: 'divider' } }} />
 
-      {/* <Box component={component} disabled>
-        <Box sx={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
-          <Box
-            sx={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              mb: 1,
-            }}
-          >
-            <Typography variant="caption" color={{ xs: '#FFFFFFB2', md: 'text.secondary' }}>
-              <Trans>Network</Trans>
-            </Typography>
-          </Box>
-          <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <Box
-              sx={{
-                bgcolor: networkColor,
-                width: 6,
-                height: 6,
-                mr: 2,
-                boxShadow: '0px 2px 1px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.25)',
-                borderRadius: '50%',
-              }}
-            />
-            <Typography color={{ xs: '#F1F1F3', md: 'text.primary' }} variant="subheader1">
-              {networkConfig.name}
-            </Typography>
-          </Box>
-        </Box>
-      </Box> */}
       <Divider sx={{ my: { xs: 7, md: 0 }, borderColor: { xs: '#FFFFFF1F', md: 'divider' } }} />
 
-      {/* <Box
-        component={component}
-        sx={{ color: { xs: '#F1F1F3', md: 'text.primary', cursor: 'pointer' } }}
-        onClick={handleCopy}
-      >
-        <ListItemIcon
-          sx={{
-            color: {
-              xs: '#F1F1F3',
-              md: 'primary.light',
-              minWidth: 'unset',
-              marginRight: 12,
-            },
-          }}
-        >
-          <SvgIcon fontSize="small">
-            <DuplicateIcon />
-          </SvgIcon>
-        </ListItemIcon>
-        <ListItemText>
-          <Trans>Copy address</Trans>
-        </ListItemText>
-      </Box> */}
-
-      {/* {networkConfig?.explorerLinkBuilder && (
-        <Link href={networkConfig.explorerLinkBuilder({ address: currentAccount })}>
-          <Box
-            component={component}
-            sx={{ color: { xs: '#F1F1F3', md: 'text.primary' } }}
-            onClick={handleViewOnExplorer}
-          >
-            <ListItemIcon
-              sx={{
-                color: {
-                  xs: '#F1F1F3',
-                  md: 'primary.light',
-                  minWidth: 'unset',
-                  marginRight: 12,
-                },
-              }}
-            >
-              <SvgIcon fontSize="small">
-                <ExternalLinkIcon />
-              </SvgIcon>
-            </ListItemIcon>
-            <ListItemText>
-              <Trans>View on Explorer</Trans>
-            </ListItemText>
-          </Box>
-        </Link>
-      )} */}
       {md && (
         <>
           <Divider sx={{ my: { xs: 7, md: 0 }, borderColor: { xs: '#FFFFFF1F', md: 'divider' } }} />

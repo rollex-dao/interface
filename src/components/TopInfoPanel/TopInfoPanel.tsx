@@ -24,8 +24,6 @@ export const TopInfoPanel = ({
         pt: { xs: 10, md: 12 },
         pb: { xs: 18, md: 20, lg: '94px', xl: '92px', xxl: '96px' },
         color: 'text.primary',
-        display: 'flex',
-        justifyContent: 'space-between',
       }}
     >
       <Container {...containerProps} sx={{ ...containerProps.sx, pb: 0 }}>

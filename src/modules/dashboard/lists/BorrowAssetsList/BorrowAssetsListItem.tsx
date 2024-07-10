@@ -27,12 +27,9 @@ export const BorrowAssetsListItem = ({
   sIncentivesData,
   vIncentivesData,
   underlyingAsset,
-  isFreezed,
 }: DashboardReserve) => {
   const { openBorrow } = useModalContext();
   const { currentMarket } = useProtocolDataContext();
-
-  const disableBorrow = isFreezed || Number(availableBorrows) <= 0;
 
   const trackEvent = useRootStore((store) => store.trackEvent);
 

@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro';
-import ArrowBackRoundedIcon from '@mui/icons-material/ArrowBackOutlined';
 import {
   Box,
   Button,
@@ -11,7 +10,6 @@ import {
   useTheme,
 } from '@mui/material';
 import { useRouter } from 'next/router';
-import { getMarketInfoById, MarketLogo } from 'src/components/MarketSwitcher';
 import { useProtocolDataContext } from 'src/hooks/useProtocolDataContext';
 import { useWeb3Context } from 'src/libs/hooks/useWeb3Context';
 import { useRootStore } from 'src/store/root';
@@ -35,7 +33,6 @@ export const ReserveTopDetailsWrapper = ({ underlyingAsset }: ReserveTopDetailsP
   const router = useRouter();
   const { reserves, loading } = useAppDataContext();
   const { currentMarket, currentChainId } = useProtocolDataContext();
-  const { market, network } = getMarketInfoById(currentMarket);
   const { addERC20Token, switchNetwork, chainId: connectedChainId, connected } = useWeb3Context();
   const [displayGho] = useRootStore((store) => [store.displayGho]);
 

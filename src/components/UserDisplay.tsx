@@ -1,13 +1,10 @@
 import { Box } from '@mui/material';
 import { blo } from 'blo';
 import { useMemo } from 'react';
-// import useGetEns from 'src/libs/hooks/use-get-ens';
-import { useWeb3Context } from 'src/libs/hooks/useWeb3Context';
 import { useRootStore } from 'src/store/root';
 import shallow from 'zustand/shallow';
 
 import { Avatar, AvatarProps } from './Avatar';
-import { BadgeSize, ExclamationBadge } from './badges/ExclamationBadge';
 import { UserNameText, UserNameTextProps } from './UserNameText';
 
 type UserDisplayProps = {
@@ -21,7 +18,6 @@ type UserDisplayProps = {
 
 export const UserDisplay: React.FC<UserDisplayProps> = ({
   oneLiner = false,
-  avatarProps,
   titleProps,
   subtitleProps,
   withLink,
@@ -36,22 +32,11 @@ export const UserDisplay: React.FC<UserDisplayProps> = ({
     }),
     shallow
   );
-  const { readOnlyMode } = useWeb3Context();
-  const fallbackImage = useMemo(
-    () => (account ? blo(account as `0x${string}`) : undefined),
-    [account]
-  );
+
   const loading = domainsLoading || accountLoading;
 
   return (
     <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-      {/* <Avatar
-        fallbackImage={fallbackImage}
-        loading={loading}
-        badge={<ExclamationBadge size={BadgeSize.SM} />}
-        invisibleBadge={!readOnlyMode}
-        {...avatarProps}
-      /> */}
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
         {!oneLiner && defaultDomain?.name ? (
           <>

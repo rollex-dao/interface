@@ -12,6 +12,12 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content="#1B2030" />
           <link rel="shortcut icon" href="/favicon.ico" />
           <link rel="manifest" href="/manifest.json" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+            rel="stylesheet"
+          />
           {
             // Inject MUI styles first to match with the prepend: true configuration.
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
