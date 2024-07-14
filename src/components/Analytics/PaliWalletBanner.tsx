@@ -5,21 +5,23 @@ import React, { useEffect, useState } from 'react';
 
 export default function PaliWalletBanner() {
   const [bannerVisible, setBannerVisible] = useState(false);
-  const [isChecked, setIsChecked] = useState(false);
 
   useEffect(() => {
-    const lastBannerShown = localStorage.getItem('lastBannerShown');
-    if (lastBannerShown) {
-      const lastShownDate = new Date(lastBannerShown);
-      const now = new Date();
-      const hoursDiff = (Number(now) - Number(lastShownDate)) / (1000 * 60 * 60);
-      if (hoursDiff >= 24) {
-        setBannerVisible(true);
+    const checkAnalyticsAcceptance = () => {
+      const userAcceptedAnalytics = localStorage.getItem('userAcceptedAnalytics');
+      if (userAcceptedAnalytics) {
+        const lastBannerShown = localStorage.getItem('lastBannerShown');
+        if (!lastBannerShown) {
+          setBannerVisible(true);
+        }
       }
-    } else {
-      setBannerVisible(true);
-    }
-    setIsChecked(true);
+    };
+
+    checkAnalyticsAcceptance();
+
+    const intervalId = setInterval(checkAnalyticsAcceptance, 5000);
+
+    return () => clearInterval(intervalId);
   }, []);
 
   const handleClose = () => {
@@ -30,10 +32,6 @@ export default function PaliWalletBanner() {
 
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-
-  if (!isChecked) {
-    return null; // Aguarda a verificação antes de renderizar
-  }
 
   return (
     <>
@@ -60,6 +58,13 @@ export default function PaliWalletBanner() {
             border: '0.5px solid rgba(235, 235, 239, 0.42)',
             boxShadow: '0px 0px 2px rgba(0, 0, 0, 0.2), 0px 2px 10px rgba(0, 0, 0, 0.1)',
             overflow: 'hidden',
+            transform: 'translateX(100%) translateY(100%)',
+            transition: 'transform 0.5s ease-out',
+          }}
+          style={{
+            transform: bannerVisible
+              ? 'translateX(0%) translateY(0%)'
+              : 'translateX(100%) translateY(100%)',
           }}
         >
           <button
@@ -74,6 +79,8 @@ export default function PaliWalletBanner() {
               color: '#191919',
               background: 'transparent',
               border: 'none',
+              padding: '8px',
+              zIndex: 101,
             }}
             onClick={handleClose}
           >
@@ -90,6 +97,11 @@ export default function PaliWalletBanner() {
                 borderRadius: '4px',
                 backgroundColor: '#FFFFFF',
                 color: theme.palette.text.primary,
+                transition: 'filter 0.3s ease-out',
+                '&:hover': {
+                  filter: 'brightness(90%)',
+                  background: '#FFFFFF',
+                },
               }}
             >
               Learn more
