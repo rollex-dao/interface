@@ -18,8 +18,6 @@ export interface TextWithTooltipProps extends TypographyProps {
   children?: ReactElement<any, string | JSXElementConstructor<any>>;
   wrapperProps?: BoxProps;
   event?: TrackEventProps;
-  open?: boolean;
-  setOpen?: (open: boolean) => void;
 }
 
 export const TextWithTooltip = ({
@@ -32,16 +30,23 @@ export const TextWithTooltip = ({
   textColor,
   wrapperProps: { sx: boxSx, ...boxRest } = {},
   event,
-  open: openProp = false,
-  setOpen: setOpenProp,
   ...rest
 }: TextWithTooltipProps) => {
-  const [open, setOpen] = useState(openProp);
+  const [open, setOpen] = useState(false);
   const trackEvent = useRootStore((store) => store.trackEvent);
 
-  const toggleOpen = () => {
-    if (setOpenProp) setOpenProp(!open);
-    setOpen(!open);
+  const handleMouseEnter = () => {
+    setOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    setOpen(false);
+  };
+
+  const handleClick = () => {
+    if (event) {
+      trackEvent(event.eventName, { ...event.eventParams });
+    }
   };
 
   return (
@@ -52,7 +57,7 @@ export const TextWithTooltip = ({
         </Typography>
       )}
 
-      <ContentWithTooltip tooltipContent={<>{children}</>} open={open} setOpen={toggleOpen}>
+      <ContentWithTooltip tooltipContent={<>{children}</>} open={open} setOpen={setOpen}>
         <IconButton
           sx={{
             display: 'flex',
@@ -65,16 +70,14 @@ export const TextWithTooltip = ({
             minWidth: 0,
             ml: iconMargin || 0.5,
           }}
-          onClick={() => {
-            if (event) {
-              trackEvent(event.eventName, { ...event.eventParams });
-            }
-          }}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          onClick={handleClick}
         >
           <SvgIcon
             sx={{
               fontSize: iconSize,
-              color: iconColor ? iconColor : open ? 'info.main' : 'text.muted',
+              color: iconColor || 'text.muted',
               borderRadius: '50%',
               '&:hover': { color: iconColor || 'info.main' },
             }}
