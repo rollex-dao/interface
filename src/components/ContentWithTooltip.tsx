@@ -80,12 +80,14 @@ export const ContentWithTooltip = ({
         >
           <Box
             sx={{
-              py: 4,
-              px: 6,
+              py: 8,
+              px: 8,
               fontSize: '12px',
-              lineHeight: '16px',
+              lineHeight: '19px',
+              border: '1px solid #191919',
+              boxShadow: '0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06)',
+              borderRadius: '6px',
               a: {
-                fontSize: '12px',
                 lineHeight: '16px',
                 fontWeight: 500,
                 '&:hover': { textDecoration: 'underline' },
