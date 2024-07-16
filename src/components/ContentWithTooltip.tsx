@@ -80,12 +80,12 @@ export const ContentWithTooltip = ({
         >
           <Box
             sx={{
-              py: 8,
-              px: 8,
+              py: 3,
+              px: 3,
               fontSize: '12px',
               lineHeight: '19px',
               border: '1px solid #191919',
-              boxShadow: '0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06)',
+              boxShadow: '12px 12px 0 0 #191919, 0px 1px 0 0 #191919',
               borderRadius: '6px',
               a: {
                 lineHeight: '16px',
