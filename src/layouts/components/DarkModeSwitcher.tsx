@@ -43,6 +43,23 @@ export const DarkModeSwitcher = ({ component = ListItem }: DarkModeSwitcherProps
             onClick={() => trackEvent(SETTINGS.DARK_MODE, { mode: theme.palette.mode })}
             disableRipple
             checked={theme.palette.mode === 'dark'}
+            sx={{
+              '& .MuiSwitch-switchBase.Mui-checked': {
+                color: '#FFFFFF',
+                '& + .MuiSwitch-track': {
+                  backgroundColor: '#969696',
+                },
+              },
+              '& .MuiSwitch-switchBase.Mui-checked .MuiSwitch-thumb': {
+                color: '#DBEF88',
+              },
+              '& .MuiSwitch-switchBase .MuiSwitch-thumb': {
+                color: '#FFFFFF',
+              },
+              '& .MuiSwitch-track': {
+                backgroundColor: '#969696',
+              },
+            }}
           />
         }
         label={theme.palette.mode === 'dark' ? 'On' : 'Off'}
