@@ -260,9 +260,9 @@ export default function WalletWidget({ open, setOpen, headerHeight }: WalletWidg
           onClick={handleClick}
           disableRipple
           sx={({ palette }) => ({
-            p: connected ? '16px, 24px, 16px, 24px' : undefined,
+            p: connected ? '16px, 24px' : undefined,
             minWidth: hideWalletAccountText ? 'unset' : undefined,
-            width: '167px',
+            width: 'auto',
             height: '52px',
             background:
               palette.mode === 'dark'
@@ -271,6 +271,12 @@ export default function WalletWidget({ open, setOpen, headerHeight }: WalletWidg
             borderRadius: '8px',
             border: 'none',
             color: '#191919',
+            '&:hover': {
+              background: 'linear-gradient(90deg, #DBEF88 0%, #EACF5E 100%)',
+            },
+            fontSize: '18px',
+            fontWeight: 500,
+            lineHeight: '28.8px',
           })}
           endIcon={
             connected &&
