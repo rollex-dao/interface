@@ -13,9 +13,6 @@ interface StyledLinkProps {
 
 const StyledLink = styled(Link)<StyledLinkProps>(() => ({
   color: '#191919',
-  // '&:hover': {
-  //   color: theme.palette.text.primary,
-  // },
   display: 'flex',
   alignItems: 'center',
 }));
@@ -88,77 +85,94 @@ export function AppFooter() {
         display: 'flex',
         flexDirection: 'column',
         background: '#FFFFFF',
-        padding: '40px 112px 28px 112px',
-        gap: '40px',
-        justifyContent: 'center',
+        width: '100%',
         alignItems: 'center',
       }}
     >
       <Box
-        sx={(theme) => ({
+        sx={{
+          width: '1280px',
+          maxWidth: '100%',
+          padding: '40px 112px 28px 112px',
           display: 'flex',
-          // padding: '40px 112px 28px 112px',
-          width: '100%',
-          justifyContent: 'space-between',
+          flexDirection: 'column',
           alignItems: 'center',
-          gap: '22px',
-          flexDirection: ['column', 'column', 'row'],
-          background: '#FFFFFF',
-          boxShadow:
-            theme.palette.mode === 'light'
-              ? 'inset 0px 1px 0px rgba(0, 0, 0, 0.04)'
-              : 'inset 0px 1px 0px rgba(255, 255, 255, 0.12)',
-        })}
+          gap: '40px',
+        }}
       >
-        <Box>
-          <img src="icons/tokens/rollex-logo.svg" alt="" />
-        </Box>
-        <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '70px' }}>
-          <Box sx={{ display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'center' }}>
-            {FOOTER_LINKS.slice(0, 2).map((link) => (
-              <StyledLink onClick={link.onClick} key={link.key} href={link.href}>
-                <Typography variant="caption">{link.label}</Typography>
+        <Box
+          sx={(theme) => ({
+            display: 'flex',
+            width: '100%',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            gap: '22px',
+            flexDirection: ['column', 'column', 'row'],
+            background: '#FFFFFF',
+            boxShadow:
+              theme.palette.mode === 'light'
+                ? 'inset 0px 1px 0px rgba(0, 0, 0, 0.04)'
+                : 'inset 0px 1px 0px rgba(255, 255, 255, 0.12)',
+          })}
+        >
+          <Box>
+            <img src="icons/tokens/rollex-logo.svg" alt="" />
+          </Box>
+          <Box
+            sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '70px' }}
+          >
+            <Box
+              sx={{ display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'center' }}
+            >
+              {FOOTER_LINKS.slice(0, 2).map((link) => (
+                <StyledLink onClick={link.onClick} key={link.key} href={link.href}>
+                  <Typography variant="caption">{link.label}</Typography>
+                </StyledLink>
+              ))}
+            </Box>
+            <Box
+              sx={{ display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'center' }}
+            >
+              {FOOTER_LINKS.slice(2, 4).map((link) => (
+                <StyledLink onClick={link.onClick} key={link.key} href={link.href}>
+                  <Typography variant="caption">{link.label}</Typography>
+                </StyledLink>
+              ))}
+            </Box>
+            <Box
+              sx={{ display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'center' }}
+            >
+              {FOOTER_LINKS.slice(4, 6).map((link) => (
+                <StyledLink onClick={link.onClick} key={link.key} href={link.href}>
+                  <Typography variant="caption">{link.label}</Typography>
+                </StyledLink>
+              ))}
+            </Box>
+          </Box>
+          <Box sx={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+            {FOOTER_ICONS.map((icon) => (
+              <StyledLink href={icon.href} key={icon.title} sx={{ color: '#A3A883' }}>
+                <SvgIcon
+                  sx={{
+                    fontSize: [24, 24, 20],
+                    width: '36px',
+                    height: '36px',
+                    padding: '8px',
+                    borderRadius: '103px',
+                    border: '1px solid #E0E0E0',
+                  }}
+                >
+                  {icon.icon}
+                </SvgIcon>
               </StyledLink>
             ))}
           </Box>
-          <Box sx={{ display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'center' }}>
-            {FOOTER_LINKS.slice(2, 4).map((link) => (
-              <StyledLink onClick={link.onClick} key={link.key} href={link.href}>
-                <Typography variant="caption">{link.label}</Typography>
-              </StyledLink>
-            ))}
-          </Box>
-          <Box sx={{ display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'center' }}>
-            {FOOTER_LINKS.slice(4, 6).map((link) => (
-              <StyledLink onClick={link.onClick} key={link.key} href={link.href}>
-                <Typography variant="caption">{link.label}</Typography>
-              </StyledLink>
-            ))}
-          </Box>
         </Box>
-        <Box sx={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-          {FOOTER_ICONS.map((icon) => (
-            <StyledLink href={icon.href} key={icon.title} sx={{ color: '#A3A883' }}>
-              <SvgIcon
-                sx={{
-                  fontSize: [24, 24, 20],
-                  width: '36px',
-                  height: '36px',
-                  padding: '8px',
-                  borderRadius: '103px',
-                  border: '1px solid #E0E0E0',
-                }}
-              >
-                {icon.icon}
-              </SvgIcon>
-            </StyledLink>
-          ))}
-        </Box>
+        <Divider sx={{ width: '100%', marginY: 2, borderColor: '#E0E0E0' }} />
+        <Typography sx={{ color: '#494949', fontSize: '14px', fontWeight: 400 }}>
+          ©2024 all rights reserved
+        </Typography>
       </Box>
-      <Divider sx={{ width: '100%', marginY: 2, borderColor: '#E0E0E0' }} />
-      <Typography sx={{ color: '#494949', fontSize: '14px', fontWeight: 400 }}>
-        ©2024 all rights reserved
-      </Typography>
     </Box>
   );
 }
