@@ -55,63 +55,73 @@ export function AppHeader() {
         top: 0,
         transition: theme.transitions.create('all'),
         zIndex: theme.zIndex.appBar,
-
-        padding: '40px 112px 40px 112px',
-        display: 'flex',
-        alignItems: 'center',
-        flexDirection: 'space-between',
         bgcolor: '#FFFFFF',
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center', // Centraliza verticalmente o conteúdo
       })}
     >
       <Box
-        component={Link}
-        href="/"
-        aria-label="Go to homepage"
         sx={{
-          lineHeight: 0,
-          mr: 3,
-          transition: '0.3s ease all',
-          '&:hover': { opacity: 0.7 },
+          width: '1280px',
+          maxWidth: '100%',
+          padding: '40px 112px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
         }}
-        onClick={() => setMobileMenuOpen(false)}
       >
-        <RollexLogo height={44} />
-      </Box>
-
-      <Box sx={{ display: { xs: 'none', md: 'block' } }}>
-        <NavItems />
-      </Box>
-
-      <Box sx={{ flexGrow: 1 }} />
-
-      {!mobileMenuOpen && (
-        <>
-          {currentAccount && chainId === 570 && (
-            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mr: 3 }}>
-              <img src={`/icons/networks/rollux-logo.svg`} alt="" />
-            </Box>
-          )}
-          <WalletWidget
-            open={walletWidgetOpen}
-            setOpen={toggleWalletWigit}
-            headerHeight={headerHeight}
-          />
-        </>
-      )}
-
-      <Box sx={{ display: { xs: 'none', md: 'block' } }}>
-        <SettingsMenu />
-      </Box>
-
-      {!walletWidgetOpen && (
-        <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
-          <MobileMenu
-            open={mobileMenuOpen}
-            setOpen={toggleMobileMenu}
-            headerHeight={headerHeight}
-          />
+        <Box
+          component={Link}
+          href="/"
+          aria-label="Go to homepage"
+          sx={{
+            lineHeight: 0,
+            mr: 3,
+            transition: '0.3s ease all',
+            '&:hover': { opacity: 0.7 },
+          }}
+          onClick={() => setMobileMenuOpen(false)}
+        >
+          <RollexLogo height={44} />
         </Box>
-      )}
+
+        <Box sx={{ display: { xs: 'none', md: 'block' } }}>
+          <NavItems />
+        </Box>
+
+        <Box sx={{ flexGrow: 1 }} />
+
+        {!mobileMenuOpen && (
+          <>
+            {currentAccount && chainId === 570 && (
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mr: 3 }}>
+                <img src={`/icons/networks/rollux-logo.svg`} alt="" />
+              </Box>
+            )}
+            <WalletWidget
+              open={walletWidgetOpen}
+              setOpen={toggleWalletWigit}
+              headerHeight={headerHeight}
+            />
+          </>
+        )}
+
+        <Box sx={{ display: { xs: 'none', md: 'block' } }}>
+          <SettingsMenu />
+        </Box>
+
+        {!walletWidgetOpen && (
+          <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
+            <MobileMenu
+              open={mobileMenuOpen}
+              setOpen={toggleMobileMenu}
+              headerHeight={headerHeight}
+            />
+          </Box>
+        )}
+      </Box>
     </Box>
   );
 }
