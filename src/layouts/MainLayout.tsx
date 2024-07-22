@@ -26,6 +26,8 @@ export function MainLayout({ children }: { children: ReactNode }) {
         flexDirection: 'column',
         minHeight: '100vh',
         // backgroundPosition: 'top right',
+        justifyContent: 'center',
+        alignItems: 'center',
         backgroundRepeat: 'bottom',
         backgroundImage: connected
           ? `radial-gradient(60% 50% at 50% 45% , #DBEF88, ${palette.background.default})`
@@ -46,11 +48,14 @@ export function MainLayout({ children }: { children: ReactNode }) {
       <Box
         component="main"
         sx={{
+          width: '1280px',
+          maxWidth: '100%',
           display: 'flex',
           flexDirection: 'column',
           flex: 1,
           position: 'relative',
           zIndex: 2,
+          // background: 'red',
         }}
       >
         {children}
