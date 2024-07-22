@@ -17,16 +17,6 @@ export const CapsCircularStatus = ({ value, tooltipContent, onClick }: CapsCircu
   // If value is zero, don't show anything
   if (value === 0) return null;
 
-  const determineColor = (): 'error' | 'warning' | 'success' => {
-    if (Math.round(value) >= 99.99) {
-      return 'error';
-    } else if (value >= 98) {
-      return 'warning';
-    } else {
-      return 'success';
-    }
-  };
-
   const determineValueDisplay = (): string => {
     if (value >= 99.99) {
       return '100%';
@@ -49,13 +39,24 @@ export const CapsCircularStatus = ({ value, tooltipContent, onClick }: CapsCircu
       }}
     >
       <Box sx={{ position: 'relative', mr: 4 }}>
+        <svg width="0" height="0">
+          <defs>
+            <linearGradient id="gradient" x1="1" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor="#FF8C00" />
+              <stop offset="100%" stopColor="#FF0080" />
+            </linearGradient>
+          </defs>
+        </svg>
         <CircularProgress
           variant="determinate"
           sx={{
-            color: (theme) => theme.palette.grey[theme.palette.mode === 'light' ? 200 : 800],
+            color: 'url(#gradient)', // Aplica o gradiente ao fundo
             position: 'absolute',
             left: 1.25,
             top: 1.25,
+            [`& .${circularProgressClasses.circle}`]: {
+              stroke: 'url(#gradient)',
+            },
           }}
           size={77.5}
           thickness={2}
@@ -63,11 +64,11 @@ export const CapsCircularStatus = ({ value, tooltipContent, onClick }: CapsCircu
         />
         <CircularProgress
           variant="determinate"
-          color={determineColor()}
           sx={{
             [`& .${circularProgressClasses.circle}`]: {
               strokeLinecap: 'round',
             },
+            color: '#e6e6e8',
           }}
           size={80}
           thickness={3}
