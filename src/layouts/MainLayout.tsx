@@ -21,48 +21,78 @@ export function MainLayout({ children }: { children: ReactNode }) {
 
   return (
     <Box
-      sx={({ palette }) => ({
+      sx={{
         display: 'flex',
         flexDirection: 'column',
         minHeight: '100vh',
-        // backgroundPosition: 'top right',
+        position: 'relative',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundRepeat: 'bottom',
-        backgroundImage: connected
-          ? `radial-gradient(60% 50% at 50% 45% , #DBEF88, ${palette.background.default})`
-          : `radial-gradient(60% 50% at 50% 45% , #f08580, ${palette.background.default})`,
-      })}
-
-      //EE1771 FD5249
+      }}
     >
-      {/* {currentMarket === 'proto_rollux_v3' ? (
-        <TopBarNotify
-          learnMoreLink="https://governance.aave.com/t/aave-v2-v3-security-incident-04-11-2023/15335"
-          notifyText={currentMarket === 'proto_rollux_v3' ? notifyText : unPauseText}
-        />
-      ) : null} */}
-
-      <AppHeader />
-
+      {/* Gradient and Blur Layer - Top Right */}
       <Box
-        component="main"
         sx={{
-          width: '1280px',
-          maxWidth: '100%',
-          display: 'flex',
-          flexDirection: 'column',
-          flex: 1,
+          position: 'absolute',
+          top: 0,
+          right: 0,
+          width: '738px',
+          height: '272px',
+          background: connected
+            ? 'radial-gradient(circle at top right, #DBEF88, transparent)'
+            : 'radial-gradient(circle at top right, #f08580, transparent)',
+          filter: 'blur(30px)',
+          zIndex: 1,
+        }}
+      />
+
+      {/* Gradient and Blur Layer - Bottom Left */}
+      <Box
+        sx={{
+          position: 'absolute',
+          bottom: 0,
+          left: 0,
+          width: '20%',
+          height: '50%',
+          background: connected
+            ? 'radial-gradient(circle at bottom left, #DBEF88, transparent)'
+            : 'radial-gradient(circle at bottom left, #f08580, transparent)',
+          filter: 'blur(30px)',
+          zIndex: 1,
+        }}
+      />
+
+      {/* Main Content */}
+      <Box
+        sx={{
           position: 'relative',
           zIndex: 2,
-          // background: 'red',
+          width: '100%',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          minHeight: '100vh',
         }}
       >
-        {children}
-      </Box>
+        <AppHeader />
 
-      <AppFooter />
-      {FORK_ENABLED ? null : <AnalyticsConsent />}
+        <Box
+          component="main"
+          sx={{
+            width: '1280px',
+            maxWidth: '100%',
+            display: 'flex',
+            flexDirection: 'column',
+            flex: 1,
+            position: 'relative',
+          }}
+        >
+          {children}
+        </Box>
+
+        <AppFooter />
+        {FORK_ENABLED ? null : <AnalyticsConsent />}
+      </Box>
     </Box>
   );
 }
