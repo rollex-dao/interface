@@ -93,7 +93,7 @@ export function AppFooter() {
         sx={{
           width: '1280px',
           maxWidth: '100%',
-          padding: '40px 112px 28px 112px',
+          padding: '40px 28px',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',

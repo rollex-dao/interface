@@ -60,13 +60,14 @@ export function AppHeader() {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center', // Centraliza verticalmente o conteúdo
+        padding: '40px 0px 40px 0px',
       })}
     >
       <Box
         sx={{
           width: '1280px',
           maxWidth: '100%',
-          padding: '40px 112px',
+          // padding: '40px 0px 40px 0px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
