@@ -2,6 +2,7 @@ import { normalize, UserIncentiveData, valueToBigNumber } from '@aave/math-utils
 import { Trans } from '@lingui/macro';
 import { Box, Button, Typography, useMediaQuery, useTheme } from '@mui/material';
 import { ChainId } from '@pollum-io/contract-helpers';
+// import { current } from 'immer';
 import Link from 'next/link';
 import * as React from 'react';
 import { useState } from 'react';
@@ -20,7 +21,7 @@ import HALLink from '../../components/HALLink';
 import { HealthFactorNumber } from '../../components/HealthFactorNumber';
 import { FormattedNumber } from '../../components/primitives/FormattedNumber';
 import { NoData } from '../../components/primitives/NoData';
-import { TopInfoPanel } from '../../components/TopInfoPanel/TopInfoPanel';
+// import { TopInfoPanel } from '../../components/TopInfoPanel/TopInfoPanel';
 import { TopInfoPanelItem } from '../../components/TopInfoPanel/TopInfoPanelItem';
 import { useAppDataContext } from '../../hooks/app-data-provider/useAppDataProvider';
 import { LiquidationRiskParametresInfoModal } from './LiquidationRiskParametresModal/LiquidationRiskParametresModal';
@@ -105,47 +106,54 @@ export const DashboardTopPanel = () => {
           </Link>
         </Box>
       )}
-      <TopInfoPanel
-        titleComponent={
-          <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <PageTitle
-              pageTitle={<Trans>Dashboard</Trans>}
-              withMarketSwitcher={false}
-              bridge={currentNetworkConfig.bridge}
-            />
-            {showMigrateButton && !downToSM && (
-              <Box sx={{ alignSelf: 'center', mb: 4, width: '100%' }}>
-                <Link href={ROUTES.migrationTool}>
-                  <Button variant="gradient" sx={{ height: '20px' }}>
-                    <Typography variant="buttonS" data-cy={`migration-button`}>
-                      <Trans>Migrate to v3</Trans>
-                    </Typography>
-                  </Button>
-                </Link>
-              </Box>
+      <Box
+        sx={{
+          width: '100%',
+          display: 'flex',
+          alignContent: 'center',
+          padding: '50px',
+          justifyContent: 'space-between',
+        }}
+      >
+        <Box sx={{ display: 'flex', alignItems: 'left' }}>
+          <PageTitle
+            pageTitle={<Trans>Dashboard</Trans>}
+            withMarketSwitcher={false}
+            bridge={currentNetworkConfig.bridge}
+          />
+          {showMigrateButton && !downToSM && (
+            <Box sx={{ alignSelf: 'center', mb: 4, width: '100%' }}>
+              <Link href={ROUTES.migrationTool}>
+                <Button variant="gradient" sx={{ height: '20px' }}>
+                  <Typography variant="buttonS" data-cy={`migration-button`}>
+                    <Trans>Migrate to v3</Trans>
+                  </Typography>
+                </Button>
+              </Link>
+            </Box>
+          )}
+        </Box>
+
+        <Box sx={{ display: 'flex', gap: '32px' }}>
+          <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+            <Trans>Net worth</Trans>
+            {currentAccount ? (
+              <FormattedNumber
+                value={Number(user?.netWorthUSD || 0)}
+                symbol="USD"
+                variant={valueTypographyVariant}
+                visibleDecimals={2}
+                compact
+                symbolsColor="text.primary"
+                symbolsVariant={noDataTypographyVariant}
+              />
+            ) : (
+              <NoData variant={noDataTypographyVariant} sx={{ opacity: '0.7' }} />
             )}
           </Box>
-        }
-      >
-        <TopInfoPanelItem title={<Trans>Net worth</Trans>} loading={loading} hideIcon>
-          {currentAccount ? (
-            <FormattedNumber
-              value={Number(user?.netWorthUSD || 0)}
-              symbol="USD"
-              variant={valueTypographyVariant}
-              visibleDecimals={2}
-              compact
-              symbolsColor="text.primary"
-              symbolsVariant={noDataTypographyVariant}
-            />
-          ) : (
-            <NoData variant={noDataTypographyVariant} sx={{ opacity: '0.7' }} />
-          )}
-        </TopInfoPanelItem>
 
-        <TopInfoPanelItem
-          title={
-            <div style={{ display: 'flex' }}>
+          <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+            <Box sx={{ display: 'flex', gap: '5px' }}>
               <Trans>Net APY</Trans>
               <NetAPYTooltip
                 event={{
@@ -153,27 +161,24 @@ export const DashboardTopPanel = () => {
                   eventParams: { tooltip: 'NET APY: Dashboard Banner' },
                 }}
               />
-            </div>
-          }
-          loading={loading}
-          hideIcon
-        >
-          {currentAccount && Number(user?.netWorthUSD) > 0 ? (
-            <FormattedNumber
-              value={user.netAPY}
-              variant={valueTypographyVariant}
-              visibleDecimals={2}
-              percent
-              symbolsColor="text.primary"
-              symbolsVariant={noDataTypographyVariant}
-            />
-          ) : (
-            <NoData
-              variant={noDataTypographyVariant}
-              sx={{ opacity: '0.7', color: 'text.primary' }}
-            />
-          )}
-        </TopInfoPanelItem>
+            </Box>
+            {currentAccount && Number(user?.netWorthUSD) > 0 ? (
+              <FormattedNumber
+                value={user.netAPY}
+                variant={valueTypographyVariant}
+                visibleDecimals={2}
+                percent
+                symbolsColor="text.primary"
+                symbolsVariant={noDataTypographyVariant}
+              />
+            ) : (
+              <NoData
+                variant={noDataTypographyVariant}
+                sx={{ opacity: '0.7', color: 'text.primary' }}
+              />
+            )}
+          </Box>
+        </Box>
 
         {currentAccount && user?.healthFactor !== '-1' && (
           <TopInfoPanelItem
@@ -239,7 +244,8 @@ export const DashboardTopPanel = () => {
             </Box>
           </TopInfoPanelItem>
         )}
-      </TopInfoPanel>
+        {/* </TopInfoPanel> */}
+      </Box>
       <LiquidationRiskParametresInfoModal
         open={open}
         setOpen={setOpen}
