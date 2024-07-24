@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro';
-import { useMediaQuery } from '@mui/material';
+import { Box, useMediaQuery } from '@mui/material';
 import { useState } from 'react';
 import { StableAPYTooltip } from 'src/components/infoTooltips/StableAPYTooltip';
 import { VariableAPYTooltip } from 'src/components/infoTooltips/VariableAPYTooltip';
@@ -101,7 +101,7 @@ export default function MarketAssetsList({ reserves, loading }: MarketAssetsList
   if (reserves.length === 0) return null;
 
   return (
-    <>
+    <Box sx={{ padding: '10px', borderTop: '1px solid #494949', borderRadius: '16px' }}>
       {!isTableChangedToCards && (
         <ListHeaderWrapper px={6}>
           {listHeaders.map((col) => (
@@ -133,6 +133,6 @@ export default function MarketAssetsList({ reserves, loading }: MarketAssetsList
           <MarketAssetsListItem {...reserve} key={reserve.id} />
         )
       )}
-    </>
+    </Box>
   );
 }
