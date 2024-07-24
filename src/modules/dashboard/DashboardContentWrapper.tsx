@@ -52,9 +52,9 @@ export const DashboardContentWrapper = ({ isBorrow }: DashboardContentWrapperPro
             <Box>
               <Button
                 sx={{
-                  position: 'absolute',
-                  top: upFromSm ? '-60px' : '-90px',
-                  right: '0px',
+                  position: 'flex',
+                  // top: upFromSm ? '-60px' : '-90px',
+                  // right: '0px',
                 }}
                 onClick={() => {
                   router.push(ROUTES.history);
