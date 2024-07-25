@@ -278,25 +278,27 @@ export const BorrowAssetsList = () => {
         </>
       }
     >
-      <>
-        {!downToXSM && !!borrowReserves.length && <RenderHeader />}
-        {ghoReserve && downToXSM && displayGho({ symbol: ghoReserve.symbol, currentMarket }) && (
-          <AssetCapsProvider asset={ghoReserve.reserve}>
-            <GhoBorrowAssetsListItem {...ghoReserve} />
-          </AssetCapsProvider>
-        )}
-        {sortedReserves?.map((item) => (
-          <Fragment key={item.underlyingAsset}>
-            <AssetCapsProvider asset={item.reserve}>
-              {downToXSM ? (
-                <BorrowAssetsListMobileItem {...item} />
-              ) : (
-                <BorrowAssetsListItem {...item} />
-              )}
+      <Box sx={{ borderTop: '1px solid #494949', borderRadius: '16px' }}>
+        <Box sx={{ borderTop: 'none', borderRadius: 'inherit', overflow: 'hidden' }}>
+          {!downToXSM && !!borrowReserves.length && <RenderHeader />}
+          {ghoReserve && downToXSM && displayGho({ symbol: ghoReserve.symbol, currentMarket }) && (
+            <AssetCapsProvider asset={ghoReserve.reserve}>
+              <GhoBorrowAssetsListItem {...ghoReserve} />
             </AssetCapsProvider>
-          </Fragment>
-        ))}
-      </>
+          )}
+          {sortedReserves?.map((item) => (
+            <Fragment key={item.underlyingAsset}>
+              <AssetCapsProvider asset={item.reserve}>
+                {downToXSM ? (
+                  <BorrowAssetsListMobileItem {...item} />
+                ) : (
+                  <BorrowAssetsListItem {...item} />
+                )}
+              </AssetCapsProvider>
+            </Fragment>
+          ))}
+        </Box>
+      </Box>
     </ListWrapper>
   );
 };
