@@ -1,3 +1,4 @@
+import { DuplicateIcon } from '@heroicons/react/outline';
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/solid';
 import { Trans } from '@lingui/macro';
 import {
@@ -94,6 +95,12 @@ export default function WalletWidget({ open, setOpen, headerHeight }: WalletWidg
     handleClose();
   };
 
+  const handleCopy = async () => {
+    navigator.clipboard.writeText(currentAccount);
+    trackEvent(AUTH.COPY_ADDRESS);
+    handleClose();
+  };
+
   const hideWalletAccountText = xsm && (ENABLE_TESTNET || STAGING_ENV || readOnlyModeAddress);
 
   const Content = ({ component = ListItem }: { component?: typeof MenuItem | typeof ListItem }) => (
@@ -110,17 +117,32 @@ export default function WalletWidget({ open, setOpen, headerHeight }: WalletWidg
           }}
         >
           <Avatar sx={{ marginBottom: '10px' }} />
-          <UserDisplay
-            avatarProps={{ size: AvatarSize.XL }}
-            titleProps={{
-              typography: 'h4',
-              addressCompactMode: CompactMode.MD,
-            }}
-            subtitleProps={{
-              addressCompactMode: CompactMode.LG,
-              typography: 'caption',
-            }}
-          />
+          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+            <UserDisplay
+              avatarProps={{ size: AvatarSize.XL }}
+              titleProps={{
+                typography: 'h4',
+                addressCompactMode: CompactMode.MD,
+              }}
+              subtitleProps={{
+                addressCompactMode: CompactMode.LG,
+                typography: 'caption',
+              }}
+            />
+            <button
+              style={{
+                background: 'transparent',
+                border: 'none',
+                outline: 'none',
+                cursor: 'pointer',
+              }}
+              onClick={handleCopy}
+            >
+              <SvgIcon fontSize="small">
+                <DuplicateIcon />
+              </SvgIcon>
+            </button>
+          </Box>
           {readOnlyModeAddress && (
             <Warning
               icon={false}
