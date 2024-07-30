@@ -111,8 +111,9 @@ export const DashboardTopPanel = () => {
           width: '100%',
           display: 'flex',
           alignContent: 'center',
-          padding: '50px',
+          padding: '30px',
           justifyContent: 'space-between',
+          marginBottom: '44px',
         }}
       >
         <Box sx={{ display: 'flex', alignItems: 'left' }}>
