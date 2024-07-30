@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro';
-import { Button } from '@mui/material';
+import { Box, Button } from '@mui/material';
 import { useModalContext } from 'src/hooks/useModal';
 import { useProtocolDataContext } from 'src/hooks/useProtocolDataContext';
 import { useRootStore } from 'src/store/root';
@@ -34,39 +34,50 @@ export const BorrowAssetsListItem = ({
   const trackEvent = useRootStore((store) => store.trackEvent);
 
   return (
-    <ListItemWrapper
-      symbol={symbol}
-      iconSymbol={iconSymbol}
-      name={name}
-      detailsAddress={underlyingAsset}
-      data-cy={`dashboardBorrowListItem_${symbol.toUpperCase()}`}
-      currentMarket={currentMarket}
+    <Box
+      sx={{
+        display: 'flex',
+        minWidth: '100%',
+        background: 'transparent',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        padding: '10px',
+      }}
     >
-      <ListValueColumn
+      <ListItemWrapper
         symbol={symbol}
-        value={Number(availableBorrows)}
-        subValue={Number(availableBorrowsInUSD)}
-        disabled={Number(availableBorrows) === 0}
-        withTooltip={false}
-        capsComponent={
-          <CapsHint
-            capType={CapType.borrowCap}
-            capAmount={borrowCap}
-            totalAmount={totalBorrows}
-            withoutText
-          />
-        }
-      />
-      <ListAPRColumn
-        value={Number(variableBorrowRate)}
-        incentives={vIncentivesData}
-        symbol={symbol}
-      />
-      <ListAPRColumn
-        value={Number(stableBorrowRate)}
-        incentives={sIncentivesData}
-        symbol={symbol}
-      />
+        iconSymbol={iconSymbol}
+        name={name}
+        detailsAddress={underlyingAsset}
+        data-cy={`dashboardBorrowListItem_${symbol.toUpperCase()}`}
+        currentMarket={currentMarket}
+      >
+        <ListValueColumn
+          symbol={symbol}
+          value={Number(availableBorrows)}
+          subValue={Number(availableBorrowsInUSD)}
+          disabled={Number(availableBorrows) === 0}
+          withTooltip={false}
+          capsComponent={
+            <CapsHint
+              capType={CapType.borrowCap}
+              capAmount={borrowCap}
+              totalAmount={totalBorrows}
+              withoutText
+            />
+          }
+        />
+        <ListAPRColumn
+          value={Number(variableBorrowRate)}
+          incentives={vIncentivesData}
+          symbol={symbol}
+        />
+        <ListAPRColumn
+          value={Number(stableBorrowRate)}
+          incentives={sIncentivesData}
+          symbol={symbol}
+        />
+      </ListItemWrapper>
       <ListButtonsColumn>
         <Button
           // disabled={disableBorrow}
@@ -75,13 +86,14 @@ export const BorrowAssetsListItem = ({
             openBorrow(underlyingAsset, currentMarket, name, 'dashboard');
           }}
           sx={(theme) => ({
-            borderRadius: '20px',
-            border: '1px solid #000000',
+            borderRadius: '4px',
+            border: '1px solid #DBEF88',
             background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
-            color: theme.palette.mode === 'dark' ? '#000' : '#000',
+            color: theme.palette.mode === 'dark' ? '#a8a6a6' : '#a8a6a6',
             '&:hover': {
               background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
             },
+            fontWeight: 500,
           })}
         >
           <Trans>Borrow</Trans>
@@ -99,18 +111,27 @@ export const BorrowAssetsListItem = ({
             });
           }}
           sx={(theme) => ({
-            borderRadius: '20px',
+            borderRadius: '4px',
             border: '1px solid #000000',
             background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
             color: theme.palette.mode === 'dark' ? '#000' : '#000',
             '&:hover': {
               background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
             },
+            fontWeight: 900,
+            padding: '2px',
+            width: '16px',
+            height: '16px',
+            display: 'inline-flex',
+            minWidth: '16px',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontSize: '5px',
           })}
         >
-          <Trans>Details</Trans>
+          ...
         </Button>
       </ListButtonsColumn>
-    </ListItemWrapper>
+    </Box>
   );
 };
