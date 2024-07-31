@@ -257,14 +257,17 @@ export const BorrowAssetsList = () => {
                   <Warning
                     severity="info"
                     sx={{
-                      background: '#fafafa',
-                      border: '1px solid black',
+                      width: '100%',
+                      display: 'flex',
+                      background: '#EE177133',
+                      // border: '1px solid black',
                       color: 'black',
-                      borderRadius: '5px',
+                      borderRadius: '12px',
+                      gap: '10px',
                     }}
                     icon={false}
                   >
-                    <Trans>To borrow you need to supply any asset to be used as collateral.</Trans>
+                    <Trans> To borrow you need to supply any asset to be used as collateral.</Trans>
                   </Warning>
                 )}
               </>
