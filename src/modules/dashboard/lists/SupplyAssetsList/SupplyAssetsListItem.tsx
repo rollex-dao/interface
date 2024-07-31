@@ -82,7 +82,7 @@ export const SupplyAssetsListItem = ({
         background: 'transparent',
         alignItems: 'center',
         justifyContent: 'space-between',
-        padding: '10px',
+        padding: '5px',
       }}
     >
       <ListItemWrapper
