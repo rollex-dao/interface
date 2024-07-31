@@ -95,7 +95,7 @@ export const ReserveConfiguration: React.FC<ReserveConfigurationProps> = ({ rese
         ) : null}
       </Box>
 
-      <PanelRow>
+      <PanelRow sx={{ border: '1px solid #494949', padding: '10px', borderRadius: '12px' }}>
         <PanelTitle>Supply Info</PanelTitle>
         <SupplyInfo
           reserve={reserve}
@@ -109,8 +109,15 @@ export const ReserveConfiguration: React.FC<ReserveConfigurationProps> = ({ rese
 
       {(reserve.borrowingEnabled || Number(reserve.totalDebt) > 0) && (
         <>
-          <Divider sx={{ my: { xs: 6, sm: 10 } }} />
-          <PanelRow>
+          {/* <Divider sx={{ my: { xs: 6, sm: 10 } }} /> */}
+          <PanelRow
+            sx={{
+              border: '1px solid #494949',
+              padding: '10px',
+              borderRadius: '12px',
+              my: { xs: 6, sm: 10 },
+            }}
+          >
             <PanelTitle>Borrow info</PanelTitle>
             <Box sx={{ flexGrow: 1, minWidth: 0, maxWidth: '100%', width: '100%' }}>
               {!reserve.borrowingEnabled && (
@@ -133,16 +140,24 @@ export const ReserveConfiguration: React.FC<ReserveConfigurationProps> = ({ rese
 
       {reserve.eModeCategoryId !== 0 && (
         <>
-          <Divider sx={{ my: { xs: 6, sm: 10 } }} />
+          {/* <Divider sx={{ my: { xs: 6, sm: 10 } }} /> */}
           <ReserveEModePanel reserve={reserve} />
         </>
       )}
 
       {(reserve.borrowingEnabled || Number(reserve.totalDebt) > 0) && (
         <>
-          <Divider sx={{ my: { xs: 6, sm: 10 } }} />
+          {/* <Divider sx={{ my: { xs: 6, sm: 10 } }} /> */}
 
-          <PanelRow>
+          <PanelRow
+            sx={{
+              border: '1px solid #494949',
+              padding: '10px',
+              borderRadius: '12px',
+              my: { xs: 6, sm: 10 },
+              background: '#fff',
+            }}
+          >
             <PanelTitle>Interest rate model</PanelTitle>
             <Box sx={{ flexGrow: 1, minWidth: 0, maxWidth: '100%', width: '100%' }}>
               <Box
