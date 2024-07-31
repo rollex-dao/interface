@@ -39,9 +39,7 @@ export const BorrowAssetsListItem = ({
         display: 'flex',
         minWidth: '100%',
         background: 'transparent',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        padding: '10px',
+        padding: '5px',
       }}
     >
       <ListItemWrapper
@@ -94,6 +92,10 @@ export const BorrowAssetsListItem = ({
               background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
             },
             fontWeight: 500,
+            height: '32px',
+            padding: '10px 12px',
+            justifyContent: 'center',
+            alignItems: 'center',
           })}
         >
           <Trans>Borrow</Trans>
