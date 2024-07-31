@@ -366,7 +366,7 @@ const BorrowAction = ({
   value,
   usdValue,
   symbol,
-  disable,
+  // disable,
   onActionClicked,
 }: ActionProps) => {
   return (
