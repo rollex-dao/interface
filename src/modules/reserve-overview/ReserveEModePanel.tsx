@@ -23,7 +23,15 @@ export const ReserveEModePanel: React.FC<ReserverEModePanelProps> = ({ reserve }
   const trackEvent = useRootStore((store) => store.trackEvent);
 
   return (
-    <PanelRow>
+    <PanelRow
+      sx={{
+        border: '1px solid #494949',
+        padding: '10px',
+        borderRadius: '12px',
+        my: { xs: 6, sm: 10 },
+        background: '#fff',
+      }}
+    >
       <PanelTitle>E-Mode info</PanelTitle>
       <Box sx={{ flexGrow: 1, minWidth: 0, maxWidth: '100%', width: '100%' }}>
         <Box sx={{ display: 'inline-flex', alignItems: 'center' }}>
