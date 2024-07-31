@@ -25,15 +25,16 @@ export const ReserveConfigurationWrapper: React.FC<ReserveConfigurationProps> = 
   const isGho = displayGho({ symbol: reserve.symbol, currentMarket });
 
   return (
-    <Paper
-      sx={{
-        pt: 4,
-        pb: 20,
-        px: downToXsm ? 4 : 6,
+    <div
+      style={{
+        // pt: 4,
+        // pb: 20,
+        // px: downToXsm ? 4 : 6,
         borderRadius: '20px',
+        // background: 'transparent',
       }}
     >
-      <Box
+      {/* <Box
         sx={{
           display: 'flex',
           alignItems: 'center',
@@ -48,12 +49,12 @@ export const ReserveConfigurationWrapper: React.FC<ReserveConfigurationProps> = 
         <Typography variant="h3">
           <Trans>Reserve status &#38; configuration</Trans>
         </Typography>
-      </Box>
+      </Box> */}
       {isGho ? (
         <GhoReserveConfiguration reserve={reserve} />
       ) : (
         <ReserveConfiguration reserve={reserve} />
       )}
-    </Paper>
+    </div>
   );
 };
