@@ -1,5 +1,5 @@
-import { Trans } from '@lingui/macro';
-import { Box, Paper, Typography, useMediaQuery, useTheme } from '@mui/material';
+// import { Trans } from '@lingui/macro';
+// import { useTheme } from '@mui/material';
 import dynamic from 'next/dynamic';
 import { ComputedReserveData } from 'src/hooks/app-data-provider/useAppDataProvider';
 import { useProtocolDataContext } from 'src/hooks/useProtocolDataContext';
@@ -20,8 +20,8 @@ const ReserveConfiguration = dynamic(() =>
 export const ReserveConfigurationWrapper: React.FC<ReserveConfigurationProps> = ({ reserve }) => {
   const { currentMarket } = useProtocolDataContext();
   const [displayGho] = useRootStore((store) => [store.displayGho]);
-  const { breakpoints } = useTheme();
-  const downToXsm = useMediaQuery(breakpoints.down('xsm'));
+  // const { breakpoints } = useTheme();
+  // const downToXsm = useMediaQuery(breakpoints.down('xsm'));
   const isGho = displayGho({ symbol: reserve.symbol, currentMarket });
 
   return (
