@@ -269,10 +269,11 @@ const PaperWrapper = ({ children }: { children: ReactNode }) => {
         pb: { xs: 4, xsm: 6 },
         px: { xs: 4, xsm: 6 },
         borderRadius: '20px',
+        border: '1px solid #494949',
       }}
     >
       <Typography variant="h3" sx={{ mb: 6 }}>
-        <Trans>Your info</Trans>
+        <Trans>Your infoo</Trans>
       </Typography>
 
       {children}
@@ -311,7 +312,7 @@ interface ActionProps {
 
 const SupplyAction = ({ reserve, value, usdValue, symbol }: ActionProps) => {
   return (
-    <Stack>
+    <Stack sx={{ background: '#ededed', padding: '10px', borderRadius: '12px' }}>
       <AvailableTooltip
         variant="description"
         text={<Trans>Available to supply</Trans>}
@@ -341,23 +342,20 @@ const SupplyAction = ({ reserve, value, usdValue, symbol }: ActionProps) => {
             symbol="USD"
           />
         </Box>
-        {/* <Button
+        <Button
+          // onClick={onActionClicked}
+          // disabled={disable}
           sx={{
-            height: '36px',
-            width: '96px',
-            background: '#fffff',
-            border: '1px solid #191919',
-            borderRadius: '1000px',
-            color: '#191919',
+            height: '48px',
+            width: '90px',
+            background: '#FAFAFA',
+            border: '1px solid #DBEF88',
+            padding: '10px 16px',
           }}
-          onClick={onActionClicked}
-          disabled={disable}
           fullWidth={false}
-          variant="contained"
-          data-cy="supplyButton"
         >
           <Trans>Supply</Trans>
-        </Button> */}
+        </Button>
       </Stack>
     </Stack>
   );
@@ -372,7 +370,7 @@ const BorrowAction = ({
   onActionClicked,
 }: ActionProps) => {
   return (
-    <Stack>
+    <Stack sx={{ background: '#ededed', padding: '10px', borderRadius: '12px' }}>
       <AvailableTooltip
         variant="description"
         text={<Trans>Available to borrow</Trans>}
@@ -403,12 +401,18 @@ const BorrowAction = ({
           />
         </Box>
         <Button
-          sx={{ height: '36px', width: '96px' }}
+          sx={{
+            height: '48px',
+            width: '90px',
+            background: '#FAFAFA',
+            border: '1px solid #DBEF88',
+            padding: '10px 16px',
+          }}
           onClick={onActionClicked}
-          disabled={disable}
+          // disabled={disable}
           fullWidth={false}
-          variant="contained"
-          data-cy="borrowButton"
+          // variant="contained"
+          // data-cy="borrowButton"
         >
           <Trans>Borrow </Trans>
         </Button>
