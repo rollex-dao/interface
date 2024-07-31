@@ -14,6 +14,7 @@ export const ListButtonsColumn = ({ children, isColumnHeader = false }: ListButt
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
+        marginTop: '14px',
         // maxWidth: DASHBOARD_LIST_COLUMN_WIDTHS.BUTTONS,
         // minWidth: DASHBOARD_LIST_COLUMN_WIDTHS.BUTTONS,
         flex: isColumnHeader ? 1 : 1,
