@@ -104,7 +104,7 @@ export default function WalletWidget({ open, setOpen, headerHeight }: WalletWidg
   const hideWalletAccountText = xsm && (ENABLE_TESTNET || STAGING_ENV || readOnlyModeAddress);
 
   const Content = ({ component = ListItem }: { component?: typeof MenuItem | typeof ListItem }) => (
-    <>
+    <Box sx={{ border: '1px solid #494949', borderRadius: '12px' }}>
       <Box component={component} disabled>
         <Box
           sx={{
@@ -262,7 +262,7 @@ export default function WalletWidget({ open, setOpen, headerHeight }: WalletWidg
           </Box>
         </>
       )}
-    </>
+    </Box>
   );
 
   return (
