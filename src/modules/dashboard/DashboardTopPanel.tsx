@@ -4,6 +4,7 @@ import { Box, Button, Typography, useMediaQuery, useTheme } from '@mui/material'
 import { ChainId } from '@pollum-io/contract-helpers';
 // import { current } from 'immer';
 import Link from 'next/link';
+// import { marketContainerProps } from 'pages/market.page';
 import * as React from 'react';
 import { useState } from 'react';
 import { NetAPYTooltip } from 'src/components/infoTooltips/NetAPYTooltip';
@@ -111,11 +112,16 @@ export const DashboardTopPanel = () => {
           width: '100%',
           display: 'flex',
           alignContent: 'center',
-          padding: '30px',
+          pt: { xs: 10, md: 12 },
+          pb: { xs: 18, md: 20, lg: '94px', xl: '92px', xxl: '96px' },
           justifyContent: 'space-between',
-          marginBottom: '44px',
         }}
       >
+        {/* <TopInfoPanel
+        containerProps={marketContainerProps}
+        pageTitle={<Trans>Market</Trans>}
+        withMarketSwitcher={false}
+      > */}
         <Box sx={{ display: 'flex', alignItems: 'left' }}>
           <PageTitle
             pageTitle={<Trans>Dashboard</Trans>}
