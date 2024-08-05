@@ -8,6 +8,7 @@ interface TopInfoPanelItemProps {
   children: ReactNode;
   hideIcon?: boolean;
   withoutIconWrapper?: boolean;
+  withBorder?: boolean; // Add this prop to control border visibility
   variant?: 'light' | 'dark' | undefined; // default dark
   withLine?: boolean;
   loading?: boolean;
@@ -20,6 +21,7 @@ export const TopInfoPanelItem = ({
   children,
   hideIcon,
   withLine,
+  withBorder = true,
   loading,
   withoutIconWrapper,
 }: TopInfoPanelItemProps) => {
@@ -33,7 +35,7 @@ export const TopInfoPanelItem = ({
         alignItems: 'center',
         width: '348px',
         height: '107px',
-        border: '1px solid #000000',
+        border: withBorder ? '1px solid #000000' : 'none',
         padding: '24px',
         borderRadius: '32px',
       }}
