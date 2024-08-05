@@ -41,8 +41,21 @@ export const ReserveTopDetails = ({ underlyingAsset }: ReserveTopDetailsProps) =
   };
 
   return (
-    <>
-      <TopInfoPanelItem title={<Trans>Reserve Size</Trans>} loading={loading} hideIcon>
+    <Box
+      sx={{
+        display: 'flex',
+        border: '1px solid #000000',
+        borderRadius: '32px',
+        width: '100%',
+        justifyContent: 'space-between',
+      }}
+    >
+      <TopInfoPanelItem
+        title={<Trans>Reserve Size</Trans>}
+        loading={loading}
+        hideIcon
+        withBorder={false}
+      >
         <FormattedNumber
           value={Math.max(Number(poolReserve?.totalLiquidityUSD), 0)}
           symbol="USD"
@@ -52,7 +65,12 @@ export const ReserveTopDetails = ({ underlyingAsset }: ReserveTopDetailsProps) =
         />
       </TopInfoPanelItem>
 
-      <TopInfoPanelItem title={<Trans>Available liquidity</Trans>} loading={loading} hideIcon>
+      <TopInfoPanelItem
+        title={<Trans>Available liquidity</Trans>}
+        loading={loading}
+        hideIcon
+        withBorder={false}
+      >
         <FormattedNumber
           value={Math.max(Number(poolReserve?.availableLiquidityUSD), 0)}
           symbol="USD"
@@ -62,7 +80,12 @@ export const ReserveTopDetails = ({ underlyingAsset }: ReserveTopDetailsProps) =
         />
       </TopInfoPanelItem>
 
-      <TopInfoPanelItem title={<Trans>Utilization Rate</Trans>} loading={loading} hideIcon>
+      <TopInfoPanelItem
+        title={<Trans>Utilization Rate</Trans>}
+        loading={loading}
+        hideIcon
+        withBorder={false}
+      >
         <FormattedNumber
           value={poolReserve?.borrowUsageRatio}
           percent
@@ -72,7 +95,12 @@ export const ReserveTopDetails = ({ underlyingAsset }: ReserveTopDetailsProps) =
         />
       </TopInfoPanelItem>
 
-      <TopInfoPanelItem title={<Trans>Oracle price</Trans>} loading={loading} hideIcon>
+      <TopInfoPanelItem
+        title={<Trans>Oracle price</Trans>}
+        loading={loading}
+        hideIcon
+        withBorder={false}
+      >
         <Box sx={{ display: 'inline-flex', alignItems: 'center' }}>
           <FormattedNumber
             value={poolReserve?.priceInUSD}
@@ -107,6 +135,6 @@ export const ReserveTopDetails = ({ underlyingAsset }: ReserveTopDetailsProps) =
           )}
         </Box>
       </TopInfoPanelItem>
-    </>
+    </Box>
   );
 };
