@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro';
-import { Button, Menu, MenuItem, Typography } from '@mui/material';
+import { Box, Button, Menu, MenuItem, Typography } from '@mui/material';
 import React, { useState } from 'react';
 import { DEFAULT_LOCALE } from 'src/libs/LanguageProvider';
 import { useRootStore } from 'src/store/root';
@@ -51,7 +51,7 @@ export function SettingsMenu() {
   };
 
   return (
-    <>
+    <Box>
       <Button
         variant="contained"
         aria-label="settings"
@@ -98,14 +98,16 @@ export function SettingsMenu() {
         sx={{ '.MuiMenuItem-root.Mui-disabled': { opacity: 1 } }}
         keepMounted={true}
       >
-        <MenuItem disabled sx={{ mb: '4px' }}>
-          <Typography variant="subheader2" color="text.secondary">
-            <Trans>Global settings</Trans>
-          </Typography>
-        </MenuItem>
+        <Box sx={{ border: '1px solid #494949', borderRadius: '12px' }}>
+          <MenuItem disabled sx={{ mb: '4px' }}>
+            <Typography variant="subheader2" color="text.secondary">
+              <Trans>Global settings</Trans>
+            </Typography>
+          </MenuItem>
 
-        <DarkModeSwitcher component={MenuItem} />
-        <LanguageListItem onClick={handleLanguageClick} component={MenuItem} />
+          <DarkModeSwitcher component={MenuItem} />
+          <LanguageListItem onClick={handleLanguageClick} component={MenuItem} />
+        </Box>
       </Menu>
 
       <Menu
@@ -120,6 +122,6 @@ export function SettingsMenu() {
       >
         <LanguagesList onClick={handleCloseLanguage} component={MenuItem} />
       </Menu>
-    </>
+    </Box>
   );
 }
