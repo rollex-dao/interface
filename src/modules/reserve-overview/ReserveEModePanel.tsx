@@ -26,10 +26,11 @@ export const ReserveEModePanel: React.FC<ReserverEModePanelProps> = ({ reserve }
     <PanelRow
       sx={{
         border: '1px solid #494949',
-        padding: '10px',
+        padding: '24px',
         borderRadius: '12px',
-        my: { xs: 6, sm: 10 },
-        background: '#fff',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
       }}
     >
       <PanelTitle>E-Mode info</PanelTitle>

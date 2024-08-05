@@ -95,8 +95,17 @@ export const ReserveConfiguration: React.FC<ReserveConfigurationProps> = ({ rese
         ) : null}
       </Box>
 
-      <PanelRow sx={{ border: '1px solid #494949', padding: '10px', borderRadius: '12px' }}>
-        <PanelTitle>Supply Info</PanelTitle>
+      <PanelRow
+        sx={{
+          border: '1px solid #494949',
+          padding: '24px',
+          borderRadius: '12px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <PanelTitle>Supply Infooo</PanelTitle>
         <SupplyInfo
           reserve={reserve}
           currentMarketData={currentMarketData}
@@ -113,8 +122,11 @@ export const ReserveConfiguration: React.FC<ReserveConfigurationProps> = ({ rese
           <PanelRow
             sx={{
               border: '1px solid #494949',
-              padding: '10px',
+              padding: '24px',
               borderRadius: '12px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
               my: { xs: 6, sm: 10 },
             }}
           >
@@ -152,10 +164,12 @@ export const ReserveConfiguration: React.FC<ReserveConfigurationProps> = ({ rese
           <PanelRow
             sx={{
               border: '1px solid #494949',
-              padding: '10px',
+              padding: '24px',
               borderRadius: '12px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
               my: { xs: 6, sm: 10 },
-              background: '#fff',
             }}
           >
             <PanelTitle>Interest rate model</PanelTitle>
