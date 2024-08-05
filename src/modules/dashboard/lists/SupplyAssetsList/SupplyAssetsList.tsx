@@ -279,7 +279,7 @@ export const SupplyAssetsList = () => {
         </Box>
       }
     >
-      <>
+      <Box sx={{ padding: '24px' }}>
         {!downToXSM && !!sortedReserves && !supplyDisabled && <RenderHeader />}
         {sortedReserves.map((item) => (
           <Fragment key={item.underlyingAsset}>
@@ -292,7 +292,7 @@ export const SupplyAssetsList = () => {
             </AssetCapsProvider>
           </Fragment>
         ))}
-      </>
+      </Box>
     </ListWrapper>
   );
 };
