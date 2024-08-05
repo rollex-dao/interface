@@ -39,7 +39,6 @@ export const BorrowAssetsListItem = ({
         display: 'flex',
         minWidth: '100%',
         background: 'transparent',
-        padding: '5px',
       }}
     >
       <ListItemWrapper
