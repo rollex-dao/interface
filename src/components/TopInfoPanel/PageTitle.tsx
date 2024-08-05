@@ -28,7 +28,8 @@ export const PageTitle = ({ pageTitle, withMarketSwitcher, withMigrateButton }: 
       sx={{
         display: 'flex',
         alignItems: { xs: 'flex-start', xsm: 'center' },
-        mb: pageTitle ? 4 : 0,
+        mb: pageTitle ? '22px' : 0,
+        mt: '22px',
         flexDirection: { xs: 'column', xsm: 'row' },
       }}
     >
@@ -47,9 +48,10 @@ export const PageTitle = ({ pageTitle, withMarketSwitcher, withMigrateButton }: 
             variant={downToXSM ? 'h2' : upToLG ? 'display1' : 'h1'}
             sx={{
               color: '#DBEF88',
-              fontSize: '45px',
-              fontWeight: 500,
+              fontSize: '40px',
+              fontWeight: 600,
               lineHeight: '56px',
+              fontFamily: 'Carbon',
             }}
           >
             {pageTitle}
