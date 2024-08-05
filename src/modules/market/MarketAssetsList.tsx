@@ -101,7 +101,7 @@ export default function MarketAssetsList({ reserves, loading }: MarketAssetsList
   if (reserves.length === 0) return null;
 
   return (
-    <Box sx={{ padding: '10px', borderTop: '1px solid #494949', borderRadius: '16px' }}>
+    <Box sx={{ padding: '24px', borderTop: '1px solid #494949', borderRadius: '16px' }}>
       {!isTableChangedToCards && (
         <ListHeaderWrapper px={6}>
           {listHeaders.map((col) => (
