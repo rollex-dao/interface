@@ -282,7 +282,9 @@ export const BorrowAssetsList = () => {
       }
     >
       <Box sx={{ borderTop: '1px solid #494949', borderRadius: '16px' }}>
-        <Box sx={{ borderTop: 'none', borderRadius: 'inherit', overflow: 'hidden' }}>
+        <Box
+          sx={{ borderTop: 'none', borderRadius: 'inherit', overflow: 'hidden', padding: '24px' }}
+        >
           {!downToXSM && !!borrowReserves.length && <RenderHeader />}
           {ghoReserve && downToXSM && displayGho({ symbol: ghoReserve.symbol, currentMarket }) && (
             <AssetCapsProvider asset={ghoReserve.reserve}>
