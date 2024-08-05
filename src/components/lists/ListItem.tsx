@@ -20,7 +20,7 @@ export const ListItem = ({ children, minHeight = 50, px = 4, button, ...rest }: 
         // '&:not(:last-child)': {
         borderBottom: '1px solid',
         borderColor: 'divider',
-        marginTop: '10px',
+        marginTop: '16px',
         borderRadius: '12px',
         // color: '#FFFF',
         // },
