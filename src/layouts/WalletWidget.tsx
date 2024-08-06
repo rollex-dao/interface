@@ -104,7 +104,7 @@ export default function WalletWidget({ open, setOpen, headerHeight }: WalletWidg
   const hideWalletAccountText = xsm && (ENABLE_TESTNET || STAGING_ENV || readOnlyModeAddress);
 
   const Content = ({ component = ListItem }: { component?: typeof MenuItem | typeof ListItem }) => (
-    <Box sx={{ border: '1px solid #494949', borderRadius: '12px' }}>
+    <Box sx={{ border: '1px solid #494949', borderRadius: '16px' }}>
       <Box component={component} disabled>
         <Box
           sx={{
@@ -226,9 +226,9 @@ export default function WalletWidget({ open, setOpen, headerHeight }: WalletWidg
           </Button>
         </Box>
       )}
-      <Divider sx={{ my: { xs: 7, md: 0 }, borderColor: { xs: '#FFFFFF1F', md: 'divider' } }} />
+      {/* <Divider sx={{ my: { xs: 7, md: 0 }, borderColor: { xs: '#FFFFFF1F', md: 'divider' } }} />
 
-      <Divider sx={{ my: { xs: 7, md: 0 }, borderColor: { xs: '#FFFFFF1F', md: 'divider' } }} />
+      <Divider sx={{ my: { xs: 7, md: 0 }, borderColor: { xs: '#FFFFFF1F', md: 'divider' } }} /> */}
 
       {md && (
         <>
