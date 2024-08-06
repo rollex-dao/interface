@@ -95,10 +95,15 @@ export function SettingsMenu() {
         anchorEl={anchorEl}
         open={settingsOpen}
         onClose={handleClose}
-        sx={{ '.MuiMenuItem-root.Mui-disabled': { opacity: 1 } }}
+        sx={{
+          '.MuiMenuItem-root.Mui-disabled': { opacity: 1 },
+          '& .MuiPaper-root': {
+            border: '1px solid #494949',
+          },
+        }}
         keepMounted={true}
       >
-        <Box sx={{ border: '1px solid #494949', borderRadius: '12px' }}>
+        <Box>
           <MenuItem disabled sx={{ mb: '4px' }}>
             <Typography variant="subheader2" color="text.secondary">
               <Trans>Global settings</Trans>
