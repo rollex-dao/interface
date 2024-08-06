@@ -47,7 +47,10 @@ export const PageTitle = ({ pageTitle, withMarketSwitcher, withMigrateButton }: 
           <Typography
             variant={downToXSM ? 'h2' : upToLG ? 'display1' : 'h1'}
             sx={{
-              color: '#DBEF88',
+              background: 'linear-gradient(90deg, #DBEF88 0%, #EACF5E 100%)',
+              backgroundClip: 'text',
+              WebkitBackgroundClip: 'text',
+              color: 'transparent',
               fontSize: '40px',
               fontWeight: 600,
               lineHeight: '56px',
