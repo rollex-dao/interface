@@ -85,7 +85,7 @@ export const ContentWithTooltip = ({
               fontSize: '12px',
               lineHeight: '19px',
               border: '1px solid #191919',
-              boxShadow: '12px 12px 0 0 #191919, 0px 1px 0 0 #191919',
+              boxShadow: '6px -5px 0 0 #191919, 0px 1px 0 0 #191919',
               borderRadius: '6px',
               a: {
                 lineHeight: '16px',
