@@ -185,6 +185,21 @@ export const DashboardTopPanel = () => {
               />
             )}
           </Box>
+
+          <Box
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+              border: '1px solid #494949',
+              height: '32px',
+              alignItems: 'center',
+              justifyContent: 'center',
+              borderRadius: '4px',
+              fontSize: '14px',
+            }}
+          >
+            <Button>View transactions</Button>
+          </Box>
         </Box>
 
         {currentAccount && user?.healthFactor !== '-1' && (
