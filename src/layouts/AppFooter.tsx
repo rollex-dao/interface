@@ -5,7 +5,6 @@ import { Link } from 'src/components/primitives/Link';
 import { useRootStore } from 'src/store/root';
 
 import DiscordIcon from '/public/icons/discord.svg';
-import LensLogoIcon from '/public/icons/lens-logo.svg';
 
 interface StyledLinkProps {
   onClick?: React.MouseEventHandler<HTMLAnchorElement>;
@@ -18,11 +17,6 @@ const StyledLink = styled(Link)<StyledLinkProps>(() => ({
 }));
 
 const FOOTER_ICONS = [
-  {
-    href: 'https://hey.xyz/u/aaveaave',
-    icon: <LensLogoIcon />,
-    title: 'Aave',
-  },
   {
     href: 'https://twitter.com/aave',
     icon: <Twitter />,
@@ -101,7 +95,7 @@ export function AppFooter() {
         }}
       >
         <Box
-          sx={(theme) => ({
+          sx={{
             display: 'flex',
             width: '100%',
             justifyContent: 'space-between',
@@ -109,11 +103,7 @@ export function AppFooter() {
             gap: '22px',
             flexDirection: ['column', 'column', 'row'],
             background: '#FFFFFF',
-            boxShadow:
-              theme.palette.mode === 'light'
-                ? 'inset 0px 1px 0px rgba(0, 0, 0, 0.04)'
-                : 'inset 0px 1px 0px rgba(255, 255, 255, 0.12)',
-          })}
+          }}
         >
           <Box>
             <img src="icons/tokens/rollex-logo.svg" alt="" />
