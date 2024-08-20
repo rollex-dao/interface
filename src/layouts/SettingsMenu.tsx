@@ -5,7 +5,7 @@ import { DEFAULT_LOCALE } from 'src/libs/LanguageProvider';
 import { useRootStore } from 'src/store/root';
 import { SETTINGS } from 'src/utils/mixPanelEvents';
 
-import { DarkModeSwitcher } from './components/DarkModeSwitcher';
+// import { DarkModeSwitcher } from './components/DarkModeSwitcher';
 import { LanguageListItem, LanguagesList } from './components/LanguageSwitcher';
 
 export const LANG_MAP = {
@@ -110,7 +110,7 @@ export function SettingsMenu() {
             </Typography>
           </MenuItem>
 
-          <DarkModeSwitcher component={MenuItem} />
+          {/* <DarkModeSwitcher component={MenuItem} /> */}
           <LanguageListItem onClick={handleLanguageClick} component={MenuItem} />
         </Box>
       </Menu>
