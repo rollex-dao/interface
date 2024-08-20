@@ -141,7 +141,7 @@ export const DashboardTopPanel = () => {
           )}
         </Box>
 
-        <Box sx={{ display: 'flex', gap: '32px' }}>
+        <Box sx={{ display: 'flex', gap: '32px', marginTop: '40px' }}>
           <Box sx={{ display: 'flex', flexDirection: 'column' }}>
             <Trans>Net worth</Trans>
             {currentAccount ? (
