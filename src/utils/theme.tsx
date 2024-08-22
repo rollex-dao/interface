@@ -19,7 +19,7 @@ const {
   typography: { pxToRem },
 } = theme;
 
-const FONT = 'Inter, Arial';
+const FONT = 'Roboto Mono, Arial';
 
 declare module '@mui/material/styles/createPalette' {
   interface PaletteColor extends ColorPartial {}
@@ -138,14 +138,14 @@ export const getDesignTokens = (mode: 'light' | 'dark') => {
     palette: {
       mode,
       primary: {
-        main: getColor('#383D51', '#EAEBEF'),
-        light: getColor('#62677B', '#F1F1F3'),
-        dark: getColor('#292E41', '#D2D4DC'),
+        main: getColor('#000000', '#000000'),
+        light: getColor('#000000', '#000000'),
+        dark: getColor('#292E41', '#ffff'),
         contrast: getColor('#FFFFFF', '#0F121D'),
       },
       secondary: {
-        main: getColor('#FF607B', '#F48FB1'),
-        light: getColor('#FF607B', '#F6A5C0'),
+        main: getColor('#494949', '#494949'),
+        light: getColor('#494949', '#494949'),
         dark: getColor('#B34356', '#AA647B'),
       },
       error: {
@@ -159,12 +159,12 @@ export const getDesignTokens = (mode: 'light' | 'dark') => {
         main: getColor('#F89F1A', '#FFA726'),
         light: getColor('#FFCE00', '#FFB74D'),
         dark: getColor('#C67F15', '#F57C00'),
-        '100': getColor('#63400A', '#FFDCA8'), // for alert text
+        '100': getColor('#FFFFFF', '#FFDCA8'), // for alert text
         '200': getColor('#FEF5E8', '#301E04'), // for alert background
       },
       info: {
         main: getColor('#0062D2', '#29B6F6'),
-        light: getColor('#0062D2', '#4FC3F7'),
+        light: getColor('#FFF', '#FFFF'),
         dark: getColor('#002754', '#0288D1'),
         '100': getColor('#002754', '#A9E2FB'), // for alert text
         '200': getColor('#E5EFFB', '#071F2E'), // for alert background
@@ -177,26 +177,26 @@ export const getDesignTokens = (mode: 'light' | 'dark') => {
         '200': getColor('#ECF8ED', '#0A130B'), // for alert background
       },
       text: {
-        primary: getColor('#303549', '#F1F1F3'),
-        secondary: getColor('#62677B', '#A5A8B6'),
+        primary: getColor('#000000', '#000000'),
+        secondary: getColor('#494949', '#494949'),
         disabled: getColor('#D2D4DC', '#62677B'),
         muted: getColor('#A5A8B6', '#8E92A3'),
         highlight: getColor('#383D51', '#C9B3F9'),
       },
       background: {
-        default: getColor('#FFFFFF', '#000913'),
-        paper: getColor('#FFFFFF', '#081120'),
-        surface: getColor('#F7F7F9', '#383D51'),
-        surface2: getColor('#F9F9FB', '#383D51'),
-        header: getColor('#FFFFFF', '#000913'),
-        disabled: getColor('#EAEBEF', '#EBEBEF14'),
+        default: getColor('#FAFAFA', '#FAFAFA'),
+        paper: getColor('#FAFAFA', '#FAFAFA'),
+        surface: getColor('#FAFAFA', '#FAFAFA'),
+        surface2: getColor('#FAFAFA', '#FAFAFA'),
+        header: getColor('#FAFAFA', '#FAFAFA'),
+        disabled: getColor('#FAFAFA', '#FAFAFA'),
         bgGradient: getColor(
-          'radial-gradient(60% 50% at 50% 45%, #68e1ffbe, #e6faff)!important',
-          'radial-gradient(60% 50% at 50% 45% , #56BED8, #000913)'
+          'radial-gradient(60% 50% at 50% 45%, #ffff, #FAFAFA)!important',
+          'radial-gradient(60% 50% at 50% 45% , #FAFAFA, #FAFAFA)'
         ),
-        deepShadow: `0px 5px 24px ${opacify(24, '#00D9EF')}, 5px 0px 24px ${opacify(
+        deepShadow: `0px 5px 24px ${opacify(24, '#FAFAFA')}, 5px 0px 24px ${opacify(
           24,
-          '#8C15E8'
+          '#FAFAFA'
         )}`,
       },
       divider: getColor('#EAEBEF', '#EBEBEF14'),
@@ -212,8 +212,8 @@ export const getDesignTokens = (mode: 'light' | 'dark') => {
         standardInputLine: getColor('#383D511F', '#EBEBEF6B'),
       },
       gradients: {
-        aaveGradient: 'linear-gradient(248.86deg, #B6509E 10.51%, #2EBAC6 93.41%)',
-        newGradient: 'linear-gradient(79.67deg, #8C3EBC 0%, #007782 95.82%)',
+        aaveGradient: 'linear-gradient(248.86deg, #FAFAFA 10.51%, #ffff 93.41%)',
+        newGradient: 'linear-gradient(79.67deg, #FAFAFA 0%, #FFF 95.82%)',
       },
     },
     spacing: 4,

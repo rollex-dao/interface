@@ -105,7 +105,7 @@ export const StakeRewardClaimRestakeModalContent = ({
 
   return (
     <>
-      <TxModalTitle title="Restake PSYS rewards" />
+      <TxModalTitle title="Restake REX rewards" />
       {isWrongNetwork && !readOnlyModeAddress && (
         <ChangeNetworkWarning networkName={networkConfig.name} chainId={stakingChain} />
       )}

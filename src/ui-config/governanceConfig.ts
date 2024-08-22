@@ -27,7 +27,7 @@ export const governanceConfig: GovernanceConfig = {
   chainId: 570 as ChainId,
   votingAssetName: 'AAVE + stkAAVE',
   averageNetworkBlockTime: 13.5,
-  queryGovernanceDataUrl: 'https://api.thegraph.com/subgraphs/name/aave/governance-v2',
+  queryGovernanceDataUrl: 'https://rollux.graph.pegasys.fi/subgraphs/name/pollum-io/rex-governance',
   wsGovernanceDataUrl: 'wss://api.thegraph.com/subgraphs/name/aave/governance-v2',
   aaveTokenAddress: '0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9',
   aAaveTokenAddress: '0xDa5E8e1C3596D3Cc11a4dd5aD66b8f03B5410F8C',

@@ -26,7 +26,7 @@ export const GhoReserveConfiguration: React.FC<GhoReserveConfigurationProps> = (
               HOE is a native decentralized, collateral-backed digital asset pegged to USD. It is
               created by users via borrowing against multiple collateral. When user repays their HOE
               borrow position, the protocol burns that user&apos;s HOE. All the interest payments
-              accrued by minters of HOE would be directly transferred to the PegasysDAO treasury.
+              accrued by minters of HOE would be directly transferred to the RollexDAO treasury.
             </Trans>
           </Typography>
           <Box

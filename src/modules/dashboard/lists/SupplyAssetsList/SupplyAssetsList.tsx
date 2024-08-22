@@ -236,8 +236,8 @@ export const SupplyAssetsList = () => {
       withTopMargin
       noData={supplyDisabled}
       subChildrenComponent={
-        <>
-          <Box sx={{ px: 6 }}>
+        <Box sx={{ px: 6, borderTop: '1px solid #494949', borderRadius: '16px' }}>
+          <Box sx={{ borderTop: 'none', borderRadius: 'inherit', overflow: 'hidden' }}>
             {supplyDisabled && currentNetworkConfig.name === 'Harmony' ? (
               <MarketWarning marketName="Harmony" />
             ) : supplyDisabled && currentNetworkConfig.name === 'Fantom' ? (
@@ -276,10 +276,10 @@ export const SupplyAssetsList = () => {
               bridge={bridge}
             />
           )}
-        </>
+        </Box>
       }
     >
-      <>
+      <Box sx={{ padding: '24px' }}>
         {!downToXSM && !!sortedReserves && !supplyDisabled && <RenderHeader />}
         {sortedReserves.map((item) => (
           <Fragment key={item.underlyingAsset}>
@@ -292,7 +292,7 @@ export const SupplyAssetsList = () => {
             </AssetCapsProvider>
           </Fragment>
         ))}
-      </>
+      </Box>
     </ListWrapper>
   );
 };

@@ -17,6 +17,7 @@ import {
 } from '@pollum-io/contract-helpers/dist/esm/uiStakeDataProvider-contract/types';
 import { BigNumber } from 'ethers';
 import { formatEther, formatUnits } from 'ethers/lib/utils';
+import Image from 'next/image';
 import React from 'react';
 import { DarkTooltip } from 'src/components/infoTooltips/DarkTooltip';
 import { FormattedNumber } from 'src/components/primitives/FormattedNumber';
@@ -157,6 +158,7 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
         pt: 4,
         height: '100%',
         borderRadius: '20px',
+        border: '1px solid #000000',
       }}
     >
       <Box
@@ -207,7 +209,7 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
             mb: { xs: 3, xsm: 0 },
           }}
         >
-          <TokenIcon symbol={icon} sx={{ fontSize: { xs: '40px', xsm: '32px' } }} />
+          <Image src={'/icons/tokens/rollex.svg'} alt="token icon" width={34} height={34} />
           <Typography variant={xsm ? 'subheader1' : 'h4'} ml={2}>
             {stakedToken}
           </Typography>
@@ -282,14 +284,15 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
             minWidth: '96px',
             mb: { xs: 6, xsm: 0 },
             borderRadius: '20px',
-            background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-            color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
+            border: '1px solid #000000',
+            color: '#000000',
+            background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
             '&:hover': {
-              background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+              background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
             },
           })}
           onClick={onStakeAction}
-          disabled={+availableToStake === 0}
+          // disabled={+availableToStake === 0}
           fullWidth={!xsm}
           data-cy={`stakeBtn_${stakedToken.toUpperCase()}`}
         >
@@ -491,10 +494,11 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
               data-cy={`coolDownBtn_${stakedToken}`}
               sx={(theme) => ({
                 borderRadius: '20px',
-                background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-                color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
+                border: '1px solid #000000',
+                background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
+                color: theme.palette.mode === 'dark' ? '#000' : '#000',
                 '&:hover': {
-                  background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+                  background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
                 },
               })}
             >
@@ -504,7 +508,7 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
         </StakeActionBox>
 
         <StakeActionBox
-          title={<Trans>Claimable PSYS</Trans>}
+          title={<Trans>Claimable REX</Trans>}
           value={formatEther(stakeUserData?.userIncentivesToClaim || '0')}
           valueUSD={claimableUSD}
           bottomLineTitle={<Trans>Aave per month</Trans>}
@@ -535,10 +539,11 @@ export const StakingPanel: React.FC<StakingPanelProps> = ({
                 mb: { xs: 2, sm: 0 },
                 mr: { xs: 0, sm: 1 },
                 borderRadius: '20px',
-                background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-                color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
+                border: '1px solid #000000',
+                background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
+                color: theme.palette.mode === 'dark' ? '#000' : '#000',
                 '&:hover': {
-                  background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+                  background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
                 },
               })}
             >

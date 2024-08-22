@@ -62,8 +62,7 @@ export const TokenLinkDropdown = ({
             sx={{
               display: 'inline-flex',
               alignItems: 'center',
-              color: '#A5A8B6',
-              '&:hover': { color: '#F1F1F3' },
+              color: '#494949',
               cursor: 'pointer',
             }}
           >
@@ -117,7 +116,7 @@ export const TokenLinkDropdown = ({
           <Box>
             <Box sx={{ px: 4, pt: 3, pb: 2 }}>
               <Typography variant="secondary12" color="text.secondary">
-                <Trans>Pegasys aToken</Trans>
+                <Trans>Rollex aToken</Trans>
               </Typography>
             </Box>
 
@@ -150,7 +149,7 @@ export const TokenLinkDropdown = ({
         {showDebtTokenHeader && (
           <Box sx={{ px: 4, pt: 3, pb: 2 }}>
             <Typography variant="secondary12" color="text.secondary">
-              <Trans>Pegasys debt token</Trans>
+              <Trans>Rolles debt token</Trans>
             </Typography>
           </Box>
         )}

@@ -254,8 +254,20 @@ export const BorrowAssetsList = () => {
                   </Warning>
                 )}
                 {user?.totalCollateralMarketReferenceCurrency === '0' && (
-                  <Warning severity="info">
-                    <Trans>To borrow you need to supply any asset to be used as collateral.</Trans>
+                  <Warning
+                    severity="info"
+                    sx={{
+                      width: '100%',
+                      display: 'flex',
+                      background: '#EE177133',
+                      // border: '1px solid black',
+                      color: 'black',
+                      borderRadius: '12px',
+                      gap: '10px',
+                    }}
+                    icon={false}
+                  >
+                    <Trans> To borrow you need to supply any asset to be used as collateral.</Trans>
                   </Warning>
                 )}
               </>
@@ -269,25 +281,29 @@ export const BorrowAssetsList = () => {
         </>
       }
     >
-      <>
-        {!downToXSM && !!borrowReserves.length && <RenderHeader />}
-        {ghoReserve && downToXSM && displayGho({ symbol: ghoReserve.symbol, currentMarket }) && (
-          <AssetCapsProvider asset={ghoReserve.reserve}>
-            <GhoBorrowAssetsListItem {...ghoReserve} />
-          </AssetCapsProvider>
-        )}
-        {sortedReserves?.map((item) => (
-          <Fragment key={item.underlyingAsset}>
-            <AssetCapsProvider asset={item.reserve}>
-              {downToXSM ? (
-                <BorrowAssetsListMobileItem {...item} />
-              ) : (
-                <BorrowAssetsListItem {...item} />
-              )}
+      <Box sx={{ borderTop: '1px solid #494949', borderRadius: '16px' }}>
+        <Box
+          sx={{ borderTop: 'none', borderRadius: 'inherit', overflow: 'hidden', padding: '24px' }}
+        >
+          {!downToXSM && !!borrowReserves.length && <RenderHeader />}
+          {ghoReserve && downToXSM && displayGho({ symbol: ghoReserve.symbol, currentMarket }) && (
+            <AssetCapsProvider asset={ghoReserve.reserve}>
+              <GhoBorrowAssetsListItem {...ghoReserve} />
             </AssetCapsProvider>
-          </Fragment>
-        ))}
-      </>
+          )}
+          {sortedReserves?.map((item) => (
+            <Fragment key={item.underlyingAsset}>
+              <AssetCapsProvider asset={item.reserve}>
+                {downToXSM ? (
+                  <BorrowAssetsListMobileItem {...item} />
+                ) : (
+                  <BorrowAssetsListItem {...item} />
+                )}
+              </AssetCapsProvider>
+            </Fragment>
+          ))}
+        </Box>
+      </Box>
     </ListWrapper>
   );
 };

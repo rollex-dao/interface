@@ -122,7 +122,7 @@ export default function Staking() {
               >
                 <StyledToggleButton value="aave" disabled={mode === 'aave'}>
                   <Typography variant="subheader1">
-                    <Trans>Stake PSYS</Trans>
+                    <Trans>Stake REX</Trans>
                   </Typography>
                 </StyledToggleButton>
                 <StyledToggleButton value="bpt" disabled={mode === 'bpt'}>
@@ -143,21 +143,21 @@ export default function Staking() {
                 }}
               >
                 <StakingPanel
-                  stakeTitle="PSYS"
-                  stakedToken="PSYS"
+                  stakeTitle="REX"
+                  stakedToken="REX"
                   maxSlash="0.3"
-                  icon="psys"
+                  icon="rollex"
                   stakeData={stakeGeneralResult?.pegasys}
                   stakeUserData={stakeUserResult?.pegasys}
                   ethPriceUsd={stakeGeneralResult?.ethPriceUsd}
-                  onStakeAction={() => openStake('pegasys', 'PSYS')}
+                  onStakeAction={() => openStake('pegasys', 'REX')}
                   onCooldownAction={() => openStakeCooldown('pegasys')}
-                  onUnstakeAction={() => openUnstake('pegasys', 'PSYS')}
-                  onStakeRewardClaimAction={() => openStakeRewardsClaim('pegasys', 'PSYS')}
+                  onUnstakeAction={() => openUnstake('pegasys', 'REX')}
+                  onStakeRewardClaimAction={() => openStakeRewardsClaim('pegasys', 'REX')}
                   onStakeRewardClaimRestakeAction={() =>
-                    openStakeRewardsRestakeClaim('pegasys', 'PSYS')
+                    openStakeRewardsRestakeClaim('pegasys', 'REX')
                   }
-                  headerAction={<BuyWithFiat cryptoSymbol="PSYS" networkMarketName={network} />}
+                  headerAction={<BuyWithFiat cryptoSymbol="REX" networkMarketName={network} />}
                   hasDiscountProgram={true}
                 />
               </Grid>

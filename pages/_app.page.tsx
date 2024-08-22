@@ -1,6 +1,6 @@
 import '/public/fonts/inter/inter.css';
+import '/public/fonts/carbon/carbon.css';
 import '/src/styles/variables.css';
-import '/src/styles/backgroundStars.css';
 
 import { CacheProvider, EmotionCache } from '@emotion/react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
@@ -13,6 +13,7 @@ import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import { ReactNode, useEffect } from 'react';
 import { AddressBlocked } from 'src/components/AddressBlocked';
+import PaliWalletBanner from 'src/components/Analytics/PaliWalletBanner';
 import { Meta } from 'src/components/Meta';
 import { TransactionEventHandler } from 'src/components/TransactionEventHandler';
 import { GasStationProvider } from 'src/components/transactions/GasStation/GasStationProvider';
@@ -123,7 +124,7 @@ export default function MyApp(props: MyAppProps) {
       <Meta
         title={'Open Source Liquidity Protocol'}
         description={
-          'Pegasys is an Open Source Protocol to create Non-Custodial Liquidity Markets to earn interest on supplying and borrowing assets with a variable or stable interest rate. The protocol is designed for easy integration into your products and services.'
+          'Rollex is an Open Source Protocol to create Non-Custodial Liquidity Markets to earn interest on supplying and borrowing assets with a variable or stable interest rate. The protocol is designed for easy integration into your products and services.'
         }
         imageUrl="https://info.pegasys.fi/static/media/pegasys.c6d706db.png"
       />
@@ -154,6 +155,7 @@ export default function MyApp(props: MyAppProps) {
                               <MigrateV3Modal />
                               <TransactionEventHandler />
                               <SwitchModal />
+                              <PaliWalletBanner />
                             </SharedDependenciesProvider>
                           </GasStationProvider>
                         </AppDataProvider>

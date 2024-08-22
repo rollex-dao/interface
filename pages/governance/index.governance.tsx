@@ -80,6 +80,7 @@ export default function Governance(props: GovernancePageProps) {
             height: '44px',
             mb: 4,
             display: { xs: 'flex', lg: 'none' },
+            border: '1px solid #000000',
           }}
         >
           <StyledToggleButton value={Tabs.PROPOSALS} disabled={mode === Tabs.PROPOSALS}>

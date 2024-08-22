@@ -1,6 +1,6 @@
 import { ExternalLinkIcon } from '@heroicons/react/solid';
 import { Trans } from '@lingui/macro';
-import { Box, Button, Divider, SvgIcon } from '@mui/material';
+import { Box, Button, SvgIcon } from '@mui/material';
 import { getFrozenProposalLink } from 'src/components/infoTooltips/FrozenTooltip';
 import { PausedTooltipText } from 'src/components/infoTooltips/PausedTooltip';
 import { FormattedNumber } from 'src/components/primitives/FormattedNumber';
@@ -50,7 +50,7 @@ export const ReserveConfiguration: React.FC<ReserveConfigurationProps> = ({ rese
         {reserve.isFrozen && !offboardingDiscussion ? (
           <Warning sx={{ mt: '16px', mb: '40px' }} severity="error">
             <Trans>
-              This asset is frozen due to an Pegasys community decision.{' '}
+              This asset is frozen due to an Rollex community decision.{' '}
               <Link
                 href={getFrozenProposalLink(reserve.symbol, currentMarket)}
                 sx={{ textDecoration: 'underline' }}
@@ -95,8 +95,17 @@ export const ReserveConfiguration: React.FC<ReserveConfigurationProps> = ({ rese
         ) : null}
       </Box>
 
-      <PanelRow>
-        <PanelTitle>Supply Info</PanelTitle>
+      <PanelRow
+        sx={{
+          border: '1px solid #494949',
+          padding: '24px',
+          borderRadius: '12px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <PanelTitle>Supply Infooo</PanelTitle>
         <SupplyInfo
           reserve={reserve}
           currentMarketData={currentMarketData}
@@ -109,8 +118,18 @@ export const ReserveConfiguration: React.FC<ReserveConfigurationProps> = ({ rese
 
       {(reserve.borrowingEnabled || Number(reserve.totalDebt) > 0) && (
         <>
-          <Divider sx={{ my: { xs: 6, sm: 10 } }} />
-          <PanelRow>
+          {/* <Divider sx={{ my: { xs: 6, sm: 10 } }} /> */}
+          <PanelRow
+            sx={{
+              border: '1px solid #494949',
+              padding: '24px',
+              borderRadius: '12px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              my: { xs: 6, sm: 10 },
+            }}
+          >
             <PanelTitle>Borrow info</PanelTitle>
             <Box sx={{ flexGrow: 1, minWidth: 0, maxWidth: '100%', width: '100%' }}>
               {!reserve.borrowingEnabled && (
@@ -133,16 +152,26 @@ export const ReserveConfiguration: React.FC<ReserveConfigurationProps> = ({ rese
 
       {reserve.eModeCategoryId !== 0 && (
         <>
-          <Divider sx={{ my: { xs: 6, sm: 10 } }} />
+          {/* <Divider sx={{ my: { xs: 6, sm: 10 } }} /> */}
           <ReserveEModePanel reserve={reserve} />
         </>
       )}
 
       {(reserve.borrowingEnabled || Number(reserve.totalDebt) > 0) && (
         <>
-          <Divider sx={{ my: { xs: 6, sm: 10 } }} />
+          {/* <Divider sx={{ my: { xs: 6, sm: 10 } }} /> */}
 
-          <PanelRow>
+          <PanelRow
+            sx={{
+              border: '1px solid #494949',
+              padding: '24px',
+              borderRadius: '12px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              my: { xs: 6, sm: 10 },
+            }}
+          >
             <PanelTitle>Interest rate model</PanelTitle>
             <Box sx={{ flexGrow: 1, minWidth: 0, maxWidth: '100%', width: '100%' }}>
               <Box

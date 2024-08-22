@@ -1,7 +1,7 @@
 import { SwitchHorizontalIcon } from '@heroicons/react/outline';
 import { EyeIcon } from '@heroicons/react/solid';
 import { Trans } from '@lingui/macro';
-import { Button, ListItemText, Menu, MenuItem, SvgIcon } from '@mui/material';
+import { Box, Button, ListItemText, Menu, MenuItem, SvgIcon } from '@mui/material';
 import { useState } from 'react';
 import { NoData } from 'src/components/primitives/NoData';
 import { useAssetCaps } from 'src/hooks/useAssetCaps';
@@ -75,44 +75,53 @@ export const SupplyAssetsListItem = ({
   };
 
   return (
-    <ListItemWrapper
-      symbol={symbol}
-      iconSymbol={iconSymbol}
-      name={name}
-      detailsAddress={detailsAddress}
-      data-cy={`dashboardSupplyListItem_${symbol.toUpperCase()}`}
-      currentMarket={currentMarket}
-      showDebtCeilingTooltips
+    <Box
+      sx={{
+        display: 'flex',
+        minWidth: '100%',
+        background: 'transparent',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+      }}
     >
-      <ListValueColumn
+      <ListItemWrapper
         symbol={symbol}
-        value={Number(walletBalance)}
-        subValue={walletBalanceUSD}
-        withTooltip={false}
-        disabled={Number(walletBalance) === 0 || isMaxCapReached}
-        capsComponent={
-          <CapsHint
-            capType={CapType.supplyCap}
-            capAmount={supplyCap}
-            totalAmount={totalLiquidity}
-            withoutText
-          />
-        }
-      />
+        iconSymbol={iconSymbol}
+        name={name}
+        detailsAddress={detailsAddress}
+        data-cy={`dashboardSupplyListItem_${symbol.toUpperCase()}`}
+        currentMarket={currentMarket}
+        showDebtCeilingTooltips
+      >
+        <ListValueColumn
+          symbol={symbol}
+          value={Number(walletBalance)}
+          subValue={walletBalanceUSD}
+          withTooltip={false}
+          disabled={Number(walletBalance) === 0 || isMaxCapReached}
+          capsComponent={
+            <CapsHint
+              capType={CapType.supplyCap}
+              capAmount={supplyCap}
+              totalAmount={totalLiquidity}
+              withoutText
+            />
+          }
+        />
 
-      <ListAPRColumn value={Number(supplyAPY)} incentives={aIncentivesData} symbol={symbol} />
+        <ListAPRColumn value={Number(supplyAPY)} incentives={aIncentivesData} symbol={symbol} />
 
-      <ListColumn>
-        {debtCeiling.isMaxed ? (
-          <NoData variant="main14" color="text.secondary" />
-        ) : (
-          <ListItemCanBeCollateral
-            isIsolated={isIsolated}
-            usageAsCollateralEnabled={usageAsCollateralEnabledOnUser}
-          />
-        )}
-      </ListColumn>
-
+        <ListColumn>
+          {debtCeiling.isMaxed ? (
+            <NoData variant="main14" color="text.secondary" />
+          ) : (
+            <ListItemCanBeCollateral
+              isIsolated={isIsolated}
+              usageAsCollateralEnabled={usageAsCollateralEnabledOnUser}
+            />
+          )}
+        </ListColumn>
+      </ListItemWrapper>
       <ListButtonsColumn>
         <Button
           disabled={disableSupply}
@@ -121,12 +130,18 @@ export const SupplyAssetsListItem = ({
             openSupply(underlyingAsset, currentMarket, name, 'dashboard');
           }}
           sx={(theme) => ({
-            borderRadius: '20px',
-            background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-            color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
+            borderRadius: '4px',
+            border: '1px solid #DBEF88',
+            background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
+            color: theme.palette.mode === 'dark' ? '#a8a6a6' : '#a8a6a6',
             '&:hover': {
-              background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+              background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
             },
+            fontWeight: 500,
+            height: '32px',
+            padding: '10px 12px',
+            justifyContent: 'center',
+            alignItems: 'center',
           })}
         >
           <Trans>Supply</Trans>
@@ -139,17 +154,25 @@ export const SupplyAssetsListItem = ({
           aria-haspopup="true"
           aria-expanded={open ? 'true' : undefined}
           sx={(theme) => ({
-            minWidth: 0,
-            px: 4,
-            borderRadius: '20px',
-            background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-            color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
+            borderRadius: '4px',
+            border: '1px solid #000000',
+            background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
+            color: theme.palette.mode === 'dark' ? '#000' : '#000',
             '&:hover': {
-              background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+              background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
             },
+            fontWeight: 900,
+            padding: '2px',
+            width: '16px',
+            height: '16px',
+            display: 'inline-flex',
+            minWidth: '16px',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontSize: '5px',
           })}
         >
-          <Trans>...</Trans>
+          ...
         </Button>
         <Menu
           id="supply-item-extra-menu"
@@ -193,6 +216,6 @@ export const SupplyAssetsListItem = ({
           </MenuItem>
         </Menu>
       </ListButtonsColumn>
-    </ListItemWrapper>
+    </Box>
   );
 };

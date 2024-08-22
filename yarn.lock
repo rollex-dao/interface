@@ -2818,10 +2818,10 @@
   resolved "https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.21.tgz"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@pollum-io/contract-helpers@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@pollum-io/contract-helpers/-/contract-helpers-0.0.2.tgz#ed4522e143ae91f6145c83d37306ca277491d687"
-  integrity sha512-MJC0aXk5sSGrkinw4htlHLJJyvUeKQ9RZuGlroS/CLNVWbO6I+0XwKhLPabWrRzBzANmeXkCIZF8z9DGVixnlQ==
+"@pollum-io/contract-helpers@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@pollum-io/contract-helpers/-/contract-helpers-0.0.3.tgz#9b9c01e6f6ad82dd6580a20bd3616576b5679f53"
+  integrity sha512-i1PsNaT17jVkDAcd9u7UVpGB5XqS15Lrm+cQs6Z0bt9zcwUO3ZWMox+r7gbQOBTC4Ndh5gJvWRd2akxhnhfjUQ==
   dependencies:
     isomorphic-unfetch "^3.1.0"
 

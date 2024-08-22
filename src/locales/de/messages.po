@@ -45,15 +45,15 @@ msgid "<0>Ampleforth</0> is a rebasing asset. Visit the <1>documentation</1> to 
 msgstr "<0>Ampleforth</0> ist ein Rebasing-Asset. Weitere Informationen finden Sie in der <1>Dokumentation</1> ."
 
 #: src/components/transactions/Borrow/ParameterChangewarning.tsx
-msgid "<0>Attention:</0> Parameter changes via governance can alter your account health factor and risk of liquidation. Follow the <1>Pegasys governance forum</1> for updates."
-msgstr "<0>Aufmerksamkeit:</0> Parameteränderungen über die Governance können den Gesundheitsfaktor Ihres Kontos und das Liquidationsrisiko verändern. Folgen Sie dem <1>Pegasys-Governance-Forum</1> , um Updates zu erhalten."
+msgid "<0>Attention:</0> Parameter changes via governance can alter your account health factor and risk of liquidation. Follow the <1>Rollex governance forum</1> for updates."
+msgstr "<0>Aufmerksamkeit:</0> Parameteränderungen über die Governance können den Gesundheitsfaktor Ihres Kontos und das Liquidationsrisiko verändern. Folgen Sie dem <1>Rollex-Governance-Forum</1> , um Updates zu erhalten."
 
 #: src/modules/dashboard/lists/SlippageList.tsx
 msgid "<0>Slippage tolerance </0><1>{selectedSlippage}% </1><2>{0}</2>"
 msgstr "<0>Toleranz für Schlupf </0><1>{selectedSlippage}% </1><2>{0}</2>"
 
 #: src/modules/staking/StakingHeader.tsx
-msgid "PSYS holders (Rollux network only) can stake their PSYS in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
+msgid "REX holders (Rollux network only) can stake their PSYS in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
 msgstr "PSYS-Inhaber (nur Rollux-Netzwerk) können ihre PSYS im Sicherheitsmodul einsetzen, um dem Protokoll mehr Sicherheit zu verleihen und Sicherheitsanreize zu verdienen. Im Falle eines Fehlbetrags können bis zu 30 % Ihres Einsatzes gekürzt werden, um das Defizit zu decken, was eine zusätzliche Schutzebene für das Protokoll darstellt."
 
 #: src/components/incentives/IncentivesTooltipContent.tsx
@@ -123,25 +123,25 @@ msgid "AToken supply is not zero"
 msgstr "AToken-Versorgung ist nicht Null"
 
 #: src/modules/governance/GovernanceTopPanel.tsx
-msgid "Pegasys Governance"
-msgstr "Pegasys-Governance"
+msgid "Rollex Governance"
+msgstr "Rollex-Governance"
 
 #: src/modules/reserve-overview/AddTokenDropdown.tsx
 #: src/modules/reserve-overview/TokenLinkDropdown.tsx
-msgid "Pegasys aToken"
-msgstr "Pegasys aToken"
+msgid "Rollex aToken"
+msgstr "Rollex aToken"
 
 #: src/modules/reserve-overview/TokenLinkDropdown.tsx
-msgid "Pegasys debt token"
-msgstr "Pegasys-Schulden-Token"
+msgid "Rollex debt token"
+msgstr "Rollex-Schulden-Token"
 
 #: src/modules/governance/GovernanceTopPanel.tsx
-msgid "Pegasys is a fully decentralized, community governed protocol by the PSYS token-holders. PSYS token-holders collectively discuss, propose, and vote on upgrades to the protocol. PSYS token-holders (Rollux network only) can either vote themselves on new proposals or delagate to an address of choice. To learn more check out the Governance"
-msgstr "Pegasys ist ein vollständig dezentralisiertes, von der Community verwaltetes Protokoll, das von den PSYS-Token-Inhabern verwaltet wird. PSYS-Token-Inhaber diskutieren, schlagen und stimmen gemeinsam über Upgrades des Protokolls ab. PSYS-Token-Inhaber (nur im Rollux-Netzwerk) können entweder selbst über neue Vorschläge abstimmen oder sich an eine Adresse ihrer Wahl wenden. Weitere Informationen finden Sie in der Governance"
+msgid "Rollex is a fully decentralized, community governed protocol by the PSYS token-holders. PSYS token-holders collectively discuss, propose, and vote on upgrades to the protocol. PSYS token-holders (Rollux network only) can either vote themselves on new proposals or delagate to an address of choice. To learn more check out the Governance"
+msgstr "Rollex ist ein vollständig dezentralisiertes, von der Community verwaltetes Protokoll, das von den PSYS-Token-Inhabern verwaltet wird. PSYS-Token-Inhaber diskutieren, schlagen und stimmen gemeinsam über Upgrades des Protokolls ab. PSYS-Token-Inhaber (nur im Rollux-Netzwerk) können entweder selbst über neue Vorschläge abstimmen oder sich an eine Adresse ihrer Wahl wenden. Weitere Informationen finden Sie in der Governance"
 
 #: src/modules/staking/StakingPanel.tsx
-msgid "Pegasys per month"
-msgstr "Pegasys pro Monat"
+msgid "Rollex per month"
+msgstr "Rollex pro Monat"
 
 #: src/modules/reserve-overview/Gho/GhoReserveConfiguration.tsx
 msgid "About HOE"
@@ -542,8 +542,8 @@ msgid "Borrowing is currently unavailable for {0}."
 msgstr "Die Ausleihe ist derzeit nicht möglich für {0}."
 
 #: src/components/Warnings/BorrowDisabledWarning.tsx
-msgid "Borrowing is disabled due to an Pegasys community decision. <0>More details</0>"
-msgstr "Die Ausleihe ist aufgrund einer Entscheidung der Pegasys-Community deaktiviert. <0>Mehr Details</0>"
+msgid "Borrowing is disabled due to an Rollex community decision. <0>More details</0>"
+msgstr "Die Ausleihe ist aufgrund einer Entscheidung der Rollex-Community deaktiviert. <0>Mehr Details</0>"
 
 #: src/ui-config/errorMapping.tsx
 msgid "Borrowing is not enabled"
@@ -896,8 +896,8 @@ msgid "Discount model parameters"
 msgstr "Parameter des Rabattmodells"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "Discount parameters are decided by the Pegasys community and may be changed over time. Check Governance for updates and vote to participate. <0>Learn more</0>"
-msgstr "Die Rabattparameter werden von der Pegasys-Community festgelegt und können im Laufe der Zeit geändert werden. Überprüfen Sie die Governance auf Aktualisierungen und stimmen Sie für die Teilnahme ab. <0>Weitere Informationen</0>"
+msgid "Discount parameters are decided by the Rollex community and may be changed over time. Check Governance for updates and vote to participate. <0>Learn more</0>"
+msgstr "Die Rabattparameter werden von der Rollex-Community festgelegt und können im Laufe der Zeit geändert werden. Überprüfen Sie die Governance auf Aktualisierungen und stimmen Sie für die Teilnahme ab. <0>Weitere Informationen</0>"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
 msgid "Discountable amount"
@@ -916,8 +916,8 @@ msgid "Due to internal stETH mechanics required for rebasing support, it is not 
 msgstr "Aufgrund interner stETH-Mechanismen, die für die Rebasing-Unterstützung erforderlich sind, ist es nicht möglich, einen Sicherheitenwechsel durchzuführen, bei dem stETH der Quell-Token ist."
 
 #: src/components/transactions/Warnings/MarketWarning.tsx
-msgid "Due to the Horizon bridge exploit, certain assets on the Harmony network are not at parity with Rollux, which affects the Pegasys V3 Harmony market."
-msgstr "Aufgrund des Horizon-Bridge-Exploits sind bestimmte Vermögenswerte im Harmony-Netzwerk nicht auf Augenhöhe mit Rollux, was sich auf den Pegasys V3 Harmony-Markt auswirkt."
+msgid "Due to the Horizon bridge exploit, certain assets on the Harmony network are not at parity with Rollux, which affects the Rollex V3 Harmony market."
+msgstr "Aufgrund des Horizon-Bridge-Exploits sind bestimmte Vermögenswerte im Harmony-Netzwerk nicht auf Augenhöhe mit Rollux, was sich auf den Rollex V3 Harmony-Markt auswirkt."
 
 #: src/modules/dashboard/DashboardEModeButton.tsx
 msgid "E-Mode"
@@ -940,8 +940,8 @@ msgid "E-Mode increases your LTV for a selected category of assets up to<0/>. <1
 msgstr "Der E-Modus erhöht Ihren LTV für eine ausgewählte Kategorie von Vermögenswerten bis zu<0/>. <1>Weitere Informationen</1>"
 
 #: src/modules/reserve-overview/ReserveEModePanel.tsx
-msgid "E-Mode increases your LTV for a selected category of assets, meaning that when E-mode is enabled, you will have higher borrowing power over assets of the same E-mode category which are defined by Pegasys Governance. You can enter E-Mode from your <0>Dashboard</0>. To learn more about E-Mode and applied restrictions in <1>FAQ</1> or <2>Pegasys V3 Technical Paper</2>."
-msgstr "Der E-Modus erhöht Ihren LTV für eine ausgewählte Kategorie von Vermögenswerten, was bedeutet, dass Sie, wenn der E-Modus aktiviert ist, eine höhere Kreditaufnahme über Vermögenswerte derselben E-Mode-Kategorie haben, die von Pegasys Governance definiert werden. Sie können den E-Modus über Ihr <0>Dashboard</0> aufrufen. Weitere Informationen zum E-Modus und den angewandten Einschränkungen finden Sie in <1>den häufig gestellten Fragen</1> oder im <2>technischen Dokument zu Pegasys V3</2>."
+msgid "E-Mode increases your LTV for a selected category of assets, meaning that when E-mode is enabled, you will have higher borrowing power over assets of the same E-mode category which are defined by Rollex Governance. You can enter E-Mode from your <0>Dashboard</0>. To learn more about E-Mode and applied restrictions in <1>FAQ</1> or <2>Rollex V3 Technical Paper</2>."
+msgstr "Der E-Modus erhöht Ihren LTV für eine ausgewählte Kategorie von Vermögenswerten, was bedeutet, dass Sie, wenn der E-Modus aktiviert ist, eine höhere Kreditaufnahme über Vermögenswerte derselben E-Mode-Kategorie haben, die von Rollex Governance definiert werden. Sie können den E-Modus über Ihr <0>Dashboard</0> aufrufen. Weitere Informationen zum E-Modus und den angewandten Einschränkungen finden Sie in <1>den häufig gestellten Fragen</1> oder im <2>technischen Dokument zu Rollex V3</2>."
 
 #: src/modules/reserve-overview/Gho/GhoInterestRateGraph.tsx
 msgid "Effective interest rate"
@@ -1094,8 +1094,8 @@ msgid "Funds in the Safety Module"
 msgstr "Mittel im Sicherheitsmodul"
 
 #: src/modules/reserve-overview/Gho/GhoReserveConfiguration.tsx
-msgid "HOE is a native decentralized, collateral-backed digital asset pegged to USD. It is created by users via borrowing against multiple collateral. When user repays their HOE borrow position, the protocol burns that user's GHO. All the interest payments accrued by minters of HOE would be directly transferred to the PegasysDAO treasury."
-msgstr "GHO ist ein nativer dezentraler, durch Sicherheiten besicherter digitaler Vermögenswert, der an den US-Dollar gekoppelt ist. Es wird von Benutzern durch Ausleihe gegen mehrere Sicherheiten erstellt. Wenn der Benutzer seine GHO-Kreditposition zurückzahlt, verbrennt das Protokoll die GHO dieses Benutzers. Alle Zinszahlungen, die von den Minern von GHO angefallen sind, würden direkt an die PegasysDAO-Kasse überwiesen."
+msgid "HOE is a native decentralized, collateral-backed digital asset pegged to USD. It is created by users via borrowing against multiple collateral. When user repays their HOE borrow position, the protocol burns that user's GHO. All the interest payments accrued by minters of HOE would be directly transferred to the RollexDAO treasury."
+msgstr "GHO ist ein nativer dezentraler, durch Sicherheiten besicherter digitaler Vermögenswert, der an den US-Dollar gekoppelt ist. Es wird von Benutzern durch Ausleihe gegen mehrere Sicherheiten erstellt. Wenn der Benutzer seine GHO-Kreditposition zurückzahlt, verbrennt das Protokoll die GHO dieses Benutzers. Alle Zinszahlungen, die von den Minern von GHO angefallen sind, würden direkt an die RollexDAO-Kasse überwiesen."
 
 #: src/modules/staking/GetABPToken.tsx
 #: src/modules/staking/GetABPTokenModal.tsx
@@ -1476,8 +1476,8 @@ msgid "Minimum USD value received"
 msgstr "Erhaltener Mindestwert in USD"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "Minimum staked Pegasys amount"
-msgstr "Minimaler eingesetzter Pegasys-Betrag"
+msgid "Minimum staked Rollex amount"
+msgstr "Minimaler eingesetzter Rollex-Betrag"
 
 #: src/components/transactions/Switch/SwitchModalContent.tsx
 msgid "Minimum {0} received"
@@ -1790,8 +1790,8 @@ msgid "Read more here."
 msgstr "Lesen Sie hier mehr."
 
 #: src/components/infoTooltips/ReadOnlyModeTooltip.tsx
-msgid "Read-only mode allows to see address positions in Pegasys, but you won't be able to perform transactions."
-msgstr "Der schreibgeschützte Modus ermöglicht es, Adresspositionen in Pegasys zu sehen, aber Sie können keine Transaktionen durchführen."
+msgid "Read-only mode allows to see address positions in Rollex, but you won't be able to perform transactions."
+msgstr "Der schreibgeschützte Modus ermöglicht es, Adresspositionen in Rollex zu sehen, aber Sie können keine Transaktionen durchführen."
 
 #: src/layouts/WalletWidget.tsx
 msgid "Read-only mode."
@@ -1877,8 +1877,8 @@ msgid "Reserve factor"
 msgstr "Reserve-Faktor"
 
 #: src/components/infoTooltips/ReserveFactorTooltip.tsx
-msgid "Reserve factor is a percentage of interest which goes to a {0} that is controlled by Pegasys governance to promote ecosystem growth."
-msgstr "Der Reservefaktor ist ein Prozentsatz der Zinsen, der an einen {0} die von der Pegasys-Governance kontrolliert wird, um das Wachstum des Ökosystems zu fördern."
+msgid "Reserve factor is a percentage of interest which goes to a {0} that is controlled by Rollex governance to promote ecosystem growth."
+msgstr "Der Reservefaktor ist ein Prozentsatz der Zinsen, der an einen {0} die von der Rollex-Governance kontrolliert wird, um das Wachstum des Ökosystems zu fördern."
 
 #: src/modules/reserve-overview/ReserveConfigurationWrapper.tsx
 msgid "Reserve status & configuration"
@@ -2169,8 +2169,8 @@ msgid "State"
 msgstr "Zustand"
 
 #: src/components/infoTooltips/FixedAPYTooltip.tsx
-msgid "Static interest rate that is determined by Pegasys Governance. This rate may be changed over time depending on the need for the GHO supply to contract/expand. <0>Learn more</0>"
-msgstr "Statischer Zinssatz, der von Pegasys Governance festgelegt wird. Dieser Satz kann sich im Laufe der Zeit ändern, je nachdem, ob das GHO-Angebot schrumpfen/erweitert werden muss. <0>Weitere Informationen</0>"
+msgid "Static interest rate that is determined by Rollex Governance. This rate may be changed over time depending on the need for the GHO supply to contract/expand. <0>Learn more</0>"
+msgstr "Statischer Zinssatz, der von Rollex Governance festgelegt wird. Dieser Satz kann sich im Laufe der Zeit ändern, je nachdem, ob das GHO-Angebot schrumpfen/erweitert werden muss. <0>Weitere Informationen</0>"
 
 #: src/components/transactions/Supply/SupplyModalContent.tsx
 msgid "Supplied"
@@ -2332,12 +2332,12 @@ msgid "The % of your total borrowing power used. This is based on the amount of 
 msgstr "Der Prozentsatz Ihrer gesamten Kreditkraft, der in Anspruch genommen wurde. Dies basiert auf der Höhe Ihrer bereitgestellten Sicherheiten und dem Gesamtbetrag, den Sie ausleihen können."
 
 #: src/modules/staking/GetABPTokenModal.tsx
-msgid "The Pegasys Balancer Pool Token (ABPT) is a liquidity pool token. You can receive ABPT by depositing a combination of PSYS + SYS in the Balancer liquidity pool. You can then stake your BPT in the Safety Module to secure the protocol and earn Safety Incentives."
-msgstr "Der Pegasys Balancer Pool Token (ABPT) ist ein Liquiditätspool-Token. Sie können ABPT erhalten, indem Sie eine Kombination aus PSYS + SYS in den Balancer-Liquiditätspool einzahlen. Sie können dann Ihre BPT im Sicherheitsmodul einsetzen, um das Protokoll zu sichern und Sicherheitsanreize zu verdienen."
+msgid "The Rollex Balancer Pool Token (ABPT) is a liquidity pool token. You can receive ABPT by depositing a combination of PSYS + SYS in the Balancer liquidity pool. You can then stake your BPT in the Safety Module to secure the protocol and earn Safety Incentives."
+msgstr "Der Rollex Balancer Pool Token (ABPT) ist ein Liquiditätspool-Token. Sie können ABPT erhalten, indem Sie eine Kombination aus PSYS + SYS in den Balancer-Liquiditätspool einzahlen. Sie können dann Ihre BPT im Sicherheitsmodul einsetzen, um das Protokoll zu sichern und Sicherheitsanreize zu verdienen."
 
 #: src/modules/reserve-overview/Gho/GhoReserveTopDetails.tsx
-msgid "The Pegasys Protocol is programmed to always use the price of 1 GHO = $1. This is different from using market pricing via oracles for other crypto assets. This creates stabilizing arbitrage opportunities when the price of GHO fluctuates."
-msgstr "Das Pegasys-Protokoll ist so programmiert, dass es immer den Preis von 1 GHO = 1 $ verwendet. Dies unterscheidet sich von der Verwendung von Marktpreisen über Orakel für andere Krypto-Assets. Dies schafft stabilisierende Arbitragemöglichkeiten, wenn der GHO-Preis schwankt."
+msgid "The Rollex Protocol is programmed to always use the price of 1 GHO = $1. This is different from using market pricing via oracles for other crypto assets. This creates stabilizing arbitrage opportunities when the price of GHO fluctuates."
+msgstr "Das Rollex-Protokoll ist so programmiert, dass es immer den Preis von 1 GHO = 1 $ verwendet. Dies unterscheidet sich von der Verwendung von Marktpreisen über Orakel für andere Krypto-Assets. Dies schafft stabilisierende Arbitragemöglichkeiten, wenn der GHO-Preis schwankt."
 
 #: src/components/infoTooltips/MaxLTVTooltip.tsx
 msgid "The Maximum LTV ratio represents the maximum borrowing power of a specific collateral. For example, if a collateral has an LTV of 75%, the user can borrow up to 0.75 worth of ETH in the principal currency for every 1 ETH worth of collateral."
@@ -2473,20 +2473,20 @@ msgid "This asset has reached its supply cap. Nothing is available to be supplie
 msgstr "Dieser Vermögenswert hat seine Angebotsobergrenze erreicht. Auf diesem Markt kann nichts geliefert werden."
 
 #: src/components/infoTooltips/FrozenTooltip.tsx
-msgid "This asset is frozen due to an Pegasys Protocol Governance decision. <0>More details</0>"
-msgstr "Dieser Vermögenswert ist aufgrund einer Governance-Entscheidung des Pegasys-Protokolls eingefroren. <0>Mehr Details</0>"
+msgid "This asset is frozen due to an Rollex Protocol Governance decision. <0>More details</0>"
+msgstr "Dieser Vermögenswert ist aufgrund einer Governance-Entscheidung des Rollex-Protokolls eingefroren. <0>Mehr Details</0>"
 
 #: src/components/infoTooltips/RenFILToolTip.tsx
-msgid "This asset is frozen due to an Pegasys Protocol Governance decision. On the 20th of December 2022, renFIL will no longer be supported and cannot be bridged back to its native network. It is recommended to withdraw supply positions and repay borrow positions so that renFIL can be bridged back to FIL before the deadline. After this date, it will no longer be possible to convert renFIL to FIL. <0>More details</0>"
-msgstr "Dieser Vermögenswert ist aufgrund einer Governance-Entscheidung des Pegasys-Protokolls eingefroren. Am 20. Dezember 2022 wird renFIL nicht mehr unterstützt und kann nicht mehr mit seinem nativen Netzwerk verbunden werden. Es wird empfohlen, Angebotspositionen zurückzuziehen und Kreditpositionen zurückzuzahlen, damit renFIL vor Ablauf der Frist wieder zu FIL überbrückt werden kann. Nach diesem Datum ist es nicht mehr möglich, renFIL in FIL umzuwandeln. <0>Mehr Details</0>"
+msgid "This asset is frozen due to an Rollex Protocol Governance decision. On the 20th of December 2022, renFIL will no longer be supported and cannot be bridged back to its native network. It is recommended to withdraw supply positions and repay borrow positions so that renFIL can be bridged back to FIL before the deadline. After this date, it will no longer be possible to convert renFIL to FIL. <0>More details</0>"
+msgstr "Dieser Vermögenswert ist aufgrund einer Governance-Entscheidung des Rollex-Protokolls eingefroren. Am 20. Dezember 2022 wird renFIL nicht mehr unterstützt und kann nicht mehr mit seinem nativen Netzwerk verbunden werden. Es wird empfohlen, Angebotspositionen zurückzuziehen und Kreditpositionen zurückzuzahlen, damit renFIL vor Ablauf der Frist wieder zu FIL überbrückt werden kann. Nach diesem Datum ist es nicht mehr möglich, renFIL in FIL umzuwandeln. <0>Mehr Details</0>"
 
 #: src/modules/reserve-overview/ReserveConfiguration.tsx
-msgid "This asset is frozen due to an Pegasys community decision. <0>More details</0>"
-msgstr "Dieses Asset ist aufgrund einer Entscheidung der Pegasys-Community eingefroren. <0>Mehr Details</0>"
+msgid "This asset is frozen due to an Rollex community decision. <0>More details</0>"
+msgstr "Dieses Asset ist aufgrund einer Entscheidung der Rollex-Community eingefroren. <0>Mehr Details</0>"
 
 #: src/components/Warnings/OffboardingWarning.tsx
-msgid "This asset is planned to be offboarded due to an Pegasys Protocol Governance decision. <0>More details</0>"
-msgstr "Es ist geplant, dass dieser Vermögenswert aufgrund einer Entscheidung der Pegasys Protocol Governance ausgelagert wird. <0>Mehr Details</0>"
+msgid "This asset is planned to be offboarded due to an Rollex Protocol Governance decision. <0>More details</0>"
+msgstr "Es ist geplant, dass dieser Vermögenswert aufgrund einer Entscheidung der Rollex Protocol Governance ausgelagert wird. <0>Mehr Details</0>"
 
 #: src/components/infoTooltips/GasTooltip.tsx
 msgid "This gas calculation is only an estimation. Your wallet will set the price of the transaction. You can modify the gas settings directly from your wallet provider."
@@ -2530,8 +2530,8 @@ msgid "To borrow you need to supply any asset to be used as collateral."
 msgstr "Um einen Kredit aufzunehmen, müssen Sie einen Vermögenswert bereitstellen, der als Sicherheit verwendet werden soll."
 
 #: src/components/infoTooltips/ApprovalTooltip.tsx
-msgid "To continue, you need to grant Pegasys smart contracts permission to move your funds from your wallet. Depending on the asset and wallet you use, it is done by signing the permission message (gas free), or by submitting an approval transaction (requires gas). <0>Learn more</0>"
-msgstr "Um fortzufahren, müssen Sie Pegasys Smart Contracts die Erlaubnis erteilen, Ihr Geld von Ihrer Wallet zu verschieben. Je nachdem, welches Asset und welche Wallet Sie verwenden, erfolgt dies durch Signieren der Berechtigungsnachricht (gasfrei) oder durch Einreichen einer Genehmigungstransaktion (erfordert Gas). <0>Weitere Informationen</0>"
+msgid "To continue, you need to grant Rollex smart contracts permission to move your funds from your wallet. Depending on the asset and wallet you use, it is done by signing the permission message (gas free), or by submitting an approval transaction (requires gas). <0>Learn more</0>"
+msgstr "Um fortzufahren, müssen Sie Rollex Smart Contracts die Erlaubnis erteilen, Ihr Geld von Ihrer Wallet zu verschieben. Je nachdem, welches Asset und welche Wallet Sie verwenden, erfolgt dies durch Signieren der Berechtigungsnachricht (gasfrei) oder durch Einreichen einer Genehmigungstransaktion (erfordert Gas). <0>Weitere Informationen</0>"
 
 #: src/components/transactions/Emode/EmodeModalContent.tsx
 msgid "To enable E-mode for the {0} category, all borrow positions outside of this category must be closed."
@@ -2878,8 +2878,8 @@ msgid "With a voting power of <0/>"
 msgstr "Mit einem Stimmrecht von <0/>"
 
 #: src/modules/faucet/FaucetTopPanel.tsx
-msgid "With testnet Faucet you can get free assets to test the Pegasys Protocol. Make sure to switch your wallet provider to the appropriate testnet network, select desired asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a testnet are not “real,” meaning they have no monetary value. <0>Learn more</0>"
-msgstr "Mit testnet Faucet erhalten Sie kostenlose Assets, um das Pegasys-Protokoll zu testen. Stellen Sie sicher, dass Sie Ihren Wallet-Anbieter auf das entsprechende Testnet-Netzwerk umstellen, wählen Sie das gewünschte Asset aus und klicken Sie auf \"Faucet\", um Token auf Ihre Wallet zu übertragen. Die Vermögenswerte in einem Testnetz sind nicht \"echt\", was bedeutet, dass sie keinen monetären Wert haben. <0>Weitere Informationen</0>"
+msgid "With testnet Faucet you can get free assets to test the Rollex Protocol. Make sure to switch your wallet provider to the appropriate testnet network, select desired asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a testnet are not “real,” meaning they have no monetary value. <0>Learn more</0>"
+msgstr "Mit testnet Faucet erhalten Sie kostenlose Assets, um das Rollex-Protokoll zu testen. Stellen Sie sicher, dass Sie Ihren Wallet-Anbieter auf das entsprechende Testnet-Netzwerk umstellen, wählen Sie das gewünschte Asset aus und klicken Sie auf \"Faucet\", um Token auf Ihre Wallet zu übertragen. Die Vermögenswerte in einem Testnetz sind nicht \"echt\", was bedeutet, dass sie keinen monetären Wert haben. <0>Weitere Informationen</0>"
 
 #: src/components/transactions/Withdraw/WithdrawAndSwitchModalContent.tsx
 #: src/components/transactions/Withdraw/WithdrawModal.tsx

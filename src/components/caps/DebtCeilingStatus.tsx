@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro';
-import type { Theme } from '@mui/material';
 import { Box, Typography } from '@mui/material';
 import LinearProgress, {
   linearProgressClasses,
@@ -22,27 +21,16 @@ export const DebtCeilingStatus = ({
   ceiling,
   usageData,
 }: LinearProgressProps & DebtCeilingTooltipProps) => {
-  const determineColor = (theme: Theme): string => {
-    if (usageData.isMaxed || usageData.percentUsed >= 99.99) {
-      return theme.palette.error.main;
-    } else if (usageData.percentUsed >= 98) {
-      return theme.palette.warning.main;
-    } else {
-      return theme.palette.success.main;
-    }
-  };
-
   const progressBarStyles = {
     borderRadius: 5,
     my: 2,
     height: 5,
     [`&.${linearProgressClasses.colorPrimary}`]: {
-      backgroundColor: (theme: Theme) =>
-        theme.palette.grey[theme.palette.mode === 'light' ? 200 : 800],
+      backgroundColor: 'rgba(142, 146, 163, 0.1)',
     },
     [`& .${linearProgressClasses.bar}`]: {
       borderRadius: 5,
-      backgroundColor: (theme: Theme) => determineColor(theme),
+      backgroundImage: 'linear-gradient(45deg, #FF8C00 0%, #FF0080 100%)',
     },
   };
 

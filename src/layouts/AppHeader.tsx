@@ -1,7 +1,7 @@
-import { Box, Typography, useMediaQuery, useScrollTrigger, useTheme } from '@mui/material';
+import { Box, useMediaQuery, useTheme } from '@mui/material';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { PegasysLogo } from 'src/components/icons/PegasysLogo';
+import { RollexLogo } from 'src/components/icons/RollexLogo';
 import { useWeb3Context } from 'src/libs/hooks/useWeb3Context';
 import { useRootStore } from 'src/store/root';
 
@@ -15,7 +15,6 @@ export function AppHeader() {
   const { currentAccount, chainId } = useWeb3Context();
   const { breakpoints } = useTheme();
   const md = useMediaQuery(breakpoints.down('md'));
-  const trigger = useScrollTrigger({ threshold: md ? 160 : 80 });
 
   const [mobileDrawerOpen, setMobileDrawerOpen] = useRootStore((state) => [
     state.mobileDrawerOpen,
@@ -47,89 +46,83 @@ export function AppHeader() {
     setMobileMenuOpen(state);
   };
 
-  const bgHeader = {
-    dark: 'rgba(8, 17, 32, 0.72)',
-    light: 'rgba(255, 255, 255, 0.72)',
-  };
-
   return (
     <Box
       component="header"
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
       sx={(theme) => ({
         height: headerHeight,
         position: 'sticky',
         top: 0,
         transition: theme.transitions.create('all'),
         zIndex: theme.zIndex.appBar,
-        padding: {
-          xs: mobileMenuOpen || walletWidgetOpen ? '8px 20px' : '20px 12px',
-          xsm: '20px 12px',
-        },
+        bgcolor: '#FFFFFF',
+        width: '100%',
         display: 'flex',
-        alignItems: 'center',
-        flexDirection: 'space-between',
-        bgcolor: 'transparent',
-        ...(trigger && {
-          boxShadow: 'inset 0px -1px 0px rgba(242, 243, 247, 0.16)',
-          bgcolor: trigger ? bgHeader[theme.palette.mode] : 'transparent',
-        }),
+        justifyContent: 'center',
+        alignItems: 'center', // Centraliza verticalmente o conteúdo
+        padding: '40px 0px 40px 0px',
       })}
     >
       <Box
-        component={Link}
-        href="/"
-        aria-label="Go to homepage"
         sx={{
-          lineHeight: 0,
-          mr: 3,
-          transition: '0.3s ease all',
-          '&:hover': { opacity: 0.7 },
+          width: '1280px',
+          maxWidth: '100%',
+          // padding: '40px 0px 40px 0px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
         }}
-        onClick={() => setMobileMenuOpen(false)}
       >
-        <PegasysLogo height={48} />
-      </Box>
-
-      <Box sx={{ display: { xs: 'none', md: 'block' } }}>
-        <NavItems />
-      </Box>
-
-      <Box sx={{ flexGrow: 1 }} />
-
-      {!mobileMenuOpen && (
-        <>
-          {currentAccount && chainId === 570 && (
-            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mr: 3 }}>
-              <img src={`/icons/networks/rollux.svg`} width="24px" height="24px" alt="" />
-              <Typography fontSize={16} color="text.primary">
-                Rollux
-              </Typography>
-            </Box>
-          )}
-
-          <WalletWidget
-            open={walletWidgetOpen}
-            setOpen={toggleWalletWigit}
-            headerHeight={headerHeight}
-          />
-        </>
-      )}
-
-      <Box sx={{ display: { xs: 'none', md: 'block' } }}>
-        <SettingsMenu />
-      </Box>
-
-      {!walletWidgetOpen && (
-        <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
-          <MobileMenu
-            open={mobileMenuOpen}
-            setOpen={toggleMobileMenu}
-            headerHeight={headerHeight}
-          />
+        <Box
+          component={Link}
+          href="/"
+          aria-label="Go to homepage"
+          sx={{
+            lineHeight: 0,
+            mr: 3,
+            transition: '0.3s ease all',
+            '&:hover': { opacity: 0.7 },
+          }}
+          onClick={() => setMobileMenuOpen(false)}
+        >
+          <RollexLogo height={44} />
         </Box>
-      )}
+
+        <Box sx={{ display: { xs: 'none', md: 'block' } }}>
+          <NavItems />
+        </Box>
+
+        <Box sx={{ flexGrow: 1 }} />
+
+        {!mobileMenuOpen && (
+          <>
+            {currentAccount && chainId === 570 && (
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mr: 3 }}>
+                <img src={`/icons/networks/rollux-logo.svg`} alt="" />
+              </Box>
+            )}
+            <WalletWidget
+              open={walletWidgetOpen}
+              setOpen={toggleWalletWigit}
+              headerHeight={headerHeight}
+            />
+          </>
+        )}
+
+        <Box sx={{ display: { xs: 'none', md: 'block' } }}>
+          <SettingsMenu />
+        </Box>
+
+        {!walletWidgetOpen && (
+          <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
+            <MobileMenu
+              open={mobileMenuOpen}
+              setOpen={toggleMobileMenu}
+              headerHeight={headerHeight}
+            />
+          </Box>
+        )}
+      </Box>
     </Box>
   );
 }

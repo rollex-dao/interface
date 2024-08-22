@@ -17,7 +17,7 @@ export const ProposalTopPanel = () => {
         <Button
           component={Link}
           href={ROUTES.governance}
-          variant="surface"
+          // variant="surface"
           size="medium"
           onClick={() => trackEvent(AIP.GO_BACK)}
           color="primary"
@@ -26,6 +26,11 @@ export const ProposalTopPanel = () => {
               <ArrowLeftIcon />
             </SvgIcon>
           }
+          sx={{
+            backgroundColor: '#FFFFF',
+            border: '1px solid #191919',
+            borderRadius: '1000px',
+          }}
         >
           <Trans>Go Back</Trans>
         </Button>

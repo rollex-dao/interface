@@ -17,7 +17,7 @@ export const ReserveFactorTooltip = ({ collectorLink, ...rest }: ReserveFactorTo
         ) : (
           'collector contract'
         )}{' '}
-        that is controlled by Pegasys governance to promote ecosystem growth.{' '}
+        that is controlled by Rollex governance to promote ecosystem growth.{' '}
       </Trans>
     </TextWithTooltip>
   );

@@ -27,7 +27,7 @@ export const TopInfoPanel = ({
       }}
     >
       <Container {...containerProps} sx={{ ...containerProps.sx, pb: 0 }}>
-        <Box sx={{ px: { xs: 4, xsm: 6 } }}>
+        <Box>
           {!titleComponent && (
             <PageTitle
               pageTitle={pageTitle}

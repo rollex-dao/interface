@@ -108,7 +108,14 @@ export const AddTokenDropdown = ({
               cursor: 'pointer',
             }}
           >
-            <WalletIcon sx={{ width: '14px', height: '14px', '&:hover': { stroke: '#F1F1F3' } }} />
+            <WalletIcon
+              sx={{
+                stroke: '#494949',
+                width: '14px',
+                height: '14px',
+                '&:hover': { stroke: '#494949' },
+              }}
+            />
           </Box>
         </CircleIcon>
       </Box>
@@ -163,7 +170,7 @@ export const AddTokenDropdown = ({
           <Box>
             <Box sx={{ px: 4, pt: 3, pb: 2 }}>
               <Typography variant="secondary12" color="text.secondary">
-                <Trans>Pegasys aToken</Trans>
+                <Trans>Rollex aToken</Trans>
               </Typography>
             </Box>
             <MenuItem

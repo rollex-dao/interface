@@ -10,7 +10,7 @@ interface BorrowDisabledWarningProps {
 export const BorrowDisabledWarning = ({ symbol, currentMarket }: BorrowDisabledWarningProps) => {
   return (
     <Trans>
-      Borrowing is disabled due to an Pegasys community decision.{' '}
+      Borrowing is disabled due to an Rollex community decision.{' '}
       <Link
         href={getFrozenProposalLink(symbol, currentMarket)}
         sx={{ textDecoration: 'underline' }}

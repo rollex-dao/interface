@@ -1,5 +1,5 @@
-import { Trans } from '@lingui/macro';
-import { Box, Paper, Typography, useMediaQuery, useTheme } from '@mui/material';
+// import { Trans } from '@lingui/macro';
+// import { useTheme } from '@mui/material';
 import dynamic from 'next/dynamic';
 import { ComputedReserveData } from 'src/hooks/app-data-provider/useAppDataProvider';
 import { useProtocolDataContext } from 'src/hooks/useProtocolDataContext';
@@ -20,20 +20,21 @@ const ReserveConfiguration = dynamic(() =>
 export const ReserveConfigurationWrapper: React.FC<ReserveConfigurationProps> = ({ reserve }) => {
   const { currentMarket } = useProtocolDataContext();
   const [displayGho] = useRootStore((store) => [store.displayGho]);
-  const { breakpoints } = useTheme();
-  const downToXsm = useMediaQuery(breakpoints.down('xsm'));
+  // const { breakpoints } = useTheme();
+  // const downToXsm = useMediaQuery(breakpoints.down('xsm'));
   const isGho = displayGho({ symbol: reserve.symbol, currentMarket });
 
   return (
-    <Paper
-      sx={{
-        pt: 4,
-        pb: 20,
-        px: downToXsm ? 4 : 6,
+    <div
+      style={{
+        // pt: 4,
+        // pb: 20,
+        // px: downToXsm ? 4 : 6,
         borderRadius: '20px',
+        // background: 'transparent',
       }}
     >
-      <Box
+      {/* <Box
         sx={{
           display: 'flex',
           alignItems: 'center',
@@ -48,12 +49,12 @@ export const ReserveConfigurationWrapper: React.FC<ReserveConfigurationProps> = 
         <Typography variant="h3">
           <Trans>Reserve status &#38; configuration</Trans>
         </Typography>
-      </Box>
+      </Box> */}
       {isGho ? (
         <GhoReserveConfiguration reserve={reserve} />
       ) : (
         <ReserveConfiguration reserve={reserve} />
       )}
-    </Paper>
+    </div>
   );
 };

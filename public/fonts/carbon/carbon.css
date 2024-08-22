@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Carbon';
+  src: url('/fonts/carbon/Carbon Bold.OTF') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carbon';
+  src: url('/fonts/carbon/Carbon Regular Italic.OTF') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Carbon';
+  src: url('/fonts/carbon/Carbon Regular.OTF') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carbon';
+  src: url('/fonts/carbon/Carbon Thin Italic.OTF') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Carbon';
+  src: url('/fonts/carbon/Carbon Thin.OTF') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Carbon', sans-serif;
+}

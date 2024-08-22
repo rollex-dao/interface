@@ -60,7 +60,10 @@ export const ListItemWrapper = ({
   const trackEvent = useRootStore((store) => store.trackEvent);
 
   return (
-    <ListItem {...rest}>
+    <ListItem
+      {...rest}
+      sx={{ background: '#494949', width: '100%', color: '#fffff', height: '32px' }}
+    >
       <ListColumn maxWidth={DASHBOARD_LIST_COLUMN_WIDTHS.CELL} isRow>
         <Link
           onClick={() =>
@@ -77,7 +80,12 @@ export const ListItemWrapper = ({
         >
           <TokenIcon symbol={iconSymbol} fontSize="large" />
           <Tooltip title={`${name} (${symbol})`} arrow placement="top">
-            <Typography variant="subheader1" sx={{ ml: 3 }} noWrap data-cy={`assetName`}>
+            <Typography
+              variant="subheader1"
+              sx={{ ml: 3, color: '#ffff' }}
+              noWrap
+              data-cy={`assetName`}
+            >
               {symbol}
             </Typography>
           </Tooltip>

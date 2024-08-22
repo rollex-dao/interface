@@ -2,7 +2,7 @@ import { Trans } from '@lingui/macro';
 import { CircularProgress, Paper, PaperProps, Typography } from '@mui/material';
 import { ReactNode } from 'react';
 
-import { PegasysLogo } from './icons/PegasysLogo';
+import { RollexSymbol } from './icons/RollexSymbol';
 import { ConnectWalletButton } from './WalletConnection/ConnectWalletButton';
 
 interface ConnectWalletPaperProps extends PaperProps {
@@ -31,7 +31,7 @@ export const ConnectWalletPaper = ({
         ...((sx || {}) as Record<string, unknown>),
       }}
     >
-      <PegasysLogo height={180} />
+      <RollexSymbol height={150} width={86} />
       <>
         {loading ? (
           <CircularProgress />

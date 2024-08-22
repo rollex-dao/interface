@@ -269,10 +269,11 @@ const PaperWrapper = ({ children }: { children: ReactNode }) => {
         pb: { xs: 4, xsm: 6 },
         px: { xs: 4, xsm: 6 },
         borderRadius: '20px',
+        border: '1px solid #494949',
       }}
     >
       <Typography variant="h3" sx={{ mb: 6 }}>
-        <Trans>Your info</Trans>
+        <Trans>Your infoo</Trans>
       </Typography>
 
       {children}
@@ -309,16 +310,9 @@ interface ActionProps {
   reserve: ComputedReserveData;
 }
 
-const SupplyAction = ({
-  reserve,
-  value,
-  usdValue,
-  symbol,
-  disable,
-  onActionClicked,
-}: ActionProps) => {
+const SupplyAction = ({ reserve, value, usdValue, symbol }: ActionProps) => {
   return (
-    <Stack>
+    <Stack sx={{ background: '#ededed', padding: '10px', borderRadius: '12px' }}>
       <AvailableTooltip
         variant="description"
         text={<Trans>Available to supply</Trans>}
@@ -349,12 +343,16 @@ const SupplyAction = ({
           />
         </Box>
         <Button
-          sx={{ height: '36px', width: '96px' }}
-          onClick={onActionClicked}
-          disabled={disable}
+          // onClick={onActionClicked}
+          // disabled={disable}
+          sx={{
+            height: '48px',
+            width: '90px',
+            background: '#FAFAFA',
+            border: '1px solid #DBEF88',
+            padding: '10px 16px',
+          }}
           fullWidth={false}
-          variant="contained"
-          data-cy="supplyButton"
         >
           <Trans>Supply</Trans>
         </Button>
@@ -368,11 +366,11 @@ const BorrowAction = ({
   value,
   usdValue,
   symbol,
-  disable,
+  // disable,
   onActionClicked,
 }: ActionProps) => {
   return (
-    <Stack>
+    <Stack sx={{ background: '#ededed', padding: '10px', borderRadius: '12px' }}>
       <AvailableTooltip
         variant="description"
         text={<Trans>Available to borrow</Trans>}
@@ -403,12 +401,18 @@ const BorrowAction = ({
           />
         </Box>
         <Button
-          sx={{ height: '36px', width: '96px' }}
+          sx={{
+            height: '48px',
+            width: '90px',
+            background: '#FAFAFA',
+            border: '1px solid #DBEF88',
+            padding: '10px 16px',
+          }}
           onClick={onActionClicked}
-          disabled={disable}
+          // disabled={disable}
           fullWidth={false}
-          variant="contained"
-          data-cy="borrowButton"
+          // variant="contained"
+          // data-cy="borrowButton"
         >
           <Trans>Borrow </Trans>
         </Button>
@@ -477,10 +481,10 @@ const WalletBalance = ({ balance, symbol, marketTitle }: WalletBalanceProps) => 
     <Stack direction="row" gap={3}>
       <Box
         sx={(theme) => ({
-          width: '42px',
-          height: '42px',
+          width: '62px',
+          height: '62px',
           background: theme.palette.background.surface,
-          border: `0.5px solid ${theme.palette.background.disabled}`,
+          border: `0.5px solid #EACF5E`,
           borderRadius: '12px',
           display: 'flex',
           alignItems: 'center',

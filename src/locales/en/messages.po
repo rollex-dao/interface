@@ -28,12 +28,12 @@ msgid ".JSON"
 msgstr ".JSON"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "<0><1><2/></1>Add <3/> stkPSYS</0> to borrow at <4/> (max discount)"
-msgstr "<0><1><2/></1>Add <3/> stkPSYS</0> to borrow at <4/> (max discount)"
+msgid "<0><1><2/></1>Add <3/> stkRLX</0> to borrow at <4/> (max discount)"
+msgstr "<0><1><2/></1>Add <3/> stkRLX</0> to borrow at <4/> (max discount)"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "<0><1><2/></1>Add stkPSYS</0> to see borrow rate with discount"
-msgstr "<0><1><2/></1>Add stkPSYS</0> to see borrow rate with discount"
+msgid "<0><1><2/></1>Add stkRLX</0> to see borrow rate with discount"
+msgstr "<0><1><2/></1>Add stkRLX</0> to see borrow rate with discount"
 
 #: src/components/Warnings/AMPLWarning.tsx
 msgid "<0>Ampleforth</0> is a rebasing asset. Visit the <1>documentation</1> to learn more."
@@ -118,8 +118,8 @@ msgid "Aave per month"
 msgstr "Aave per month"
 
 #: src/modules/reserve-overview/Gho/GhoReserveConfiguration.tsx
-msgid "About GHO"
-msgstr "About GHO"
+msgid "About HOE"
+msgstr "About HOE"
 
 #: src/ui-config/errorMapping.tsx
 msgid "Action cannot be performed because the reserve is frozen"
@@ -139,8 +139,8 @@ msgid "Activate Cooldown"
 msgstr "Activate Cooldown"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "Add stkPSYS to see borrow APY with the discount"
-msgstr "Add stkPSYS to see borrow APY with the discount"
+msgid "Add stkRLX to see borrow APY with the discount"
+msgstr "Add stkRLX to see borrow APY with the discount"
 
 #: src/components/transactions/FlowCommons/Success.tsx
 msgid "Add to wallet"
@@ -375,6 +375,10 @@ msgstr "Available to supply"
 msgid "Back to Dashboard"
 msgstr "Back to Dashboard"
 
+#: src/modules/reserve-overview/ReserveTopDetailsWrapper.tsx
+msgid "Back to Market"
+msgstr "Back to Market"
+
 #: src/components/transactions/AssetInput.tsx
 #: src/components/transactions/ClaimRewards/ClaimRewardsModalContent.tsx
 #: src/modules/dashboard/lists/BorrowedPositionsList/BorrowedPositionsList.tsx
@@ -512,8 +516,8 @@ msgid "Borrowing is currently unavailable for {0}."
 msgstr "Borrowing is currently unavailable for {0}."
 
 #: src/components/Warnings/BorrowDisabledWarning.tsx
-msgid "Borrowing is disabled due to an Pegasys community decision. <0>More details</0>"
-msgstr "Borrowing is disabled due to an Pegasys community decision. <0>More details</0>"
+msgid "Borrowing is disabled due to an Rollex community decision. <0>More details</0>"
+msgstr "Borrowing is disabled due to an Rollex community decision. <0>More details</0>"
 
 #: src/ui-config/errorMapping.tsx
 msgid "Borrowing is not enabled"
@@ -591,8 +595,8 @@ msgid "Cannot disable E-Mode"
 msgstr "Cannot disable E-Mode"
 
 #: src/components/transactions/GovDelegation/GovDelegationModalContent.tsx
-msgid "Choose how much voting/proposition power to give to someone else by delegating some of your PSYS or stkPSYS balance. Your tokens will remain in your account, but your delegate will be able to vote or propose on your behalf. If your PSYS or stkPSYS balance changes, your delegate's voting/proposition power will be automatically adjusted."
-msgstr "Choose how much voting/proposition power to give to someone else by delegating some of your PSYS or stkPSYS balance. Your tokens will remain in your account, but your delegate will be able to vote or propose on your behalf. If your PSYS or stkPSYS balance changes, your delegate's voting/proposition power will be automatically adjusted."
+msgid "Choose how much voting/proposition power to give to someone else by delegating some of your REX or stkRLX balance. Your tokens will remain in your account, but your delegate will be able to vote or propose on your behalf. If your REX or stkRLX balance changes, your delegate's voting/proposition power will be automatically adjusted."
+msgstr "Choose how much voting/proposition power to give to someone else by delegating some of your REX or stkRLX balance. Your tokens will remain in your account, but your delegate will be able to vote or propose on your behalf. If your REX or stkRLX balance changes, your delegate's voting/proposition power will be automatically adjusted."
 
 #: src/modules/staking/BuyWithFiatModal.tsx
 msgid "Choose one of the on-ramp services"
@@ -621,8 +625,8 @@ msgid "Claim {symbol}"
 msgstr "Claim {symbol}"
 
 #: src/modules/staking/StakingPanel.tsx
-msgid "Claimable PSYS"
-msgstr "Claimable PSYS"
+msgid "Claimable REX"
+msgstr "Claimable REX"
 
 #: src/components/transactions/ClaimRewards/ClaimRewardsModalContent.tsx
 #: src/components/transactions/StakeRewardClaim/StakeRewardClaimModalContent.tsx
@@ -724,10 +728,6 @@ msgstr "Cooldown to unstake"
 #: src/modules/staking/StakingPanel.tsx
 msgid "Cooling down..."
 msgstr "Cooling down..."
-
-#: src/layouts/WalletWidget.tsx
-msgid "Copy address"
-msgstr "Copy address"
 
 #: pages/500.page.tsx
 msgid "Copy error message"
@@ -854,16 +854,16 @@ msgid "Discount"
 msgstr "Discount"
 
 #: src/components/transactions/Borrow/GhoBorrowModalContent.tsx
-msgid "Discount applied for <0/> staking PSYS"
-msgstr "Discount applied for <0/> staking PSYS"
+msgid "Discount applied for <0/> staking REX"
+msgstr "Discount applied for <0/> staking REX"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
 msgid "Discount model parameters"
 msgstr "Discount model parameters"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "Discount parameters are decided by the Pegasys community and may be changed over time. Check Governance for updates and vote to participate. <0>Learn more</0>"
-msgstr "Discount parameters are decided by the Pegasys community and may be changed over time. Check Governance for updates and vote to participate. <0>Learn more</0>"
+msgid "Discount parameters are decided by the Rollex community and may be changed over time. Check Governance for updates and vote to participate. <0>Learn more</0>"
+msgstr "Discount parameters are decided by the Rollex community and may be changed over time. Check Governance for updates and vote to participate. <0>Learn more</0>"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
 msgid "Discountable amount"
@@ -882,8 +882,8 @@ msgid "Due to internal stETH mechanics required for rebasing support, it is not 
 msgstr "Due to internal stETH mechanics required for rebasing support, it is not possible to perform a collateral switch where stETH is the source token."
 
 #: src/components/transactions/Warnings/MarketWarning.tsx
-msgid "Due to the Horizon bridge exploit, certain assets on the Harmony network are not at parity with Rollux, which affects the Pegasys V3 Harmony market."
-msgstr "Due to the Horizon bridge exploit, certain assets on the Harmony network are not at parity with Rollux, which affects the Pegasys V3 Harmony market."
+msgid "Due to the Horizon bridge exploit, certain assets on the Harmony network are not at parity with Rollux, which affects the Rollex V3 Harmony market."
+msgstr "Due to the Horizon bridge exploit, certain assets on the Harmony network are not at parity with Rollux, which affects the Rollex V3 Harmony market."
 
 #: src/modules/dashboard/DashboardEModeButton.tsx
 msgid "E-Mode"
@@ -906,8 +906,8 @@ msgid "E-Mode increases your LTV for a selected category of assets up to<0/>. <1
 msgstr "E-Mode increases your LTV for a selected category of assets up to<0/>. <1>Learn more</1>"
 
 #: src/modules/reserve-overview/ReserveEModePanel.tsx
-msgid "E-Mode increases your LTV for a selected category of assets, meaning that when E-mode is enabled, you will have higher borrowing power over assets of the same E-mode category which are defined by Pegasys Governance. You can enter E-Mode from your <0>Dashboard</0>. To learn more about E-Mode and applied restrictions in <1>FAQ</1> or <2>Pegasys V3 Technical Paper</2>."
-msgstr "E-Mode increases your LTV for a selected category of assets, meaning that when E-mode is enabled, you will have higher borrowing power over assets of the same E-mode category which are defined by Pegasys Governance. You can enter E-Mode from your <0>Dashboard</0>. To learn more about E-Mode and applied restrictions in <1>FAQ</1> or <2>Pegasys V3 Technical Paper</2>."
+msgid "E-Mode increases your LTV for a selected category of assets, meaning that when E-mode is enabled, you will have higher borrowing power over assets of the same E-mode category which are defined by Rollex Governance. You can enter E-Mode from your <0>Dashboard</0>. To learn more about E-Mode and applied restrictions in <1>FAQ</1> or <2>Rollex V3 Technical Paper</2>."
+msgstr "E-Mode increases your LTV for a selected category of assets, meaning that when E-mode is enabled, you will have higher borrowing power over assets of the same E-mode category which are defined by Rollex Governance. You can enter E-Mode from your <0>Dashboard</0>. To learn more about E-Mode and applied restrictions in <1>FAQ</1> or <2>Rollex V3 Technical Paper</2>."
 
 #: src/modules/reserve-overview/Gho/GhoInterestRateGraph.tsx
 msgid "Effective interest rate"
@@ -972,8 +972,8 @@ msgid "Error connecting. Try refreshing the page."
 msgstr "Error connecting. Try refreshing the page."
 
 #: src/components/incentives/GhoIncentivesCard.tsx
-msgid "Estimated compounding interest, including discount for Staking {0}PSYS in Safety Module."
-msgstr "Estimated compounding interest, including discount for Staking {0}PSYS in Safety Module."
+msgid "Estimated compounding interest, including discount for Staking {0}REX in Safety Module."
+msgstr "Estimated compounding interest, including discount for Staking {0}REX in Safety Module."
 
 #: src/modules/reserve-overview/Gho/GhoPieChartContainer.tsx
 msgid "Exceeds the discount"
@@ -1071,13 +1071,16 @@ msgstr "Global settings"
 
 #: src/modules/governance/proposal/ProposalTopPanel.tsx
 #: src/modules/migration/MigrationTopPanel.tsx
-#: src/modules/reserve-overview/ReserveTopDetailsWrapper.tsx
 msgid "Go Back"
 msgstr "Go Back"
 
 #: src/modules/staking/GetABPTokenModal.tsx
 msgid "Go to Balancer Pool"
 msgstr "Go to Balancer Pool"
+
+#: src/ui-config/menu-items/index.tsx
+msgid "Go to V3"
+msgstr "Go to V3"
 
 #: src/components/transactions/MigrateV3/MigrateV3ModalContent.tsx
 msgid "Go to V3 Dashboard"
@@ -1092,8 +1095,8 @@ msgid "Greek"
 msgstr "Greek"
 
 #: src/modules/reserve-overview/Gho/GhoReserveConfiguration.tsx
-msgid "HOE is a native decentralized, collateral-backed digital asset pegged to USD. It is created by users via borrowing against multiple collateral. When user repays their HOE borrow position, the protocol burns that user's HOE. All the interest payments accrued by minters of HOE would be directly transferred to the PegasysDAO treasury."
-msgstr "HOE is a native decentralized, collateral-backed digital asset pegged to USD. It is created by users via borrowing against multiple collateral. When user repays their HOE borrow position, the protocol burns that user's HOE. All the interest payments accrued by minters of HOE would be directly transferred to the PegasysDAO treasury."
+msgid "HOE is a native decentralized, collateral-backed digital asset pegged to USD. It is created by users via borrowing against multiple collateral. When user repays their HOE borrow position, the protocol burns that user's HOE. All the interest payments accrued by minters of HOE would be directly transferred to the RollexDAO treasury."
+msgstr "HOE is a native decentralized, collateral-backed digital asset pegged to USD. It is created by users via borrowing against multiple collateral. When user repays their HOE borrow position, the protocol burns that user's HOE. All the interest payments accrued by minters of HOE would be directly transferred to the RollexDAO treasury."
 
 #: src/modules/migration/MigrationBottomPanel.tsx
 msgid "Health Factor ({0} v2)"
@@ -1122,8 +1125,8 @@ msgid "Hide"
 msgstr "Hide"
 
 #: src/modules/staking/GhoDiscountProgram.tsx
-msgid "Holders of stkPSYS receive a discount on the HOE borrowing rate"
-msgstr "Holders of stkPSYS receive a discount on the HOE borrowing rate"
+msgid "Holders of stkRLX receive a discount on the HOE borrowing rate"
+msgstr "Holders of stkRLX receive a discount on the HOE borrowing rate"
 
 #: src/components/transactions/Borrow/BorrowAmountWarning.tsx
 #: src/components/transactions/Withdraw/WithdrawAndSwitchModalContent.tsx
@@ -1339,7 +1342,6 @@ msgid "Manage analytics"
 msgstr "Manage analytics"
 
 #: src/modules/market/MarketsTopPanel.tsx
-#: src/modules/reserve-overview/ReserveTopDetailsWrapper.tsx
 #: src/ui-config/menu-items/index.tsx
 msgid "Market"
 msgstr "Market"
@@ -1439,8 +1441,8 @@ msgid "Minimum USD value received"
 msgstr "Minimum USD value received"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "Minimum staked Pegasys amount"
-msgstr "Minimum staked Pegasys amount"
+msgid "Minimum staked Rollex amount"
+msgstr "Minimum staked Rollex amount"
 
 #: src/components/transactions/Switch/SwitchModalContent.tsx
 msgid "Minimum {0} received"
@@ -1469,10 +1471,6 @@ msgstr "Net APY is the combined effect of all supply and borrow positions on net
 #: src/modules/dashboard/DashboardTopPanel.tsx
 msgid "Net worth"
 msgstr "Net worth"
-
-#: src/layouts/WalletWidget.tsx
-msgid "Network"
-msgstr "Network"
 
 #: src/components/WalletConnection/WalletSelector.tsx
 msgid "Network not supported for this wallet"
@@ -1579,10 +1577,6 @@ msgstr "Oracle price"
 msgid "Overview"
 msgstr "Overview"
 
-#: src/modules/staking/StakingHeader.tsx
-msgid "PSYS holders (Rollux network only) can stake their PSYS in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
-msgstr "PSYS holders (Rollux network only) can stake their PSYS in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
-
 #: pages/404.page.tsx
 msgid "Page not found"
 msgstr "Page not found"
@@ -1590,23 +1584,6 @@ msgstr "Page not found"
 #: src/components/incentives/IncentivesTooltipContent.tsx
 msgid "Participating in this {symbol} reserve gives annualized rewards."
 msgstr "Participating in this {symbol} reserve gives annualized rewards."
-
-#: src/modules/governance/GovernanceTopPanel.tsx
-msgid "Pegasys Governance"
-msgstr "Pegasys Governance"
-
-#: src/modules/reserve-overview/AddTokenDropdown.tsx
-#: src/modules/reserve-overview/TokenLinkDropdown.tsx
-msgid "Pegasys aToken"
-msgstr "Pegasys aToken"
-
-#: src/modules/reserve-overview/TokenLinkDropdown.tsx
-msgid "Pegasys debt token"
-msgstr "Pegasys debt token"
-
-#: src/modules/governance/GovernanceTopPanel.tsx
-msgid "Pegasys is a fully decentralized, community governed protocol by the PSYS token-holders. PSYS token-holders collectively discuss, propose, and vote on upgrades to the protocol. PSYS token-holders (Rollux network only) can either vote themselves on new proposals or delagate to an address of choice. To learn more check out the Governance"
-msgstr "Pegasys is a fully decentralized, community governed protocol by the PSYS token-holders. PSYS token-holders collectively discuss, propose, and vote on upgrades to the protocol. PSYS token-holders (Rollux network only) can either vote themselves on new proposals or delagate to an address of choice. To learn more check out the Governance"
 
 #: src/components/transactions/CollateralChange/CollateralChangeActions.tsx
 #: src/components/transactions/Faucet/FaucetActions.tsx
@@ -1747,6 +1724,10 @@ msgstr "Protocol supply cap is at 100% for this asset. Further supply unavailabl
 msgid "Quorum"
 msgstr "Quorum"
 
+#: src/modules/staking/StakingHeader.tsx
+msgid "REX holders (Rollux network only) can stake their REX in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
+msgstr "REX holders (Rollux network only) can stake their REX in the Safety Module to add more security to the protocol and earn Safety Incentives. In the case of a shortfall event, up to 30% of your stake can be slashed to cover the deficit, providing an additional layer of protection for the protocol."
+
 #: src/modules/history/HistoryFilterMenu.tsx
 msgid "Rate change"
 msgstr "Rate change"
@@ -1770,8 +1751,8 @@ msgid "Read more here."
 msgstr "Read more here."
 
 #: src/components/infoTooltips/ReadOnlyModeTooltip.tsx
-msgid "Read-only mode allows to see address positions in Pegasys, but you won't be able to perform transactions."
-msgstr "Read-only mode allows to see address positions in Pegasys, but you won't be able to perform transactions."
+msgid "Read-only mode allows to see address positions in Rollex, but you won't be able to perform transactions."
+msgstr "Read-only mode allows to see address positions in Rollex, but you won't be able to perform transactions."
 
 #: src/layouts/WalletWidget.tsx
 msgid "Read-only mode."
@@ -1857,8 +1838,8 @@ msgid "Reserve factor"
 msgstr "Reserve factor"
 
 #: src/components/infoTooltips/ReserveFactorTooltip.tsx
-msgid "Reserve factor is a percentage of interest which goes to a {0} that is controlled by Pegasys governance to promote ecosystem growth."
-msgstr "Reserve factor is a percentage of interest which goes to a {0} that is controlled by Pegasys governance to promote ecosystem growth."
+msgid "Reserve factor is a percentage of interest which goes to a {0} that is controlled by Rollex governance to promote ecosystem growth."
+msgstr "Reserve factor is a percentage of interest which goes to a {0} that is controlled by Rollex governance to promote ecosystem growth."
 
 #: src/modules/reserve-overview/ReserveConfigurationWrapper.tsx
 msgid "Reserve status & configuration"
@@ -1916,6 +1897,23 @@ msgstr "Rewards APR"
 #: src/components/HealthFactorNumber.tsx
 msgid "Risk details"
 msgstr "Risk details"
+
+#: src/modules/reserve-overview/TokenLinkDropdown.tsx
+msgid "Rolles debt token"
+msgstr "Rolles debt token"
+
+#: src/modules/governance/GovernanceTopPanel.tsx
+msgid "Rollex Governance"
+msgstr "Rollex Governance"
+
+#: src/modules/reserve-overview/AddTokenDropdown.tsx
+#: src/modules/reserve-overview/TokenLinkDropdown.tsx
+msgid "Rollex aToken"
+msgstr "Rollex aToken"
+
+#: src/modules/governance/GovernanceTopPanel.tsx
+msgid "Rollex is a fully decentralized, community governed protocol by the REX token-holders. REX token-holders collectively discuss, propose, and vote on upgrades to the protocol. REX token-holders (Rollux network only) can either vote themselves on new proposals or delagate to an address of choice. To learn more check out the Governance"
+msgstr "Rollex is a fully decentralized, community governed protocol by the REX token-holders. REX token-holders collectively discuss, propose, and vote on upgrades to the protocol. REX token-holders (Rollux network only) can either vote themselves on new proposals or delagate to an address of choice. To learn more check out the Governance"
 
 #: src/modules/dashboard/lists/ListItemAPYButton.tsx
 msgid "SEE CHARTS"
@@ -2103,8 +2101,8 @@ msgid "Stake ABPT"
 msgstr "Stake ABPT"
 
 #: pages/staking.staking.tsx
-msgid "Stake PSYS"
-msgstr "Stake PSYS"
+msgid "Stake REX"
+msgstr "Stake REX"
 
 #: src/components/transactions/StakeCooldown/StakeCooldownModalContent.tsx
 msgid "Stake cooldown activated"
@@ -2149,8 +2147,8 @@ msgid "State"
 msgstr "State"
 
 #: src/components/infoTooltips/FixedAPYTooltip.tsx
-msgid "Static interest rate that is determined by Pegasys Governance. This rate may be changed over time depending on the need for the GHO supply to contract/expand. <0>Learn more</0>"
-msgstr "Static interest rate that is determined by Pegasys Governance. This rate may be changed over time depending on the need for the GHO supply to contract/expand. <0>Learn more</0>"
+msgid "Static interest rate that is determined by Rollex Governance. This rate may be changed over time depending on the need for the GHO supply to contract/expand. <0>Learn more</0>"
+msgstr "Static interest rate that is determined by Rollex Governance. This rate may be changed over time depending on the need for the GHO supply to contract/expand. <0>Learn more</0>"
 
 #: src/components/transactions/Supply/SupplyModalContent.tsx
 msgid "Supplied"
@@ -2168,7 +2166,6 @@ msgstr "Supplied asset amount"
 #: src/modules/dashboard/lists/SupplyAssetsList/SupplyAssetsListMobileItem.tsx
 #: src/modules/history/HistoryFilterMenu.tsx
 #: src/modules/history/actions/ActionDetails.tsx
-#: src/modules/reserve-overview/ReserveActions.tsx
 msgid "Supply"
 msgstr "Supply"
 
@@ -2312,12 +2309,12 @@ msgid "The Maximum LTV ratio represents the maximum borrowing power of a specifi
 msgstr "The Maximum LTV ratio represents the maximum borrowing power of a specific collateral. For example, if a collateral has an LTV of 75%, the user can borrow up to 0.75 worth of ETH in the principal currency for every 1 ETH worth of collateral."
 
 #: src/modules/staking/GetABPTokenModal.tsx
-msgid "The Pegasys Balancer Pool Token (PBPT) is a liquidity pool token. You can receive PBPT by depositing a combination of PSYS + SYS in the Balancer liquidity pool. You can then stake your BPT in the Safety Module to secure the protocol and earn Safety Incentives."
-msgstr "The Pegasys Balancer Pool Token (PBPT) is a liquidity pool token. You can receive PBPT by depositing a combination of PSYS + SYS in the Balancer liquidity pool. You can then stake your BPT in the Safety Module to secure the protocol and earn Safety Incentives."
+msgid "The Rollex Balancer Pool Token (PBPT) is a liquidity pool token. You can receive PBPT by depositing a combination of REX + SYS in the Balancer liquidity pool. You can then stake your BPT in the Safety Module to secure the protocol and earn Safety Incentives."
+msgstr "The Rollex Balancer Pool Token (PBPT) is a liquidity pool token. You can receive PBPT by depositing a combination of REX + SYS in the Balancer liquidity pool. You can then stake your BPT in the Safety Module to secure the protocol and earn Safety Incentives."
 
 #: src/modules/reserve-overview/Gho/GhoReserveTopDetails.tsx
-msgid "The Pegasys Protocol is programmed to always use the price of 1 HOE = $1. This is different from using market pricing via oracles for other crypto assets. This creates stabilizing arbitrage opportunities when the price of HOE fluctuates."
-msgstr "The Pegasys Protocol is programmed to always use the price of 1 HOE = $1. This is different from using market pricing via oracles for other crypto assets. This creates stabilizing arbitrage opportunities when the price of HOE fluctuates."
+msgid "The Rollex Protocol is programmed to always use the price of 1 HOE = $1. This is different from using market pricing via oracles for other crypto assets. This creates stabilizing arbitrage opportunities when the price of HOE fluctuates."
+msgstr "The Rollex Protocol is programmed to always use the price of 1 HOE = $1. This is different from using market pricing via oracles for other crypto assets. This creates stabilizing arbitrage opportunities when the price of HOE fluctuates."
 
 #: src/components/transactions/Borrow/BorrowModalContent.tsx
 #: src/components/transactions/Borrow/GhoBorrowModalContent.tsx
@@ -2401,8 +2398,8 @@ msgid "There was some error. Please try changing the parameters or <0><1>copy th
 msgstr "There was some error. Please try changing the parameters or <0><1>copy the error</1></0>"
 
 #: src/modules/market/MarketAssetsListContainer.tsx
-msgid "These assets are temporarily frozen or paused by Aave community decisions, meaning that further supply / borrow, or rate swap of these assets are unavailable. Withdrawals and debt repayments are allowed. Follow the <0>Aave governance forum</0> for further updates."
-msgstr "These assets are temporarily frozen or paused by Aave community decisions, meaning that further supply / borrow, or rate swap of these assets are unavailable. Withdrawals and debt repayments are allowed. Follow the <0>Aave governance forum</0> for further updates."
+msgid "These assets are temporarily frozen or paused by Rollex community decisions, meaning that further supply / borrow, or rate swap of these assets are unavailable. Withdrawals and debt repayments are allowed. Follow the <0>Rollex governance forum</0> for further updates."
+msgstr "These assets are temporarily frozen or paused by Rollex community decisions, meaning that further supply / borrow, or rate swap of these assets are unavailable. Withdrawals and debt repayments are allowed. Follow the <0>Rollex governance forum</0> for further updates."
 
 #: src/components/transactions/Withdraw/WithdrawError.tsx
 msgid "These funds have been borrowed and are not available for withdrawal at this time."
@@ -2445,20 +2442,20 @@ msgid "This asset has reached its supply cap. Nothing is available to be supplie
 msgstr "This asset has reached its supply cap. Nothing is available to be supplied from this market."
 
 #: src/components/infoTooltips/FrozenTooltip.tsx
-msgid "This asset is frozen due to an Pegasys Protocol Governance decision. <0>More details</0>"
-msgstr "This asset is frozen due to an Pegasys Protocol Governance decision. <0>More details</0>"
+msgid "This asset is frozen due to an Rollex Protocol Governance decision. <0>More details</0>"
+msgstr "This asset is frozen due to an Rollex Protocol Governance decision. <0>More details</0>"
 
 #: src/components/infoTooltips/RenFILToolTip.tsx
-msgid "This asset is frozen due to an Pegasys Protocol Governance decision. On the 20th of December 2022, renFIL will no longer be supported and cannot be bridged back to its native network. It is recommended to withdraw supply positions and repay borrow positions so that renFIL can be bridged back to FIL before the deadline. After this date, it will no longer be possible to convert renFIL to FIL. <0>More details</0>"
-msgstr "This asset is frozen due to an Pegasys Protocol Governance decision. On the 20th of December 2022, renFIL will no longer be supported and cannot be bridged back to its native network. It is recommended to withdraw supply positions and repay borrow positions so that renFIL can be bridged back to FIL before the deadline. After this date, it will no longer be possible to convert renFIL to FIL. <0>More details</0>"
+msgid "This asset is frozen due to an Rollex Protocol Governance decision. On the 20th of December 2022, renFIL will no longer be supported and cannot be bridged back to its native network. It is recommended to withdraw supply positions and repay borrow positions so that renFIL can be bridged back to FIL before the deadline. After this date, it will no longer be possible to convert renFIL to FIL. <0>More details</0>"
+msgstr "This asset is frozen due to an Rollex Protocol Governance decision. On the 20th of December 2022, renFIL will no longer be supported and cannot be bridged back to its native network. It is recommended to withdraw supply positions and repay borrow positions so that renFIL can be bridged back to FIL before the deadline. After this date, it will no longer be possible to convert renFIL to FIL. <0>More details</0>"
 
 #: src/modules/reserve-overview/ReserveConfiguration.tsx
-msgid "This asset is frozen due to an Pegasys community decision. <0>More details</0>"
-msgstr "This asset is frozen due to an Pegasys community decision. <0>More details</0>"
+msgid "This asset is frozen due to an Rollex community decision. <0>More details</0>"
+msgstr "This asset is frozen due to an Rollex community decision. <0>More details</0>"
 
 #: src/components/Warnings/OffboardingWarning.tsx
-msgid "This asset is planned to be offboarded due to an Pegasys Protocol Governance decision. <0>More details</0>"
-msgstr "This asset is planned to be offboarded due to an Pegasys Protocol Governance decision. <0>More details</0>"
+msgid "This asset is planned to be offboarded due to an Rollex Protocol Governance decision. <0>More details</0>"
+msgstr "This asset is planned to be offboarded due to an Rollex Protocol Governance decision. <0>More details</0>"
 
 #: src/components/infoTooltips/GasTooltip.tsx
 msgid "This gas calculation is only an estimation. Your wallet will set the price of the transaction. You can modify the gas settings directly from your wallet provider."
@@ -2502,8 +2499,8 @@ msgid "To borrow you need to supply any asset to be used as collateral."
 msgstr "To borrow you need to supply any asset to be used as collateral."
 
 #: src/components/infoTooltips/ApprovalTooltip.tsx
-msgid "To continue, you need to grant Pegasys smart contracts permission to move your funds from your wallet. Depending on the asset and wallet you use, it is done by signing the permission message (gas free), or by submitting an approval transaction (requires gas). <0>Learn more</0>"
-msgstr "To continue, you need to grant Pegasys smart contracts permission to move your funds from your wallet. Depending on the asset and wallet you use, it is done by signing the permission message (gas free), or by submitting an approval transaction (requires gas). <0>Learn more</0>"
+msgid "To continue, you need to grant Rollex smart contracts permission to move your funds from your wallet. Depending on the asset and wallet you use, it is done by signing the permission message (gas free), or by submitting an approval transaction (requires gas). <0>Learn more</0>"
+msgstr "To continue, you need to grant Rollex smart contracts permission to move your funds from your wallet. Depending on the asset and wallet you use, it is done by signing the permission message (gas free), or by submitting an approval transaction (requires gas). <0>Learn more</0>"
 
 #: src/components/transactions/Emode/EmodeModalContent.tsx
 msgid "To enable E-mode for the {0} category, all borrow positions outside of this category must be closed."
@@ -2652,8 +2649,8 @@ msgid "Use it to vote for or against active proposals."
 msgstr "Use it to vote for or against active proposals."
 
 #: src/modules/governance/DelegatedInfoPanel.tsx
-msgid "Use your PSYS and stkPSYS balance to delegate your voting and proposition powers. You will not be sending any tokens, only the rights to vote and propose changes to the protocol. You can re-delegate or revoke power to self at any time."
-msgstr "Use your PSYS and stkPSYS balance to delegate your voting and proposition powers. You will not be sending any tokens, only the rights to vote and propose changes to the protocol. You can re-delegate or revoke power to self at any time."
+msgid "Use your REX and stkRLX balance to delegate your voting and proposition powers. You will not be sending any tokens, only the rights to vote and propose changes to the protocol. You can re-delegate or revoke power to self at any time."
+msgstr "Use your REX and stkRLX balance to delegate your voting and proposition powers. You will not be sending any tokens, only the rights to vote and propose changes to the protocol. You can re-delegate or revoke power to self at any time."
 
 #: src/modules/dashboard/lists/SuppliedPositionsList/SuppliedPositionsListMobileItem.tsx
 msgid "Used as collateral"
@@ -2684,8 +2681,8 @@ msgid "User is trying to borrow multiple assets including a siloed one"
 msgstr "User is trying to borrow multiple assets including a siloed one"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "Users who stake PSYS in Safety Module (i.e. stkPSYS holders) receive a discount on GHO borrow interest rate. The discount applies to 100 GHO for every 1 stkPSYS held. Use the calculator below to see GHO borrow rate with the discount applied."
-msgstr "Users who stake PSYS in Safety Module (i.e. stkPSYS holders) receive a discount on GHO borrow interest rate. The discount applies to 100 GHO for every 1 stkPSYS held. Use the calculator below to see GHO borrow rate with the discount applied."
+msgid "Users who stake REX in Safety Module (i.e. stkRLX holders) receive a discount on GHO borrow interest rate. The discount applies to 100 GHO for every 1 stkRLX held. Use the calculator below to see GHO borrow rate with the discount applied."
+msgstr "Users who stake REX in Safety Module (i.e. stkRLX holders) receive a discount on GHO borrow interest rate. The discount applies to 100 GHO for every 1 stkRLX held. Use the calculator below to see GHO borrow rate with the discount applied."
 
 #: src/modules/reserve-overview/ReserveConfiguration.tsx
 #: src/modules/reserve-overview/ReserveTopDetails.tsx
@@ -2956,8 +2953,8 @@ msgid "You don’t have enough funds in your wallet to repay the full amount. If
 msgstr "You don’t have enough funds in your wallet to repay the full amount. If you proceed to repay with your current amount of funds, you will still have a small borrowing position in your dashboard."
 
 #: src/modules/governance/DelegatedInfoPanel.tsx
-msgid "You have no PSYS/stkPSYS balance to delegate."
-msgstr "You have no PSYS/stkPSYS balance to delegate."
+msgid "You have no REX/stkRLX balance to delegate."
+msgstr "You have no REX/stkRLX balance to delegate."
 
 #: src/components/transactions/RateSwitch/RateSwitchModalContent.tsx
 msgid "You have not borrow yet using this currency"
@@ -3031,8 +3028,8 @@ msgid "Your info"
 msgstr "Your info"
 
 #: src/modules/governance/VotingPowerInfoPanel.tsx
-msgid "Your proposition power is based on your PSYS/stkPSYS balance and received delegations."
-msgstr "Your proposition power is based on your PSYS/stkPSYS balance and received delegations."
+msgid "Your proposition power is based on your REX/stkRLX balance and received delegations."
+msgstr "Your proposition power is based on your REX/stkRLX balance and received delegations."
 
 #: src/components/transactions/ClaimRewards/ClaimRewardsModalContent.tsx
 msgid "Your reward balance is 0"
@@ -3048,8 +3045,8 @@ msgid "Your voting info"
 msgstr "Your voting info"
 
 #: src/modules/governance/VotingPowerInfoPanel.tsx
-msgid "Your voting power is based on your PSYS/stkPSYS balance and received delegations."
-msgstr "Your voting power is based on your PSYS/stkPSYS balance and received delegations."
+msgid "Your voting power is based on your REX/stkRLX balance and received delegations."
+msgstr "Your voting power is based on your REX/stkRLX balance and received delegations."
 
 #: src/modules/dashboard/lists/SupplyAssetsList/WalletEmptyInfo.tsx
 msgid "Your {name} wallet is empty. Purchase or transfer assets or use <0>{0}</0> to transfer your {network} assets."
@@ -3145,8 +3142,8 @@ msgid "starts"
 msgstr "starts"
 
 #: src/modules/staking/GhoDiscountProgram.tsx
-msgid "stkPSYS holders get a discount on GHO borrow rate"
-msgstr "stkPSYS holders get a discount on GHO borrow rate"
+msgid "stkRLX holders get a discount on GHO borrow rate"
+msgstr "stkRLX holders get a discount on GHO borrow rate"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
 msgid "to"

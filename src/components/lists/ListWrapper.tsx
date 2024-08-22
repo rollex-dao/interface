@@ -1,4 +1,6 @@
 import { Trans } from '@lingui/macro';
+import Visibility from '@mui/icons-material/Visibility';
+import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import { Box, BoxProps, Paper, Typography } from '@mui/material';
 import { ReactNode, useState } from 'react';
 import { useRootStore } from 'src/store/root';
@@ -89,8 +91,11 @@ export const ListWrapper = ({
   return (
     <Paper
       sx={{
-        mt: withTopMargin ? 4 : 0,
+        mt: withTopMargin ? '44px' : 0,
         borderRadius: '20px',
+        border: '1px solid #494949',
+        width: '1280px',
+        maxWidth: '100%',
       }}
     >
       <Box
@@ -108,7 +113,6 @@ export const ListWrapper = ({
             width: '100%',
             display: 'flex',
             alignItems: { xs: 'flex-start', xsm: 'center' },
-            py: '3.6px',
             flexDirection: { xs: 'column', xsm: 'row' },
           }}
         >
@@ -124,23 +128,6 @@ export const ListWrapper = ({
               cursor: 'pointer',
               minHeight: '28px',
               pl: 3,
-              span: {
-                width: '14px',
-                height: '2px',
-                bgcolor: 'text.secondary',
-                position: 'relative',
-                ml: 1,
-                '&:after': {
-                  content: "''",
-                  position: 'absolute',
-                  width: '14px',
-                  height: '2px',
-                  bgcolor: 'text.secondary',
-                  transition: 'all 0.2s ease',
-                  transform: collapsed ? 'rotate(90deg)' : 'rotate(0)',
-                  opacity: collapsed ? 1 : 0,
-                },
-              },
             }}
             onClick={() => {
               handleTrackingEvents();
@@ -151,9 +138,10 @@ export const ListWrapper = ({
             }}
           >
             <Typography variant="buttonM" color="text.secondary">
-              {collapsed ? <Trans>Show</Trans> : <Trans>Hide</Trans>}
+              {collapsed ? <Trans>Hide</Trans> : <Trans>Show</Trans>}
             </Typography>
-            <span />
+            <Box sx={{ width: 8 }} />
+            {collapsed ? <Visibility /> : <VisibilityOff />}
           </Box>
         )}
       </Box>

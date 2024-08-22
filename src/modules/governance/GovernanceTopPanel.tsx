@@ -22,14 +22,24 @@ function ExternalLink({ text, href }: ExternalLinkProps) {
     <Button
       variant="surface"
       size="small"
-      sx={{ minWidth: 'unset' }}
+      sx={{
+        minWidth: 'unset',
+        background: 'linear-gradient(90deg, #DBEF88 0%, #EACF5E 100%)',
+        color: '#191919',
+      }}
       component={Link}
       href={href}
       target="_blank"
       rel="noopener"
       onClick={() => trackEvent(GENERAL.EXTERNAL_LINK, { Link: text })}
     >
-      <Box sx={{ display: 'flex', alignItems: 'center' }}>
+      <Box
+        sx={{
+          display: 'flex',
+          alignItems: 'center',
+          background: 'linear-gradient(90deg, #DBEF88 0%, #EACF5E 100%)',
+        }}
+      >
         {text}
         <SvgIcon sx={{ ml: 1, fontSize: 14 }}>
           <ExternalLinkIcon />
@@ -51,22 +61,21 @@ export const GovernanceTopPanel = () => {
         <Box mb={4}>
           <ChainAvailabilityText wrapperSx={{ mb: 4 }} chainId={570 as ChainId} />
           <Box sx={{ display: 'flex', alignItems: 'center', mb: 4 }}>
-            <img src={`/icons/tokens/psys.svg`} width="32px" height="32px" alt="" />
+            <img src={`/icons/tokens/rollex.svg`} width="32px" height="32px" alt="" />
             <Typography
               variant={downToXSM ? 'h2' : upToLG ? 'display1' : 'h1'}
               sx={{ ml: 2, mr: 3 }}
             >
-              <Trans>Pegasys Governance</Trans>
+              <Trans>Rollex Governance</Trans>
             </Typography>
           </Box>
 
           <Typography sx={{ color: 'text.primary', maxWidth: '824px' }}>
             <Trans>
-              Pegasys is a fully decentralized, community governed protocol by the PSYS
-              token-holders. PSYS token-holders collectively discuss, propose, and vote on upgrades
-              to the protocol. PSYS token-holders (Rollux network only) can either vote themselves
-              on new proposals or delagate to an address of choice. To learn more check out the
-              Governance
+              Rollex is a fully decentralized, community governed protocol by the REX token-holders.
+              REX token-holders collectively discuss, propose, and vote on upgrades to the protocol.
+              REX token-holders (Rollux network only) can either vote themselves on new proposals or
+              delagate to an address of choice. To learn more check out the Governance
             </Trans>{' '}
             <Link
               onClick={() => trackEvent(GENERAL.EXTERNAL_LINK, { Link: 'FAQ Docs Governance' })}

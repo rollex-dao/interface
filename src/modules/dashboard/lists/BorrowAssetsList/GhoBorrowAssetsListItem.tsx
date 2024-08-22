@@ -123,63 +123,85 @@ const GhoBorrowAssetsListItemDesktop = ({
   onBorrowClick,
 }: GhoBorrowAssetsListItemProps) => {
   return (
-    <ListItem
-      sx={{ borderTop: '1px solid', borderBottom: '1px solid', borderColor: 'divider', mb: 2 }}
-      data-cy={`dashboardBorrowListItem_${symbol.toUpperCase()}`}
+    <Box
+      sx={{
+        display: 'flex',
+        minWidth: '100%',
+        background: '#FAFAFA',
+        gap: '16px',
+        alignItems: 'center',
+      }}
     >
-      <ListColumn maxWidth={DASHBOARD_LIST_COLUMN_WIDTHS.CELL} isRow>
-        <Link
-          href={ROUTES.reserveOverview(underlyingAsset, currentMarket)}
-          noWrap
-          sx={{ display: 'inline-flex', alignItems: 'center' }}
-        >
-          <TokenIcon symbol={iconSymbol} fontSize="large" />
-          <Tooltip title={`${name} (${symbol})`} arrow placement="top">
-            <Typography variant="subheader1" sx={{ ml: 3 }} noWrap data-cy={`assetName`}>
-              {symbol}
-            </Typography>
-          </Tooltip>
-        </Link>
-      </ListColumn>
-      <ListColumn>
-        <Box display="flex" flexDirection="column">
-          <AvailableTooltip
-            capType={CapType.borrowCap}
-            text={<Trans>Available</Trans>}
+      <ListItem
+        sx={{
+          borderTop: '1px solid',
+          borderBottom: '1px solid',
+          borderColor: 'divider',
+          mb: 2,
+          background: '#494949',
+          '&:hover': {
+            backgroundColor: '#494949',
+            // borderRadius: '16px',
+          },
+          color: '#FFFFFF',
+          width: '100%',
+        }}
+        data-cy={`dashboardBorrowListItem_${symbol.toUpperCase()}`}
+      >
+        <ListColumn maxWidth={DASHBOARD_LIST_COLUMN_WIDTHS.CELL} isRow>
+          <Link
+            href={ROUTES.reserveOverview(underlyingAsset, currentMarket)}
+            noWrap
+            sx={{ display: 'inline-flex', alignItems: 'center' }}
+          >
+            <TokenIcon symbol={iconSymbol} fontSize="large" />
+            <Tooltip title={`${name} (${symbol})`} arrow placement="top">
+              <Typography variant="subheader1" sx={{ ml: 3 }} noWrap data-cy={`assetName`}>
+                {symbol}
+              </Typography>
+            </Tooltip>
+          </Link>
+        </ListColumn>
+        <ListColumn>
+          <Box display="flex" flexDirection="column">
+            <AvailableTooltip
+              capType={CapType.borrowCap}
+              text={<Trans>Available</Trans>}
+              variant="subheader2"
+              color="text.secondary"
+              ml={-1}
+            />
+            <ListValueColumn
+              listColumnProps={{
+                p: 0,
+              }}
+              symbol={symbol}
+              value={availableBorrows}
+              subValue={availableBorrows}
+              disabled={availableBorrows === 0}
+              withTooltip
+            />
+          </Box>
+        </ListColumn>
+        <ListColumn flex={2} p={2}>
+          <FixedAPYTooltip
+            text={<Trans>APY, fixed rate</Trans>}
             variant="subheader2"
             color="text.secondary"
-            ml={-1}
           />
-          <ListValueColumn
-            listColumnProps={{
-              p: 0,
-            }}
-            symbol={symbol}
-            value={availableBorrows}
-            subValue={availableBorrows}
-            disabled={availableBorrows === 0}
-            withTooltip
+          <GhoIncentivesCard
+            withTokenIcon={true}
+            useApyRange
+            rangeValues={ghoApyRange}
+            value={ghoUserDataFetched ? userBorrowApyAfterNewBorrow : -1}
+            data-cy={`apyType`}
+            stkAaveBalance={userDiscountTokenBalance}
+            ghoRoute={ROUTES.reserveOverview(underlyingAsset, currentMarket) + '/#discount'}
+            forceShowTooltip
+            userQualifiesForDiscount
           />
-        </Box>
-      </ListColumn>
-      <ListColumn flex={2} p={2}>
-        <FixedAPYTooltip
-          text={<Trans>APY, fixed rate</Trans>}
-          variant="subheader2"
-          color="text.secondary"
-        />
-        <GhoIncentivesCard
-          withTokenIcon={true}
-          useApyRange
-          rangeValues={ghoApyRange}
-          value={ghoUserDataFetched ? userBorrowApyAfterNewBorrow : -1}
-          data-cy={`apyType`}
-          stkAaveBalance={userDiscountTokenBalance}
-          ghoRoute={ROUTES.reserveOverview(underlyingAsset, currentMarket) + '/#discount'}
-          forceShowTooltip
-          userQualifiesForDiscount
-        />
-      </ListColumn>
+        </ListColumn>
+      </ListItem>
       <ListButtonsColumn>
         <Button disabled={borrowButtonDisable} variant="contained" onClick={onBorrowClick}>
           <Trans>Borrow</Trans>
@@ -192,7 +214,7 @@ const GhoBorrowAssetsListItemDesktop = ({
           <Trans>Details</Trans>
         </Button>
       </ListButtonsColumn>
-    </ListItem>
+    </Box>
   );
 };
 

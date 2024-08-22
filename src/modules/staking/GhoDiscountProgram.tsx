@@ -44,14 +44,15 @@ export const GhoDiscountProgram = () => {
             xs: 120,
             xsm: 104,
           },
-          background: theme.palette.mode === 'dark' ? '#1d2e49' : '#e5effb',
+          border: '1px solid #000000',
+          background: theme.palette.mode === 'dark' ? '#FFF' : '#FFF',
           color: theme.palette.mode === 'dark' ? '#FFF' : '#FFF',
           position: 'relative',
         })}
       >
         <Box
           component="img"
-          src="/pegasys.svg"
+          src="/rollex.svg"
           sx={{
             position: 'absolute',
             left: 10,
@@ -63,11 +64,11 @@ export const GhoDiscountProgram = () => {
               xs: 'none',
               xsm: 'block',
             },
-            transform: 'matrix(1, -0.14, 0.14, 1, 0, 0)',
+            // transform: 'matrix(1, -0.14, 0.14, 1, 0, 0)',
           }}
           width={150}
           height={150}
-          alt="psys coin"
+          alt="rlx coin"
         />
         <Box display="flex" flexDirection="column" alignItems={['flex-start', 'center']} gap={3}>
           <Typography
@@ -77,9 +78,9 @@ export const GhoDiscountProgram = () => {
             textAlign={['left', 'center']}
           >
             {downToXsm ? (
-              <Trans>stkPSYS holders get a discount on GHO borrow rate</Trans>
+              <Trans>stkRLX holders get a discount on GHO borrow rate</Trans>
             ) : (
-              <Trans>Holders of stkPSYS receive a discount on the HOE borrowing rate</Trans>
+              <Trans>Holders of stkRLX receive a discount on the HOE borrowing rate</Trans>
             )}
           </Typography>
           <Button
@@ -94,10 +95,11 @@ export const GhoDiscountProgram = () => {
               gap: [2, 1],
               borderRadius: '20px',
               padding: '3px',
-              background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-              color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
+              border: '1px solid #000000',
+              background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
+              color: theme.palette.mode === 'dark' ? '#000' : '#000',
               '&:hover': {
-                background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+                background: theme.palette.mode === 'dark' ? '#FFFF' : '#FFF',
               },
             })}
           >
@@ -105,9 +107,9 @@ export const GhoDiscountProgram = () => {
             <ChevronRightIcon width={downToXsm ? 20 : 12} height={downToXsm ? 20 : 12} />
           </Button>
         </Box>
-        <Box
+        {/* <Box
           component="img"
-          src="/purple-pegasys.svg"
+          src="/rollex.svg"
           sx={{
             position: 'absolute',
             right: [-10, -35],
@@ -117,7 +119,7 @@ export const GhoDiscountProgram = () => {
           }}
           alt="gho ghost"
           width={250}
-        />
+        /> */}
       </Box>
     </Box>
   );

@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro';
-import ArrowBackRoundedIcon from '@mui/icons-material/ArrowBackOutlined';
 import {
   Box,
   Button,
@@ -11,7 +10,6 @@ import {
   useTheme,
 } from '@mui/material';
 import { useRouter } from 'next/router';
-import { getMarketInfoById, MarketLogo } from 'src/components/MarketSwitcher';
 import { useProtocolDataContext } from 'src/hooks/useProtocolDataContext';
 import { useWeb3Context } from 'src/libs/hooks/useWeb3Context';
 import { useRootStore } from 'src/store/root';
@@ -35,7 +33,6 @@ export const ReserveTopDetailsWrapper = ({ underlyingAsset }: ReserveTopDetailsP
   const router = useRouter();
   const { reserves, loading } = useAppDataContext();
   const { currentMarket, currentChainId } = useProtocolDataContext();
-  const { market, network } = getMarketInfoById(currentMarket);
   const { addERC20Token, switchNetwork, chainId: connectedChainId, connected } = useWeb3Context();
   const [displayGho] = useRootStore((store) => [store.displayGho]);
 
@@ -94,50 +91,43 @@ export const ReserveTopDetailsWrapper = ({ underlyingAsset }: ReserveTopDetailsP
               size="medium"
               color="primary"
               startIcon={
-                <SvgIcon sx={{ fontSize: '20px' }}>
-                  <ArrowBackRoundedIcon />
+                <SvgIcon sx={{ width: '14px', height: '14px' }}>
+                  <svg
+                    // width="6"
+                    // height="8"
+                    viewBox="0 0 6 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2.31666 3.99999L5.20416 6.88749L4.37933 7.71233L0.666992 3.99999L4.37933 0.287659L5.20416 1.11249L2.31666 3.99999Z"
+                      fill="#191919"
+                    />
+                  </svg>
                 </SvgIcon>
               }
               onClick={() => {
                 // https://github.com/vercel/next.js/discussions/34980
                 if (history.state.idx !== 0) router.back();
-                else router.push('/markets');
+                else router.push('/market');
               }}
               sx={(theme) => ({
                 mr: 3,
                 mb: downToSM ? '24px' : '0',
-                borderRadius: '20px',
-                background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+                borderRadius: '1000px',
+                background: theme.palette.mode === 'dark' ? '#FAFAFA' : '#FAFAFA',
                 '&:hover': {
-                  background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
+                  background: theme.palette.mode === 'dark' ? '#FAFAFA' : '#FAFAFA',
                 },
+                border: '1px solid #191919',
+                padding: '10px 12px 10px 12px',
+                color: '#191919',
+                fontSize: '14px',
+                width: '164px',
               })}
             >
-              <Trans>Go Back</Trans>
+              <Trans>Back to Market</Trans>
             </Button>
-
-            <Box sx={{ display: 'flex', alignItems: 'center' }}>
-              <MarketLogo size={20} logo={network.networkLogoPath} />
-              <Typography variant="subheader1" sx={{ color: 'common.white' }}>
-                {market.marketTitle} <Trans>Market</Trans>
-              </Typography>
-              {/* {market.v3 && (
-                <Box
-                  sx={{
-                    color: '#fff',
-                    px: 2,
-                    mx: 2,
-                    borderRadius: '12px',
-                    background:
-                      theme.palette.mode === 'dark'
-                        ? 'linear-gradient(90deg, rgb(83, 217, 217) 9.38%, rgba(0, 184, 255, 0.1) 128.42%)'
-                        : 'linear-gradient(90deg, rgb(102, 94, 225) 9.38%, rgba(0, 184, 255, 0.3) 128.42%)',
-                  }}
-                >
-                  <Typography variant="subheader2">Version 3</Typography>
-                </Box>
-              )} */}
-            </Box>
           </Box>
 
           {downToSM && (

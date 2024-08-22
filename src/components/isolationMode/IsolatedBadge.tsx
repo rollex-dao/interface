@@ -6,13 +6,16 @@ import { ReactNode } from 'react';
 import { ContentWithTooltip } from '../ContentWithTooltip';
 
 const contentSx = {
-  borderRadius: '4px',
+  borderRadius: '20px',
   display: 'inline-flex',
   alignItems: 'center',
-  p: '2px',
+  p: '4px',
   mt: '2px',
   cursor: 'pointer',
   '&:hover': { opacity: 0.6 },
+  justifyContent: 'center',
+  gap: '5px',
+  border: '1px solid #DBEF88',
 };
 
 interface InfoIconProps {
@@ -22,7 +25,7 @@ const InfoIcon = ({ color }: InfoIconProps) => (
   <SvgIcon
     sx={{
       ml: '3px',
-      color: color ? color : 'text.muted',
+      color: color && '#DBEF88',
       fontSize: '14px',
     }}
   >
@@ -37,7 +40,6 @@ export const IsolatedEnabledBadge = ({
   const theme = useTheme();
 
   const sx = {
-    border: `1px solid ${theme.palette.warning.main}`,
     color: theme.palette.warning.main,
     ...contentSx,
   };
@@ -61,7 +63,7 @@ export const IsolatedEnabledBadge = ({
           sx={{
             lineHeight: '0.75rem',
           }}
-          color={theme.palette.warning.main}
+          color="#DBEF88"
           {...typographyProps}
         >
           <Trans>Isolated</Trans>

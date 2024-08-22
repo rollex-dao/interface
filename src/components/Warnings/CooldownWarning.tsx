@@ -9,7 +9,16 @@ import { Warning } from '../primitives/Warning';
 export const CooldownWarning = () => {
   const trackEvent = useRootStore((store) => store.trackEvent);
   return (
-    <Warning severity="warning" sx={{ '.MuiAlert-message': { p: 0 }, mb: 6 }}>
+    <Warning
+      severity="warning"
+      sx={{
+        '.MuiAlert-message': { p: 0 },
+        mb: 6,
+        background: '#FFFF',
+        border: '1px dashed #DD6B20',
+        color: '#191919',
+      }}
+    >
       <Typography variant="subheader1">
         <Trans>Cooldown period warning</Trans>
       </Typography>
@@ -21,6 +30,7 @@ export const CooldownWarning = () => {
           <Link
             href="https://docs.aave.com/faq/migration-and-staking"
             fontWeight={500}
+            sx={{ color: '#191919' }}
             onClick={() =>
               trackEvent(GENERAL.EXTERNAL_LINK, {
                 Link: 'Cooldown Period Warning',

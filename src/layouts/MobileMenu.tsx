@@ -16,9 +16,9 @@ import React, { ReactNode, useEffect, useState } from 'react';
 
 import { Link } from '../components/primitives/Link';
 import { moreNavigation } from '../ui-config/menu-items';
-import { DarkModeSwitcher } from './components/DarkModeSwitcher';
+// import { DarkModeSwitcher } from './components/DarkModeSwitcher';
 import { DrawerWrapper } from './components/DrawerWrapper';
-import { LanguageListItem, LanguagesList } from './components/LanguageSwitcher';
+import { LanguagesList } from './components/LanguageSwitcher';
 import { MobileCloseButton } from './components/MobileCloseButton';
 import { NavItems } from './components/NavItems';
 
@@ -59,7 +59,7 @@ export const MobileMenu = ({ open, setOpen, headerHeight }: MobileMenuProps) => 
           sx={{ p: '7px 8px', minWidth: 'unset', ml: 2 }}
           onClick={() => setOpen(true)}
         >
-          <SvgIcon sx={{ color: '#F1F1F3' }} fontSize="small">
+          <SvgIcon sx={{ color: '#494949' }} fontSize="small">
             <MenuIcon />
           </SvgIcon>
         </Button>
@@ -71,12 +71,12 @@ export const MobileMenu = ({ open, setOpen, headerHeight }: MobileMenuProps) => 
             <MenuItemsWrapper title={<Trans>Menu</Trans>}>
               <NavItems setOpen={setOpen} />
             </MenuItemsWrapper>
-            <MenuItemsWrapper title={<Trans>Global settings</Trans>}>
+            {/* <MenuItemsWrapper title={<Trans>Global settings</Trans>}>
               <List>
                 <DarkModeSwitcher />
                 <LanguageListItem onClick={() => setIsLanguagesListOpen(true)} />
               </List>
-            </MenuItemsWrapper>
+            </MenuItemsWrapper> */}
             <MenuItemsWrapper title={<Trans>Links</Trans>}>
               <List>
                 {moreNavigation.map((item, index) => (

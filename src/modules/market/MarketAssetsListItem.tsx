@@ -28,101 +28,119 @@ export const MarketAssetsListItem = ({ ...reserve }: ComputedReserveData) => {
   const offboardingDiscussion = AssetsBeingOffboarded[currentMarket]?.[reserve.symbol];
 
   return (
-    <ListItem
-      px={6}
-      minHeight={76}
-      onClick={() => {
-        trackEvent(MARKETS.DETAILS_NAVIGATION, {
-          type: 'Row',
-          assetName: reserve.name,
-          asset: reserve.underlyingAsset,
-          market: currentMarket,
-        });
-        router.push(ROUTES.reserveOverview(reserve.underlyingAsset, currentMarket));
+    <Box
+      sx={{
+        display: 'flex',
+        minWidth: '100%',
+        background: '#FAFAFA',
+        gap: '16px',
+        alignItems: 'center',
       }}
-      sx={{ cursor: 'pointer' }}
-      button
-      data-cy={`marketListItemListItem_${reserve.symbol.toUpperCase()}`}
     >
-      <ListColumn isRow maxWidth={280}>
-        <TokenIcon symbol={reserve.iconSymbol} fontSize="large" />
-        <Box sx={{ pl: 3.5, overflow: 'hidden' }}>
-          <Typography variant="h4" noWrap>
-            {reserve.name}
-          </Typography>
-
-          <Box
-            sx={{
-              p: { xs: '0', xsm: '3.625px 0px' },
-            }}
-          >
-            <Typography variant="subheader2" color="text.muted" noWrap>
-              {reserve.symbol}
-              {reserve.isIsolated && (
-                <span style={{ marginLeft: '8px' }}>
-                  <IsolatedEnabledBadge />
-                </span>
-              )}
+      <ListItem
+        px={6}
+        minHeight={76}
+        onClick={() => {
+          trackEvent(MARKETS.DETAILS_NAVIGATION, {
+            type: 'Row',
+            assetName: reserve.name,
+            asset: reserve.underlyingAsset,
+            market: currentMarket,
+          });
+          router.push(ROUTES.reserveOverview(reserve.underlyingAsset, currentMarket));
+        }}
+        sx={{
+          cursor: 'pointer',
+          background: '#494949',
+          '&:hover': {
+            backgroundColor: '#494949',
+            // borderRadius: '16px',
+          },
+          color: '#FFFFFF',
+          width: '100%',
+        }}
+        button
+        data-cy={`marketListItemListItem_${reserve.symbol.toUpperCase()}`}
+      >
+        <ListColumn isRow maxWidth={280}>
+          <TokenIcon
+            symbol={reserve.iconSymbol}
+            fontSize="large"
+            sx={{ width: '36px', height: '36px' }}
+          />
+          <Box sx={{ pl: 3.5, overflow: 'hidden' }}>
+            <Typography variant="h4" noWrap>
+              {reserve.name}
             </Typography>
+
+            <Box
+              sx={{
+                p: { xs: '0', xsm: '3.625px 0px' },
+              }}
+            >
+              <Typography variant="subheader2" color="text.muted" noWrap>
+                {reserve.symbol}
+                {reserve.isIsolated && (
+                  <span style={{ marginLeft: '8px' }}>
+                    <IsolatedEnabledBadge />
+                  </span>
+                )}
+              </Typography>
+            </Box>
           </Box>
-        </Box>
-        {reserve.symbol === 'AMPL' && <AMPLToolTip />}
-        {reserve.symbol === 'renFIL' && <RenFILToolTip />}
-        {offboardingDiscussion && <OffboardingTooltip discussionLink={offboardingDiscussion} />}
-      </ListColumn>
-
-      <ListColumn>
-        <FormattedNumber compact value={reserve.totalLiquidity} variant="main16" />
-        <ReserveSubheader value={reserve.totalLiquidityUSD} />
-      </ListColumn>
-
-      <ListColumn>
-        <IncentivesCard
-          value={reserve.supplyAPY}
-          incentives={reserve.aIncentivesData || []}
-          symbol={reserve.symbol}
-          variant="main16"
-          symbolsVariant="secondary16"
-        />
-      </ListColumn>
-
-      <ListColumn>
-        {reserve.borrowingEnabled || Number(reserve.totalDebt) > 0 ? (
-          <>
-            <FormattedNumber compact value={reserve.totalDebt} variant="main16" />{' '}
-            <ReserveSubheader value={reserve.totalDebtUSD} />
-          </>
-        ) : (
-          <NoData variant={'secondary14'} color="text.secondary" />
-        )}
-      </ListColumn>
-
-      <ListColumn>
-        <IncentivesCard
-          value={Number(reserve.totalVariableDebtUSD) > 0 ? reserve.variableBorrowAPY : '-1'}
-          incentives={reserve.vIncentivesData || []}
-          symbol={reserve.symbol}
-          variant="main16"
-          symbolsVariant="secondary16"
-        />
-        {!reserve.borrowingEnabled &&
-          Number(reserve.totalVariableDebt) > 0 &&
-          !reserve.isFrozen && <ReserveSubheader value={'Disabled'} />}
-      </ListColumn>
-
-      <ListColumn>
-        <IncentivesCard
-          value={Number(reserve.totalStableDebtUSD) > 0 ? reserve.stableBorrowAPY : '-1'}
-          incentives={reserve.sIncentivesData || []}
-          symbol={reserve.symbol}
-          variant="main16"
-          symbolsVariant="secondary16"
-        />
-        {!reserve.borrowingEnabled && Number(reserve.totalStableDebt) > 0 && !reserve.isFrozen && (
-          <ReserveSubheader value={'Disabled'} />
-        )}
-      </ListColumn>
-
+          {reserve.symbol === 'AMPL' && <AMPLToolTip />}
+          {reserve.symbol === 'renFIL' && <RenFILToolTip />}
+          {offboardingDiscussion && <OffboardingTooltip discussionLink={offboardingDiscussion} />}
+        </ListColumn>
+        <ListColumn>
+          <FormattedNumber compact value={reserve.totalLiquidity} variant="main16" />
+          <ReserveSubheader value={reserve.totalLiquidityUSD} />
+        </ListColumn>
+        <ListColumn>
+          <IncentivesCard
+            value={reserve.supplyAPY}
+            incentives={reserve.aIncentivesData || []}
+            symbol={reserve.symbol}
+            variant="main16"
+            symbolsVariant="secondary16"
+          />
+        </ListColumn>
+        <ListColumn>
+          {reserve.borrowingEnabled || Number(reserve.totalDebt) > 0 ? (
+            <>
+              <FormattedNumber compact value={reserve.totalDebt} variant="main16" />{' '}
+              <ReserveSubheader value={reserve.totalDebtUSD} />
+            </>
+          ) : (
+            <NoData variant={'secondary14'} color="text.secondary" />
+          )}
+        </ListColumn>
+        <ListColumn>
+          <IncentivesCard
+            value={Number(reserve.totalVariableDebtUSD) > 0 ? reserve.variableBorrowAPY : '-1'}
+            incentives={reserve.vIncentivesData || []}
+            symbol={reserve.symbol}
+            variant="main16"
+            symbolsVariant="secondary16"
+          />
+          {!reserve.borrowingEnabled &&
+            Number(reserve.totalVariableDebt) > 0 &&
+            !reserve.isFrozen && <ReserveSubheader value={'Disabled'} />}
+        </ListColumn>
+        <ListColumn>
+          <IncentivesCard
+            value={Number(reserve.totalStableDebtUSD) > 0 ? reserve.stableBorrowAPY : '-1'}
+            incentives={reserve.sIncentivesData || []}
+            symbol={reserve.symbol}
+            variant="main16"
+            symbolsVariant="secondary16"
+          />
+          {!reserve.borrowingEnabled &&
+            Number(reserve.totalStableDebt) > 0 &&
+            !reserve.isFrozen && <ReserveSubheader value={'Disabled'} />}
+        </ListColumn>
+      </ListItem>
+      {/* // button */}
       <ListColumn minWidth={95} maxWidth={95} align="right">
         <Button
           // variant="outlined"
@@ -136,18 +154,16 @@ export const MarketAssetsListItem = ({ ...reserve }: ComputedReserveData) => {
               market: currentMarket,
             })
           }
-          sx={(theme) => ({
-            borderRadius: '20px',
-            background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-            color: theme.palette.mode === 'dark' ? '#ffff' : '#ffff',
-            '&:hover': {
-              background: theme.palette.mode === 'dark' ? '#1d2e49' : '#665de1',
-            },
-          })}
+          sx={{
+            borderRadius: '16px',
+            background: '#FFFF',
+            border: '1px solid #494949',
+            padding: '16px',
+          }}
         >
           <Trans>Details</Trans>
         </Button>
       </ListColumn>
-    </ListItem>
+    </Box>
   );
 };

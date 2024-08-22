@@ -28,18 +28,33 @@ export const PageTitle = ({ pageTitle, withMarketSwitcher, withMigrateButton }: 
       sx={{
         display: 'flex',
         alignItems: { xs: 'flex-start', xsm: 'center' },
-        mb: pageTitle ? 4 : 0,
+        mb: pageTitle ? '22px' : 0,
+        mt: '22px',
         flexDirection: { xs: 'column', xsm: 'row' },
       }}
     >
       {pageTitle && (downToXSM || !withMarketSwitcher) && (
-        <Box sx={{ display: 'flex', alignItems: 'flex-start' }}>
+        <Box
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            background: '#000000',
+            padding: '8px 16px 8px 16px',
+            justifyContent: 'center',
+            borderRadius: '8px',
+          }}
+        >
           <Typography
             variant={downToXSM ? 'h2' : upToLG ? 'display1' : 'h1'}
             sx={{
-              color: withMarketSwitcher ? 'text.muted' : 'text.white',
-              mr: { xs: 5, xsm: 3 },
-              mb: { xs: 1, xsm: 0 },
+              background: 'linear-gradient(90deg, #DBEF88 0%, #EACF5E 100%)',
+              backgroundClip: 'text',
+              WebkitBackgroundClip: 'text',
+              color: 'transparent',
+              fontSize: '40px',
+              fontWeight: 600,
+              lineHeight: '56px',
+              fontFamily: 'Carbon',
             }}
           >
             {pageTitle}

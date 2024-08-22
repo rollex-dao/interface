@@ -64,7 +64,7 @@ export const SuppliedPositionsList = () => {
   const downToXSM = useMediaQuery(theme.breakpoints.down('xsm'));
   const [sortName, setSortName] = useState('');
   const [sortDesc, setSortDesc] = useState(false);
-  const [tooltipOpen, setTooltipOpen] = useState<boolean>(false);
+  // const [tooltipOpen, setTooltipOpen] = useState<boolean>(false);
 
   const suppliedPositions =
     user?.userReservesData
@@ -123,7 +123,7 @@ export const SuppliedPositionsList = () => {
 
   return (
     <ListWrapper
-      tooltipOpen={tooltipOpen}
+      // tooltipOpen={tooltipOpen}
       titleComponent={
         <Typography component="div" variant="h3" sx={{ mr: 4 }}>
           <Trans>Your supplies</Trans>
@@ -145,7 +145,7 @@ export const SuppliedPositionsList = () => {
                 percent
                 tooltip={
                   <TotalSupplyAPYTooltip
-                    setOpen={setTooltipOpen}
+                    // setOpen={setTooltipOpen}
                     event={{
                       eventName: GENERAL.TOOL_TIP,
                       eventParams: { tooltip: 'Total Supplied APY' },
@@ -158,7 +158,7 @@ export const SuppliedPositionsList = () => {
                 value={user?.totalCollateralUSD || 0}
                 tooltip={
                   <CollateralTooltip
-                    setOpen={setTooltipOpen}
+                    // setOpen={setTooltipOpen}
                     event={{
                       eventName: GENERAL.TOOL_TIP,
                       eventParams: { tooltip: 'Total Supplied Collateral' },

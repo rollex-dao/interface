@@ -23,7 +23,16 @@ export const ReserveEModePanel: React.FC<ReserverEModePanelProps> = ({ reserve }
   const trackEvent = useRootStore((store) => store.trackEvent);
 
   return (
-    <PanelRow>
+    <PanelRow
+      sx={{
+        border: '1px solid #494949',
+        padding: '24px',
+        borderRadius: '12px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
       <PanelTitle>E-Mode info</PanelTitle>
       <Box sx={{ flexGrow: 1, minWidth: 0, maxWidth: '100%', width: '100%' }}>
         <Box sx={{ display: 'inline-flex', alignItems: 'center' }}>
@@ -88,7 +97,7 @@ export const ReserveEModePanel: React.FC<ReserverEModePanelProps> = ({ reserve }
           <Trans>
             E-Mode increases your LTV for a selected category of assets, meaning that when E-mode is
             enabled, you will have higher borrowing power over assets of the same E-mode category
-            which are defined by Pegasys Governance. You can enter E-Mode from your{' '}
+            which are defined by Rollex Governance. You can enter E-Mode from your{' '}
             <Link
               href={ROUTES.dashboard}
               sx={{ textDecoration: 'underline' }}
@@ -122,7 +131,7 @@ export const ReserveEModePanel: React.FC<ReserverEModePanelProps> = ({ reserve }
                 trackEvent(GENERAL.EXTERNAL_LINK, { Link: 'V3 Tech Paper' });
               }}
             >
-              Pegasys V3 Technical Paper
+              Rollex V3 Technical Paper
             </Link>
             .
           </Trans>
